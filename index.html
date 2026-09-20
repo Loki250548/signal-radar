@@ -51,6 +51,9 @@
   .pos{color:#5fc48f} .neg{color:var(--red)} .na{color:var(--dim)}
   .badge.in{background:rgba(95,196,143,.12);color:#5fc48f;border:1px solid rgba(95,196,143,.3)}
   .badge.out{background:rgba(209,106,90,.12);color:var(--red);border:1px solid rgba(209,106,90,.3)}
+.badge.hot{background:rgba(209,106,90,.14);color:var(--red);border:1px solid rgba(209,106,90,.35);margin-left:6px}
+  .badge.quiet{background:rgba(87,182,170,.10);color:var(--teal);border:1px solid rgba(87,182,170,.25);margin-left:6px}
+  .hl{color:var(--mut);font-size:12.5px;white-space:normal;max-width:420px} .hl a{color:var(--ink);text-decoration:none} .hl a:hover{text-decoration:underline} .hl .s{color:var(--dim)}
   .foot{color:var(--dim);font-size:12px;margin-top:16px;line-height:1.6}
 </style>
 </head>
@@ -69,6 +72,7 @@
   <div class="tabs" role="tablist">
     <button class="tab" role="tab" aria-selected="true" data-view="ins">Insider-Cluster</button>
     <button class="tab" role="tab" aria-selected="false" data-view="idx">Index-Wechsel</button>
+    <button class="tab" role="tab" aria-selected="false" data-view="att">Aufmerksamkeit</button>
   </div>
 
   <div class="tiles" id="tiles" hidden>
@@ -107,10 +111,27 @@
     <div class="meta" id="imeta" style="margin-top:10px"></div>
   </div>
 
+  <div id="attView" hidden>
+    <div class="tiles">
+      <div class="tile"><div class="k">Kandidaten gemessen</div><div class="v num" id="a_n">–</div></div>
+      <div class="tile"><div class="k">Überlaufen (hoch)</div><div class="v num" id="a_hot">–</div></div>
+      <div class="tile"><div class="k">Still (null Aufmerksamkeit)</div><div class="v num" id="a_quiet">–</div></div>
+      <div class="tile"><div class="k">Spike-Baseline</div><div class="v" id="a_base" style="font-size:16px">–</div></div>
+    </div>
+    <div class="controls">
+      <input type="text" id="aq" placeholder="Ticker / Firma suchen…">
+      <label><input type="checkbox" id="aquiet"> nur stille</label>
+      <label><input type="checkbox" id="ahot"> nur überlaufene</label>
+    </div>
+    <div id="amount"><div class="empty"><h2>Noch keine Aufmerksamkeits-Daten</h2><p>Der Nachtlauf schreibt <b>attention_data.json</b>.</p></div></div>
+    <div class="meta" id="ameta" style="margin-top:10px"></div>
+  </div>
+
   <div class="foot">
     Quelle: SEC EDGAR Form 4 · offene Marktkäufe (Code P). <b>Stärke</b> ist eine Sortierhilfe (Cluster › Volumen › Rolle; geplante 10b5-1-Käufe abgewertet) —
     <b>nicht validiert, kein Edge.</b> Ein Signal ist ein Kandidat, keine Antwort: Was muss wahr sein? Gegenseite? Ausdruck mit begrenztem Risiko? Falsifikation?
     Index-Wechsel: Referenz = Schluss am letzten Handelstag <i>vor</i> dem Stichtag (Fonds handeln dort). Renditen danach messen die Umkehr-These, nicht die Ankündigung.
+    Aufmerksamkeit: Reddit · StockTwits · News EN/DE (u. a. finanzen.net, boerse.de, onvista). <b>Overlay, kein Signal</b> – hohe Aufmerksamkeit = überlaufen (Crowding-Risiko), stille Kandidaten sind die interessanteren. X/Truth Social bewusst nicht enthalten (keine freie API).
     Keine Anlageberatung.
   </div>
 </div>
@@ -160,7 +181,7 @@ function render(){
     const plan=s.plan10b5_1?`<span class="badge plan" title="Kauf im Rahmen eines vorab geplanten 10b5-1-Plans">Plan</span>`:"";
     const who=(s.buyers||[]).join(" · ")+((s.titles||[]).length?` — ${s.titles.join(", ")}`:"");
     return `<tr class="${cl?'isCluster':''}">
-      <td><span class="tk">${s.ticker}</span><div class="co">${(s.company||"").slice(0,40)}</div><div class="who">${who}</div></td>
+      <td><span class="tk">${s.ticker}</span>${attBadge(s.ticker)}<div class="co">${(s.company||"").slice(0,40)}</div><div class="who">${who}</div></td>
       <td class="r">${badge}${plan}</td>
       <td><span class="role">${(s.roles||[]).join(" / ")||"–"}</span></td>
       <td class="r num">$${(s.avg_price||0).toLocaleString("en-US",{maximumFractionDigits:2})}</td>
@@ -176,6 +197,42 @@ document.getElementById("file").addEventListener("change",e=>{const f=e.target.f
 ["q","minv","clusterOnly","noPlan"].forEach(id=>document.getElementById(id).addEventListener("input",render));
 fetch("radar_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(load)
   .catch(()=>{document.getElementById("meta").textContent="Keine Daten geladen.";});
+
+// ---------- Aufmerksamkeit (Overlay) ----------
+let ATT={}, ASORT={key:"composite",dir:-1};
+const HOT=v=>v&&((v.spike!=null&&v.spike>=3)||v.composite>=60);
+const QUIET=v=>v&&v.composite===0;
+const attBadge=tk=>{const v=ATT[tk];if(!v)return"";if(HOT(v))return`<span class="badge hot" title="hohe Aufmerksamkeit – überlaufen">Aufm. ↑</span>`;if(QUIET(v))return`<span class="badge quiet" title="null Aufmerksamkeit – still">still</span>`;return""};
+function aload(d){
+  ATT=d.tickers||{}; const vals=Object.values(ATT);
+  t("a_n",vals.length); t("a_hot",vals.filter(HOT).length); t("a_quiet",vals.filter(QUIET).length);
+  const withBase=vals.filter(v=>v.spike!=null).length;
+  t("a_base", withBase?`${withBase} Ticker mit ≥5 Tagen Historie`:"noch keine (braucht ≥5 Nachtläufe)");
+  document.getElementById("ameta").innerHTML=`<b>${d.source||""}</b> · Stand ${d.as_of||"?"} · erzeugt ${(d.generated||"").replace("T"," ").replace(/\+00:00$/," UTC")}`;
+  arender(); if(ROWS.length)render(); if(IROWS.length)irender();
+}
+function arender(){
+  const q=(document.getElementById("aq").value||"").toLowerCase().trim(), oq=document.getElementById("aquiet").checked, oh=document.getElementById("ahot").checked;
+  let rows=Object.entries(ATT).map(([tk,v])=>({tk,...v})).filter(v=>(!oq||QUIET(v))&&(!oh||HOT(v))&&(!q||v.tk.toLowerCase().includes(q)||(v.company||"").toLowerCase().includes(q)));
+  rows.sort((a,b)=>{let x=a[ASORT.key],y=b[ASORT.key];if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;return typeof x==="string"?ASORT.dir*(x<y?-1:x>y?1:0):ASORT.dir*(x-y);});
+  const m=document.getElementById("amount");
+  if(!rows.length){m.innerHTML=`<div class="empty"><h2>Keine Treffer im Filter</h2></div>`;return;}
+  const cols=[["tk","Ticker / Firma"],["from","Aus Screen"],["reddit","Reddit",1],["stocktwits_24h","StockTwits 24h",1],["news_en_7d","News EN 7d",1],["news_de_7d","News DE 7d",1],["composite","Gesamt",1],["spike","Spike",1],["hl","Schlagzeilen"]];
+  const head=cols.map(([k,l,r])=>`<th class="${r?'r':''}" data-k="${k}">${l}<span class="arw">${ASORT.key===k?(ASORT.dir<0?" ▼":" ▲"):""}</span></th>`).join("");
+  const body=rows.map(v=>`<tr>
+    <td><span class="tk">${v.tk}</span>${attBadge(v.tk)}<div class="co">${(v.company||"").slice(0,40)}</div></td>
+    <td><span class="role">${(v.from||[]).join(" + ")}</span></td>
+    <td class="r num">${v.reddit}${v.reddit_prev24!=null&&v.reddit!==v.reddit_prev24?`<div class="co">${v.reddit>v.reddit_prev24?"↑":"↓"} vs ${v.reddit_prev24}</div>`:""}</td>
+    <td class="r num">${v.stocktwits_24h==null?"–":v.stocktwits_24h+(v.stocktwits_24h>=30?"+":"")}</td>
+    <td class="r num">${v.news_en_7d}</td><td class="r num">${v.news_de_7d}</td>
+    <td class="r num str">${v.composite}</td>
+    <td class="r num">${v.spike==null?`<span class="na">–</span>`:`<span class="${v.spike>=3?'neg':''}">${v.spike}×</span>`}</td>
+    <td class="hl">${(v.headlines||[]).slice(0,3).map(x=>`<div><a href="${x.u}" target="_blank" rel="noopener">${x.t}</a> <span class="s">· ${x.src}${x.d?" · "+x.d:""}</span></div>`).join("")||"–"}</td></tr>`).join("");
+  m.innerHTML=`<div class="tblwrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+  m.querySelectorAll("th").forEach(th=>th.addEventListener("click",()=>{const k=th.dataset.k;if(k==="hl")return;if(ASORT.key===k)ASORT.dir*=-1;else{ASORT.key=k;ASORT.dir=(k==="tk"||k==="from")?1:-1;}arender();}));
+}
+["aq","aquiet","ahot"].forEach(id=>document.getElementById(id).addEventListener("input",arender));
+fetch("attention_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(aload).catch(()=>{});
 
 // ---------- Index-Wechsel ----------
 let IROWS=[], ISORT={key:"effective",dir:-1};
@@ -202,7 +259,7 @@ function irender(){
   if(!rows.length){m.innerHTML=`<div class="empty"><h2>Keine Treffer im Filter</h2></div>`;return;}
   const head=ICOLS.map(c=>{const a=ISORT.key===c.key;return `<th class="${c.r?'r':''}" data-k="${c.key}">${c.label}<span class="arw">${a?(ISORT.dir<0?" ▼":" ▲"):""}</span></th>`}).join("");
   const body=rows.map(r=>`<tr>
-    <td><span class="tk">${r.ticker}</span><div class="co">${(r.company||"").slice(0,40)}</div><div class="who">${r.sector||""} · angekündigt ${r.announced||"–"}</div></td>
+    <td><span class="tk">${r.ticker}</span>${attBadge(r.ticker)}<div class="co">${(r.company||"").slice(0,40)}</div><div class="who">${r.sector||""} · angekündigt ${r.announced||"–"}</div></td>
     <td><span class="role">${r.index}</span></td>
     <td><span class="badge ${r.action}">${r.action==="in"?"Aufnahme":"Streichung"}</span></td>
     <td class="num">${r.effective}${r.days_since!=null?`<div class="co">${r.days_since} HT seit Stichtag</div>`:""}</td>
@@ -216,10 +273,10 @@ function irender(){
 // Tabs
 document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
   document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-selected",x===b));
-  const idx=b.dataset.view==="idx";
-  ["tiles","controls","mount"].forEach(id=>document.getElementById(id).hidden=idx);
-  document.getElementById("idxView").hidden=!idx;
-  document.getElementById("subT").textContent=idx?"· Index-Wechsel":"· Insider-Cluster";
+  const v=b.dataset.view;
+  ["tiles","controls","mount"].forEach(id=>document.getElementById(id).hidden=(v!=="ins"));
+  document.getElementById("idxView").hidden=(v!=="idx"); document.getElementById("attView").hidden=(v!=="att");
+  document.getElementById("subT").textContent=v==="idx"?"· Index-Wechsel":v==="att"?"· Aufmerksamkeit":"· Insider-Cluster";
 }));
 fetch("index_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(iload).catch(()=>{});
 </script>
