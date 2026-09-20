@@ -1,5 +1,6 @@
 {
-  "generated": "2026-09-20T18:16:24+00:00",
+  "generated": "2026-09-20T20:02:27+00:00",
+  "rule": "Watchlist = Streichung (Abstieg/Exit), nicht S&P 100, nicht M&A/Insolvenz, Vorlauf 10 HT > -5 %; Haltedauer ~20 HT",
   "source": "S&P Dow Jones Indices — Pressemitteilungen",
   "as_of": "2026-09-20",
   "changes": [
@@ -21,7 +22,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -3.76,
+      "volspike": 7.8,
+      "typ": "Exit",
+      "watch": true
     },
     {
       "effective": "2026-09-21",
@@ -41,7 +46,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -7.81,
+      "volspike": 15.3,
+      "typ": "Exit",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -61,7 +70,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -2.94,
+      "volspike": 10.6,
+      "typ": "Exit",
+      "watch": true
     },
     {
       "effective": "2026-09-21",
@@ -81,7 +94,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -17.14,
+      "volspike": 6.6,
+      "typ": "Exit",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -101,7 +118,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -12.43,
+      "volspike": 9.5,
+      "typ": "Exit",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -121,7 +142,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -11.22,
+      "volspike": 12.7,
+      "typ": "Exit",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -141,7 +166,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -6.42,
+      "volspike": 9.3,
+      "typ": "Exit",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -161,7 +190,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -9.72,
+      "volspike": 5.4,
+      "typ": "Exit",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -181,7 +214,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -2.23,
+      "volspike": 16.1,
+      "typ": "Aufstieg",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -201,7 +238,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -14.06,
+      "volspike": 7.9,
+      "typ": "Aufstieg",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -221,7 +262,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -2.65,
+      "volspike": 10.5,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -241,7 +286,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 7.9,
+      "volspike": 7.6,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -261,7 +310,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 24.61,
+      "volspike": 1.7,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -281,7 +334,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 7.27,
+      "volspike": 10.4,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -301,7 +358,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 10.75,
+      "volspike": 8.9,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -321,7 +382,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 11.4,
+      "volspike": 5.5,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -341,7 +406,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -0.13,
+      "volspike": 5.2,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -361,7 +430,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -7.49,
+      "volspike": 16.7,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -381,7 +454,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -7.75,
+      "volspike": 7.2,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -401,7 +478,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -9.44,
+      "volspike": 11.9,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -421,7 +502,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -0.13,
+      "volspike": 5.2,
+      "typ": "Abstieg",
+      "watch": true
     },
     {
       "effective": "2026-09-21",
@@ -441,7 +526,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 11.4,
+      "volspike": 5.5,
+      "typ": "Abstieg",
+      "watch": true
     },
     {
       "effective": "2026-09-21",
@@ -461,7 +550,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 6.1,
+      "volspike": 24.9,
+      "typ": "Aufstieg",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -481,7 +574,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 8.1,
+      "volspike": 16.3,
+      "typ": "Aufstieg",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -501,7 +598,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -15.29,
+      "volspike": 5.4,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -521,7 +622,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -7.41,
+      "volspike": 9.6,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -541,7 +646,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -2.23,
+      "volspike": 16.1,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -561,7 +670,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -14.06,
+      "volspike": 7.9,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -581,7 +694,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -7.49,
+      "volspike": 16.7,
+      "typ": "Abstieg",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -601,7 +718,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -7.75,
+      "volspike": 7.2,
+      "typ": "Abstieg",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -621,7 +742,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -9.44,
+      "volspike": 11.9,
+      "typ": "Abstieg",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -641,7 +766,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 12.77,
+      "volspike": 4.8,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -661,7 +790,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 6.1,
+      "volspike": 24.9,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -681,7 +814,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 8.1,
+      "volspike": 16.3,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -701,7 +838,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 5.58,
+      "volspike": 3.3,
+      "typ": "Exit",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -721,7 +862,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -8.41,
+      "volspike": 1.9,
+      "typ": "Exit",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -741,7 +886,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -2.93,
+      "volspike": 2.0,
+      "typ": "Exit",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -761,7 +910,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": -2.91,
+      "volspike": 2.4,
+      "typ": "Exit",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -781,7 +934,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 10.01,
+      "volspike": 1.5,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -801,7 +958,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 9.53,
+      "volspike": 2.1,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -821,7 +982,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 4.15,
+      "volspike": 1.5,
+      "typ": "Aufnahme",
+      "watch": false
     },
     {
       "effective": "2026-09-21",
@@ -841,7 +1006,11 @@
       "ret_since_ref": null,
       "ret_5d": null,
       "ret_20d": null,
-      "ret_60d": null
+      "ret_60d": null,
+      "pre10": 15.23,
+      "volspike": 1.3,
+      "typ": "Aufnahme",
+      "watch": false
     }
   ]
 }
