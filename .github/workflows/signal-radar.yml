@@ -22,12 +22,14 @@ jobs:
       - name: Insider-Screener ausfuehren
         env:
           EDGAR_UA: ${{ vars.EDGAR_UA }}
-        run: python insider_screener.py --limit 1500 --min-value 10000
+        run: |
+          python insider_screener.py --limit 1500 --min-value 10000
+          python index_changes.py
 
       - name: Ergebnis ins Repo schreiben
         run: |
           git config user.name  "signal-radar-bot"
           git config user.email "signal-radar-bot@users.noreply.github.com"
-          git add radar_data.json
+          git add radar_data.json index_data.json
           git commit -m "Signal Radar $(date -u +%F)" || echo "keine Aenderung"
           git push
