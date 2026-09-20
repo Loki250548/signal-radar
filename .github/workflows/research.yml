@@ -1,0 +1,32 @@
+name: Research Harness
+
+on:
+  schedule:
+    - cron: "0 6 * * 0"      # Sonntag 06:00 UTC – woechentliche Neubewertung aller Thesen
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Thesen neu bewerten
+        env:
+          EDGAR_UA: ${{ vars.EDGAR_UA }}
+          HARNESS_BUDGET: "3000"
+        run: |
+          python research/gen_index_deletions.py
+          python research/harness.py
+      - name: Ergebnis ins Repo schreiben
+        run: |
+          git config user.name  "signal-radar-bot"
+          git config user.email "signal-radar-bot@users.noreply.github.com"
+          git add research_results.json research/events/*.json
+          git commit -m "Research $(date -u +%F)" || echo "keine Aenderung"
+          git push
