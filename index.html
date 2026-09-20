@@ -54,6 +54,9 @@
 .badge.hot{background:rgba(209,106,90,.14);color:var(--red);border:1px solid rgba(209,106,90,.35);margin-left:6px}
   .badge.quiet{background:rgba(87,182,170,.10);color:var(--teal);border:1px solid rgba(87,182,170,.25);margin-left:6px}
   .hl{color:var(--mut);font-size:12.5px;white-space:normal;max-width:420px} .hl a{color:var(--ink);text-decoration:none} .hl a:hover{text-decoration:underline} .hl .s{color:var(--dim)}
+.rule{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:var(--radius);padding:12px 16px;margin:16px 0;color:var(--mut);font-size:13.5px} .rule b{color:var(--ink)}
+  .ok{color:#5fc48f} .no{color:var(--red)} .chk{font-size:12px;color:var(--dim);white-space:normal;max-width:360px}
+  h3.bt{font-size:14px;color:var(--mut);margin:22px 0 8px;font-weight:600}
   .foot{color:var(--dim);font-size:12px;margin-top:16px;line-height:1.6}
 </style>
 </head>
@@ -73,6 +76,8 @@
     <button class="tab" role="tab" aria-selected="true" data-view="ins">Insider-Cluster</button>
     <button class="tab" role="tab" aria-selected="false" data-view="idx">Index-Wechsel</button>
     <button class="tab" role="tab" aria-selected="false" data-view="att">Aufmerksamkeit</button>
+    <button class="tab" role="tab" aria-selected="false" data-view="wl">Watchlist</button>
+    <button class="tab" role="tab" aria-selected="false" data-view="bt">Backtest</button>
   </div>
 
   <div class="tiles" id="tiles" hidden>
@@ -127,12 +132,29 @@
     <div class="meta" id="ameta" style="margin-top:10px"></div>
   </div>
 
+  <div id="wlView" hidden>
+    <div class="rule" id="wlRule"></div>
+    <div class="tiles">
+      <div class="tile"><div class="k">Regel-konform (kaufbar)</div><div class="v num" id="w_n">–</div></div>
+      <div class="tile"><div class="k">Geprüfte Streichungen</div><div class="v num" id="w_all">–</div></div>
+      <div class="tile"><div class="k">Ø seit Stichtag · Watchlist</div><div class="v num" id="w_ret">–</div></div>
+      <div class="tile"><div class="k">Nächster Stichtag</div><div class="v num" id="w_next">–</div></div>
+    </div>
+    <div class="controls"><label><input type="checkbox" id="wshowall"> alle Streichungen mit Prüfergebnis zeigen</label></div>
+    <div id="wmount"><div class="empty"><h2>Noch keine Daten</h2></div></div>
+  </div>
+
+  <div id="btView" hidden>
+    <div class="rule" id="btMeta"></div>
+    <div id="btmount"><div class="empty"><h2>Noch keine Backtest-Daten</h2></div></div>
+  </div>
+
   <div class="foot">
     Quelle: SEC EDGAR Form 4 · offene Marktkäufe (Code P). <b>Stärke</b> ist eine Sortierhilfe (Cluster › Volumen › Rolle; geplante 10b5-1-Käufe abgewertet) —
     <b>nicht validiert, kein Edge.</b> Ein Signal ist ein Kandidat, keine Antwort: Was muss wahr sein? Gegenseite? Ausdruck mit begrenztem Risiko? Falsifikation?
     Index-Wechsel: Referenz = Schluss am letzten Handelstag <i>vor</i> dem Stichtag (Fonds handeln dort). Renditen danach messen die Umkehr-These, nicht die Ankündigung.
     Aufmerksamkeit: Reddit · StockTwits · News EN/DE (u. a. finanzen.net, boerse.de, onvista). <b>Overlay, kein Signal</b> – hohe Aufmerksamkeit = überlaufen (Crowding-Risiko), stille Kandidaten sind die interessanteren. X/Truth Social bewusst nicht enthalten (keine freie API).
-    Keine Anlageberatung.
+    Watchlist: Regel aus Backtest 2023–26, Haltedauer ~20 Handelstage. Kandidaten, keine Empfehlung. Keine Anlageberatung.
   </div>
 </div>
 
@@ -234,9 +256,45 @@ function arender(){
 ["aq","aquiet","ahot"].forEach(id=>document.getElementById(id).addEventListener("input",arender));
 fetch("attention_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(aload).catch(()=>{});
 
+// ---------- Watchlist ----------
+function checks(r){const c=[];
+  c.push([r.index!=="S&P 100","nicht S&P 100"]);
+  c.push([r.typ==="Abstieg"||r.typ==="Exit",`Typ ${r.typ||"?"} (Abstieg/Exit)`]);
+  c.push([!["M&A","Insolvenz"].includes(r.reason),`Grund ${r.reason||"–"} (kein M&A/Insolvenz)`]);
+  c.push([r.pre10!=null&&r.pre10>-5,`Vorlauf 10 HT ${r.pre10!=null?(r.pre10>0?"+":"")+r.pre10+" %":"–"} (> −5 %)`]);
+  return c;}
+function wrender(){
+  const all=IROWS.filter(r=>r.action==="out"); const showall=document.getElementById("wshowall").checked;
+  const rows=(showall?all:all.filter(r=>r.watch)).slice().sort((a,b)=>(b.watch-a.watch)||(b.effective>a.effective?1:-1));
+  const wl=all.filter(r=>r.watch); t("w_n",wl.length); t("w_all",all.length);
+  document.getElementById("w_ret").innerHTML=pct(avg(wl.map(r=>r.ret_since_ref)));
+  const nxt=all.map(r=>r.effective).filter(d=>d>=new Date().toISOString().slice(0,10)).sort()[0]; t("w_next",nxt||"–");
+  const m=document.getElementById("wmount"); if(!rows.length){m.innerHTML=`<div class="empty"><h2>Keine Streichung erfüllt die Regel</h2></div>`;return;}
+  const head=`<tr><th>Ticker / Firma</th><th>Index</th><th>Typ</th><th>Stichtag</th><th class="r">Ref.-Kurs</th><th class="r">Vorlauf 10T</th><th class="r">Vol-Spike</th><th class="r">Aufm.</th><th class="r">seit Stichtag</th><th class="r">+5d</th><th class="r">+20d</th><th>Prüfung</th></tr>`;
+  const body=rows.map(r=>{const cs=checks(r); const a=ATT[r.ticker];
+    return `<tr class="${r.watch?'isCluster':''}"><td><span class="tk">${r.ticker}</span>${attBadge(r.ticker)}<div class="co">${(r.company||"").slice(0,36)}</div></td>
+    <td><span class="role">${r.index}</span></td><td><span class="role">${r.typ||"–"}</span></td><td class="num">${r.effective}${r.days_since!=null?`<div class="co">${r.days_since} HT</div>`:""}</td>
+    <td class="r num">${r.ref_close!=null?"$"+r.ref_close.toLocaleString("en-US",{maximumFractionDigits:2}):"–"}</td>
+    <td class="r num">${pct(r.pre10)}</td><td class="r num">${r.volspike!=null?r.volspike+"×":"–"}</td><td class="r num">${a?a.composite:"–"}</td>
+    <td class="r num str">${pct(r.ret_since_ref)}</td><td class="r num">${pct(r.ret_5d)}</td><td class="r num">${pct(r.ret_20d)}</td>
+    <td class="chk">${cs.map(([ok,l])=>`<div class="${ok?'ok':'no'}">${ok?"✔":"✘"} ${l}</div>`).join("")}</td></tr>`}).join("");
+  m.innerHTML=`<div class="tblwrap"><table><thead>${head}</thead><tbody>${body}</tbody></table></div>`;
+}
+document.getElementById("wshowall").addEventListener("input",wrender);
+// ---------- Backtest ----------
+function btTable(rows){return `<div class="tblwrap"><table><thead><tr><th>Segment</th><th class="r">n</th><th class="r">Ø Überrendite</th><th class="r">Median</th><th class="r">Trefferquote</th><th class="r">t</th></tr></thead><tbody>${rows.map(r=>r.mean==null?`<tr><td>${r.label}</td><td class="r num">${r.n}</td><td colspan="4" class="na">zu wenig Daten</td></tr>`:`<tr><td>${r.label}</td><td class="r num">${r.n}</td><td class="r num str">${pct(r.mean)}</td><td class="r num">${pct(r.median)}</td><td class="r num">${r.hit}%</td><td class="r num ${Math.abs(r.t)>=2?'str':''}">${r.t}</td></tr>`).join("")}</tbody></table></div>`}
+fetch("backtest_stats.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(b=>{
+  const me=b.meta||{}; document.getElementById("btMeta").innerHTML=`<b>Zeitraum:</b> ${me.period||""} · <b>Benchmark:</b> ${me.benchmark||""}<br><b>Insider:</b> ${me.insider_source||""}<br><b>Index:</b> ${me.index_source||""}`;
+  let s="";
+  if(b.index) s+=`<h3 class="bt">These 2 · Index-Wechsel (Umkehr ab Stichtag)</h3>${btTable(b.index.rows||[])}`;
+  if(b.refinements) s+=`<h3 class="bt">Verfeinerung · Typ, Volumen, Vorlauf → Regel</h3>${btTable(b.refinements.rows||[])}<div class="rule">${(b.refinements.notes||[]).map(n=>"• "+n).join("<br>")}</div>`;
+  if(b.insider) s+=`<h3 class="bt">These 1 · Insider-Cluster (${b.insider.n_cluster} Events, Kontrolle ${b.insider.n_single} Einzelkäufe)</h3>${btTable(b.insider.rows||[])}`;
+  document.getElementById("btmount").innerHTML=s;
+}).catch(()=>{});
+
 // ---------- Index-Wechsel ----------
 let IROWS=[], ISORT={key:"effective",dir:-1};
-const ICOLS=[{key:"ticker",label:"Ticker / Firma"},{key:"index",label:"Index"},{key:"action",label:"Aktion"},{key:"effective",label:"Stichtag"},
+const ICOLS=[{key:"ticker",label:"Ticker / Firma"},{key:"index",label:"Index"},{key:"action",label:"Aktion"},{key:"typ",label:"Typ"},{key:"effective",label:"Stichtag"},
   {key:"ref_close",label:"Ref.-Kurs",r:true},{key:"last_close",label:"Aktuell",r:true},{key:"ret_since_ref",label:"seit Stichtag",r:true},
   {key:"ret_5d",label:"+5d",r:true},{key:"ret_20d",label:"+20d",r:true},{key:"ret_60d",label:"+60d",r:true}];
 const pct=v=>v==null?`<span class="na">–</span>`:`<span class="${v>0?'pos':v<0?'neg':''}">${v>0?'+':''}${v.toFixed(1)}%</span>`;
@@ -248,7 +306,8 @@ function iload(d){
   const ai=avg(tr.filter(r=>r.action==="in").map(r=>r.ret_since_ref)), ao=avg(tr.filter(r=>r.action==="out").map(r=>r.ret_since_ref));
   document.getElementById("i_in").innerHTML=pct(ai); document.getElementById("i_out").innerHTML=pct(ao);
   document.getElementById("imeta").innerHTML=`<b>${d.source||""}</b> · Stand ${d.as_of||"?"} · erzeugt ${(d.generated||"").replace("T"," ").replace(/\+00:00$/," UTC")}`;
-  irender();
+  document.getElementById("wlRule").innerHTML=`<b>Regel (aus Backtest):</b> ${d.rule||""}`;
+  irender(); wrender();
 }
 function irender(){
   const q=(document.getElementById("iq").value||"").toLowerCase().trim(), ix=document.getElementById("iidx").value, oo=document.getElementById("ioutOnly").checked;
@@ -262,6 +321,7 @@ function irender(){
     <td><span class="tk">${r.ticker}</span>${attBadge(r.ticker)}<div class="co">${(r.company||"").slice(0,40)}</div><div class="who">${r.sector||""} · angekündigt ${r.announced||"–"}</div></td>
     <td><span class="role">${r.index}</span></td>
     <td><span class="badge ${r.action}">${r.action==="in"?"Aufnahme":"Streichung"}</span></td>
+    <td><span class="role">${r.typ||"–"}</span>${r.watch?' <span class="badge cluster">Watch</span>':''}</td>
     <td class="num">${r.effective}${r.days_since!=null?`<div class="co">${r.days_since} HT seit Stichtag</div>`:""}</td>
     <td class="r num">${r.ref_close!=null?"$"+r.ref_close.toLocaleString("en-US",{maximumFractionDigits:2}):"–"}</td>
     <td class="r num">${r.last_close!=null?"$"+r.last_close.toLocaleString("en-US",{maximumFractionDigits:2}):"–"}</td>
@@ -276,7 +336,9 @@ document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
   const v=b.dataset.view;
   ["tiles","controls","mount"].forEach(id=>document.getElementById(id).hidden=(v!=="ins"));
   document.getElementById("idxView").hidden=(v!=="idx"); document.getElementById("attView").hidden=(v!=="att");
-  document.getElementById("subT").textContent=v==="idx"?"· Index-Wechsel":v==="att"?"· Aufmerksamkeit":"· Insider-Cluster";
+  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt");
+  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest"})[v]||"· Insider-Cluster";
+  if(v==="wl")wrender();
 }));
 fetch("index_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(iload).catch(()=>{});
 </script>
