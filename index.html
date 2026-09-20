@@ -9,6 +9,7 @@
     --gold:#e0a63c;--teal:#57b6aa;--radius:10px;box-sizing:border-box;
     padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
   *,*::before,*::after{box-sizing:inherit}
+  [hidden]{display:none !important}
   html,body{margin:0}
   body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
   .num{font-variant-numeric:tabular-nums}
@@ -57,7 +58,7 @@
 <div class="wrap">
   <header>
     <div>
-      <h1>Signal&nbsp;Radar <span class="sub">· Insider-Cluster</span></h1>
+      <h1>Signal&nbsp;Radar <span class="sub" id="subT">· Insider-Cluster</span></h1>
       <div class="meta" id="meta">Lade Daten…</div>
     </div>
     <div>
@@ -218,6 +219,7 @@ document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
   const idx=b.dataset.view==="idx";
   ["tiles","controls","mount"].forEach(id=>document.getElementById(id).hidden=idx);
   document.getElementById("idxView").hidden=!idx;
+  document.getElementById("subT").textContent=idx?"· Index-Wechsel":"· Insider-Cluster";
 }));
 fetch("index_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(iload).catch(()=>{});
 </script>
