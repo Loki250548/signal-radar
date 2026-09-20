@@ -60,8 +60,16 @@ def parse_release(url):
         r"([A-Z][a-z]+\.? \d{1,2}, \d{4}) (S&P 100|S&P 500|S&P MidCap 400|S&P SmallCap 600) "
         r"(Addition|Deletion) (.+?) ([A-Z][A-Z.\-]{0,6}) (" + SECTORS + r")")
     rows = []
+    low = txt.lower()
+    def reason_for(company):
+        name = re.escape(company.split(",")[0].split(" Inc")[0].strip())
+        b = " ".join(x for x in re.split(r"(?<=[.!?]) ", txt) if re.search(name, x, re.I)).lower()
+        if re.search(r"acqui|merger|merge|purchase|buyout|take-private", b): return "M&A"
+        if re.search(r"bankrupt|chapter 11|delist", b): return "Insolvenz"
+        if re.search(r"no longer representative|market capitalization|better reflect|more representative", b + " " + low[:600]): return "Marktkap."
+        return "-"
     for m in pat.finditer(txt):
-        rows.append({
+        rows.append({"reason": reason_for(m.group(4)),
             "effective": parse_date(m.group(1)), "index": m.group(2),
             "action": "in" if m.group(3) == "Addition" else "out",
             "company": m.group(4).strip(), "ticker": m.group(5),
@@ -74,9 +82,9 @@ def parse_release(url):
 def prices_yahoo(tk):
     u = f"https://query1.finance.yahoo.com/v8/finance/chart/{tk}?range=1y&interval=1d"
     d = json.loads(get(u))["chart"]["result"][0]
-    ts, cl = d["timestamp"], d["indicators"]["quote"][0]["close"]
-    return [(dt.datetime.fromtimestamp(t, dt.timezone.utc).date().isoformat(), round(c, 4))
-            for t, c in zip(ts, cl) if c is not None]
+    q = d["indicators"]["quote"][0]; ts, cl, vo = d["timestamp"], q["close"], q["volume"]
+    return [(dt.datetime.fromtimestamp(t, dt.timezone.utc).date().isoformat(), round(c, 4), v or 0)
+            for t, c, v in zip(ts, cl, vo) if c is not None]
 
 
 def prices_stooq(tk):
@@ -85,7 +93,7 @@ def prices_stooq(tk):
     for line in csv.splitlines()[1:]:
         p = line.split(",")
         if len(p) >= 5 and p[4] not in ("", "N/D"):
-            out.append((p[0], round(float(p[4]), 4)))
+            out.append((p[0], round(float(p[4]), 4), float(p[5]) if len(p) > 5 and p[5] not in ("", "N/D") else 0))
     return out
 
 
@@ -110,12 +118,15 @@ def track(row):
     after = [p for p in px if p[0] >= eff]
     if not before:
         return {**row, "tracked": False}
-    ref_date, ref = before[-1]
-    last_date, last = px[-1]
+    ref_date, ref = before[-1][0], before[-1][1]
+    last_date, last = px[-1][0], px[-1][1]
+    pre10 = round((ref / before[-11][1] - 1) * 100, 2) if len(before) >= 11 else None
+    vols = [p[2] for p in before[-61:-1]]
+    volspike = round(before[-1][2] / (sum(vols) / len(vols)), 1) if vols and sum(vols) > 0 else None
     def ret_at(n):
         return round((after[n - 1][1] / ref - 1) * 100, 2) if len(after) >= n else None
     return {**row, "tracked": True,
-            "ref_date": ref_date, "ref_close": ref,
+            "ref_date": ref_date, "ref_close": ref, "pre10": pre10, "volspike": volspike,
             "last_date": last_date, "last_close": last,
             "days_since": len(after),
             "ret_since_ref": round((last / ref - 1) * 100, 2) if after else None,
@@ -151,8 +162,16 @@ def main():
             out_rows.append(track(r)); time.sleep(0.3)
         else:
             out_rows.append({k: v for k, v in r.items()})  # alt: nicht mehr tracken
+    RANK = {"S&P 500": 3, "S&P 100": 3, "S&P MidCap 400": 2, "S&P SmallCap 600": 1}
+    adds = {(r["ticker"], r["effective"]): r["index"] for r in out_rows if r["action"] == "in"}
+    for r in out_rows:
+        a = adds.get((r["ticker"], r["effective"])) if r["action"] == "out" else None
+        r["typ"] = ("Aufstieg" if a and RANK[a] > RANK[r["index"]] else "Abstieg" if a else "Exit") if r["action"] == "out" else "Aufnahme"
+        r["watch"] = bool(r["action"] == "out" and r["index"] != "S&P 100" and r["typ"] in ("Abstieg", "Exit")
+                          and r.get("reason") not in ("M&A", "Insolvenz") and r.get("pre10") is not None and r["pre10"] > -5)
     data = {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        "rule": "Watchlist = Streichung (Abstieg/Exit), nicht S&P 100, nicht M&A/Insolvenz, Vorlauf 10 HT > -5 %; Haltedauer ~20 HT",
         "source": "S&P Dow Jones Indices — Pressemitteilungen",
         "as_of": today, "changes": out_rows,
     }
