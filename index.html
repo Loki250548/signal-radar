@@ -43,6 +43,13 @@
   tr.isCluster{box-shadow:inset 3px 0 0 var(--gold)}
   .empty{border:1px dashed var(--line);border-radius:var(--radius);padding:44px 24px;text-align:center;color:var(--mut)}
   .empty h2{color:var(--ink);font-size:18px;margin:0 0 8px}
+  .tabs{display:flex;gap:6px;margin:18px 0 6px;border-bottom:1px solid var(--line)}
+  .tab{appearance:none;background:none;border:none;color:var(--mut);font-size:14px;font-weight:600;padding:10px 14px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
+  .tab[aria-selected=true]{color:var(--ink);border-bottom-color:var(--gold)}
+  .tab:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .pos{color:#5fc48f} .neg{color:var(--red)} .na{color:var(--dim)}
+  .badge.in{background:rgba(95,196,143,.12);color:#5fc48f;border:1px solid rgba(95,196,143,.3)}
+  .badge.out{background:rgba(209,106,90,.12);color:var(--red);border:1px solid rgba(209,106,90,.3)}
   .foot{color:var(--dim);font-size:12px;margin-top:16px;line-height:1.6}
 </style>
 </head>
@@ -57,6 +64,11 @@
       <label class="btn" for="file">JSON laden…<input id="file" type="file" accept=".json,application/json" hidden></label>
     </div>
   </header>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" aria-selected="true" data-view="ins">Insider-Cluster</button>
+    <button class="tab" role="tab" aria-selected="false" data-view="idx">Index-Wechsel</button>
+  </div>
 
   <div class="tiles" id="tiles" hidden>
     <div class="tile"><div class="k">Titel mit Käufen</div><div class="v num" id="t_titles">–</div></div>
@@ -77,9 +89,27 @@
     <p>Der nächtliche Lauf schreibt <b>radar_data.json</b> automatisch. Bis dahin kannst du eine JSON-Datei über <b>„JSON laden…"</b> einlesen.</p></div>
   </div>
 
+  <div id="idxView" hidden>
+    <div class="tiles">
+      <div class="tile"><div class="k">Änderungen (120 Tage)</div><div class="v num" id="i_n">–</div></div>
+      <div class="tile"><div class="k">Aufnahmen / Streichungen</div><div class="v num" id="i_io">–</div></div>
+      <div class="tile"><div class="k">Ø seit Stichtag · Aufnahmen</div><div class="v num" id="i_in">–</div></div>
+      <div class="tile"><div class="k">Ø seit Stichtag · Streichungen</div><div class="v num" id="i_out">–</div></div>
+    </div>
+    <div class="controls">
+      <input type="text" id="iq" placeholder="Ticker / Firma suchen…">
+      <label><select id="iidx" style="background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:9px 11px;font-size:14px">
+        <option value="">alle Indizes</option><option>S&amp;P 500</option><option>S&amp;P 100</option><option>S&amp;P MidCap 400</option><option>S&amp;P SmallCap 600</option></select></label>
+      <label><input type="checkbox" id="ioutOnly"> nur Streichungen</label>
+    </div>
+    <div id="imount"><div class="empty"><h2>Noch keine Index-Daten</h2><p>Der Nachtlauf schreibt <b>index_data.json</b>.</p></div></div>
+    <div class="meta" id="imeta" style="margin-top:10px"></div>
+  </div>
+
   <div class="foot">
     Quelle: SEC EDGAR Form 4 · offene Marktkäufe (Code P). <b>Stärke</b> ist eine Sortierhilfe (Cluster › Volumen › Rolle; geplante 10b5-1-Käufe abgewertet) —
     <b>nicht validiert, kein Edge.</b> Ein Signal ist ein Kandidat, keine Antwort: Was muss wahr sein? Gegenseite? Ausdruck mit begrenztem Risiko? Falsifikation?
+    Index-Wechsel: Referenz = Schluss am letzten Handelstag <i>vor</i> dem Stichtag (Fonds handeln dort). Renditen danach messen die Umkehr-These, nicht die Ankündigung.
     Keine Anlageberatung.
   </div>
 </div>
@@ -145,6 +175,51 @@ document.getElementById("file").addEventListener("change",e=>{const f=e.target.f
 ["q","minv","clusterOnly","noPlan"].forEach(id=>document.getElementById(id).addEventListener("input",render));
 fetch("radar_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(load)
   .catch(()=>{document.getElementById("meta").textContent="Keine Daten geladen.";});
+
+// ---------- Index-Wechsel ----------
+let IROWS=[], ISORT={key:"effective",dir:-1};
+const ICOLS=[{key:"ticker",label:"Ticker / Firma"},{key:"index",label:"Index"},{key:"action",label:"Aktion"},{key:"effective",label:"Stichtag"},
+  {key:"ref_close",label:"Ref.-Kurs",r:true},{key:"last_close",label:"Aktuell",r:true},{key:"ret_since_ref",label:"seit Stichtag",r:true},
+  {key:"ret_5d",label:"+5d",r:true},{key:"ret_20d",label:"+20d",r:true},{key:"ret_60d",label:"+60d",r:true}];
+const pct=v=>v==null?`<span class="na">–</span>`:`<span class="${v>0?'pos':v<0?'neg':''}">${v>0?'+':''}${v.toFixed(1)}%</span>`;
+const avg=a=>{const x=a.filter(v=>v!=null);return x.length?x.reduce((s,v)=>s+v,0)/x.length:null};
+function iload(d){
+  IROWS=(d.changes||[]);
+  const tr=IROWS.filter(r=>r.tracked);
+  t("i_n",IROWS.length); t("i_io",`${IROWS.filter(r=>r.action==="in").length} / ${IROWS.filter(r=>r.action==="out").length}`);
+  const ai=avg(tr.filter(r=>r.action==="in").map(r=>r.ret_since_ref)), ao=avg(tr.filter(r=>r.action==="out").map(r=>r.ret_since_ref));
+  document.getElementById("i_in").innerHTML=pct(ai); document.getElementById("i_out").innerHTML=pct(ao);
+  document.getElementById("imeta").innerHTML=`<b>${d.source||""}</b> · Stand ${d.as_of||"?"} · erzeugt ${(d.generated||"").replace("T"," ").replace(/\+00:00$/," UTC")}`;
+  irender();
+}
+function irender(){
+  const q=(document.getElementById("iq").value||"").toLowerCase().trim(), ix=document.getElementById("iidx").value, oo=document.getElementById("ioutOnly").checked;
+  let rows=IROWS.filter(r=>(!ix||r.index===ix)&&(!oo||r.action==="out")&&(!q||r.ticker.toLowerCase().includes(q)||(r.company||"").toLowerCase().includes(q)));
+  rows.sort((a,b)=>{let x=a[ISORT.key],y=b[ISORT.key];if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;
+    return typeof x==="string"?ISORT.dir*(x<y?-1:x>y?1:0):ISORT.dir*(x-y);});
+  const m=document.getElementById("imount");
+  if(!rows.length){m.innerHTML=`<div class="empty"><h2>Keine Treffer im Filter</h2></div>`;return;}
+  const head=ICOLS.map(c=>{const a=ISORT.key===c.key;return `<th class="${c.r?'r':''}" data-k="${c.key}">${c.label}<span class="arw">${a?(ISORT.dir<0?" ▼":" ▲"):""}</span></th>`}).join("");
+  const body=rows.map(r=>`<tr>
+    <td><span class="tk">${r.ticker}</span><div class="co">${(r.company||"").slice(0,40)}</div><div class="who">${r.sector||""} · angekündigt ${r.announced||"–"}</div></td>
+    <td><span class="role">${r.index}</span></td>
+    <td><span class="badge ${r.action}">${r.action==="in"?"Aufnahme":"Streichung"}</span></td>
+    <td class="num">${r.effective}${r.days_since!=null?`<div class="co">${r.days_since} HT seit Stichtag</div>`:""}</td>
+    <td class="r num">${r.ref_close!=null?"$"+r.ref_close.toLocaleString("en-US",{maximumFractionDigits:2}):"–"}</td>
+    <td class="r num">${r.last_close!=null?"$"+r.last_close.toLocaleString("en-US",{maximumFractionDigits:2}):"–"}</td>
+    <td class="r num str">${pct(r.ret_since_ref)}</td><td class="r num">${pct(r.ret_5d)}</td><td class="r num">${pct(r.ret_20d)}</td><td class="r num">${pct(r.ret_60d)}</td></tr>`).join("");
+  m.innerHTML=`<div class="tblwrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+  m.querySelectorAll("th").forEach(th=>th.addEventListener("click",()=>{const k=th.dataset.k;if(ISORT.key===k)ISORT.dir*=-1;else{ISORT.key=k;ISORT.dir=(k==="ticker"||k==="index"||k==="action")?1:-1;}irender();}));
+}
+["iq","iidx","ioutOnly"].forEach(id=>document.getElementById(id).addEventListener("input",irender));
+// Tabs
+document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-selected",x===b));
+  const idx=b.dataset.view==="idx";
+  ["tiles","controls","mount"].forEach(id=>document.getElementById(id).hidden=idx);
+  document.getElementById("idxView").hidden=!idx;
+}));
+fetch("index_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(iload).catch(()=>{});
 </script>
 </body>
 </html>
