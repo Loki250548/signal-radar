@@ -57,6 +57,8 @@
 .rule{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:var(--radius);padding:12px 16px;margin:16px 0;color:var(--mut);font-size:13.5px} .rule b{color:var(--ink)}
   .ok{color:#5fc48f} .no{color:var(--red)} .chk{font-size:12px;color:var(--dim);white-space:normal;max-width:360px}
   h3.bt{font-size:14px;color:var(--mut);margin:22px 0 8px;font-weight:600}
+.badge.st-lebt{background:rgba(95,196,143,.14);color:#5fc48f;border:1px solid rgba(95,196,143,.35)} .badge.st-tot{background:rgba(209,106,90,.14);color:var(--red);border:1px solid rgba(209,106,90,.35)} .badge.st-beobachten,.badge.st-overlay{background:rgba(224,166,60,.14);color:var(--gold);border:1px solid rgba(224,166,60,.35)} .badge.st-offen{background:rgba(139,149,161,.12);color:var(--mut);border:1px solid var(--line)}
+  .note{color:var(--dim);font-size:12px;white-space:normal;max-width:380px}
   .foot{color:var(--dim);font-size:12px;margin-top:16px;line-height:1.6}
 </style>
 </head>
@@ -78,6 +80,7 @@
     <button class="tab" role="tab" aria-selected="false" data-view="att">Aufmerksamkeit</button>
     <button class="tab" role="tab" aria-selected="false" data-view="wl">Watchlist</button>
     <button class="tab" role="tab" aria-selected="false" data-view="bt">Backtest</button>
+    <button class="tab" role="tab" aria-selected="false" data-view="rs">Forschung</button>
   </div>
 
   <div class="tiles" id="tiles" hidden>
@@ -147,6 +150,13 @@
   <div id="btView" hidden>
     <div class="rule" id="btMeta"></div>
     <div id="btmount"><div class="empty"><h2>Noch keine Backtest-Daten</h2></div></div>
+  </div>
+
+  <div id="rsView" hidden>
+    <div class="rule" id="rsMeta"><b>Forschungs-Harness:</b> Jede These wird wöchentlich neu bewertet. <b>In-Sample</b> = Events vor dem Eintragedatum, <b>Out-of-Sample</b> = ab Eintragedatum. Tote Thesen bleiben sichtbar.</div>
+    <div class="controls"><label><select id="rsbm" style="background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:9px 11px;font-size:14px"><option value="SPY">Benchmark SPY</option><option value="IWM">Benchmark Russell 2000</option></select></label>
+      <label><select id="rsh" style="background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:9px 11px;font-size:14px"><option value="20">+20 Handelstage</option><option value="5">+5</option><option value="60">+60</option><option value="120">+120</option></select></label></div>
+    <div id="rsmount"><div class="empty"><h2>Noch keine Forschungsdaten</h2></div></div>
   </div>
 
   <div class="foot">
@@ -292,6 +302,22 @@ fetch("backtest_stats.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return
   document.getElementById("btmount").innerHTML=s;
 }).catch(()=>{});
 
+// ---------- Forschung ----------
+let RS=null;
+function rsrender(){
+  if(!RS)return; const bm=document.getElementById("rsbm").value, hz=document.getElementById("rsh").value, key=`x${hz}_${bm}`;
+  const order={lebt:0,beobachten:1,overlay:2,offen:3,tot:4};
+  const rows=RS.theses.slice().sort((a,b)=>(order[a.status]??9)-(order[b.status]??9));
+  const cell=s=>!s||s.n<5?`<span class="na">n=${s?s.n:0}</span>`:`<span class="${s.mean>0?'pos':'neg'} str">${s.mean>0?'+':''}${s.mean}%</span><div class="co">Med ${s.median>0?'+':''}${s.median}% · ${s.hit}% · t ${s.t}</div>`;
+  const body=rows.map(t=>{const hh=(t.horizons||{})[key]||{};
+    return `<tr><td><span class="tk">${t.name}</span><div class="note">${t.rule||""}</div></td><td><span class="badge st-${t.status}">${t.status}</span><div class="co">seit ${t.registered}</div></td>
+    <td class="r num">${t.n_events}<div class="co">OOS ${t.n_oos}</div></td><td class="r num">${cell(hh.in)}</td><td class="r num">${cell(hh.oos)}</td><td class="note">${(t.notes||[]).join("<br>")}</td></tr>`}).join("");
+  document.getElementById("rsmount").innerHTML=`<div class="tblwrap"><table><thead><tr><th>These</th><th>Status</th><th class="r">n</th><th class="r">In-Sample (${key})</th><th class="r">Out-of-Sample</th><th>Befund</th></tr></thead><tbody>${body}</tbody></table></div>`;
+  document.getElementById("rsMeta").innerHTML+=RS.generated&&!document.getElementById("rsMeta").dataset.g?` · zuletzt gerechnet ${RS.generated.replace("T"," ").replace(/\+00:00$/," UTC")}`:"";document.getElementById("rsMeta").dataset.g="1";
+}
+["rsbm","rsh"].forEach(id=>document.getElementById(id).addEventListener("input",rsrender));
+fetch("research_results.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{RS=d;rsrender();}).catch(()=>{});
+
 // ---------- Index-Wechsel ----------
 let IROWS=[], ISORT={key:"effective",dir:-1};
 const ICOLS=[{key:"ticker",label:"Ticker / Firma"},{key:"index",label:"Index"},{key:"action",label:"Aktion"},{key:"typ",label:"Typ"},{key:"effective",label:"Stichtag"},
@@ -336,8 +362,8 @@ document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
   const v=b.dataset.view;
   ["tiles","controls","mount"].forEach(id=>document.getElementById(id).hidden=(v!=="ins"));
   document.getElementById("idxView").hidden=(v!=="idx"); document.getElementById("attView").hidden=(v!=="att");
-  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt");
-  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest"})[v]||"· Insider-Cluster";
+  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt"); document.getElementById("rsView").hidden=(v!=="rs");
+  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest",rs:"· Forschung"})[v]||"· Insider-Cluster";
   if(v==="wl")wrender();
 }));
 fetch("index_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(iload).catch(()=>{});
