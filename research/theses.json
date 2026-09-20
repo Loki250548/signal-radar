@@ -1,0 +1,201 @@
+[
+ {
+  "id": "idx_del",
+  "name": "These 2 · Index-Streichung, Umkehr (Regel)",
+  "rule": "Streichung Abstieg/Exit, nicht S&P 100, kein M&A/Insolvenz, Vorlauf 10 HT > −5 %; Einstieg Schluss vor Stichtag; Haltedauer ~20 HT",
+  "status": "lebt",
+  "registered": "2026-09-20",
+  "filters": {
+   "pre10_gt": -5,
+   "meta_in": {
+    "typ": [
+     "Abstieg",
+     "Exit"
+    ],
+    "index": [
+     "S&P 500",
+     "S&P MidCap 400",
+     "S&P SmallCap 600"
+    ],
+    "reason": [
+     "-",
+     "Marktkap."
+    ]
+   }
+  },
+  "notes": [
+   "Backtest 2023–26: +20d Ø +9,4 %, Median +8,4 %, Treffer 72 %, t 4,2 (Vorlauf-Filter).",
+   "Survivorship geprüft (WOLF −100 % → Insolvenz-Ausschluss). Ohne Kosten. Fundamental-Gate (NI>0 & OCF>0) hebt Median auf +9,1 %, n=26."
+  ],
+  "entry": "before"
+ },
+ {
+  "id": "idx_del_raw",
+  "name": "Index-Streichung, alle Abstiege/Exits (ohne Vorlauf-Filter)",
+  "rule": "wie oben, aber ohne Vorlauf-Bedingung – Kontrollgruppe",
+  "status": "beobachten",
+  "registered": "2026-09-20",
+  "filters": {
+   "meta_in": {
+    "typ": [
+     "Abstieg",
+     "Exit"
+    ],
+    "index": [
+     "S&P 500",
+     "S&P MidCap 400",
+     "S&P SmallCap 600"
+    ]
+   }
+  },
+  "notes": [
+   "Kontrolle: zeigt, wie viel der Vorlauf-Filter bringt."
+  ],
+  "entry": "before",
+  "events": "idx_del"
+ },
+ {
+  "id": "idx_add_500",
+  "name": "S&P-500-Aufnahmen (tot)",
+  "rule": "Aufnahme in S&P 500, Einstieg Schluss vor Stichtag",
+  "status": "tot",
+  "registered": "2026-09-20",
+  "filters": {},
+  "notes": [
+   "Backtest: −0,7 % (+5d), −1,1 % (+20d). Index-Effekt im großen Index wegarbitragiert."
+  ],
+  "entry": "before"
+ },
+ {
+  "id": "insider_naive",
+  "name": "These 1 · Insider-Cluster naiv (tot)",
+  "rule": "≥2 Directors/Officers, offener Markt, kein 10b5-1, ≥100k $",
+  "status": "tot",
+  "registered": "2026-09-20",
+  "filters": {},
+  "notes": [
+   "2.508 Events 2023–26: +120d Ø −1,7 %, Median −8,4 %, Treffer 38 % vs SPY; vs IWM ≈ 0."
+  ],
+  "entry": "after"
+ },
+ {
+  "id": "insider_quality",
+  "name": "Insider-Cluster + Qualität/Bewertung (tot)",
+  "rule": "Cluster in profitablen, cashpositiven, günstigen Firmen, point-in-time",
+  "status": "tot",
+  "registered": "2026-09-20",
+  "filters": {},
+  "notes": [
+   "+120d Ø −4,1 % vs IWM, t −2,2. Die verführerische Geschichte ist signifikant negativ."
+  ],
+  "entry": "after"
+ },
+ {
+  "id": "insider_distress",
+  "name": "Spur · Insider-Cluster in Verlust-/Cash-negativen Firmen",
+  "rule": "Cluster wo NI<0 und OCF<0 (letztes 10-K) – Korbstrategie",
+  "status": "beobachten",
+  "registered": "2026-09-20",
+  "filters": {},
+  "notes": [
+   "+120d Ø +7,0 % vs IWM, t 2,3 – aber Median −11 %, Treffer 41 %. Lotterie mit positivem Erwartungswert; nur als Korb. Verfeinerung offen."
+  ],
+  "entry": "after"
+ },
+ {
+  "id": "pead_xbrl",
+  "name": "PEAD über XBRL-Gewinnüberraschung (tot, Wiedervorlage)",
+  "rule": "Top-5 % SUE (NI vs Vorjahresquartal, normiert), Einstieg Quartalsende+45 T",
+  "status": "tot",
+  "registered": "2026-09-20",
+  "filters": {},
+  "notes": [
+   "3.261 Events 2024–26: Median −0,8 % (+20d), −5,0 % (+60d), Spread Top/Bottom ≈ 0. Grobe Messung; Wiedervorlage mit Konsens-Daten."
+  ],
+  "entry": "after"
+ },
+ {
+  "id": "vrp_contango",
+  "name": "These VIX · Vol-Prämie mit Contango-Filter",
+  "rule": "Short-Vol (SVXY) nur bei VIX3M > VIX, sonst Cash; Entscheidung zum Schluss",
+  "status": "lebt",
+  "registered": "2026-09-20",
+  "filters": {},
+  "notes": [
+   "2012–26: CAGR +29,7 %, MaxDD −49 %, Sharpe 0,82; ab 2018 (−0,5x): +15,3 %, −34 %, 0,62. In Cash an allen 3 Krisentagen – mit nur 1 Warntag 2018/2024. Instrument (EU) offen."
+  ],
+  "entry": "before"
+ },
+ {
+  "id": "overlay_tom",
+  "name": "Overlay · Turn-of-Month",
+  "rule": "letzter + erste 3 Handelstage des Monats",
+  "status": "overlay",
+  "registered": "2026-09-20",
+  "filters": {},
+  "notes": [
+   "SPY 2000–26: ToM-Tage +16 % p.a. vs +6 % übrige; t 2,0. Timing für Core-Zukäufe."
+  ],
+  "entry": "before"
+ },
+ {
+  "id": "overlay_voltarget",
+  "name": "Overlay · Vol-Targeting",
+  "rule": "Exposure = 15 % / realisierte 20-Tage-Vol, max 1,5x",
+  "status": "overlay",
+  "registered": "2026-09-20",
+  "filters": {},
+  "notes": [
+   "SPY 2000–26: Sharpe 0,51 vs 0,43, MaxDD −49 % vs −57 %. Drawdown-Dämpfer für den Core."
+  ],
+  "entry": "before"
+ },
+ {
+  "id": "todo_momentum",
+  "name": "Offen · 12-1-Momentum (S&P 1500)",
+  "rule": "Top-Dezil 12-1-Monats-Rendite, monatlich",
+  "status": "offen",
+  "registered": "2026-09-20",
+  "filters": {},
+  "notes": [
+   "stärkster Faktor der Literatur; Universum nötig."
+  ],
+  "entry": "before"
+ },
+ {
+  "id": "todo_russell",
+  "name": "Offen · Russell-Rekonstitution, Umkehr",
+  "rule": "Streichungen aus Russell 2000 nach Juni-Rekonstitution",
+  "status": "offen",
+  "registered": "2026-09-20",
+  "filters": {},
+  "notes": [
+   "größerer Zwangsfluss als S&P; Listen prüfen."
+  ],
+  "entry": "before"
+ },
+ {
+  "id": "todo_spinoffs",
+  "name": "Offen · Spin-offs",
+  "rule": "Mutter und Tochter nach Abspaltung, 6–12 Monate",
+  "status": "offen",
+  "registered": "2026-09-20",
+  "filters": {},
+  "notes": [
+   "Form 10 auf EDGAR; kleines n."
+  ],
+  "entry": "before"
+ },
+ {
+  "id": "todo_cot",
+  "name": "Offen · COT Commercial-Extreme (Rohstoffe)",
+  "rule": "Commercial-Netto-Positionierung im 3-Jahres-Extrem",
+  "status": "offen",
+  "registered": "2026-09-20",
+  "filters": {},
+  "notes": [
+   "CFTC wöchentlich, frei. Dein Rohstoff-Fach."
+  ],
+  "entry": "before"
+ }
+]
