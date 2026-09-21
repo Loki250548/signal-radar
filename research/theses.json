@@ -25,9 +25,13 @@
   },
   "notes": [
    "Backtest 2023–26: +20d Ø +9,4 %, Median +8,4 %, Treffer 72 %, t 4,2 (Vorlauf-Filter).",
-   "Survivorship geprüft (WOLF −100 % → Insolvenz-Ausschluss). Ohne Kosten. Fundamental-Gate (NI>0 & OCF>0) hebt Median auf +9,1 %, n=26."
+   "Survivorship geprüft (WOLF −100 % → Insolvenz-Ausschluss). Ohne Kosten. Fundamental-Gate (NI>0 & OCF>0) hebt Median auf +9,1 %, n=26.",
+   "Regime: nur im ruhigen Aufwärtstrend validiert (40 von 46 Events). Im Stress n=0 → dort nicht handeln, bis bewiesen."
   ],
-  "entry": "before"
+  "entry": "before",
+  "active_regimes": [
+   "auf/ruhig"
+  ]
  },
  {
   "id": "idx_del_raw",
@@ -53,6 +57,26 @@
   ],
   "entry": "before",
   "events": "idx_del"
+ },
+ {
+  "id": "crisis_recovery",
+  "name": "These 3 · Krisen-Erholung nach Paniktagen",
+  "rule": "S&P-500-Titel mit Nachrichtentag (Vol ≥4×, Sprung ≤ −4 %) im Stress-Regime (VIX > 30, SPY unter 200-Tage-Linie); Einstieg Schluss des Nachrichtentags; Haltedauer ~60 HT",
+  "status": "lebt",
+  "registered": "2026-09-21",
+  "entry": "on",
+  "filters": {
+   "regime_in": [
+    "ab/stress"
+   ]
+  },
+  "active_regimes": [
+   "ab/stress"
+  ],
+  "notes": [
+   "2019–26, 134 Events: +60d Ø +20,7 %, Median +8,6 %, Treffer 70 %, t 5,4 vs SPY. In ruhigen Regimen: ±0 (Münzwurf).",
+   "Vorbehalt: 134 Events = 4 Episoden (2020, 2022, Apr 2025, Mär 2026), alle V-förmig erholt. 2008-Typ (mehrere falsche Böden) nicht im Sample. Generator folgt; Events bisher Seed."
+  ]
  },
  {
   "id": "idx_add_500",
@@ -98,9 +122,13 @@
   "registered": "2026-09-20",
   "filters": {},
   "notes": [
-   "+120d Ø +7,0 % vs IWM, t 2,3 – aber Median −11 %, Treffer 41 %. Lotterie mit positivem Erwartungswert; nur als Korb. Verfeinerung offen."
+   "+120d Ø +7,0 % vs IWM, t 2,3 – aber Median −11 %, Treffer 41 %. Lotterie mit positivem Erwartungswert; nur als Korb. Verfeinerung offen.",
+   "Regime: im Stress-Bär +27 % Ø (n=13, Median +1,6 %) – Spur eines Stress-Signals; im ruhigen Bullenmarkt Lotterie (Median −14 %)."
   ],
-  "entry": "after"
+  "entry": "after",
+  "active_regimes": [
+   "ab/stress"
+  ]
  },
  {
   "id": "pead_xbrl",
@@ -122,9 +150,16 @@
   "registered": "2026-09-20",
   "filters": {},
   "notes": [
-   "2012–26: CAGR +29,7 %, MaxDD −49 %, Sharpe 0,82; ab 2018 (−0,5x): +15,3 %, −34 %, 0,62. In Cash an allen 3 Krisentagen – mit nur 1 Warntag 2018/2024. Instrument (EU) offen."
+   "2012–26: CAGR +29,7 %, MaxDD −49 %, Sharpe 0,82; ab 2018 (−0,5x): +15,3 %, −34 %, 0,62. In Cash an allen 3 Krisentagen – mit nur 1 Warntag 2018/2024. Instrument (EU) offen.",
+   "Regime: per Konstruktion nur bei Contango; im Stress (Backwardation) aus."
   ],
-  "entry": "before"
+  "entry": "before",
+  "active_regimes": [
+   "auf/ruhig",
+   "auf/nervoes",
+   "ab/ruhig",
+   "ab/nervoes"
+  ]
  },
  {
   "id": "overlay_tom",

@@ -33,7 +33,9 @@ def fwd(px, bm, d0, entry="before"):
     """entry='before': Referenz = Schluss vor dem (vorab bekannten) Stichtag, z.B. Index-Rebalancing.
        entry='after' : Referenz = Schluss des ersten Handelstags NACH dem Ereignis (Filings, News) – kein Look-ahead."""
     ds = [x[0] for x in px]
-    if entry == "after":
+    if entry == "on":
+        k = bisect.bisect_right(ds, d0) - 1       # Schluss des Event-Tages selbst (Nachrichtentag)
+    elif entry == "after":
         k = bisect.bisect_right(ds, d0)           # erster Handelstag > Event-Datum
     else:
         k = bisect.bisect_left(ds, d0) - 1        # letzter Handelstag < Stichtag
@@ -56,12 +58,24 @@ def stat(xs):
 def passes(ev, flt):
     f = ev.get("fwd") or {}; m = ev.get("meta") or {}
     if "pre10_gt" in flt and (f.get("pre10") is None or f["pre10"] <= flt["pre10_gt"]): return False
+    if "regime_in" in flt and f.get("regime") not in flt["regime_in"]: return False
     for k, v in flt.get("meta_in", {}).items():
         if m.get(k) not in v: return False
     return True
+def regime_fn(bm):
+    vix = prices("^VIX"); vd = [x[0] for x in vix]; sd = [x[0] for x in bm["SPY"]]; sc = [x[1] for x in bm["SPY"]]
+    def f(d):
+        i = bisect.bisect_right(vd, d) - 1; j = bisect.bisect_right(sd, d) - 1
+        if i < 0 or j < 0: return "?", "?"
+        ma = statistics.mean(sc[max(0, j - 200):j]) if j > 200 else sc[j]
+        v = vix[i][1]
+        return ("auf" if sc[j] > ma else "ab"), ("ruhig" if v < 20 else "nervoes" if v < 30 else "stress")
+    return f
+REGIMES = ("auf/ruhig", "auf/nervoes", "auf/stress", "ab/ruhig", "ab/nervoes", "ab/stress")
 def main():
     theses = json.load(open(os.path.join(ROOT, "theses.json")))
     bm = {b: prices(b) for b in ("SPY", "IWM")}
+    reg = regime_fn(bm)
     results = {"generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "theses": []}
     for th in theses:
         fn = os.path.join(ROOT, "events", f"{th.get('events', th['id'])}.json")
@@ -70,6 +84,9 @@ def main():
             if time.time() - T0 > BUDGET: break
             if "fwd" in e and e["fwd"] and e["fwd"].get("entry") == th.get("entry", "before") and e["fwd"].get(f"x{H[-1]}_SPY") is not None: continue
             px = prices(e["ticker"]); e["fwd"] = fwd(px, bm, e["date"], th.get("entry", "before")) if px else None
+        for e in evs:
+            if e.get("fwd") and "regime" not in e["fwd"]:
+                tr, vo = reg(e["fwd"]["ref_date"]); e["fwd"]["regime"] = f"{tr}/{vo}"
         json.dump(evs, open(fn, "w"))
         reg = th.get("registered", "2099-01-01"); flt = th.get("filters", {})
         use = [e for e in evs if e.get("fwd") and passes(e, flt)]
@@ -81,6 +98,12 @@ def main():
                 row["horizons"][f"x{h}_{b}"] = {
                     "in": stat([sign(e) * e["fwd"][f"x{h}_{b}"] for e in use if e["date"] < reg and e["fwd"].get(f"x{h}_{b}") is not None]),
                     "oos": stat([sign(e) * e["fwd"][f"x{h}_{b}"] for e in use if e["date"] >= reg and e["fwd"].get(f"x{h}_{b}") is not None])}
+        # Statistik je Regime (+20d und +60d vs SPY) — verschiedene Signale fuer verschiedene Szenarien
+        row["regimes"] = {}
+        for rg in REGIMES:
+            sub = [e for e in use if (e["fwd"] or {}).get("regime") == rg]
+            row["regimes"][rg] = {f"x{h}_SPY": stat([sign(e) * e["fwd"][f"x{h}_SPY"] for e in sub if e["fwd"].get(f"x{h}_SPY") is not None]) for h in (20, 60)}
+        row["active_regimes"] = th.get("active_regimes", [])
         row["notes"] = th.get("notes", [])
         results["theses"].append(row)
         print(f"{th['id']:28} events={len(use):4} oos={row['n_oos']:3}", file=sys.stderr)
