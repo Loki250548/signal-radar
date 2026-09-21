@@ -88,6 +88,27 @@
   "key": "x60_SPY"
  },
  {
+  "id": "sympathy_bluechip",
+  "name": "Test 13 · Sympathie-Schock bei Blue Chips (Kandidat)",
+  "rule": "Blue Chip (Top 100 Dollar-Umsatz S&P 500) ≥8 % unter SPY bei Vol ≥3×, Sektor-Peers Median ≤ −3 %; Einstieg Schluss Folgetag; 60 HT",
+  "status": "kandidat",
+  "registered": "2026-09-21",
+  "entry": "after",
+  "key": "x60_SPY",
+  "trials": 20,
+  "filters": {},
+  "active_regimes": [
+   "auf/ruhig",
+   "auf/nervoes",
+   "ab/nervoes",
+   "ab/stress"
+  ],
+  "notes": [
+   "Test 13 (Parallelsitzung, S&P 1500 2010–26): n=57, +9,3 % / 60 T vs SPY, Median +7,1 %, Treffer 65 %, t 2,95, beide Hälften positiv, 12 von 15 Jahren; idiosynkratische Schocks −0,9 %. Nicht bestätigt: Entdeckungsstichprobe, ~20 Auswertungen, t < 3.",
+   "Ab 21.09.2026 Live-Detektor (sympathy.py) → Papierbetrieb; Events hier sind ausschließlich OOS. Unabhängige Prüfung STOXX 600 ausstehend."
+  ]
+ },
+ {
   "id": "idx_add_500",
   "name": "S&P-500-Aufnahmen (tot)",
   "rule": "Aufnahme in S&P 500, Einstieg Schluss vor Stichtag",
