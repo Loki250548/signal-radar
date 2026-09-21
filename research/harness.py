@@ -49,12 +49,23 @@ def fwd(px, bm, d0, entry="before"):
             bd = [x[0] for x in s]; j = bisect.bisect_right(bd, px[k][0]) - 1   # Benchmark am selben Referenztag
             out[f"x{h}_{b}"] = round(out[f"r{h}"] - (s[j + h][1] / s[j][1] - 1) * 100, 2) if ok and j >= 0 and j + h < len(s) else None
     return out
-def stat(xs):
-    xs = [x for x in xs if x is not None]
+COST = float(os.environ.get("COST_PCT", "1.0"))   # Kosten je Umschlag in % (Small Caps: 1–2)
+def stat(xs, dates=None):
+    """xs: Ueberrenditen (%), bereits nach Kosten; dates: Ereignisdaten fuer gebuendelten t-Wert (ein Cluster je Datum)."""
+    pairs = [(x, d) for x, d in zip(xs, dates or [None] * len(xs)) if x is not None]
+    xs = [p[0] for p in pairs]
     if len(xs) < 5: return {"n": len(xs)}
     m = statistics.mean(xs); s = statistics.pstdev(xs) or 1e-9
-    return {"n": len(xs), "mean": round(m, 2), "median": round(statistics.median(xs), 2),
-            "hit": round(100 * sum(x > 0 for x in xs) / len(xs), 1), "t": round(m / (s / math.sqrt(len(xs))), 2)}
+    out = {"n": len(xs), "mean": round(m, 2), "median": round(statistics.median(xs), 2),
+           "hit": round(100 * sum(x > 0 for x in xs) / len(xs), 1), "t": round(m / (s / math.sqrt(len(xs))), 2)}
+    if dates:
+        by = {}
+        for x, d in pairs: by.setdefault(d, []).append(x)
+        cm = [statistics.mean(v) for v in by.values()]
+        if len(cm) >= 3:
+            cs = statistics.pstdev(cm) or 1e-9
+            out["clusters"] = len(cm); out["t_clustered"] = round(statistics.mean(cm) / (cs / math.sqrt(len(cm))), 2)
+    return out
 def passes(ev, flt):
     f = ev.get("fwd") or {}; m = ev.get("meta") or {}
     if "pre10_gt" in flt and (f.get("pre10") is None or f["pre10"] <= flt["pre10_gt"]): return False
@@ -76,7 +87,7 @@ def main():
     theses = json.load(open(os.path.join(ROOT, "theses.json")))
     bm = {b: prices(b) for b in ("SPY", "IWM")}
     reg = regime_fn(bm)
-    results = {"generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "theses": []}
+    results = {"generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "cost_pct": COST, "note": "Ueberrenditen nach Kosten; t_clustered = t-Wert nach Ereignisdatum gebuendelt", "theses": []}
     for th in theses:
         fn = os.path.join(ROOT, "events", f"{th.get('events', th['id'])}.json")
         evs = json.load(open(fn)) if os.path.exists(fn) else []
@@ -95,14 +106,16 @@ def main():
                "registered": reg, "n_events": len(use), "n_oos": sum(1 for e in use if e["date"] >= reg), "horizons": {}}
         for h in H:
             for b in ("SPY", "IWM"):
+                ins_ = [e for e in use if e["date"] < reg and e["fwd"].get(f"x{h}_{b}") is not None]
+                oos_ = [e for e in use if e["date"] >= reg and e["fwd"].get(f"x{h}_{b}") is not None]
                 row["horizons"][f"x{h}_{b}"] = {
-                    "in": stat([sign(e) * e["fwd"][f"x{h}_{b}"] for e in use if e["date"] < reg and e["fwd"].get(f"x{h}_{b}") is not None]),
-                    "oos": stat([sign(e) * e["fwd"][f"x{h}_{b}"] for e in use if e["date"] >= reg and e["fwd"].get(f"x{h}_{b}") is not None])}
+                    "in": stat([sign(e) * e["fwd"][f"x{h}_{b}"] - COST for e in ins_], [e["date"] for e in ins_]),
+                    "oos": stat([sign(e) * e["fwd"][f"x{h}_{b}"] - COST for e in oos_], [e["date"] for e in oos_])}
         # Statistik je Regime (+20d und +60d vs SPY) — verschiedene Signale fuer verschiedene Szenarien
         row["regimes"] = {}
         for rg in REGIMES:
             sub = [e for e in use if (e["fwd"] or {}).get("regime") == rg]
-            row["regimes"][rg] = {f"x{h}_SPY": stat([sign(e) * e["fwd"][f"x{h}_SPY"] for e in sub if e["fwd"].get(f"x{h}_SPY") is not None]) for h in (20, 60)}
+            row["regimes"][rg] = {f"x{h}_SPY": stat([sign(e) * e["fwd"][f"x{h}_SPY"] - COST for e in sub if e["fwd"].get(f"x{h}_SPY") is not None], [e["date"] for e in sub if e["fwd"].get(f"x{h}_SPY") is not None]) for h in (20, 60)}
         row["active_regimes"] = th.get("active_regimes", [])
         row["notes"] = th.get("notes", [])
         results["theses"].append(row)

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Generator: alle S&P-Streichungen (Abstieg/Exit, ohne S&P 100) aus dem Pressearchiv -> research/events/idx_del.json"""
-import urllib.request, re, json, os, time, datetime as dt
+import urllib.request, re, json, os, time, datetime as dt, html
 UA = os.environ.get("EDGAR_UA") or "Signal Radar Research kontakt@example.com"
 ROOT = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.join(ROOT, "events", "idx_del.json")
 def get(u):
@@ -15,14 +15,14 @@ pat = re.compile(r"([A-Z][a-z]+\.? \d{1,2}, \d{4}) (S&P 100|S&P 500|S&P MidCap 4
 RANK = {"S&P 500": 3, "S&P 100": 3, "S&P MidCap 400": 2, "S&P SmallCap 600": 1}
 old = {(e["ticker"], e["date"]): e for e in (json.load(open(OUT)) if os.path.exists(OUT) else [])}
 rels = set(); y0 = dt.date.today().year
-for y in range(y0 - 3, y0 + 1):
+for y in range(y0 - 13, y0 + 1):   # 2013 ff. – volle Historie
     for o in range(0, 600, 100):
         f = re.findall(r'href="(https://press\.spglobal\.com/20\d\d-\d\d-\d\d-[^"]+)"', get(f"https://press.spglobal.com/index.php?s=2429&year={y}&l=100&o={o}"))
         if not f: break
         rels.update(u for u in f if re.search(r"s-p-500|s-and-p-500|s-p-midcap|s-p-smallcap|set-to-join|to-join-s-p|join-s-p", u.lower())); time.sleep(0.25)
 rows = []
 for u in sorted(rels):
-    try: txt = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", get(u)))
+    try: txt = html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", get(u))))
     except Exception: continue
     low = txt.lower()
     for m in pat.finditer(txt):
