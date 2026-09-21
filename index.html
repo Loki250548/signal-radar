@@ -81,6 +81,7 @@
     <button class="tab" role="tab" aria-selected="false" data-view="wl">Watchlist</button>
     <button class="tab" role="tab" aria-selected="false" data-view="bt">Backtest</button>
     <button class="tab" role="tab" aria-selected="false" data-view="rs">Forschung</button>
+    <button class="tab" role="tab" aria-selected="false" data-view="sy">Sympathie</button>
   </div>
 
   <div class="tiles" id="tiles" hidden>
@@ -152,6 +153,11 @@
     <div id="btmount"><div class="empty"><h2>Noch keine Backtest-Daten</h2></div></div>
   </div>
 
+  <div id="syView" hidden>
+    <p class="note" id="syRule">Test 13 · Blue Chip fällt ≥ 8 % gegen den SPY bei Volumen ≥ 3×, während der Median der Sektor-Peers ≤ −3 % liegt (Branchenverkauf, keine eigene Nachricht) → Einstieg Schluss des Folgetags, 60 Handelstage halten. <b>Papierbetrieb</b> – Kandidat (t 2,95), nicht bestätigt. Kontrolle: idiosynkratische Schocks (Peers &gt; −1 %) werden nur gelistet, nicht gehandelt.</p>
+    <div class="tiles"><div class="tile"><div class="k">Stand</div><div class="v num" id="sy_asof">–</div></div><div class="tile"><div class="k">Signale heute</div><div class="v num" id="sy_today">–</div></div><div class="tile"><div class="k">offene Papier-Positionen</div><div class="v num" id="sy_open">–</div></div><div class="tile"><div class="k">abgeschlossen · Ø vs SPY · Treffer</div><div class="v num" id="sy_closed">–</div></div></div>
+    <div id="syMount"></div>
+  </div>
   <div id="rsView" hidden>
     <div class="rule" id="rsMeta"><b>Forschungs-Harness:</b> Jede These wird wöchentlich neu bewertet. <b>In-Sample</b> = Events vor dem Eintragedatum, <b>Out-of-Sample</b> = ab Eintragedatum. Tote Thesen bleiben sichtbar.</div>
     <div class="controls"><label><select id="rsbm" style="background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:9px 11px;font-size:14px"><option value="SPY">Benchmark SPY</option><option value="IWM">Benchmark Russell 2000</option></select></label>
@@ -362,10 +368,20 @@ document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
   const v=b.dataset.view;
   ["tiles","controls","mount"].forEach(id=>document.getElementById(id).hidden=(v!=="ins"));
   document.getElementById("idxView").hidden=(v!=="idx"); document.getElementById("attView").hidden=(v!=="att");
-  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt"); document.getElementById("rsView").hidden=(v!=="rs");
-  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest",rs:"· Forschung"})[v]||"· Insider-Cluster";
-  if(v==="wl")wrender();
+  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt"); document.getElementById("rsView").hidden=(v!=="rs"); document.getElementById("syView").hidden=(v!=="sy");
+  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest",rs:"· Forschung",sy:"· Sympathie-Schock"})[v]||"· Insider-Cluster";
+  if(v==="wl")wrender(); if(v==="sy")syrender();
 }));
+let SY=null;
+function syrender(){const m=document.getElementById("syMount");if(!SY){m.innerHTML=`<div class="empty"><h2>Noch keine Daten</h2><p>sympathy_data.json wird vom Nachtlauf erzeugt.</p></div>`;return;}
+  const t=(id,v)=>document.getElementById(id).textContent=v; t("sy_asof",SY.asof||"–"); t("sy_today",(SY.signals_today||[]).length);
+  t("sy_open",SY.stats.open); t("sy_closed",SY.stats.closed?`${SY.stats.closed} · ${SY.stats.avg_excess_closed>0?"+":""}${SY.stats.avg_excess_closed} % · ${SY.stats.hit_closed} %`:"0");
+  const f=x=>x==null?"–":(x>0?"+":"")+x.toFixed(1)+" %";
+  const rows=(SY.positions||[]).map(p=>`<tr><td><b>${p.ticker}</b></td><td>${p.sector||""}</td><td>${p.signal_date}</td><td class="r">${f(p.excess_signal)}</td><td class="r">${f(p.peer_median)}</td><td class="r">${p.vol_ratio}×</td><td>${p.entry_date||"–"} @ ${p.entry??"–"}</td><td class="r"><b>${f(p.excess_now)}</b></td><td class="r">${p.days_held??"–"} / 60</td><td>${p.status}</td></tr>`).join("");
+  const ctrl=(SY.control_today||[]).map(c=>`<span class="badge single" title="Peers ${f(c.peer_median)} · Vol ${c.vol_ratio}×">${c.ticker} ${f(c.excess)}</span>`).join(" ");
+  m.innerHTML=`<div class="tblwrap"><table><thead><tr><th>Ticker</th><th>Sektor</th><th>Signal</th><th class="r">Exzess</th><th class="r">Peers</th><th class="r">Vol</th><th>Einstieg</th><th class="r">vs SPY</th><th class="r">Tage</th><th>Status</th></tr></thead><tbody>${rows||`<tr><td colspan="10" class="empty">Keine Sympathie-Signale in den letzten 60 Handelstagen – die Regel ist selten (≈ 4 Ereignisse pro Jahr).</td></tr>`}</tbody></table></div>
+  <p class="note">Kontrolle heute (idiosynkratisch, nicht handeln): ${ctrl||"–"}</p><p class="note">Blue-Chip-Universum: ${(SY.blue_chips||[]).length} Titel nach Dollar-Umsatz · Universum ${SY.universe} · erzeugt ${SY.generated}</p>`;}
+fetch("sympathy_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{SY=d;}).catch(()=>{});
 fetch("index_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(iload).catch(()=>{});
 </script>
 </body>
