@@ -32,7 +32,9 @@
   "entry": "before",
   "active_regimes": [
    "auf/ruhig"
-  ]
+  ],
+  "trials": 40,
+  "key": "x20_SPY"
  },
  {
   "id": "idx_del_raw",
@@ -58,7 +60,9 @@
    "siehe idx_del"
   ],
   "entry": "before",
-  "events": "idx_del"
+  "events": "idx_del",
+  "trials": 40,
+  "key": "x20_SPY"
  },
  {
   "id": "crisis_recovery",
@@ -79,7 +83,9 @@
    "2019–26, 134 Events: +60d Ø +20,7 %, Median +8,6 %, Treffer 70 %, t 5,4 vs SPY. In ruhigen Regimen: ±0 (Münzwurf).",
    "Vorbehalt: 134 Events = 4 Episoden (2020, 2022, Apr 2025, Mär 2026), alle V-förmig erholt. 2008-Typ (mehrere falsche Böden) nicht im Sample. Generator folgt; Events bisher Seed.",
    "Strenge Prüfung ausstehend: 4 Episoden (gebündelt t ≈ 2), 8 Exit-Regeln probiert, Universum = heutige Mitglieder (Survivorship). Kandidat, kein Signal."
-  ]
+  ],
+  "trials": 48,
+  "key": "x60_SPY"
  },
  {
   "id": "idx_add_500",
@@ -91,7 +97,8 @@
   "notes": [
    "Backtest: −0,7 % (+5d), −1,1 % (+20d). Index-Effekt im großen Index wegarbitragiert."
   ],
-  "entry": "before"
+  "entry": "before",
+  "trials": 1
  },
  {
   "id": "insider_naive",
@@ -103,7 +110,8 @@
   "notes": [
    "2.508 Events 2023–26: +120d Ø −1,7 %, Median −8,4 %, Treffer 38 % vs SPY; vs IWM ≈ 0."
   ],
-  "entry": "after"
+  "entry": "after",
+  "trials": 1
  },
  {
   "id": "insider_quality",
@@ -115,7 +123,8 @@
   "notes": [
    "+120d Ø −4,1 % vs IWM, t −2,2. Die verführerische Geschichte ist signifikant negativ."
   ],
-  "entry": "after"
+  "entry": "after",
+  "trials": 1
  },
  {
   "id": "insider_distress",
@@ -131,7 +140,9 @@
   "entry": "after",
   "active_regimes": [
    "ab/stress"
-  ]
+  ],
+  "trials": 24,
+  "key": "x120_SPY"
  },
  {
   "id": "pead_xbrl",
@@ -143,7 +154,8 @@
   "notes": [
    "3.261 Events 2024–26: Median −0,8 % (+20d), −5,0 % (+60d), Spread Top/Bottom ≈ 0. Grobe Messung; Wiedervorlage mit Konsens-Daten."
   ],
-  "entry": "after"
+  "entry": "after",
+  "trials": 1
  },
  {
   "id": "vrp_contango",
@@ -163,7 +175,8 @@
    "auf/nervoes",
    "ab/ruhig",
    "ab/nervoes"
-  ]
+  ],
+  "trials": 6
  },
  {
   "id": "overlay_tom",
@@ -176,7 +189,8 @@
    "SPY 2000–26: ToM-Tage +16 % p.a. vs +6 % übrige; t 2,0. Timing für Core-Zukäufe.",
    "Regime-abhängig (nervös +23 % ann. Differenz, Stress −15 %); ohne Kosten/Placebo."
   ],
-  "entry": "before"
+  "entry": "before",
+  "trials": 6
  },
  {
   "id": "overlay_voltarget",
@@ -188,7 +202,8 @@
   "notes": [
    "SPY 2000–26: Sharpe 0,51 vs 0,43, MaxDD −49 % vs −57 %. Drawdown-Dämpfer für den Core."
   ],
-  "entry": "before"
+  "entry": "before",
+  "trials": 1
  },
  {
   "id": "todo_momentum",
@@ -200,7 +215,8 @@
   "notes": [
    "stärkster Faktor der Literatur; Universum nötig."
   ],
-  "entry": "before"
+  "entry": "before",
+  "trials": 1
  },
  {
   "id": "todo_russell",
@@ -212,7 +228,8 @@
   "notes": [
    "größerer Zwangsfluss als S&P; Listen prüfen."
   ],
-  "entry": "before"
+  "entry": "before",
+  "trials": 1
  },
  {
   "id": "todo_spinoffs",
@@ -224,7 +241,8 @@
   "notes": [
    "Form 10 auf EDGAR; kleines n."
   ],
-  "entry": "before"
+  "entry": "before",
+  "trials": 1
  },
  {
   "id": "todo_cot",
@@ -236,7 +254,8 @@
   "notes": [
    "CFTC wöchentlich, frei. Dein Rohstoff-Fach."
   ],
-  "entry": "before"
+  "entry": "before",
+  "trials": 1
  },
  {
   "id": "parallel_tests_1_5",
@@ -247,7 +266,8 @@
   "filters": {},
   "notes": [
    "Alle negativ nach Kosten/Placebo. VXTH (Index + VIX-Calls) einzig asymmetrisch (+3,8 % p.a., t 1,1, fast nur Corona) – Absicherungskandidat, keine Renditequelle."
-  ]
+  ],
+  "trials": 1
  },
  {
   "id": "momentum_winners",
@@ -258,6 +278,8 @@
   "filters": {},
   "notes": [
    "2020–26 S&P 500: +1,1 %/Monat vs SPY, Treffer 64 %, t 2,7 – aber Survivorship (heutige Mitglieder). Short-Bein tot (Momentum-Crash an Regime-Wenden). Braucht portfolio.py mit historischem Universum."
-  ]
+  ],
+  "trials": 8,
+  "key": "x20_SPY"
  }
 ]
