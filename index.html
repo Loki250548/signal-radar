@@ -82,6 +82,7 @@
     <button class="tab" role="tab" aria-selected="false" data-view="bt">Backtest</button>
     <button class="tab" role="tab" aria-selected="false" data-view="rs">Forschung</button>
     <button class="tab" role="tab" aria-selected="false" data-view="sy">Sympathie</button>
+    <button class="tab" role="tab" aria-selected="false" data-view="ke">Kern</button>
   </div>
 
   <div class="tiles" id="tiles" hidden>
@@ -153,6 +154,11 @@
     <div id="btmount"><div class="empty"><h2>Noch keine Backtest-Daten</h2></div></div>
   </div>
 
+  <div id="keView" hidden>
+    <p class="note" id="keRule">Kernportfolio „Surfen mit Risiko" (Tests 9, 11, v3) · Drei Linien je Index, Prüfung nur am <b>Monatsende</b>, Ausführung am ersten Handelstag danach. <b>Halten</b>: 1×, nie handeln. <b>Trendfilter</b>: gehebelt über der 200-Tage-Linie, sonst Ausweich. <b>Konjunkturfilter</b>: gehebelt, außer der Index liegt unter der 200-Tage-Linie <i>und</i> die US-Arbeitslosenquote liegt über ihrem 12-Monats-Schnitt. Ausweich: Gold, wenn Gold im Aufwärtstrend, sonst Cash. <b>Papierbetrieb ab 01.10.2026, kein Kapital.</b> Zwischen den Stichtagen wird nicht gehandelt, unabhängig von der Nachrichtenlage.</p>
+    <div class="tiles" id="keTiles"></div>
+    <div id="keMount"><div class="empty"><h2>Noch keine Daten</h2><p>core_data.json wird vom Nachtlauf erzeugt.</p></div></div>
+  </div>
   <div id="syView" hidden>
     <p class="note" id="syRule">Test 13 · Blue Chip fällt ≥ 8 % gegen den SPY bei Volumen ≥ 3×, während der Median der Sektor-Peers ≤ −3 % liegt (Branchenverkauf, keine eigene Nachricht) → Einstieg Schluss des Folgetags, 60 Handelstage halten. <b>Papierbetrieb</b> – Kandidat (t 2,95), nicht bestätigt. Kontrolle: idiosynkratische Schocks (Peers &gt; −1 %) werden nur gelistet, nicht gehandelt.</p>
     <div class="tiles"><div class="tile"><div class="k">Stand</div><div class="v num" id="sy_asof">–</div></div><div class="tile"><div class="k">Signale heute</div><div class="v num" id="sy_today">–</div></div><div class="tile"><div class="k">offene Papier-Positionen</div><div class="v num" id="sy_open">–</div></div><div class="tile"><div class="k">abgeschlossen · Ø vs SPY · Treffer</div><div class="v num" id="sy_closed">–</div></div></div>
@@ -368,9 +374,9 @@ document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
   const v=b.dataset.view;
   ["tiles","controls","mount"].forEach(id=>document.getElementById(id).hidden=(v!=="ins"));
   document.getElementById("idxView").hidden=(v!=="idx"); document.getElementById("attView").hidden=(v!=="att");
-  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt"); document.getElementById("rsView").hidden=(v!=="rs"); document.getElementById("syView").hidden=(v!=="sy");
-  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest",rs:"· Forschung",sy:"· Sympathie-Schock"})[v]||"· Insider-Cluster";
-  if(v==="wl")wrender(); if(v==="sy")syrender();
+  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt"); document.getElementById("rsView").hidden=(v!=="rs"); document.getElementById("syView").hidden=(v!=="sy"); document.getElementById("keView").hidden=(v!=="ke");
+  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest",rs:"· Forschung",sy:"· Sympathie-Schock",ke:"· Kern"})[v]||"· Insider-Cluster";
+  if(v==="wl")wrender(); if(v==="sy")syrender(); if(v==="ke")kerender();
 }));
 let SY=null;
 function syrender(){const m=document.getElementById("syMount");if(!SY){m.innerHTML=`<div class="empty"><h2>Noch keine Daten</h2><p>sympathy_data.json wird vom Nachtlauf erzeugt.</p></div>`;return;}
@@ -381,6 +387,30 @@ function syrender(){const m=document.getElementById("syMount");if(!SY){m.innerHT
   const ctrl=(SY.control_today||[]).map(c=>`<span class="badge single" title="Peers ${f(c.peer_median)} · Vol ${c.vol_ratio}×">${c.ticker} ${f(c.excess)}</span>`).join(" ");
   m.innerHTML=`<div class="tblwrap"><table><thead><tr><th>Ticker</th><th>Sektor</th><th>Signal</th><th class="r">Exzess</th><th class="r">Peers</th><th class="r">Vol</th><th>Einstieg</th><th class="r">vs SPY</th><th class="r">Tage</th><th>Status</th></tr></thead><tbody>${rows||`<tr><td colspan="10" class="empty">Keine Sympathie-Signale in den letzten 60 Handelstagen – die Regel ist selten (≈ 4 Ereignisse pro Jahr).</td></tr>`}</tbody></table></div>
   <p class="note">Kontrolle heute (idiosynkratisch, nicht handeln): ${ctrl||"–"}</p><p class="note">Blue-Chip-Universum: ${(SY.blue_chips||[]).length} Titel nach Dollar-Umsatz · Universum ${SY.universe} · erzeugt ${SY.generated}</p>`;}
+let KE=null;
+function keChart(rows){if(!rows||rows.length<10)return "";const W=520,H=90,v=rows.flatMap(p=>[p.k,p.m]).filter(x=>x!=null),mn=Math.min(...v),mx=Math.max(...v),X=i=>i/(rows.length-1)*W,Y=y=>H-4-(y-mn)/(mx-mn||1)*(H-8);
+  const path=key=>rows.map((p,i)=>p[key]==null?"":((i&&rows[i-1][key]!=null)?"L":"M")+X(i).toFixed(1)+","+Y(p[key]).toFixed(1)).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" style="width:100%;height:90px;display:block" role="img" aria-label="Kurs und 200-Tage-Linie, zwei Jahre"><path d="${path("m")}" fill="none" stroke="var(--mut)" stroke-width="1.5" stroke-dasharray="5 4"/><path d="${path("k")}" fill="none" stroke="var(--gold)" stroke-width="2"/></svg>`;}
+function kerender(){const m=document.getElementById("keMount"),tl=document.getElementById("keTiles");if(!KE){tl.innerHTML="";return;}
+  const dt=s=>s?s.split("-").reverse().join("."):"–", pc=(x,d=1)=>x==null?"–":(x>0?"+":"")+x.toFixed(d)+" %";
+  const u=KE.arbeitslosigkeit||{}, g=KE.gold||{}; const started=KE.stand>=KE.papierstart;
+  tl.innerHTML=`<div class="tile"><div class="k">Datenstand</div><div class="v num">${dt(KE.stand)}</div></div>
+    <div class="tile"><div class="k">Nächste Prüfung</div><div class="v num">${dt(KE.naechste_pruefung)}</div></div>
+    <div class="tile"><div class="k">US-Arbeitslosenquote (${u.monat||"–"}) · 12-M-Schnitt</div><div class="v num">${u.wert??"–"} % · ${u.schnitt12??"–"} %<div class="k" style="margin-top:2px">${u.steigt?"steigt – Konjunkturfilter scharf":"nicht über Schnitt – Konjunkturfilter bleibt investiert"}</div></div></div>
+    <div class="tile"><div class="k">Ausweichinstrument Gold</div><div class="v num">${g.ausweich_aktiv?"Gold":"Cash"}<div class="k" style="margin-top:2px">${g.ausweich_aktiv?"Gold im Aufwärtstrend":"Gold unter 200-Tage-Linie oder 12-M-Rendite negativ"}</div></div></div>`;
+  const L={halten:"Halten 1×",trend:`Trendfilter ${KE.hebel}×`,konjunktur:`Konjunkturfilter ${KE.hebel}×`};
+  let h="";
+  for(const inst of KE.instrumente){const sm=inst.signal_monatsende||{};
+    h+=`<h3 class="bt" style="margin-top:22px">${inst.name} · Kurs ${inst.kurs?.toFixed(2)} · 200-Tage-Linie ${inst.ma200} · Abstand <b class="${inst.abstand_pct>=0?'str':''}">${pc(inst.abstand_pct)}</b></h3>
+      <div style="background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:10px 14px">${keChart(inst.reihe)}</div>
+      <p class="note" style="max-width:none;margin:8px 0 4px">Signal vom Monatsende ${dt(sm.datum)}: Index ${sm.ueber_200?"über":"unter"} der 200-Tage-Linie. ${inst.heute_ueber!==sm.ueber_200?"<b>Seitdem auf die andere Seite gewechselt – gehandelt wird trotzdem erst am nächsten Monatsende.</b>":"Seitdem kein Seitenwechsel."}</p>
+      <div class="tblwrap"><table><thead><tr><th>Linie</th><th>Signal gültig bis Monatsende</th><th>Papier-Position</th><th class="r">Papier seit ${dt(KE.papierstart)}</th><th class="r">max. Drawdown</th><th>letzte Wechsel</th></tr></thead><tbody>`;
+    for(const r of ["halten","trend","konjunktur"]){const x=inst.linien[r],p=x.papier||{};
+      h+=`<tr><td><b>${L[r]}</b></td><td>${x.signal==="investiert"?`${inst.name} ${r==="halten"?"1×":KE.hebel+"×"}`:x.signal}</td><td>${p.position||(started?"–":"startet 01.10.")}</td><td class="r num ${p.rendite>0?'str':''}">${started?pc(p.rendite,2):"–"}</td><td class="r num">${started?pc(p.mdd,1):"–"}</td><td class="note">${(p.log||[]).slice(-3).map(l=>dt(l.ab)+" → "+l.position).join(" · ")||"–"}</td></tr>`;}
+    h+=`</tbody></table></div>`;}
+  h+=`<p class="note" style="max-width:none;margin-top:14px">Hebel ${KE.hebel}× ist ein Platzhalter für den Papierbetrieb (Konstante LEV in core.py). Finanzierung T-Bill + 1 %, 0,1 % Kosten je Wechsel, Hebel täglich angepasst. Belege: Test 9 (fünf Märkte, 90 Jahre), Test 11 (Steuern: Vorteil nur mit Verlustvortrag), v3 (Konjunkturfilter 13 von 13 Instrumenten vor Trendfilter). Bekannte Schwäche des Konjunkturfilters: Bewertungscrash ohne Rezession (Nasdaq 2000–02). Abbruchregel: Verlangt nach zwölf Monaten Papierbetrieb eine ehrliche Bilanz gegen die Halten-Linie.</p>`;
+  m.innerHTML=h;}
+fetch("core_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{KE=d;}).catch(()=>{});
 fetch("sympathy_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{SY=d;}).catch(()=>{});
 fetch("index_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(iload).catch(()=>{});
 </script>

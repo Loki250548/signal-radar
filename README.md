@@ -28,3 +28,6 @@ Ab dann läuft der Screener **jede Nacht automatisch** (04:30 UTC, Di–Sa = nac
 „Stärke" ist eine **Sortierhilfe**, kein validiertes Signal. Ein Treffer ist ein **Kandidat**, keine Kaufentscheidung.
 Nächster sinnvoller Schritt: Backtest — Cluster-Käufe eines Zeitraums gegen die Kursentwicklung danach messen.
 Keine Anlageberatung.
+
+## Kern · „Surfen mit Risiko" (Papierbetrieb ab 01.10.2026)
+`core.py` schreibt nachts `core_data.json` (Reiter **Kern**): je Index (S&P 500, Nasdaq 100) drei Linien – Halten 1×, Trendfilter (gehebelt über der 200-Tage-Linie am Monatsende), Konjunkturfilter (Ausstieg nur bei Trendbruch *und* US-Arbeitslosenquote über 12-Monats-Schnitt). Ausweich Gold/Cash. Signal nur am Monatsende, Ausführung am ersten Handelstag danach. Hebel (Konstante `LEV`) ist ein Platzhalter. Belege: Backtest-Log Tests 9, 11, v3. Kein Kapital.
