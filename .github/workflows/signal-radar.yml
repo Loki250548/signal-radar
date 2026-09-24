@@ -34,6 +34,7 @@ jobs:
         run: |
           pip install --quiet numpy pandas yfinance
           python orakel/orakel.py run
+          python orakel/pruefung.py
 
       - name: Ergebnis ins Repo schreiben
         run: |
