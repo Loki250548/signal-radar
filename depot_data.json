@@ -1,0 +1,260 @@
+{
+ "stand": "2026-09-23",
+ "papierstart": "2026-10-01",
+ "gestartet": false,
+ "naechste_pruefung": "2026-09-30",
+ "gewichte": {
+  "kern": 0.4,
+  "gold": 0.1,
+  "intraday": 0.4,
+  "lucky": 0.1
+ },
+ "namen": {
+  "gesamt": "Gesamt 40/10/40/10",
+  "kern": "Kern: Führer-System",
+  "kern_roh": "Kern ohne Cluster-Deckel (Test-28-Fassung)",
+  "gold": "Gold (GLD)",
+  "intraday": "Intraday (noch Cash)",
+  "lucky": "Lucky Punch (TQQQ)",
+  "spy": "SPY halten"
+ },
+ "fehlende_kurse": [],
+ "entscheidung": {
+  "typ": "monat",
+  "signal_vom": "2026-08-31",
+  "fuehrer": [
+   "SMH",
+   "XBI",
+   "OIH",
+   "LIT",
+   "XPH"
+  ],
+  "fuehrer_ohne_deckel": [
+   "SMH",
+   "XBI",
+   "OIH",
+   "IEZ",
+   "LIT"
+  ],
+  "rangliste": [
+   [
+    "SMH",
+    86.8
+   ],
+   [
+    "XBI",
+    64.4
+   ],
+   [
+    "OIH",
+    52.4
+   ],
+   [
+    "IEZ",
+    47.7
+   ],
+   [
+    "LIT",
+    46.9
+   ],
+   [
+    "XPH",
+    44.3
+   ],
+   [
+    "XOP",
+    36.5
+   ],
+   [
+    "XLE",
+    35.9
+   ],
+   [
+    "IBB",
+    35.2
+   ],
+   [
+    "XLK",
+    34.3
+   ],
+   [
+    "IYZ",
+    32.9
+   ],
+   [
+    "PBW",
+    28.7
+   ]
+  ],
+  "uebersprungen": [
+   [
+    "IEZ",
+    "OIH",
+    0.99
+   ]
+  ],
+  "aufgefuellt": [],
+  "spy": 765.15,
+  "spy_ma10": 709,
+  "spy_unter_ma10": false,
+  "arbeitslosigkeit": {
+   "monat": "2026-07",
+   "wert": 4.1,
+   "schnitt12": 4.32,
+   "steigt": false
+  },
+  "filter_raus": false,
+  "gold": 408.42,
+  "gold_ma10": 413.23,
+  "gold_trend": false,
+  "ndx": 29456.97,
+  "ndx_ma10": 27073.02,
+  "lucky_investiert": true,
+  "ziel_kern": {
+   "SMH": 0.2,
+   "XBI": 0.2,
+   "OIH": 0.2,
+   "LIT": 0.2,
+   "XPH": 0.2
+  },
+  "ziel_kern_roh": {
+   "SMH": 0.2,
+   "XBI": 0.2,
+   "OIH": 0.2,
+   "IEZ": 0.2,
+   "LIT": 0.2
+  },
+  "vollstaendig": true
+ },
+ "ausgefuehrt": true,
+ "ausfuehrung": "2026-09-01",
+ "gehalten_bis_ausfuehrung": null,
+ "vorschau": {
+  "typ": "monat",
+  "signal_vom": "2026-09-23",
+  "fuehrer": [
+   "SMH",
+   "OIH",
+   "XBI",
+   "XPH",
+   "XLE"
+  ],
+  "fuehrer_ohne_deckel": [
+   "SMH",
+   "OIH",
+   "XBI",
+   "IEZ",
+   "XPH"
+  ],
+  "rangliste": [
+   [
+    "SMH",
+    71.1
+   ],
+   [
+    "OIH",
+    68
+   ],
+   [
+    "XBI",
+    62.9
+   ],
+   [
+    "IEZ",
+    60.5
+   ],
+   [
+    "XPH",
+    47.9
+   ],
+   [
+    "XLE",
+    46.4
+   ],
+   [
+    "XOP",
+    45.3
+   ],
+   [
+    "IBB",
+    45.1
+   ],
+   [
+    "IYZ",
+    35.4
+   ],
+   [
+    "LIT",
+    35.3
+   ],
+   [
+    "XLK",
+    32.9
+   ],
+   [
+    "GDX",
+    29.9
+   ]
+  ],
+  "uebersprungen": [
+   [
+    "IEZ",
+    "OIH",
+    0.99
+   ]
+  ],
+  "aufgefuellt": [],
+  "spy": 767.81,
+  "spy_ma10": 718.17,
+  "spy_unter_ma10": false,
+  "arbeitslosigkeit": {
+   "monat": "2026-08",
+   "wert": 4.1,
+   "schnitt12": 4.3,
+   "steigt": false
+  },
+  "filter_raus": false,
+  "gold": 392.88,
+  "gold_ma10": 413.73,
+  "gold_trend": false,
+  "ndx": 30470.29,
+  "ndx_ma10": 27576.56,
+  "lucky_investiert": true,
+  "ziel_kern": {
+   "SMH": 0.2,
+   "OIH": 0.2,
+   "XBI": 0.2,
+   "XPH": 0.2,
+   "XLE": 0.2
+  },
+  "ziel_kern_roh": {
+   "SMH": 0.2,
+   "OIH": 0.2,
+   "XBI": 0.2,
+   "IEZ": 0.2,
+   "XPH": 0.2
+  },
+  "vollstaendig": false
+ },
+ "ruecksetzer": {
+  "spy": 767.81,
+  "sma200": 713.92,
+  "hoch20": 773.5,
+  "ausloeser": 734.82,
+  "ueber_sma200": true,
+  "abstand_hoch20_pct": -0.74,
+  "status": "keine Position"
+ },
+ "linien": {},
+ "reihe": [],
+ "protokoll": [],
+ "parameter": {
+  "top": 5,
+  "korrelation_max": 0.9,
+  "korrelation_tage": 252,
+  "kosten": 0.001,
+  "ruecksetzer_ziel": 0.05,
+  "ruecksetzer_stop": 0.05,
+  "ruecksetzer_tage": 120
+ }
+}
