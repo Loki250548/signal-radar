@@ -31,3 +31,10 @@ Keine Anlageberatung.
 
 ## Kern · „Surfen mit Risiko" (Papierbetrieb ab 01.10.2026)
 `core.py` schreibt nachts `core_data.json` (Reiter **Kern**): je Index (S&P 500, Nasdaq 100) drei Linien – Halten 1×, Trendfilter (gehebelt über der 200-Tage-Linie am Monatsende), Konjunkturfilter (Ausstieg nur bei Trendbruch *und* US-Arbeitslosenquote über 12-Monats-Schnitt). Ausweich Gold/Cash. Signal nur am Monatsende, Ausführung am ersten Handelstag danach. Hebel (Konstante `LEV`) ist ein Platzhalter. Belege: Backtest-Log Tests 9, 11, v3. Kein Kapital.
+
+## Orakel · Prognose-Agent, der nur vorwärts lernt (seit 24.09.2026)
+`orakel/orakel.py` läuft im Nachtlauf nach `core.py` und schreibt `orakel_data.json` (Reiter **Orakel**). Jede Nacht gibt er Wahrscheinlichkeiten ab: **A Markt** (18 ETFs: steigt das Instrument über 5/20 Handelstage?), **B Sektoren/Länder** (34 ETFs) und **C Einzeltitel** (46 Großwerte): schlägt der Titel den Median seiner Gruppe? Einstieg jeweils nächste Eröffnung.
+- **Fälschungssicher:** `orakel/state/journal.jsonl` ist eine Hash-Kette (jede Zeile enthält den Hash der vorigen). Der Git-Commit um 04:30 UTC belegt, dass die Prognose vor der US-Eröffnung stand. `python orakel/orakel.py verify` prüft die Kette.
+- **Lernen:** Nach jeder Auflösung werden die Gewichte neu geschätzt. Vorwissen aus 2006–2026 ist in `orakel/state/prior.json` eingefroren und zählt wie ein halbes Jahr Vorwärtsdaten (Laplace-Näherung). Danach entscheidet nur noch die Zukunft; ältere Vorwärtsdaten verlieren mit Halbwertszeit 1 Jahr an Gewicht.
+- **Theorie:** Hypothesen stehen mit Mechanismus in `orakel/experts.py`. Neue Hypothesen bekommen **kein** Vorwissen aus der Historie, weil sie mit Kenntnis der Vergangenheit entstanden sind. Bestehende werden nie geändert, nur ausgemustert.
+- **Maßstab:** Log-Loss gegen die Klimatologie (Basisrate), t-Werte nach Newey-West. Frühestens nach ~3 Monaten aussagekräftig. Kein Kapital.
