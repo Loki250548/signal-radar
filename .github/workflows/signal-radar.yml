@@ -29,10 +29,17 @@ jobs:
           python sympathy.py
           python core.py
 
+      - name: Orakel (Prognose-Agent, lernt nur vorwaerts)
+        continue-on-error: true
+        run: |
+          pip install --quiet numpy pandas yfinance
+          python orakel/orakel.py run
+
       - name: Ergebnis ins Repo schreiben
         run: |
           git config user.name  "signal-radar-bot"
           git config user.email "signal-radar-bot@users.noreply.github.com"
           git add radar_data.json index_data.json attention_data.json sympathy_data.json core_data.json research/events/sympathy_bluechip.json
+          git add orakel/state/journal.jsonl orakel/state/bericht.md orakel/state/prior.json orakel_data.json || true
           git commit -m "Signal Radar $(date -u +%F)" || echo "keine Aenderung"
           git push
