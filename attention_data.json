@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T08:37:00+00:00",
+ "generated": "2026-09-24T09:30:19+00:00",
  "source": "Reddit (ApeWisdom) · StockTwits · Google-News-RSS EN/DE (u. a. finanzen.net, boerse.de, onvista)",
  "as_of": "2026-09-24",
  "tickers": {
@@ -13,8 +13,14 @@
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
    "news_en_7d": 27,
-   "news_de_7d": 0,
+   "news_de_7d": 1,
    "headlines": [
+    {
+     "t": "Electra Therapeutics, Inc. (ETRA) Optionskette - Yahoo Finanzen Deutschland",
+     "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0zVF9lREhwVXNEU2VxZ1RmeXpYbVlNU2FDdG9rZTRrVURVX3lvUFAwT01BMUpPdjYzZC1yMFJaT0pxajdRT0gtdGdUYUJkOW1jLXVvTklDU3F6YTI3?oc=5",
+     "src": "Yahoo Finanzen Deutschland",
+     "d": "2026-09-18"
+    },
     {
      "t": "Basic earnings per share (basic EPS) of Electra Therapeutics, Inc. – BOATS:ETRA - TradingView",
      "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcDR5X0dCY0lXdUQ2QzQ5MWFCc05xeFFTcktMVkxnMFJpZXBzdTZiMG5NMDM5aDhJMURPZ3NKTThtbnBNNl9Pb014SFIxWWpTbUhlNWF4R2FwZnoyeEJGNTdwVTRncXBYUUdiOTcxQmw0NEdCRkRFa0tibFhCVWJ1MTNsRnFZX0pGYWhvMmxPNFVMSnNFTEhaamdmTVc1cUU0Zmc?oc=5",
@@ -34,12 +40,12 @@
      "d": "2026-09-23"
     }
    ],
-   "composite": 27,
+   "composite": 28,
    "spike": null,
    "history": [
     {
      "date": "2026-09-24",
-     "composite": 27
+     "composite": 28
     }
    ]
   },
@@ -62,16 +68,16 @@
      "d": "2026-09-17"
     },
     {
-     "t": "Form 4 CapsoVision Inc For: 23 September By Investing.com - Investing.com UK",
-     "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVWhuQ3czbmEzOVN6elNIbXV6Y2RONGdFbTlsTGxvU1hsYWRjS2QwYnJLV0F2TGNvUzV1LUlVV3JNRVNXcjZnbEJJa2pzMHJVZHhxQ0lMMzExVl9jQlRpVTZjel95NXdQVDRRdG9SYW1oeXg0WV9fOXhjVzhWdmp2Y1dGQXRXUUZrYmJ2OTRkNHAzbURPSTdoYnh2a294UVVqSEE?oc=5",
-     "src": "Investing.com UK",
-     "d": "2026-09-24"
-    },
-    {
      "t": "ETFs Investing in CapsoVision, Inc. Stocks - TradingView",
      "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGcHlfS1g5RXpMSEZzUzFTRVQ5MnM2ZndlU0JyRW5uVi1HZFNXS2dub2RhbUF6bm1KVGRUb2FQcjNlaFp1cURjd0FlbFBZRFY0WWxpY2pFY081N1R6YXpj?oc=5",
      "src": "TradingView",
      "d": "2026-09-20"
+    },
+    {
+     "t": "Form 4 CapsoVision Inc For: 23 September - Investing.com India",
+     "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS0I1NU1aVVNoNUE2SzUwSE9oektTZ2E0LWUxMFJlc3VYRE5SZTVhOGFvVTRVY2pRM2lydG5KdWwxTS13bTJpRU9tdHZtSDdnVHVIVE81ajdRRGl5VlJrV084R3c1ZjVkZmRjZVRzb2Q0U0ZGd1lNS09aRlQtZWd4RFQzMlRJUWRkMjlBZ3E0RUlnOFVLTTY1UmJ1TzZ3bWhLU2c?oc=5",
+     "src": "Investing.com India",
+     "d": "2026-09-24"
     },
     {
      "t": "CapsoVision, Inc.(NasdaqCM: CV) added to S&amp;P Global BMI Index - marketscreener.com",
@@ -163,10 +169,10 @@
      "d": "2026-09-23"
     },
     {
-     "t": "Form 4 Corebridge Financial Inc For: 23 September - Investing.com India",
-     "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRkgwNzN2b0s4N1FoZmlCRkQ5QmdhdjZMUGNybTZaSGMxbE16QzhGYTA0MGMtUlM2ZzhmbDlyWU5ZcVd0d1IwMzhKcl9JOVpyRTV6UFdoaVM2Ty1DTmN1RzZyTG1xX2NYb0dfQ2VmNHB4dTgtbG9OVVZyOW9JRkgzX1dFb2U0WWp6Q29CQmRKMGY3TjljTTFHV3hKQlBMdEZmVnZTb1d4bnlNUW5fNWc?oc=5",
-     "src": "Investing.com India",
-     "d": "2026-09-23"
+     "t": "Corebridge (NYSE: CRBD) 10% holder Nippon Life keeps buying—how big is its stake now? - stocktitan.net",
+     "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR1ctWlJBbF81dW8xNzNocFJvTWxIdjhOMEVCdXVJR2pUQzhvcTB0SFVIT0JEU1h6cE5WdE5yR2ZJZUItcmtiaEVJc0VRWjBRcmhoYVZ3R3hiU2dmZmJsVC0tc2wtekVFOXg5cnVKU3JRdXVTNkpod0ota3MtdkdOSHh6MWdpaUlPYUZwXzhSeDdHRzNIR1VaTDQycDNZREF5REZqVFJQRnBBeVVUSmJsOUhjdVRkM0owZnc?oc=5",
+     "src": "stocktitan.net",
+     "d": "2026-09-22"
     }
    ],
    "composite": 16,
@@ -215,15 +221,15 @@
      "d": "2026-09-23"
     },
     {
-     "t": "Form 4 AXIA Energia S.A. For: 23 September By Investing.com - Investing.com Nigeria",
-     "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTUl2SC0wQklXQUc4WHJYLVFBV2pwRU82MUVpc19KbzBodnRHSmFFUDZHdGl5aGpzSzUxS2JFSndEQWh2ZW1LWTJlZklKMllwaXhpWDktSmZIWVZCOFVTY0FuVnVPZV9ra1JvNWIyZmxJbk1YSENGUmMwTzNWcXJTTXVDcko2RnJkOFdQRjF3ZTE5VkRvMnlLR2VvOXc4WGZ4Tmc?oc=5",
-     "src": "Investing.com Nigeria",
+     "t": "Form 4 AXIA Energia S.A. For: 23 September By Investing.com - Investing.com Canada",
+     "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSG5fMWsyZ2c2WmNQZG1oejF5ZUxwX0gxZl9IdUxaU0lUS1ZlcVdHWjZ4RmdqN1g3LXhVcFZ2VDNHYTFkQkVwZTBLUGhHVy1yNzZTZDJxbG9HQTEwV0YxM0JIWEh2OGEyNlNYdDE1enhIZHN4bTBBclUyNTdqLVFSY1VQLW0yLUtUZTQ2WmxvdGNQWHpaUnZtRVdmWjYyUF94Tnc?oc=5",
+     "src": "Investing.com Canada",
      "d": "2026-09-23"
     },
     {
-     "t": "Insider converts AXIA Energia (AXIAY) preferred stock to common - Stock Titan",
+     "t": "Insider converts AXIA Energia (AXIAY) preferred stock to common - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZk9FZ19RZi1qc0tqV3dwMjlCYlZXeGlvTS1QTVNjbVEyOFB4TEk0cVd5aU1LZWhxbUlNSzMxRUw2cHppSFJyUHBYYmRSVjlDNHFsQU84VVZaWUpZWmhQUHliOWVmR1NUMlN3TG40ZGRvMmxCRUtFNDBlamtJNXBTZ2lEYkVFVkRESjVzdHplZ1k3cWVOalRFVG5IV1psZDRSQXdwLThsaHBXdkdsMzUtYg?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-18"
     }
    ],
@@ -261,9 +267,9 @@
      "d": "2026-09-21"
     },
     {
-     "t": "Form 4 Inhibrx Biosciences Inc For: 23 September - Investing.com India",
-     "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWFVcFJod3Y1ZGNSSl9Oa21zRVlQY3ZSVFBpdjZTYmxINmYtcXI0ZlhodWFmRGNqbWswUHBrNzJKemR6TVptOF9NenlPaW94SFpCajVYQkZWN3pkbnpuZ3FPWXpYVzE0aUR1XzNiaDU0Q09KSDlady1YX3ZfdjdVZ0JPVlg2TjJBb0lTTG8xellBZzBzQjZTZFRjWDBDUjZscFpGTDhJdE1mU0d3?oc=5",
-     "src": "Investing.com India",
+     "t": "Form 4 Inhibrx Biosciences Inc For: 23 September By Investing.com - Investing.com UK",
+     "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVWxySW9QMm5UbUp6eDI3VlgycV9scS05dmFNU2c4X05HNy1XeEFWVDlaVFJWR0ZZY0tTcHFxZnEyMWhVSUpFTk5mNVpGSHVyRHpEcDZxMUNxbHk5WV9YYnBkYnZNN29iRG9BSUxRMk5ReXVTNmRKSzBnUHk4dDBIVFJjXzdGMnJQT2xIdERDUW51bkRFenpuemloWUMwT2ctZk9JMGFYVkRhbk5Q?oc=5",
+     "src": "Investing.com UK",
      "d": "2026-09-23"
     }
    ],
@@ -289,9 +295,9 @@
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Mazagon Dock Shipbuilders Limited (MAZDOCK/INR) Stock Price Prediction for 2026, 2030-2040 - tradersunion.com",
+     "t": "Mazagon Dock Shipbuilders Limited (MAZDOCK/INR) Stock Price Prediction for 2026, 2030-2040 - Traders Union",
      "u": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11T28zc2R0cnBjMjFYcWNPR3RfaEtNVkVaLUdsLTh3dWRRMm93Tzk3dXB5di1HdXdDcEZGOUdjOFhGcXB6d3VHUENCNGFuNmh0a2JSQWJDVlVyMk1nZl9wVDRYYXNndGt4?oc=5",
-     "src": "tradersunion.com",
+     "src": "Traders Union",
      "d": "2026-09-18"
     }
    ],
@@ -317,22 +323,22 @@
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Form 13D/A SPRUCE POWER HOLDING CORP For: 23 September By Investing.com - Investing.com UK",
-     "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd0I3UWJYZUVKTzljbEIxcHJWRGtxdThxbW9aeDFUM0lCR0xCYlFMclZnUDJPMW8taU5fV19fYTY2WHFHLVFDSFhPMzhibTEzNExMZjM1NzIwNFQ2bkRTVzVfZ3lZRE5adzRZelNiYnFsbWhrSlhUWGNIeE9SUzJvc0ttdDdKYWtVb0swNTJqTFM1dDNnX2VIMXh1cWsyOG5FZ3lweEtFVEEzbF9wOGM5RDdUOA?oc=5",
-     "src": "Investing.com UK",
-     "d": "2026-09-23"
+     "t": "Form 13D/A SPRUCE POWER HOLDING CORP For: 23 September By Investing.com - Investing.com South Africa",
+     "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV3lVd2FRcmlrYW1sMmd6VHplV3d2OVBCR2d1LTBLVExqdGhOSWJQaGQtdzJ1M3Q0aFBZY29MZTE3ZnNndHZKUWwxUDFSZTQyZVhJamZWVzhKSHlkTnhMTml5aHVTRDN1cExGa0FoTmdqSHVVMHlyTU02RVJTMFphMk9Hd3ZZUDFTUlNNUzhKOVVOc3IwV1JvbHprZnVxSnRpbGY2d0RobFhFZzFQNmVEX3BHSQ?oc=5",
+     "src": "Investing.com South Africa",
+     "d": "2026-09-24"
     },
     {
-     "t": "Spruce Power (NYSE: SPRU) director discloses zero ownership stake - Stock Titan",
+     "t": "Spruce Power (NYSE: SPRU) director discloses zero ownership stake - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNzBYWUpGS3VqV0JzUkdtZ01LZzJPYXNUWk5OekF0TTR0YnRMQ2RlSEF2N1pVd2lGd20wTW9qeW13YXN0U1J4WF8wS193X0lyVXBDdkhxMV9ITE5od3lRVVdYM2tmQ3FlWGMteE81WDlQSm1DSTJ3b0JJaDFyTFJsbTlzV1gxU2FTd1ZxVk1vd3RlYmNyZHhBcm9sTFZ6QUF4S1JkZ01GR3lIVHRrWERrZnlTbzVZWXRVb0djTm9PazBVa0tEWDBlYTJubw?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-21"
     },
     {
-     "t": "Form 4 Spruce Power Holding Corp For: 23 September By Investing.com - Investing.com UK",
-     "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanJyYXZZX0x3OWNRUGp5b01qbjcyM2EwV0Jrc2FHNGhZRVpzQVY5VlNMZ3d2X2ctTjBNeWdSeEx6T1dTSUZCLW52QXZGUVA1T0daSEFyOHFfcHp2aW50dHpUcUotZl9RSFVyMWtJUTRBTU1iSGVTLWpoX0JIZnV5T0FaLUVBUlkwd2lFQ3BkY3VEbldXTW5JaDkzdHJkeE1XVGd1ZnVoMFI3LUk0YzFB?oc=5",
-     "src": "Investing.com UK",
-     "d": "2026-09-23"
+     "t": "Spruce Power (SPRU) director awarded 117,801 RSUs vesting through 2029 - stocktitan.net",
+     "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa0VzT050NzRQYWQyaFdGdVM3SjZOaDViam5XU1RHRkZReVF6Q0VmV1RLQU14c1kxMWNES19zUDlNYmlPQUNOTDZCazZDV012N1BuLWVkN3VqNlNIcUZsYVoyVzR2VlVmZzA1bktZakNVaVMxMFNoa3JzUVRaZHhOcDBMdG9zdmJ3T1pzNDRCR09TS05pck5GU3V1cFpUZXVoaVVhYWN5eThxdElabDNLaFpKNmtOWEhZN09z?oc=5",
+     "src": "stocktitan.net",
+     "d": "2026-09-21"
     }
    ],
    "composite": 14,
@@ -357,15 +363,15 @@
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Tennant’s CEO joins The Toro Company’s board immediately - Stock Titan",
+     "t": "Tennant’s CEO joins The Toro Company’s board immediately - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcHVuSDloN1dSTUtJTVpFRkFqMzV5WDVhMWk3YU94T056cVdFTlRkOTE2c1pPSmpuRWdHOGNlTjdka1VpRTRYdmpiVlgtRHQ5NGMzSW9PUFJMMVNqVndSMm1aTnBGc2FmMzBuNjhjYURuVmUxOWU0REVRdXpaUFczWVp2ZGxiVFFJNWZFNXExM2pwVDNNdDBwdTZfMk1RZGpzcVE?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-21"
     },
     {
-     "t": "Mario Gabelli group bought into Tennant (NYSE: TNC); the filing shows their stake. - Stock Titan",
+     "t": "Mario Gabelli group bought into Tennant (NYSE: TNC); the filing shows their stake. - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVi0tN0xfSWp4Y0RvSDFVVmN5TTFiVS13T1ZPeXBMU0l6Y1Z2VW5RcmRWWFhFdG9JQzNTYUJGcWRLX3JJSU1DTTBzTHZjeEw2NFJxbnpTVGtCYXdxX3oyMWE5eEZwUnlfamw2SUlOZG9IbkhjZENyZVV0ZUw4VHNkd2VNc0Q4Y2hZcHJSZml1QzJWa0hLRWtHOHppVGZ1dFhSVWEyLTlTdWVxSE5fc05IWlFEM2ZPTmVqcEE0?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-22"
     },
     {
@@ -409,9 +415,9 @@
      "d": "2026-09-17"
     },
     {
-     "t": "AIAI Holdings Corp Secures $200M Equity Sales Facility with B. Riley Principal Capital II - Kalkine Media",
+     "t": "AIAI Holdings Corp Secures $200M Equity Sales Facility with B. Riley Principal Capital II - kalkinemedia.com",
      "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPT25abmVITHU4OWxhUzhMMEVjLWZULW5tY1JiNkNiNlRtUUgzMHFOeWFZWU1vR0ZGc0Z6MGE4WVB5TUlBS2J5Rk5PQ0NjWnVKOTFVNzM5cUduc3k5QjVUcjlRbGJaQkJHZjgzTGExUFZXbVkzNzNnYjNFUW5lNlV1Y1c4NU13MWVmRk9BWDUweW5sT2JqS2NtUUZkajdfVm9vZ3RhYWNkUzBzMkxEZkhGSW0zVEtuVXJHTFd2Rl95R09HZTZxaUZFeFdyRXAwdVk?oc=5",
-     "src": "Kalkine Media",
+     "src": "kalkinemedia.com",
      "d": "2026-09-21"
     }
    ],
@@ -483,9 +489,9 @@
      "d": "2026-09-22"
     },
     {
-     "t": "RedCloud CEO set to turn $185,000 owed to him into shares - Stock Titan",
+     "t": "RedCloud CEO set to turn $185,000 owed to him into shares - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVnkxRmxvQmRDTDlsMW9zazBLa21ReDBiZWNwSzRvbl9pR01vdGp2RXdsbFRqR0VGdVRUVzduLW1aa1F1bnZyV0cwMmg2dm5yT2Zuel9rSTNpcXowOHEyVjl4R3JmMG1oNXBvXzlCSTRyZjZfLTNpZk1tbmhKU25QUFN5R2M4bE95RzB0MDJjMC1UR3NvVGxzejhuWGlhOEJyY2NpTmdDZGpJbHc1SUJR?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-22"
     },
     {
@@ -512,20 +518,14 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 15,
-   "news_en_7d": 14,
+   "stocktwits_24h": 16,
+   "news_en_7d": 13,
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "DFDV Stock Price and Chart — NASDAQ:DFDV - TradingView",
-     "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjS19WVWRlc2w2YVNJeG1qYXF2MFVHY3Z2cXVqcjNqek1qelBGSHpzMzdoUFRvbEFnMjg2Q0x1MUFha0hvaVpuWVJIUWxhcm5iTENfNkp5STRWZks2?oc=5",
-     "src": "TradingView",
-     "d": "2026-09-22"
-    },
-    {
-     "t": "[Form 4] DeFi Development Corp. Insider Trading Activity - Stock Titan",
+     "t": "[Form 4] DeFi Development Corp. Insider Trading Activity - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbG5uQl9EckdveFpIWnkzX0FGRWhVcWlPLVpNWkNaanloSmtLeG9TZ1gwX2tOTmJCY0FRcjNZUi1tLWttYzJVQ3RpUEZJU3dENG50ZFhLVC1sSktUM1FkS096VXhUZUd1d0xLQk5QZFdCZXFBVWQ0a3dLNUtyUTJKckVRbEtIZHd0RnJqby1FeG9SbWNxOUpHQW9zRElFUjUwbWNheVgzUW1BYzVEVzVjSFBpcW5xSnM?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-24"
     },
     {
@@ -533,6 +533,12 @@
      "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUE5jMktXRWNfWm4wMzVQLTZtbXVTT3BieS1iT2FRSnV6TkRyVktfcGVBT1llU3QyY19sTUpGbWxKYW1JUTJqOXJ1SVNJVmliSG45eUFFSHdvREotYkE3NXMzV3VHZmRlTFlYa25ydEI5REZYbjZKMmttMVh1NFgzZkZneHdQdFhXOWhrM3FxWjRXTVc4TlEwX1pic3gxQlFESS0zS2FTbFE3MnF5ckFpNDdKYTgta0otRkNPcGRYQlkzRVZYVnhj?oc=5",
      "src": "MarketBeat",
      "d": "2026-09-24"
+    },
+    {
+     "t": "DeFi Development Corp. Adds Over 101,000 SOL as Treasury Tops 2.49 Million SOL, Closes CHAD Over-Allotment Option - Quiver Quantitative",
+     "u": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZlNtd2pSUHN3ZVZIVnA1ZFU3dERocmIySFlXZ2NRRmowWFBXSjltSzBLcGlrSGN0M05vTHUxcjE1d3BfdjhBenY4S2RscFlLYjNYa2FXMlBkN3ZmcHVvRWdJckNhN0ZEc2F4VE9HRVIweTlsZFEwYlEwNlB6dW9EdmhyY2xUdXFQSEN1LXh0bWRIdUNJck5ISXJLZm5KeWdySFdlSDdjMElWREdOSHU0dnNkczg1bUxnNmtwV0FOQnZDQ0FLX1RUVy1kQ2tySzZ1THJGR2ZOdWlHWVhSNXRsRmlKQ2k?oc=5",
+     "src": "Quiver Quantitative",
+     "d": "2026-09-21"
     }
    ],
    "composite": 29,
@@ -563,9 +569,9 @@
      "d": "2026-09-24"
     },
     {
-     "t": "Agree Realty (NYSE: ADC) growth chief adds 1,000 shares - Stock Titan",
+     "t": "Agree Realty (NYSE: ADC) growth chief adds 1,000 shares - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2duMzNaS2lLeDhHQ3NKQTNJT1FIY1BCSzZjU3V1LXVNbENOaC15YkNLV05kUlh5QW5mSG5nTG1yQlowMDUzVnlNaTR3Y0FqaG1TS1Z1Y3RHa0FfbW02S2RRMDRmTG81YzZaTWN0VkRjLXJMQm9yaGhmYTV5bUlPXzYzOEhsdklxSlZjOFBfWTliTzNPRnVNclpmNEt1ZV9LckhNR0pwbzJ1dkdsWGUw?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-23"
     },
     {
@@ -592,7 +598,7 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 9,
+   "stocktwits_24h": 7,
    "news_en_7d": 9,
    "news_de_7d": 2,
    "headlines": [
@@ -615,18 +621,18 @@
      "d": "2026-09-23"
     },
     {
-     "t": "A 10-year contract is set to move $100 million in advertising to Roundtable's platform - Stock Titan",
+     "t": "A 10-year contract is set to move $100 million in advertising to Roundtable's platform - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUE9GQ2ZkV0w5eTVsSzB3SFR0RlI5NzBaSFBhNy1XZVRQbXlLR2h0b1loX1ZrSzFfRGR0bTFCdEgyWkV0RHp0TFpXbDZfUVNGUGItdUVPRmkzRzUyNG1NNzNHSzJHN21lY0EyaGQ3aE9Kd2VqZFQ5T0pEV0daUlJkR2ZFT3g3N0h4VTgzbG4yVVRxNF9QdGh6R2JSVEk2ZHRPS3kxX3F4TmN3UXJ6cHFKOVM1TEhNbUU?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-23"
     }
    ],
-   "composite": 20,
+   "composite": 18,
    "spike": null,
    "history": [
     {
      "date": "2026-09-24",
-     "composite": 20
+     "composite": 18
     }
    ]
   },
@@ -689,9 +695,9 @@
      "d": "2026-09-23"
     },
     {
-     "t": "Duos Technologies (NASDAQ: DUOT) director buys stock at $8.50–$8.60 - Stock Titan",
+     "t": "Duos Technologies (NASDAQ: DUOT) director buys stock at $8.50–$8.60 - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPS1h6TzNnRGVqSE1BbmttMVJGZzkyX09hUU9wRDcyRkR0WXY5WXY1YUFrcjRNQllCSWJnTXZfZkJXU29Ud3kxNnNWMXNEWmJGNEpWSjhmblBrdllYQ0F2WHY5YTh2Nm1UUVZJbm1ac1ZNd19ld3UtRDloMXlrRkM3cnd4YWNFcmZYM3VGeXdhZ3V0TXhsSlY4b2JpQlBSazM5SU9Jdkwzd3psc0Z6Rno2VHdBbTladHYzUVNuMzNB?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-22"
     },
     {
@@ -745,9 +751,9 @@
      "d": "2026-09-18"
     },
     {
-     "t": "General American (NYSE: GAM) CEO adds to preferred stake - Stock Titan",
+     "t": "General American (NYSE: GAM) CEO adds to preferred stake - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV2xHMHltc1FzVVhGdml2WmJCT1o5alMzWUdKeWY1bXlUMnlSZ2RWdERFZzVuT0VLSWVsZVBVcnpzX3U0OUFVeVI5cnZoQVJQbVE3cFMwUEVYSkU1TlY4RG1mOGVzbG9jWmpyWWxmRS05V1Z0UFZQQU1hU2M2ekdMRHU0U2h6cm1tX1huVXhxdzA0NTdPTjBvZ1hmRk8yTVdTTE5jWm5NUmYzbzBUTVlPUEh5ZDA2Y2hMN3hYcklkdGJ6NXlP?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-18"
     }
    ],
@@ -785,9 +791,9 @@
      "d": "2026-09-23"
     },
     {
-     "t": "Hartree now reports 5.2M Hudson Technologies (HDSN) shares - Stock Titan",
+     "t": "Hartree now reports 5.2M Hudson Technologies (HDSN) shares - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTHk0ZnRoR05fS0NYelRHanUxMm5tT3VBeGtSN1JGRVp3QUtlSkZKczhac2IzSXExU1YwbS1mekZwdTRWYWdmUlZMQ0g3dWhtTnBFOFRqb1c2a09feDEtdlA0aWFfVW4xX181eVJxOExoQ3VOSHhmcXBrX1JPaUlmcER2VUlPSWh3Sm56UnBsMUxndlF2UnR4T3kxNTdLUTgzSkpPNWpXT0pSTDJxNk9nZlZxZjlsQm5yMTN5Tg?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-18"
     }
    ],
@@ -825,9 +831,9 @@
      "d": "2026-09-22"
     },
     {
-     "t": "Skillsoft Corp. (SKIL) CEO buys shares in two open-market trades with no preset plan - Stock Titan",
+     "t": "Skillsoft Corp. (SKIL) CEO buys shares in two open-market trades with no preset plan - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeXF4RUZhY1BYX3VhaVloU1d3dkFxYXgwVmFKNnZENEQtVzBNc0l4T2NhMVF2U29ISWpVRXo2cWZueFhqcnh5cGNvU3E1WUhJUWNHd2JRajI3TGNtWkRkeERiTDRaVmRDZ3ZFcENVOVdxZkVlM2txcEhLNzc2cDlEX0dKcjFxRW5vN0ZZN2lPbEpTc1BjTEg0TXhXdHFiSEp6ZjRIeDFGdmFJNC1k?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-21"
     }
    ],
@@ -853,9 +859,9 @@
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "A tech company signs a $5.5 million deal for more than 300 acres and 75 oil wells - Stock Titan",
+     "t": "A tech company signs a $5.5 million deal for more than 300 acres and 75 oil wells - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWFpHbHVKWExWVGxzMHlUQkloYzBoNll5aHVkb21xMkg0T2F5Mm1ZWDM2SzZIeGc0SUcyS3RwYl81Q2wxTFFSYlA4U3RnVjV6NkQxNG5NZTV2RzNqRDZyVk9HZkYyRVozazRoc1NxUnFRM0FFamVTcm5jTV9sVjhuUlBZMWNpb3N1OU5CMDFpNC1kTFdGZUY1Nkx3V3UtOG1zZFctZHE5bUZHZklPV2tzVnNKVXNpM3JjMUlwLUtR?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-22"
     },
     {
@@ -899,9 +905,9 @@
      "d": "2026-09-23"
     },
     {
-     "t": "At $4.01 a share, director Steven F. Lux buys Proficient Auto Logistics (PAL) stock. - Stock Titan",
+     "t": "At $4.01 a share, director Steven F. Lux buys Proficient Auto Logistics (PAL) stock. - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ2VBd0xKcnV2U2F5VGEzM0QxSGlXMnN5MUlDcXVKckgtU0V1UWFKN2JnZ2FTOWp0ME9zNzF6WVl0dm5zbzJ3WlIyalFqY1FtVmJ3RUExakNCNWFNNDNJcmV4MWI2azE2d09WOEc1MHAwU2JEQ0k2cTJkakhPaHdWTWh1OHJJbjg5ZVg5QXBtdmdjRnlaeFRCZTBNOFpMbENneVRiZ3B1SUI2U0tHQkVicm9tRWJCQnlDX054bFBmcw?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-23"
     },
     {
@@ -939,9 +945,9 @@
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "A quieter self-flying drone prototype is unveiled for defense missions - Stock Titan",
+     "t": "A quieter self-flying drone prototype is unveiled for defense missions - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRk1wblZPWlFGYVREY0ktOVZSNEtqQWhKU0JCT01GQVY0S04wQlNXazJWd0w4eTktZTMyVXd4Qk9yRl8zMlhpU2NUSy14enViQjV1dnNnejVxRGFhb0l4alpndDlXYXZZdHBBV0tXUER0STVRaE9GSHlhbmdxUEoxMFF0UVlqYzdDbnhpVm5BalpEbThNd2Vfc091SlkwSjBQRDZYQ0dmZVl0MXVzZktGS25JVHo2ZXRh?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-17"
     }
    ],
@@ -1001,16 +1007,16 @@
      "d": "2026-09-24"
     },
     {
-     "t": "At $19.8333 a share, director Robert Thomas Devincenzi bought Universal Technical Institute (UTI) stock. - Stock Titan",
+     "t": "At $19.8333 a share, director Robert Thomas Devincenzi bought Universal Technical Institute (UTI) stock. - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNmV2R1NlMkxIU3R2Ul9TTjJHSmxENlRlTWtSemV1Y2c0TzlfSDdoYmRGRUkySWg5eDdlSjBHVDVKMlBqR214UHhSZmdieTNpbUFwMEZVUmhxZkFVUGdzeGhSY1VQQW5OZnpWZEhUSUNXWGgxWVhEcFV2LWJLYXBSQzJRRXFfZnZQNlBrT1BIQ3VMdmRzSnpxa0dJRGozSkZHdXBwNERUMUx4NVhjZHlDcWRQTEVkN0I2NWJ4ZUhiSzlFeGE2?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-24"
     },
     {
-     "t": "$UTI stock is down 8% today. Here's what we see in our data. - Quiver Quantitative",
-     "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTDhyYXZSNzJzX2Y3N2dRUUJDWmF1STFDakpMcnNsQnc4cVdmNkdGU3E2M05QcFdLN2dkOGROUlp0UjBSc2YzWDJYVmlVRktDR0ZmZ3pxazB4V2lQRzVrMXZPTXZSTEhnUWFHVzctRk03dVN3WkNDd1pIZGlXaTBnV09OVXZUMUVienA5SldlYzltZ1lNQUt6eWVSS21YY2FK?oc=5",
-     "src": "Quiver Quantitative",
-     "d": "2026-09-21"
+     "t": "Form 4 Universal Technical Institute Inc For: 23 September By Investing.com - Investing.com Canada",
+     "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOanhOV3JBM0hYSzFOcS1uLVB2eEpFN1FmSlo5U0JCUk5oNEtMV1lDNEhnYldUamZGYnM0NE9QajlqWm9VcHlFU1loaUFyVU5mRkxYc1VkMUJ1djRHOVU1VHZENl95OElEWFQybDVxZ3ppWDdtZGg4VzhBc1ZLNlJwc3RFdXBwS25SZ0tpazZHTm1QaHpDSGI1NUw2czZHR3JOam1ydVhpR0pPNm1iUl81MFFQZVRTMnl0LVE?oc=5",
+     "src": "Investing.com Canada",
+     "d": "2026-09-24"
     }
    ],
    "composite": 5,
@@ -1047,15 +1053,15 @@
      "d": "2026-09-24"
     },
     {
-     "t": "Grace Therapeutics (GRCE) gives director 12,200 stock options with one-year vesting - Stock Titan",
+     "t": "Grace Therapeutics (GRCE) gives director 12,200 stock options with one-year vesting - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZTM5d1RNcVZQdVIzaHI3Z2RWWTYwZnpZUng2WkYtdWlVc1VDcUJxNVdlM3hLZUxOZHVNZ2JaM09DSXpVcks5WHZLVVFmUVBueFpJTjNXZ080MG5IMnVSZEM1dWZZRGJaOEJtQkUxR0w0TG5BSlpVb3Jycmo4aV9aekNoWHlvR2NBRlpnSkZqY2thOUY2ZUV3TzlHMlRuR3k4cEJTVnZfRS03NXcyaDZyME5TV3ZURDQ?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-21"
     },
     {
-     "t": "Director at Grace Therapeutics (GRCE) awarded 12,200 stock options - Stock Titan",
+     "t": "Director at Grace Therapeutics (GRCE) awarded 12,200 stock options - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMzZrbDJHQjBzX3FGQ3ZBRFVraGlUa0hJSEJtSGpGNXJ4Wlh0TVZIdVJvSG1aRVZQaGJlUVd4WjZuZDZNQmFPRnF0eGsxZnlQRWFJMlRTN1ZhRlJFWWFGeTFpOWhUM0lkMWpUcjd1N0Vhc0s1UHB3RUJCTndsSWltOEZUMXBVTHVScXVuLUwxTFNoUm02TVF4N2RpWm1EMUkwNFIxOE0zbnM4TjY3NDlxb1luTDNBejg?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-21"
     }
    ],
@@ -1081,21 +1087,21 @@
    "news_de_7d": 4,
    "headlines": [
     {
-     "t": "Die XOS-Aktie bleibt nach schwachen Zahlen unter Druck - AD HOC NEWS",
+     "t": "Die XOS-Aktie bleibt nach schwachen Zahlen unter Druck - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWtaMDhGX0tOeE91UEZTY0dsNGdzSU45aHlnNzR5RnBvczlsZmZxNVM4U1FpanlFcG0tT2I5cjVES0FHeXpiSGVGMl9Ob0JRLVl0elBUYVFaQmtvN04tQjVPSHQ4TXFkdWx6eVA3VzU5LTNqdmpWVlJoSERQbWRtanpSMzJfZ2Z4cld4RlJoNUVKUmFJX2QxMHlpR2ZUNFY2S0FNSW14dmRMd2otalczNUEzOA?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-21"
     },
     {
-     "t": "Die XOS-Aktie reagiert auf Insiderverkäufe und neue Mobil-Ladelösung - AD HOC NEWS",
+     "t": "Die XOS-Aktie reagiert auf Insiderverkäufe und neue Mobil-Ladelösung - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNWVkWGdhMUNtVUdrd2VPLUIwYlFTNDFpNWljUmV6bXljOEtKNm1ibXJLMjJENEVxLS1EM1FMSjN2YUtURGVWeVo3YTEtVFd3R1hkc053a09UVVlnOVMzdERuX3FCQUFXNElzbWVqcVV2RFJuUklkYmg5bjRXdzNRQ1RDUzY0cGVtOTJGd3R3TTVDNEhHXzFhWG9ENmFzbE9zNzV4clZRLWJmdjI3ZUZBMF9ITV9LbXVIVGdzaTktTmJyMU5mRWdwNQ?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-20"
     },
     {
-     "t": "Die XOS-Aktie zeigt nach starken Wachstumszahlen Dynamik - AD HOC NEWS",
+     "t": "Die XOS-Aktie zeigt nach starken Wachstumszahlen Dynamik - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNajRQNUJmNUs0cHdydDV5ck5lTFVSWHJQenZsSUVwaWV0UUxiYURKcmlJODkxcmZpNXoxOWg1VGRHTHlZSE1CeDlLM21yODJTVkJHVjFwOUVTR0E2Q2VsNTJsZmJhQ0dKazB0VjlSd196XzdZWVJtdGJXeV9hWTJ0cml3aW93SktacGlKeTFxWnl1T2JPc2FZMXZocU9hZWItV0JURjVtT2pWeVRUZFNQMWY0Rk41Zw?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-18"
     },
     {
@@ -1127,9 +1133,9 @@
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Three purchases in three days: CI&amp;T Inc (CINT) executive Bruno Guicardi Neto buys 5,526 shares. - Stock Titan",
+     "t": "Three purchases in three days: CI&amp;T Inc (CINT) executive Bruno Guicardi Neto buys 5,526 shares. - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRlhDRUozSE5qRDZIcXVKNE1DdTZDMW5CdHhaMnRKLW9BNVVnVkhQaXRvZ2NtYWYtbENKdW80N3Y3aUwwb0NfZktMS1BvclVtN0NEelZXU0QxelZDTUxrVXVWSzg3alFYanFJaUVYTk53V2VfdWd3VUdWb2s4dkFIQW0zYkdwdnFlaWREUFNHYkphWkxIQzRnclFvTVhvVUJIQnM3NQ?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-23"
     },
     {
@@ -1167,9 +1173,9 @@
      "d": "2026-09-24"
     },
     {
-     "t": "CEO-linked entity adds Big Digital Energy (BGDE) stock - Stock Titan",
+     "t": "CEO-linked entity adds Big Digital Energy (BGDE) stock - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVVY5R2R3bHJNQXVjNzdnNlpMWXZHRjYyaUp3U2hUV0xvdktqOVppWUlYTVZsZklKeU42dWNiazVPTHlyRkJTQlBkVFd3YzNvVDNrY3BVVFZHS0pwbVJ1VVdZNFJEeklPSWR2TFlsY2N6LUVsZ2xEQVIwcE5Ra0cxYkc5T3FvekdvU3pHQ3dITmZyQzJldGJXelhsYUJ2VGJLdTczdWlXSmFNeHRRb3AwZ3k0SXljRUU?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-18"
     },
     {
@@ -1201,13 +1207,13 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": null,
-   "news_en_7d": 25,
+   "news_en_7d": 23,
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "LCGMD SEC Filings - Lion Copper Corp. 10-K, 10-Q, 8-K Forms - Stock Titan",
+     "t": "LCGMD SEC Filings - Lion Copper Corp. 10-K, 10-Q, 8-K Forms - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44NHRuME5XM3lDSEhYTGJYQmUzVUlrN0wyVlFvSV9jMUxQRFpSUjhTaDN5NGNuQUJkTUI4OVhuVm8xVEhlYV9PXzB3MFRpOHI4QV92VHFpb1Y?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-24"
     },
     {
@@ -1223,12 +1229,12 @@
      "d": "2026-09-18"
     }
    ],
-   "composite": 25,
+   "composite": 23,
    "spike": null,
    "history": [
     {
      "date": "2026-09-24",
-     "composite": 25
+     "composite": 23
     }
    ]
   },
@@ -1245,15 +1251,15 @@
    "news_de_7d": 2,
    "headlines": [
     {
-     "t": "Die N-able-Aktie reagiert nach Quartalszahlen und gemischten Analystenstimmen - AD HOC NEWS",
+     "t": "Die N-able-Aktie reagiert nach Quartalszahlen und gemischten Analystenstimmen - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSmRKdi01X3dSSzRhc2gxU2w5cUR6dW0zME96dll2Mm5yLUhJUUthU3JLTVdSd0FsNHFHZVNtZ0VZS0FsXzJWS0h2VHJNZERFMmo0VTByYmxsUUxMOUdRdkFMWWY1cFgyY2k0Q2R3UzRjbGhtVHVvQVVJOHFNNXNLd2xOY2JNWkZQZnJZcmI0MkdxRjBBelZWb1hvNUtyOXdIZVg2eDlFcFlBMVJNMUtTWlZEYjQzbVRyS0Rr?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-20"
     },
     {
-     "t": "Die N-able-Aktie faellt nach dem S&amp;P-Rauswurf - AD HOC NEWS",
+     "t": "Die N-able-Aktie faellt nach dem S&amp;P-Rauswurf - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUk9ZdldLYjV3Wnh1cmdZcFNpZFFWR3MxTjlHbnJCR0s1UXVrYnNqNWYyMVJVeFF6NXVZSVhEX1lkU0hnNmFuNGk3aUhqWWNXUV9tTWlOSlNmOVNwTlVFZUp6QmVaRUIxeW9kYnFFVzJrcjZXZ0FmMUgxa0V2Y1NlczViR1BicXhndF8xVlE1M1A1Z1o1V25vUzF6bmJBall4VUQwZkctOUNDVl9O?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-19"
     },
     {
@@ -1303,21 +1309,21 @@
    "news_de_7d": 3,
    "headlines": [
     {
-     "t": "Die Shenandoah-Telecommunications-Aktie verliert 1,79 Prozent - AD HOC NEWS",
+     "t": "Die Shenandoah-Telecommunications-Aktie verliert 1,79 Prozent - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONTZPM1FJVEF3YUsxdTFkWVk5d2RUMm92RzRLOWwycmhmSno5b05aMGZGSThpOThmeC1uOFJZMjc4TGhqR2xnQWRGNVRtWmh2SUNZNlhzMm1BVWU4dnhGaWZ3eWtMTXl4UkdJYWtjZzJFUEstOVJwRjc4UFhXUFpmQ0R5THAtSW1sZ0JmY2lsekEydzM1eVdtSXRyVWFNQ3BITzZLUC1tZ2ZGVGY3M1ZKTXlyd1ExTVhUeU0tWA?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-23"
     },
     {
-     "t": "Shenandoah-Telecommunications-Aktie meldet Verkauf des Mobilfunkgeschäfts - AD HOC NEWS",
+     "t": "Shenandoah-Telecommunications-Aktie meldet Verkauf des Mobilfunkgeschäfts - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQelFjbWJ6TjNYS2lTcF9uajR0NFFyZTlfdE9qampDTUpiaERMYUJ0X1p1bGZOYUozc2Y5RS1TU3pNc1BleGFZZVNBU1RxVUtMOGlvUzV2YjNzbDBxbXdxLTR1VnJSMEthMGtEVEwyZ2QtSXg4Nl9EbGVsbFVtbUNDSHpxUzg2cklUZFc0b01IWEVJcWlRYXNwSzhQX1VHa29TYVMyaXhJdEdjS0pjUnRCMWNGSXhxSk5zYlJYaDY5QTlYRnItb3R4ZlVNNkRUUQ?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-23"
     },
     {
-     "t": "Die Shentel-Aktie zeigt nach soliden Quartalszahlen stabile Tendenz - AD HOC NEWS",
+     "t": "Die Shentel-Aktie zeigt nach soliden Quartalszahlen stabile Tendenz - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNFhMVVNxVVNFUFN2V2RMZXd1a1JpM3ZaX3gwdE5UclI1YnVVZTRsMlltQ3NjVnpINFl4THh3TDhBeDhldUpFQTFmNE4xRzZ4MHg4UERtUVFPN0xDc1hzRkRBbmx1bjJHYXpCVjg2R2d2aHBCeGpDZHBHOHRPU2pzN19CLTZEcS03aWp1RTRJLWhmallKWUN3ZEZHS1NBbUI4SFBWNEJVczc2VGl2ZkkxM1JDNm8xWEwwU0ptdjZHM2hSVGZ2?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-17"
     },
     {
@@ -1407,9 +1413,9 @@
      "d": "2026-09-18"
     },
     {
-     "t": "Shares withheld for taxes as Verra Mobility (VRRM) interim CEO’s RSUs vest - Stock Titan",
+     "t": "Shares withheld for taxes as Verra Mobility (VRRM) interim CEO’s RSUs vest - stocktitan.net",
      "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeDZ2TFhPZVNfSE9ubkFKWU5IeGlVa1NLYkRwTWdmUlhfVGxfbGdlMDJNb2t0NUdFa3BwalZFZjJFNXEydGkxTUhFY0RJZVppQkxrc2FhMXlocDNwT2hKRVBPejJTSk9HaVZaN091a2VYM0lWYktNV2l4amhFLW0yckVKLUtjYy0wY25JOXJfTmZUdXNDaGFvN0lIUzcteXFlcmNfcG1TSVBlNDBuSUV6bDBXOA?oc=5",
-     "src": "Stock Titan",
+     "src": "stocktitan.net",
      "d": "2026-09-22"
     },
     {
@@ -1517,9 +1523,9 @@
    "news_de_7d": 1,
    "headlines": [
     {
-     "t": "Die NexPoint-Residential-Trust-Aktie reagiert auf Ex-Dividende und hohe Rendite - AD HOC NEWS",
+     "t": "Die NexPoint-Residential-Trust-Aktie reagiert auf Ex-Dividende und hohe Rendite - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONHdJeEVTcFVtSGctQzd1QlR2OVlYdWR6UFpwbFB2RW1aSU1tY2t0WjZncEFzb3k2bXNVb2JTaHZXT01jQ3YzMTQ5V2Z3Y0p3OXkyM3pFbndRTE1nQ0dTQzhmVzhWZ1FoZ202bUhXOE4zZXF2ck5aSWFnSE5DYkJBSENhcE03b0FSdWlHNkJVckVUaDMtRll3cDItQ09DaFpYSEhEZXlnYkNPc2R0c1FUQUxteFpBb29jeEp1YWlIODFjYVB2WnNkY0pR?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-19"
     },
     {
@@ -1605,13 +1611,13 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 16,
+   "news_en_7d": 17,
    "news_de_7d": 2,
    "headlines": [
     {
-     "t": "Die Cogent-Communications-Holdings-Aktie steht im Fokus eines Sammelklage-Sturms - AD HOC NEWS",
+     "t": "Die Cogent-Communications-Holdings-Aktie steht im Fokus eines Sammelklage-Sturms - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQU2wwcXpURHItUHhBbElwZnpQbVI0U21IUlZZOUk3X3NnTVRsRUk4aktnVmdQcFp3bl9JeTJNejJxTzhEWGdJeDJaYWZCME9KMGo4WUpQWXlaYVpKQ3BPaTZZTlNDX25FUS1RWlRGbW82SmxoOVFYdlRrM2U4anhnaFFwWExSRE1OU3I3MVRZTUtKcGszRDdpeHVnSVYwWW1EckZVQ0M5U1Vpd0R3RWNtVWtuQWFjNUkyZkFnRA?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-21"
     },
     {
@@ -1633,7 +1639,7 @@
      "d": "2026-09-19"
     }
    ],
-   "composite": 18,
+   "composite": 19,
    "spike": null,
    "history": [
     {
@@ -1650,7 +1656,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 18
+     "composite": 19
     }
    ]
   },
@@ -1663,7 +1669,7 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 1,
-   "news_en_7d": 16,
+   "news_en_7d": 14,
    "news_de_7d": 4,
    "headlines": [
     {
@@ -1673,9 +1679,9 @@
      "d": "2026-09-23"
     },
     {
-     "t": "Die Corcept-Therapeutics-Aktie fällt nach Führungswechsel weiter - AD HOC NEWS",
+     "t": "Die Corcept-Therapeutics-Aktie fällt nach Führungswechsel weiter - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOHNGMmYwdXYyNUJIUThYalU0T0ppLVBuVlJUWWF5ZktNNEl1Z0RhN2lKWktvbUtMbXpTUDFMakMybGRiVXRvdl8tY18tWUF2RjhjZFBteWxCczg1ZFd2czlYV2lzYUgwblZpNTF3djlGZFZobl8xaVJEdThPQy11LVRsdVQydjZvamhSdG9pN3dhVG1wQjZQYlRrbjZFcnU3NjFJc3Z2QkhNdy1uQUFOUFQ2TzZsdVl3aF8xMFlsdmZkZnM?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-23"
     },
     {
@@ -1691,7 +1697,7 @@
      "d": "2026-09-23"
     }
    ],
-   "composite": 21,
+   "composite": 19,
    "spike": null,
    "history": [
     {
@@ -1708,7 +1714,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 21
+     "composite": 19
     }
    ]
   },
@@ -1731,9 +1737,9 @@
      "d": "2026-09-24"
     },
     {
-     "t": "Is Brinker International (EAT) Stock Outpacing Its Retail-Wholesale Peers This Year? - easternprogress.com",
+     "t": "Is Brinker International (EAT) Stock Outpacing Its Retail-Wholesale Peers This Year? - Eastern Progress",
      "u": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQU3JDeTVHbFU0S3dKMTE3LVdBaU1Bc1RxOExuQmVwNFZoTnVRU1E3VnVLY1VYNllkVDY0YmdxdGt3YjN0b0NqSExSUjlpSkxKTFJad0hubmQwVExIN3otWDZYZWxYbjhSR0R6SWJuTlpFQkJva2FOR19nVDJ6QVpLVUszNS10aHA1cUtaTDRSa3JyT21GeWRDMGk1YjM4aGptWVNoQmxzemFtUFpOMkhNdmZDM0VrOGxTRl9xTnVHOWpqRWotd01IX2QtUGZIRUlXT2FZNHZxNGdQLWhLaHVsZ1BxVjFBOHNpS0hqd240U0VYWXVUN2c?oc=5",
-     "src": "easternprogress.com",
+     "src": "Eastern Progress",
      "d": "2026-09-18"
     },
     {
@@ -1777,21 +1783,21 @@
    "news_de_7d": 3,
    "headlines": [
     {
-     "t": "Die Herc-Holdings-Aktie steigt am 22.09.2026 um 4,05 Prozent - AD HOC NEWS",
+     "t": "Die Herc-Holdings-Aktie steigt am 22.09.2026 um 4,05 Prozent - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWkxSSkNaYi02MmJqQ2ZUV3F4RDl3ODlBZVpXZnluYUUzT0kwLWdoem5CZmdfLW5JVkZHdVN5aWcyZ1pwOHd3N2s1MG1mWlRQdUpERHVBeTdvLW9DejlLRVNuYU9NYThEVDM1OU9KTTVaTkJ5Z0ZnSnpPYktFYU1EOHF5Ujc4cksyQlpkZG9hZ0NxdC1WVEpxYnQ1X0U2OFRlUVBySzZwbnVFa0tnV3I0NkRRSmdlSkd4TU1j?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-22"
     },
     {
-     "t": "Die Herc-Aktie gewinnt 4,05 Prozent nach Q2-Wachstum - AD HOC NEWS",
+     "t": "Die Herc-Aktie gewinnt 4,05 Prozent nach Q2-Wachstum - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcDd3dnRGUjRpWTZudG83em85cVR3OGZaQ01qY3Etd1BSTWFXc0VhNTNMRDFOY3djVDlkRU51cnhiV2xTQnJRak1zYlk0SDBLYUtpUWIwVHdSckhheTNtOGQyd0NyTGQ1cDBrT2NNVG5fY2k3VDIyRW9rdlQ0QXpGOHhWRXlDNU9ySnVtUi1RMHJWTmg4Q1VsQU1HOTB6SUctdTJydHFQdkpHNnFPMHZ0dw?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-23"
     },
     {
-     "t": "Die H&amp;E-Equipment-Services-Aktie notiert am US-Markt - AD HOC NEWS",
+     "t": "Die H&amp;E-Equipment-Services-Aktie notiert am US-Markt - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRHZSQXJ2QTZwdWVRbjVMLXhsS3BmYzI1ZDhhRWFXdjZlamg2WFFTTzZoMWJMQmV6UXowb2pQRFh2UUxaM0wyU3QtSGVfaHRrRW1ENThYSkpsQWNrVWl3Yld5dEw1ZlFPd3pkU1RacWR1by1RdERtRjlHd1kxSmN4emhST1VKZ1FNZGpoV0VlU3dGaTYyS2FROFk1eGt3alZ5N2hIWXlxV1Q1VVJYRll0bEVIZFJJQQ?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-22"
     },
     {
@@ -1831,20 +1837,14 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 11,
+   "news_en_7d": 10,
    "news_de_7d": 1,
    "headlines": [
     {
-     "t": "Die Delek-US-Holdings-Aktie rückt durch S&amp;P-Indexaufnahme in den Fokus - AD HOC NEWS",
+     "t": "Die Delek-US-Holdings-Aktie rückt durch S&amp;P-Indexaufnahme in den Fokus - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWFBPY05oN01GVTZBZS05a1dnbUh3aWpVdjIzZFhka01xalRJckhlWFg1bFcyZ3NDRkZPNlJiTXBKSVdNVVRZZ0pKRXFEZlhvMUhQSVQzVEE4UnE0UGx6dzl5ODcwSXgwQXpXbGVlQk9neUVLcW1NNXplaWJGNUx3RUJ1Q1VtUWN0Zi05ZE85NE8wQ1RveTlsVFBpZlFGOXJpaTdBNFFLT1J2RldOMGtZVExCTk1pSGFRSXdiR0VvWkY4UFF0UkpF?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-20"
-    },
-    {
-     "t": "ETFs Investing in Delek US Holdings Inc Stocks - TradingView",
-     "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wdm5LYzY2M2JkN2RZNG9CMTZIdDNNQnh6S0QwX0ZUb2RieWdSNDRIUjRqU1pocTRjc3Q3eEpsNEU2UmxHdEtXN1pzRXJHQXkzWC1NdFFWR2dabmV1ckhlUA?oc=5",
-     "src": "TradingView",
-     "d": "2026-09-23"
     },
     {
      "t": "Delek US Holdings (DK) Stock May Trade Above Fair Value On Earnings - Yahoo Finance",
@@ -1857,9 +1857,15 @@
      "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbG8zVHBfX3VJei1iZFpsOWFNdG05Zloxd3E1bnhDaThra1hRZ0V4TWVMWXQ2QUZZN2hTSzFPSlBKc1Q2d1FoTmZ3VldsX3BILW9VdWVUTkN6ay1kR1ZQcUs2a3F0TXJxREZSY3hfRmFNRmd5TGxPZzFpR0xxOFpjdlQxLWJhU1ZkMjlUaTJNdlktV1p1alYzQ3Zpa0QtNmduNXo0ZzI0VEdpY2FvVmZDem4zRkVJRWF5a1R2UGl1UDRYOUQtc0pFMdIBzgFBVV95cUxONWI1Wk5OdHphZW8yOTBKQ203Qk1hWjZ3QkZXaTFJU0dhY0d4d3JTblp1NHh0VmctWjBrRFNjZnVpOFp6dTFZWWJyT3BmaTQzTHRNR0tEX0dlaXJ2eXpDRlJldkIxY0FUeElLTHRGcXNReXBZMFc4M0VuN01OeVliSGJTNGY3Zndhc1RjalQ5RG14bVcwS29MR1VlX2NfVWwtMVBXS3VRbnFteUhfc3htT282RHRFaFJyVEVRWFBmdW5MSEZMM2w0aVA2REZYUQ?oc=5",
      "src": "simplywall.st",
      "d": "2026-09-20"
+    },
+    {
+     "t": "Delek US Holdings (DK) Q1 2026 Earnings Call Transcript - Fortune",
+     "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rY3dUdHhOQTBNRGNoUkUtVEVKNnFTZjRRcVRpdUM1LWVOejA2U2JtSFNaNGpmbVF2a1VTWU1NenlEXzZaMUhuOVFVTncxVVo5bDdUNUNzQzk1ZG1wckI3Q3hGMndsMkVmcUdJLWx6TU0?oc=5",
+     "src": "Fortune",
+     "d": "2026-09-19"
     }
    ],
-   "composite": 12,
+   "composite": 11,
    "spike": null,
    "history": [
     {
@@ -1876,7 +1882,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 12
+     "composite": 11
     }
    ]
   },
@@ -1890,14 +1896,8 @@
    "reddit_prev24": 0,
    "stocktwits_24h": 6,
    "news_en_7d": 17,
-   "news_de_7d": 18,
+   "news_de_7d": 19,
    "headlines": [
-    {
-     "t": "Frau wirft im Streit mit Axt nach Mann - mittelhessen.de",
-     "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZmNKcHpCY2thQkpQVWk5VHJOd2RyRFhJN182enl1TklLMmlWSU5lVFk2WVJyaW9mWlNzYmVkRVhxcnh4Z25EYUl0VlMwajRWQUhVemVuRU01UzAyX3JrSmVKUHJOWTlxVDc4ZVNTaHZadUpCY0puc1hnNXZsclJzeGZUYUpZZEJBVWR3WXE3aWFlZm8?oc=5",
-     "src": "mittelhessen.de",
-     "d": "2026-09-23"
-    },
     {
      "t": "Axt Inc-Aktie unter 100-Tage-Linie - boerse.de",
      "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa3Q1LUxNYUVvVW9CckVHVUk1QUJWblpTYXdaMUgwOGpQMkJiOThMZkZoRzhWLU1QWl82RUhPQ29ESHRFNFcyVGxOMFRaWEhNVmxDa2RzYjZnUmFYNW5SUGhlMEpFZnhocWtXckFPMk1LVHI4ME16cUQ3RjlpS2RPYm50OA?oc=5",
@@ -1905,10 +1905,16 @@
      "d": "2026-09-24"
     },
     {
-     "t": "Fliegende Axt und Fäuste Paar in Marburg völlig eskaliert - Hit Radio FFH",
-     "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVnhoMFJuOG56WFVQeWVMVlA0NEdYQ3VwV2F3dlp4Q3ktTDZJd2p2MGVIaEJoeFhEbEpRME1TcUNzUUtIanRCUkdiYnFfNms1MkJqUnpTSTRUdFhkSXF5RmZGQ05TSkg0cjdiblJGUWZxRzktNW9lYUN3b1VYSzdIY2xWdERmWFJJbUwtRkhlcWdBTWVyQmxHTFZhYWVWdXFUazhMM3VSbDctWlRhMko4RkdjN3FiUQ?oc=5",
-     "src": "Hit Radio FFH",
+     "t": "Frau wirft im Streit mit Axt nach Mann - Mittelhessen",
+     "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZmNKcHpCY2thQkpQVWk5VHJOd2RyRFhJN182enl1TklLMmlWSU5lVFk2WVJyaW9mWlNzYmVkRVhxcnh4Z25EYUl0VlMwajRWQUhVemVuRU01UzAyX3JrSmVKUHJOWTlxVDc4ZVNTaHZadUpCY0puc1hnNXZsclJzeGZUYUpZZEJBVWR3WXE3aWFlZm8?oc=5",
+     "src": "Mittelhessen",
      "d": "2026-09-23"
+    },
+    {
+     "t": "Nordrhein-Westfalen: Mann stirbt nach Axt-Angriff in Hattingen - tagesschau.de",
+     "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObjcwWFJVbkFjTWtGeC1EWWdtUzVQWFdUdUlKRVJNRTNNb1d2YnFDN1NycnhoVnhwTFlpc1g4M0xKQkxFdmRLd3RUU2QwaGtBc05hQWFFcUxBZUltaDIyLTdJSG92cUF0R21PaFc2SjExUzZPOVZJT2F0b1YtZVNLOTNrTnpOb0s4dUNfYUxYdmJtemlSQjhza3g2NnVzbjBjZ2ZpNG85V3lUanRqcUlDMGdpWVZtVnBEanpaREVBWTJzcG5JRzhnSHN1TGtNSmZVbTVxODlTNA?oc=5",
+     "src": "tagesschau.de",
+     "d": "2026-09-18"
     },
     {
      "t": "AXT Inc. (AXTI) Climbs 16% on S&amp;P 600 Addition - Yahoo Finance",
@@ -1917,7 +1923,7 @@
      "d": "2026-09-21"
     }
    ],
-   "composite": 41,
+   "composite": 42,
    "spike": null,
    "history": [
     {
@@ -1934,7 +1940,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 41
+     "composite": 42
     }
    ]
   },
@@ -2005,7 +2011,7 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 4,
-   "news_en_7d": 16,
+   "news_en_7d": 17,
    "news_de_7d": 4,
    "headlines": [
     {
@@ -2021,9 +2027,9 @@
      "d": "2026-09-19"
     },
     {
-     "t": "Die AtriCure-Aktie bleibt nach Zacks bei Strong Buy - AD HOC NEWS",
+     "t": "Die AtriCure-Aktie bleibt nach Zacks bei Strong Buy - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLTBkdDZubW05UHd0RlBVenEwWDF5S1pxNmdqdDRNS0h0bktXT0pITGYwZHV6UGNRLWN5clItdjNQQU5DOC1uWUJnZ0Iwb0ltYXplcFFRdWpWTzJUeDJmenhZLVBfTHZoUWszYVF2RjZnLWJLdDZxVmY0TWd5NU5uZ3htbWpXRkMzUGdyMm1POXhIV0tSVlEzeWt5eDFmZ0RuWmJxWHo2VkJUZ0NOZW1j?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-20"
     },
     {
@@ -2033,7 +2039,7 @@
      "d": "2026-09-22"
     }
    ],
-   "composite": 24,
+   "composite": 25,
    "spike": null,
    "history": [
     {
@@ -2050,7 +2056,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 24
+     "composite": 25
     }
    ]
   },
@@ -2073,9 +2079,9 @@
      "d": "2026-09-23"
     },
     {
-     "t": "Die Capri-Holdings-Aktie steigt bei neuer Übernahmespekulation - AD HOC NEWS",
+     "t": "Die Capri-Holdings-Aktie steigt bei neuer Übernahmespekulation - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQck1VTkRkXy1WeDhIczVzT2Z1eUxmTThZRncwclB3MUhzZEo0YjJlXzhEZGhJX3VHYzJzM01SYmlXcG54QThnalpTOUN4UmQ3amZqWHpwbUpvUHdLUTVQXzVHM09aTDVBaU5OLUh1LXphQ205RS0wekZJX1lYamdBUUJSOWNqTUR6MDZRWWVOaEpqZmlaU09lQS1hQm5GQm15YVNNZU5vYXVKbUJEM05sT3JtaS1Lal9Bc2liYVh0cw?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-23"
     },
     {
@@ -2121,7 +2127,7 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 11,
+   "news_en_7d": 10,
    "news_de_7d": 4,
    "headlines": [
     {
@@ -2131,9 +2137,9 @@
      "d": "2026-09-23"
     },
     {
-     "t": "The Boston Beer Company-Aktie meldet neue Marktbewegung - AD HOC NEWS",
+     "t": "The Boston Beer Company-Aktie meldet neue Marktbewegung - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORll2NDI1aEVKdEZxbUo1WWFSdHAtMmxUbk9iVVJwbUZYSm9JUGtuVGZ1UUN6X3lsNFBFdUFtbXhBcXBJdTIzQjMtYWNFVVhfeHJFdXY2ejJpVGQxWk1VbDE3R2xxWXZab2ZCTnBST2E5X1ZDVks1Wlp4STc2d1hOTVNHVF9JQmFQUXNadXItbTZOSGVHZDdBTk4xbG11aVpWMXdoZEUwaVFnZ3NGMjBWR25Zb1A?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-22"
     },
     {
@@ -2143,13 +2149,13 @@
      "d": "2026-09-22"
     },
     {
-     "t": "Boston Beer Company, Inc. (The) (SAM) Stock Forecasts - Yahoo Finance",
-     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUGJGZ012VXNSbFVnbVZ3MUViZ09iei1VNkNMN2E3a2xhTkJ4akk3cjdxRGlyeENRQU5RTjAxeFB6NFZmamxpQ1NZYUgyZFRpMndxZFo3by1QbXlwSU5PcmtmaXgwVWtqbzBDLWFJR2lCUTVoQ0tmMGlxV3VrWXV5TnNWM1hfQWJxeHJEeDdBTQ?oc=5",
-     "src": "Yahoo Finance",
-     "d": "2026-09-23"
+     "t": "Boston Beer Company, Inc. (The) (SAM) Stock Forecasts - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdnZXNlZGQ3BFR0llU25SSm1JUlcybk9CaWxZeVg3WkZlOVhJaFVWVGUzeVJDVnFUM0dSZG1YcS1Kb205WE4yNjNPdXNwQVg0d1pydHVqMjlOSVctSkktc2xPdThBV1VBUTR5WlJmamR4ZHVURllrREhfbk1Ia003SUYzTVVJOE1TSnp4N1BKRlNGNlk?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-09-24"
     }
    ],
-   "composite": 15,
+   "composite": 14,
    "spike": null,
    "history": [
     {
@@ -2166,7 +2172,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 15
+     "composite": 14
     }
    ]
   },
@@ -2183,10 +2189,10 @@
    "news_de_7d": 5,
    "headlines": [
     {
-     "t": "MOLSON COORS BEVERAGE AKTIE | Aktienkurs | US60871R2094 | News | A0DPTB - finanzen.net",
-     "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10eHdGS21Ka3V2ZkhhVEhkZHdvUjBXZ3pGc3pPakQwZ2gtMHZVTldnV3NqdGx4ZkdTU3Jhb0hmUUttbVUtY282U1JIbzV4cDFpUnBHRHVGMWROSEM2WV9EMHV6Z0o1UEJ6Ym5Z?oc=5",
+     "t": "MOLSON COORS BEVERAGE AKTIE Times and Sales | Stückzahl | Umsatz | A0DPTB - finanzen.net",
+     "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxT1B1V0Z1TDVndU1kSkgyN01rZEtjR01zTG9ZUzVUVURzV3JDQ05PcTVZbzluWm5nYVlXNzRnT3V0d015aFh3a2xVTzlXZzBXSzNDa21kTUIwT2cwdTRTc0ZiWXJqNldOMlpLZg?oc=5",
      "src": "finanzen.net",
-     "d": "2026-09-19"
+     "d": "2026-09-22"
     },
     {
      "t": "Molson Coors Beverage Company : erhält Verkaufen-Bewertung von BNP Paribas - MarketScreener Deutschland",
@@ -2195,10 +2201,10 @@
      "d": "2026-09-18"
     },
     {
-     "t": "MOLSON COORS BEVERAGE AKTIE Times and Sales | Stückzahl | Umsatz | A0DPTB - finanzen.net",
-     "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxT1B1V0Z1TDVndU1kSkgyN01rZEtjR01zTG9ZUzVUVURzV3JDQ05PcTVZbzluWm5nYVlXNzRnT3V0d015aFh3a2xVTzlXZzBXSzNDa21kTUIwT2cwdTRTc0ZiWXJqNldOMlpLZg?oc=5",
+     "t": "MOLSON COORS BEVERAGE AKTIE | Aktienkurs | US60871R2094 | News | A0DPTB - finanzen.net",
+     "u": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10eHdGS21Ka3V2ZkhhVEhkZHdvUjBXZ3pGc3pPakQwZ2gtMHZVTldnV3NqdGx4ZkdTU3Jhb0hmUUttbVUtY282U1JIbzV4cDFpUnBHRHVGMWROSEM2WV9EMHV6Z0o1UEJ6Ym5Z?oc=5",
      "src": "finanzen.net",
-     "d": "2026-09-22"
+     "d": "2026-09-19"
     },
     {
      "t": "Molson Coors Beverage Company (TAP) Stock Forecasts - Yahoo Finance",
@@ -2234,16 +2240,16 @@
     "index"
    ],
    "reddit": 2,
-   "reddit_rank": 157,
+   "reddit_rank": 156,
    "reddit_prev24": 1,
    "stocktwits_24h": 30,
    "news_en_7d": 34,
-   "news_de_7d": 26,
+   "news_de_7d": 27,
    "headlines": [
     {
-     "t": "The-Trade-Desk-Aktie verliert vor Handelsstart 3,5 Prozent - AD HOC NEWS",
-     "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOWxBTjNFemVRWFM3anhiMWFIdnBZbVNPNXJNbVd0VmVocThuNVBxbElXZUxVQThnR1RCV0Zqc0V2dmN3MXBkaFNBeXZFV1E1YmhTUGdnWWFNdVNOSEJvZzRQdnBnYnc4S2ZURm1Vb0JUODh5X0hBNkxaSWFFdHpXVnc3LUFrYTNVRXoyWVBlY2lnbmt1LWlLU09xM1FOazJCdUQtV1NQenFfd3RaVmkzX08tMDJQNC1NbzRaay1B?oc=5",
-     "src": "AD HOC NEWS",
+     "t": "The Trade Desk-Aktie fällt nach Gewinnverfehlung weiter - ad-hoc-news.de",
+     "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ0daSVIyYmYtZ004VmdjV1puQ3Q4WHY4dUdvTnpnalkwcVk2THdDZmdSNjZ3UDJHVFhobDhtV29aRDJRTG5LT0tEMVNDRGI0cFI5RGpFaGJ6a1FzeGJrOUg2ZDZHUWZza3dHNmF5RWlGZjIwbmV3ejNsU1JFd0J2RmVvb05WcmtVQ3Z1aUZrUkZVNGhDbmVxOGN0UXBreHpEQklYRWl1UWVzR3ptX0N3VHNpdlpzT0hZdHVF?oc=5",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-24"
     },
     {
@@ -2265,7 +2271,7 @@
      "d": "2026-09-23"
     }
    ],
-   "composite": 92,
+   "composite": 93,
    "spike": null,
    "history": [
     {
@@ -2282,7 +2288,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 92
+     "composite": 93
     }
    ]
   },
@@ -2299,9 +2305,9 @@
    "news_de_7d": 14,
    "headlines": [
     {
-     "t": "Builders-FirstSource-Aktie verliert vor Handelsstart 2,87 Prozent - AD HOC NEWS",
+     "t": "Builders-FirstSource-Aktie verliert vor Handelsstart 2,87 Prozent - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdlhMVHV4aC13ZzEwQ1N4T0dvQk9hSWRlN01lQU5IR3ZuSVNyeVgxQTFxQ3FzYXpmZ1c3X0xGUnBNNVRpRTdRQTBiSGxVVkdmVk85SE1vaXFCeDI2S3NJY0NITzJBbmFLaDlmazZlZjJhUWwxX3JzT0xhcGtIX1NIN2t4aktkcm1vSER6bHN2bllPWGxMRzh2TG4wWUtFdW9jNUdqaXpoS2h1bGRFbXN1eE9oa2lFX2M5aVBoSDMweHc?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-24"
     },
     {
@@ -2311,9 +2317,9 @@
      "d": "2026-09-23"
     },
     {
-     "t": "Die Builders-FirstSource-Aktie fällt am 23.09.2026 um 2,81 Prozent - AD HOC NEWS",
+     "t": "Die Builders-FirstSource-Aktie fällt am 23.09.2026 um 2,81 Prozent - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMUR4LXlxRWFjajg2Qk01SEZxSjJ1VTQ5X0dnVTJfVjZVQTdRSXZxWVJFVTNZeU85TjQtekhIV2luTkVfYUtnTVFJdVhhbkxuVmhjdG9iZFlwZUNRVW1mUnpBcmJrT1lLZ3ljcGlhcktJYm1pMkhxcjBJYW1zUzZkeG1EQjRfTThkbTdfME16WXVsUGRSWTVoZW8zZTlWcWQ4SEloTk9Oc3Zxd0thNXZON1hRYldsRi1xTExTM296RzFmRFJKWHhDdWJR?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-23"
     },
     {
@@ -2353,7 +2359,7 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 9,
-   "news_en_7d": 58,
+   "news_en_7d": 56,
    "news_de_7d": 19,
    "headlines": [
     {
@@ -2381,7 +2387,7 @@
      "d": "2026-09-23"
     }
    ],
-   "composite": 86,
+   "composite": 84,
    "spike": null,
    "history": [
     {
@@ -2398,7 +2404,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 86
+     "composite": 84
     }
    ]
   },
@@ -2408,23 +2414,23 @@
     "index"
    ],
    "reddit": 1,
-   "reddit_rank": 249,
+   "reddit_rank": 248,
    "reddit_prev24": 1,
    "stocktwits_24h": 1,
-   "news_en_7d": 17,
+   "news_en_7d": 16,
    "news_de_7d": 24,
    "headlines": [
+    {
+     "t": "Illumina-Aktie erreicht vor Handelsstart neues Jahreshoch - ad-hoc-news.de",
+     "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWmlGZ1o0MFJYY0NMQkhmWHNtRTc0eWYyUHZCeWJhMmlSbnpIYUd3ejJ5eF9uTS1KcjBHdzRBNW5jTFBNWkVhak4waXpya2dXQ0prUHl6YVlBUUhlbGJhRFluakFxbHQxb1pGMW1iaDMtV0ZKQkpKVnIwMmtMcno4Mlo4elh2eWtUV3R0cGg0UndTNnNNV1RIeEYwSnJxUE5DdzJhY0s4Y0dVb1B5V3g4YjJWYnVWeEZRM2RaTQ?oc=5",
+     "src": "ad-hoc-news.de",
+     "d": "2026-09-24"
+    },
     {
      "t": "Illumina-Aktie: Lohnt sich der Einstieg jetzt? - boerse.de - boerse.de",
      "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMlNKcFpUSktySExpZmpVV1l6MGJ4NUJQZkZ2UFlhWDIxcWF5UWMycFVhVDFGbFlPb3E4eGFvV2RUYUdUQWN2QmVCWW4wZEdwdHhDWDBaR0kyM0prbHVLVy1ka3RSMEd6aERfSGNaaTY5VE1wZHlrSEdaUXJMa3dTelZtc0FSSldOTWNjc0laR3FpejA4V2fSAZYBQVVfeXFMTzJTSnBaVEpLckhMaWZqVVdZejBieDVCUGZGdlBZYVgyMXFheVFjMnBVYVQxRmxZT29xOHhhb1dkVGFHVEFjdkJlQlluMGRHcHR4Q1gwWkdJMjNKa2x1S1ctZGt0UjBHemhEX0hjWmk2OVRNcGR5a0hHWlFyTGt3U3pWbXNBUkpXTk1jY3NJWkdxaXowOFdn?oc=5",
      "src": "boerse.de",
      "d": "2026-09-23"
-    },
-    {
-     "t": "Illumina-Aktie erreicht vor Handelsstart neues Jahreshoch - AD HOC NEWS",
-     "u": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWmlGZ1o0MFJYY0NMQkhmWHNtRTc0eWYyUHZCeWJhMmlSbnpIYUd3ejJ5eF9uTS1KcjBHdzRBNW5jTFBNWkVhak4waXpya2dXQ0prUHl6YVlBUUhlbGJhRFluakFxbHQxb1pGMW1iaDMtV0ZKQkpKVnIwMmtMcno4Mlo4elh2eWtUV3R0cGg0UndTNnNNV1RIeEYwSnJxUE5DdzJhY0s4Y0dVb1B5V3g4YjJWYnVWeEZRM2RaTQ?oc=5",
-     "src": "AD HOC NEWS",
-     "d": "2026-09-24"
     },
     {
      "t": "ILLUMINA INC. - Onvista",
@@ -2439,7 +2445,7 @@
      "d": "2026-09-23"
     }
    ],
-   "composite": 43,
+   "composite": 42,
    "spike": null,
    "history": [
     {
@@ -2456,7 +2462,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 43
+     "composite": 42
     }
    ]
   },
@@ -2470,18 +2476,18 @@
    "reddit_prev24": 0,
    "stocktwits_24h": 3,
    "news_en_7d": 57,
-   "news_de_7d": 34,
+   "news_de_7d": 33,
    "headlines": [
     {
-     "t": "HubSpot integriert ChatGPT Ads direkt ins CRM - it-daily",
+     "t": "HubSpot integriert ChatGPT Ads direkt ins CRM - it-daily.net",
      "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VZFNoMVBuc282RTBHNGhqUDVHUU11ZUd2WkxkeXhXWTQ3SmxTWTg0ZldSSGZHQmJCR09mX3lEMlRndmhTSldXNi1ua3Z3OXJMN19XOTJSSjBKdjRGakg4akFiTzIzTjBBQ3NUeEVkVDAwMjBOV2RDSQ?oc=5",
-     "src": "it-daily",
+     "src": "it-daily.net",
      "d": "2026-09-23"
     },
     {
-     "t": "HubSpot-Aktie verliert vor Handelsstart 4,74 Prozent - AD HOC NEWS",
+     "t": "HubSpot-Aktie verliert vor Handelsstart 4,74 Prozent - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOejhwOWZELTZoUTFncWQ4dmxXVzlYS3d6Y0NMT3dLaFVfNkN6cXF2WFhSVmFsSVVrVlRmZ3k0VHZKZTRhWS1kYjF6WFVpLXI2cHotYXhpRktvZnB3bGt2SzJSVzNadEE3MFJkTjNkQ3J2OVpRa0NJMXAyNGRZYlVOcGVRNHgtVnJwUTF6SlNZbGZhMlEzTVh2Y2JrV1BmUzlRVWt6QVF1TF8zNGZaNHdN?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-24"
     },
     {
@@ -2497,7 +2503,7 @@
      "d": "2026-09-24"
     }
    ],
-   "composite": 94,
+   "composite": 93,
    "spike": null,
    "history": [
     {
@@ -2514,7 +2520,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 94
+     "composite": 93
     }
    ]
   },
@@ -2549,9 +2555,9 @@
      "d": "2026-09-21"
     },
     {
-     "t": "AGNC Investment Is Joining the S&amp;P MidCap 400 Index. Here's What That Means for Its 14%+ Yield. - fool.com",
+     "t": "AGNC Investment Is Joining the S&amp;P MidCap 400 Index. Here's What That Means for Its 14%+ Yield. - The Motley Fool",
      "u": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNT0ZTSE4zcWZ2U0ZDNjQyMHJnRF9TazVlN3lRcWx2QWxfbzA5U0JlbnpxSTZLSFFVdmF3NUhjTTZfZVVBbE9QLUR6eFJtM0FHd0VnU3dzSTMxdVV1UzBHNWpjc2ZOVkNDcm5FZXhVTkpndDJUcmhkZ29kY04zcmVPN3l0cVBXS2c0dFZzUWJxVmdxOVVQREk1V3JzTGR5bjJnQ3Q2WVNoaWFDbzE2bHVoZ0VRSFZwUGdEbGlBYzgtUjdvZjJWNmxzMTIxa0FVMkktcUh1aA?oc=5",
-     "src": "fool.com",
+     "src": "The Motley Fool",
      "d": "2026-09-21"
     }
    ],
@@ -2581,11 +2587,11 @@
    "from": [
     "index"
    ],
-   "reddit": 11,
-   "reddit_rank": 42,
-   "reddit_prev24": 11,
+   "reddit": 10,
+   "reddit_rank": 44,
+   "reddit_prev24": 12,
    "stocktwits_24h": 30,
-   "news_en_7d": 59,
+   "news_en_7d": 60,
    "news_de_7d": 49,
    "headlines": [
     {
@@ -2601,9 +2607,9 @@
      "d": "2026-09-24"
     },
     {
-     "t": "Bloom Energy Aktie: Project Phoenix liefert 2 Gigawatt - AD HOC NEWS",
+     "t": "Bloom Energy Aktie: Project Phoenix liefert 2 Gigawatt - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMFF1OE15WUhLcHhYeFVyQ1BsOVBWR0ZMTDVtbWZ2SUMxbUlaOVVYN2NhT2ZKYmhhMjBKVGJHaVRsdDNwY25RSUx4bGN0akR1ZF95M0pDbDZNZFRKUlktQzNlVGhfWV9fbXkzMjZoUEJzbUhobEVaYjlWZ3BkZHRmdTJWMzRfMjdVWnZSc1pBTUpnV1hjZ3ZNR1VpblBpWnE5blFWdmw4VVJwdkcwZVpUY05JeHUyV0xRcUVfTDVQbGhtQWs?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-24"
     },
     {
@@ -2665,9 +2671,9 @@
      "d": "2026-09-17"
     },
     {
-     "t": "Honeywell Aerospace Hit With Suit Over $2M DOJ Settlement - Law360",
+     "t": "Honeywell Aerospace Hit With Suit Over $2M DOJ Settlement - law360.com",
      "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFT0xOcmlwcDhURTloZGJaNGxTeXZmaW9Ka05ROWZKS2tNX1g1NEdCZXB1SHlxRHdzbVE2a0lqZWVGSHZDVDJwY2ZuNXlUdlU3SkNob0l30gFWQVVfeXFMUEVPTE5yaXBwOFRFOWhkYlo0bFN5dmZpb0prTlE5ZkpLa01fWDU0R0JlcHVIeXFEd3NtUTZrSWplZUZIdkNUMnBjZm41eVR2VTdKQ2hvSXc?oc=5",
-     "src": "Law360",
+     "src": "law360.com",
      "d": "2026-09-24"
     }
    ],
@@ -2698,7 +2704,7 @@
     "index"
    ],
    "reddit": 14,
-   "reddit_rank": 31,
+   "reddit_rank": 34,
    "reddit_prev24": 21,
    "stocktwits_24h": 30,
    "news_en_7d": 96,
@@ -2711,10 +2717,10 @@
      "d": "2026-09-21"
     },
     {
-     "t": "Mit diesem DFB-Trikot endet eine legendäre Ära - Blick",
-     "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRm5MSjdzYzNkaEFiQ1NmckloQjk5aXJtNkdxU2tJRFlNQ2owcFptSklkTWh3a055cWNpbVlFV1BOc19oaXJKcXd4aVJabER5a0xyNDFHeERHNG16a3lkOXl6RGhpNC1vV0JpMkNMTEF5VFdQc2RQTFF3c1lRVFl1d0pzRHVjd0RpekYySHhfWVNRNURiMldRcHF6VUxNS0g4dkpobEMzSnhtNXN2TTFHMVczeEp2anFQVGpYc2FBaEdjcWNnU1ZsTjYwQW9oT1dfZXIxVFF0X2g?oc=5",
-     "src": "Blick",
-     "d": "2026-09-23"
+     "t": "Nike verdrängt nächsten DFB-Partner - SPORT1",
+     "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ2lWcElQLVRoRTJ1RXhaSjBGUm5BS2ZTUkptNGdDRU90WVhHVkh0alhYT3pCM1IyS0hHZWdRcFVpeWZzM3hSOVpWRGxEUURpN1FlV0pWMjY4YVJjMW5TUG9iNV9pR3NRc3F6ZjNSbC1GWS03bmNqMl9SSTFNSndoMm9PWWNaejNabU9EV29pbW53NkFN?oc=5",
+     "src": "SPORT1",
+     "d": "2026-09-24"
     },
     {
      "t": "Die Nike-Aktie (NKE) könnte nach der Senkung der Gewinnprognosen um 12 % unterbewertet sein - simplywall.st",
@@ -2763,9 +2769,9 @@
    "news_de_7d": 11,
    "headlines": [
     {
-     "t": "Simon Property Group-Aktie gibt vor Handelsstart 0,5 Prozent nach - AD HOC NEWS",
+     "t": "Simon Property Group-Aktie gibt vor Handelsstart 0,5 Prozent nach - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQektNZUlBWmlNRjl2LUdac0dld2t4YTlwNWhEMlFhQWJYQm9UZk1pUlZKUWQwQVQyLS1PS0xMbTZSM0thcDhrajFlcURZMm1OWFJLNWczcjBsclFiUXZ0bUhqZkNZRi1WTHhwcGJUMXJ6VzBJaUo4Z0lwME9SR0l2RjhjUzJJZUdGWmZkbTF1emFBZGc5OWNCSlVJMFlGNHBIYWlmZzlCSmRNcGRGaXczbVRlZ2hGbWI5a2U5WF9WaXptYWxIdTRF?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-24"
     },
     {
@@ -2814,10 +2820,10 @@
     "index"
    ],
    "reddit": 1,
-   "reddit_rank": 228,
+   "reddit_rank": 227,
    "reddit_prev24": 1,
    "stocktwits_24h": 1,
-   "news_en_7d": 33,
+   "news_en_7d": 32,
    "news_de_7d": 23,
    "headlines": [
     {
@@ -2827,15 +2833,15 @@
      "d": "2026-09-23"
     },
     {
-     "t": "Colgate-Palmolive-Aktie verliert vor Handelsstart 1,24 Prozent - AD HOC NEWS",
+     "t": "Colgate-Palmolive-Aktie verliert vor Handelsstart 1,24 Prozent - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUGNVYzJGNldVbFBRM0Yybmt1aHhfMUpYam1QQkRVUDZzbXNXMTRXbEpwdE10OGN4T1ZuLThJNmdDY0VIUXhSZTUtanptb1l3UldPXzZ5SVlUd3hoXzc1WlhUVk9zVnZ4Ti1mQS1LM2VXXzVjYWVIaFVadzl4cWdtM0E5eEsxWEVONVAzcVoyZWRSeXJ3TU9OeWtBVzh5RzdKeXgzc2UxVlpMV3hpZmlqVy1YellUZl9acFV0THVKRXoxOTg?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-24"
     },
     {
-     "t": "Colgate-Palmolive Aktie: Piper Sandler senkt Kursziel auf 95 Dollar - Börse Global",
+     "t": "Colgate-Palmolive Aktie: Piper Sandler senkt Kursziel auf 95 Dollar - boerse-global.de",
      "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN1psM0NqQmk3TUZHTXRBVWlPLTJ6eDBGXzdxOGlZNVFRRGRaR0pjTGdLejhRWHBtNW41N2xiOHlwTWVSVU5YWDJVeHNBbnRXekdzdXVKTmpycGFDNjdZNzVVZFMzemQwUWN5LWVxei15algxbkU1TTRmMVlwcDRxV3piWlBKLXN1UHhicldwMG4tcXFzNGpWdEtXX1hqV3Y3cXZ0VQ?oc=5",
-     "src": "Börse Global",
+     "src": "boerse-global.de",
      "d": "2026-09-21"
     },
     {
@@ -2845,7 +2851,7 @@
      "d": "2026-09-24"
     }
    ],
-   "composite": 58,
+   "composite": 57,
    "spike": null,
    "history": [
     {
@@ -2862,7 +2868,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 58
+     "composite": 57
     }
    ]
   },
@@ -2872,11 +2878,11 @@
     "index"
    ],
    "reddit": 6,
-   "reddit_rank": 71,
+   "reddit_rank": 70,
    "reddit_prev24": 7,
    "stocktwits_24h": 30,
-   "news_en_7d": 59,
-   "news_de_7d": 52,
+   "news_en_7d": 57,
+   "news_de_7d": 51,
    "headlines": [
     {
      "t": "S&amp;P 500-Wert Dell Technologies-Aktie: So viel hätten Anleger an einem Dell Technologies-Investment von vor einem Jahr verdient - finanzen.net",
@@ -2885,9 +2891,9 @@
      "d": "2026-09-23"
     },
     {
-     "t": "Dell-Technologies-Aktie gibt vor Handelsstart 0,17 Prozent nach - AD HOC NEWS",
+     "t": "Dell-Technologies-Aktie gibt vor Handelsstart 0,17 Prozent nach - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbmw2M1p1Mm9zcHVZWWpxeHM1Qi13YkgwMmViVUJfWVFlV0Q4SHNCNEJpWXU4RTN4UmN0UzdzWjFENWh6TWM4emY3Wk12X2hCN1RWNFV6SnlrR0JLTFpDY09kTGdMSUhTaWRmNVlOZ0xQOVBNcDNGYU9hT3YzdXlOMTFzRnc2SFp1RmZVbTlySTJSR1BGZ0Y1bThQZDJXbkxJNVdlcTh0NlBIREdaT1k1QTRPdnpBbTdKZVhWcjRR?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-24"
     },
     {
@@ -2903,7 +2909,7 @@
      "d": "2026-09-23"
     }
    ],
-   "composite": 147,
+   "composite": 144,
    "spike": null,
    "history": [
     {
@@ -2920,7 +2926,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 147
+     "composite": 144
     }
    ]
   },
@@ -2933,7 +2939,7 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 30,
-   "news_en_7d": 65,
+   "news_en_7d": 64,
    "news_de_7d": 62,
    "headlines": [
     {
@@ -2961,7 +2967,7 @@
      "d": "2026-09-23"
     }
    ],
-   "composite": 157,
+   "composite": 156,
    "spike": null,
    "history": [
     {
@@ -2978,7 +2984,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 157
+     "composite": 156
     }
    ]
   },
@@ -2988,9 +2994,9 @@
     "index"
    ],
    "reddit": 1,
-   "reddit_rank": 209,
+   "reddit_rank": 208,
    "reddit_prev24": 0,
-   "stocktwits_24h": 8,
+   "stocktwits_24h": 7,
    "news_en_7d": 52,
    "news_de_7d": 25,
    "headlines": [
@@ -3007,9 +3013,9 @@
      "d": "2026-09-23"
     },
     {
-     "t": "Arista-Networks-Aktie gibt vor Handelsstart nach - AD HOC NEWS",
+     "t": "Arista-Networks-Aktie gibt vor Handelsstart nach - ad-hoc-news.de",
      "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaGZxZUZaeEhnR09ad3Y1MnhJOGlGYW9iRTNyV05IWnBTbTFnTXNVQWhSWXNyWVBnX0d5d3hPSTBGajhRemtlVWlWVC1JYWljUXRVbDFFWDFyMDBaUUlGcml0ellXNURCMHM0Q2xwbThOaE9GN1REVEZoanpsQ01OU1dSaEo0Y0toT3JCZ0JDaWkxQk9WRUVfaWJ4a1dlV3FfdVFvUWhfTmdubUZ5dGd0eg?oc=5",
-     "src": "AD HOC NEWS",
+     "src": "ad-hoc-news.de",
      "d": "2026-09-24"
     },
     {
@@ -3019,7 +3025,7 @@
      "d": "2026-09-22"
     }
    ],
-   "composite": 86,
+   "composite": 85,
    "spike": null,
    "history": [
     {
@@ -3036,7 +3042,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 86
+     "composite": 85
     }
    ]
   },
@@ -3045,11 +3051,11 @@
    "from": [
     "index"
    ],
-   "reddit": 52,
+   "reddit": 57,
    "reddit_rank": 11,
-   "reddit_prev24": 84,
+   "reddit_prev24": 85,
    "stocktwits_24h": 30,
-   "news_en_7d": 81,
+   "news_en_7d": 82,
    "news_de_7d": 93,
    "headlines": [
     {
@@ -3077,7 +3083,7 @@
      "d": "2026-09-22"
     }
    ],
-   "composite": 256,
+   "composite": 262,
    "spike": null,
    "history": [
     {
@@ -3094,7 +3100,7 @@
     },
     {
      "date": "2026-09-24",
-     "composite": 256
+     "composite": 262
     }
    ]
   }
