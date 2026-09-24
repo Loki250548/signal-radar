@@ -44,7 +44,8 @@
   tr.isCluster{box-shadow:inset 3px 0 0 var(--gold)}
   .empty{border:1px dashed var(--line);border-radius:var(--radius);padding:44px 24px;text-align:center;color:var(--mut)}
   .empty h2{color:var(--ink);font-size:18px;margin:0 0 8px}
-  .tabs{display:flex;gap:6px;margin:18px 0 6px;border-bottom:1px solid var(--line)}
+  .tabs{display:flex;gap:6px;margin:18px 0 6px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
+  .tabs .tab{flex:0 0 auto;white-space:nowrap}
   .tab{appearance:none;background:none;border:none;color:var(--mut);font-size:14px;font-weight:600;padding:10px 14px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
   .tab[aria-selected=true]{color:var(--ink);border-bottom-color:var(--gold)}
   .tab:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
@@ -82,6 +83,7 @@
     <button class="tab" role="tab" aria-selected="false" data-view="bt">Backtest</button>
     <button class="tab" role="tab" aria-selected="false" data-view="rs">Forschung</button>
     <button class="tab" role="tab" aria-selected="false" data-view="sy">Sympathie</button>
+    <button class="tab" role="tab" aria-selected="false" data-view="dp">Depot</button>
     <button class="tab" role="tab" aria-selected="false" data-view="ke">Kern</button>
     <button class="tab" role="tab" aria-selected="false" data-view="or">Orakel</button>
   </div>
@@ -159,6 +161,11 @@
     <p class="note" id="keRule">Kernportfolio „Surfen mit Risiko" (Tests 9, 11, v3) · Drei Linien je Index, Prüfung nur am <b>Monatsende</b>, Ausführung am ersten Handelstag danach. <b>Halten</b>: 1×, nie handeln. <b>Trendfilter</b>: gehebelt über der 200-Tage-Linie, sonst Ausweich. <b>Konjunkturfilter</b>: gehebelt, außer der Index liegt unter der 200-Tage-Linie <i>und</i> die US-Arbeitslosenquote liegt über ihrem 12-Monats-Schnitt. Ausweich: Gold, wenn Gold im Aufwärtstrend, sonst Cash. <b>Papierbetrieb ab 01.10.2026, kein Kapital.</b> Zwischen den Stichtagen wird nicht gehandelt, unabhängig von der Nachrichtenlage.</p>
     <div class="tiles" id="keTiles"></div>
     <div id="keMount"><div class="empty"><h2>Noch keine Daten</h2><p>core_data.json wird vom Nachtlauf erzeugt.</p></div></div>
+  </div>
+  <div id="dpView" hidden>
+    <p class="note" style="max-width:none">Depot-Struktur <b>40 Kern / 10 Gold / 40 Intraday / 10 Lucky Punch</b> (festgelegt 24.09.2026) im <b>Papierbetrieb ab 01.10.2026</b>, kein Kapital. <b>Kern</b> = Führer-System: am Monatsende die 5 stärksten von 41 US-Branchen-ETFs nach 12-1-Momentum, max. 1 je Cluster (Tagesrenditen der letzten 252 Tage korrelieren ≥ 0,90), Konjunkturfilter (raus nur bei SPY unter 10-Monats-Linie <i>und</i> steigender Arbeitslosigkeit, dann Gold falls im Trend, sonst Cash), dazu Rücksetzer-Zusatz SPY (+5 % Ziel, −5 % Stop). <b>Gold</b> statisch. <b>Intraday</b> startet erst nach bestandenem 5-Jahres-Test (Test 37), bis dahin Cash. <b>Lucky Punch</b> = Nasdaq 100 dreifach (TQQQ) über der 10-Monats-Linie, sonst Cash. Signal zum Monatsschluss, Ausführung zum Schluss des ersten Handelstags danach; Monatsentscheidungen werden in <code>depot_log.jsonl</code> festgeschrieben und nie neu berechnet.</p>
+    <div class="tiles" id="dpTiles"></div>
+    <div id="dpMount"><div class="empty"><h2>Noch keine Daten</h2><p>depot_data.json wird vom Nachtlauf erzeugt.</p></div></div>
   </div>
   <div id="orView" hidden>
     <p class="note">Prognose-Agent, der <b>nur vorwärts lernt</b>. Jede Nacht gibt er für jedes Instrument eine Wahrscheinlichkeit ab (A: steigt es über 5 bzw. 20 Handelstage? B/C: schlägt es den Median seiner Gruppe?), Einstieg nächste Eröffnung. Die Prognosen stehen in einer Hash-Kette im Repo, bevor der Markt öffnet, und werden erst nach Ablauf gegen die Realität gewertet. Nach jeder Auflösung schätzt er seine Gewichte neu: eingefrorenes Vorwissen aus 2006–2026 zählt so viel wie ein halbes Jahr Vorwärtsdaten, danach entscheidet die Zukunft. <b>Maßstab ist die Klimatologie</b> (Basisrate), nicht 50 %. Kein Kapital.</p>
@@ -380,9 +387,9 @@ document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
   const v=b.dataset.view;
   ["tiles","controls","mount"].forEach(id=>document.getElementById(id).hidden=(v!=="ins"));
   document.getElementById("idxView").hidden=(v!=="idx"); document.getElementById("attView").hidden=(v!=="att");
-  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt"); document.getElementById("rsView").hidden=(v!=="rs"); document.getElementById("syView").hidden=(v!=="sy"); document.getElementById("keView").hidden=(v!=="ke"); document.getElementById("orView").hidden=(v!=="or");
-  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest",rs:"· Forschung",sy:"· Sympathie-Schock",ke:"· Kern",or:"· Orakel"})[v]||"· Insider-Cluster";
-  if(v==="wl")wrender(); if(v==="sy")syrender(); if(v==="ke")kerender(); if(v==="or")orrender();
+  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt"); document.getElementById("rsView").hidden=(v!=="rs"); document.getElementById("syView").hidden=(v!=="sy"); document.getElementById("keView").hidden=(v!=="ke"); document.getElementById("dpView").hidden=(v!=="dp"); document.getElementById("orView").hidden=(v!=="or");
+  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest",rs:"· Forschung",sy:"· Sympathie-Schock",ke:"· Kern",dp:"· Depot",or:"· Orakel"})[v]||"· Insider-Cluster";
+  if(v==="wl")wrender(); if(v==="sy")syrender(); if(v==="ke")kerender(); if(v==="dp")dprender(); if(v==="or")orrender();
 }));
 let SY=null;
 function syrender(){const m=document.getElementById("syMount");if(!SY){m.innerHTML=`<div class="empty"><h2>Noch keine Daten</h2><p>sympathy_data.json wird vom Nachtlauf erzeugt.</p></div>`;return;}
@@ -419,6 +426,34 @@ function kerender(){const m=document.getElementById("keMount"),tl=document.getEl
 fetch("core_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{KE=d;}).catch(()=>{});
 fetch("sympathy_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{SY=d;}).catch(()=>{});
 fetch("index_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(iload).catch(()=>{});
+let DP=null;
+function dpChart(rows){if(!rows||rows.length<3)return "";const W=620,H=120,K=[["gesamt","var(--gold)",""],["kern","var(--teal)",""],["spy","var(--mut)","5 4"]];
+  const v=rows.flatMap(p=>K.map(k=>p[k[0]])).filter(x=>x!=null),mn=Math.min(...v),mx=Math.max(...v),X=i=>i/(rows.length-1)*W,Y=y=>H-4-(y-mn)/(mx-mn||1)*(H-8);
+  const path=k=>rows.map((p,i)=>(i?"L":"M")+X(i).toFixed(1)+","+Y(p[k]).toFixed(1)).join("");
+  return `<div style="background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:10px 14px;margin-top:12px"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" style="width:100%;height:120px;display:block" role="img" aria-label="Papier-Verlauf Gesamt, Kern und SPY">${K.map(k=>`<path d="${path(k[0])}" fill="none" stroke="${k[1]}" stroke-width="2" ${k[2]?`stroke-dasharray="${k[2]}"`:""} vector-effect="non-scaling-stroke"/>`).join("")}</svg><div class="note" style="max-width:none;margin-top:6px"><span style="color:var(--gold)">━</span> Gesamt · <span style="color:var(--teal)">━</span> Kern · <span style="color:var(--mut)">┅</span> SPY halten</div></div>`;}
+function dprender(){const m=document.getElementById("dpMount"),tl=document.getElementById("dpTiles");if(!DP){tl.innerHTML="";return;}
+  const dt=s=>s?s.split("-").reverse().join("."):"–", pc=(x,d=1)=>x==null?"–":(x>0?"+":"")+x.toFixed(d)+" %", st=DP.gestartet;
+  const E=DP.entscheidung||{}, V=DP.vorschau, R=DP.ruecksetzer||{}, u=E.arbeitslosigkeit||{}, W=DP.gewichte||{}, Ln=DP.linien||{};
+  const kz=z=>!z?"–":z.filter_raus?(z.gold_trend?"Gold (GLD) – Konjunkturfilter raus":"Cash – Konjunkturfilter raus"):(z.fuehrer||[]).join(", ");
+  tl.innerHTML=`<div class="tile"><div class="k">Datenstand</div><div class="v num">${dt(DP.stand)}</div></div>
+   <div class="tile"><div class="k">Nächste Monatsprüfung</div><div class="v num">${dt(DP.naechste_pruefung)}<div class="k" style="margin-top:2px">Papierstart ${dt(DP.papierstart)}${st?"":" · noch nicht gestartet"}</div></div></div>
+   <div class="tile"><div class="k">Konjunkturfilter (Kern)</div><div class="v">${E.filter_raus?"raus":"investiert"}<div class="k" style="margin-top:2px">Monatsende ${dt(E.signal_vom)}: SPY ${E.spy_unter_ma10?"unter":"über"} 10-Monats-Linie · Arbeitslosenquote ${u.wert??"–"} % vs. 12-M-Schnitt ${u.schnitt12??"–"} % (${u.monat||"–"})</div></div></div>
+   <div class="tile"><div class="k">Rücksetzer-Zusatz (SPY)</div><div class="v" style="font-size:18px">${R.status||"–"}<div class="k" style="margin-top:2px">${R.status==="offen"?`Einstieg ${dt(R.einstieg)} zu ${R.kurs_einstieg} · Ziel ${R.ziel} · Stop ${R.stop} · Tag ${R.tage} von 120 · ${pc(R.seit_pct)}`:`Auslöser: SPY ≤ ${R.ausloeser} (20-Tage-Hoch ${R.hoch20} − 5 %) und über der 200-Tage-Linie ${R.sma200} · jetzt ${R.spy} (${pc(R.abstand_hoch20_pct)} vom Hoch)`}</div></div></div>
+   <div class="tile"><div class="k">Lucky Punch</div><div class="v">${E.lucky_investiert?"TQQQ":"Cash"}<div class="k" style="margin-top:2px">Nasdaq 100 ${E.ndx??"–"} vs. 10-Monats-Linie ${E.ndx_ma10??"–"} (Monatsende ${dt(E.signal_vom)})</div></div></div>`;
+  const rows=[["gesamt","100 %"],["kern",(W.kern*100)+" %"],["gold",(W.gold*100)+" %"],["intraday",(W.intraday*100)+" %"],["lucky",(W.lucky*100)+" %"],["kern_roh","Vergleich"],["spy","Vergleich"]];
+  let h=`<h3 class="bt" style="margin-top:18px">Linien im Papierbetrieb</h3><div class="tblwrap"><table><thead><tr><th>Linie</th><th class="r">Anteil</th><th>Position</th><th class="r">Papier seit ${dt(DP.papierstart)}</th><th class="r">max. Drawdown</th></tr></thead><tbody>${rows.map(([k,w])=>{const x=Ln[k]||{};return `<tr><td class="${k==="gesamt"?"str":""}">${(DP.namen||{})[k]||k}</td><td class="r num">${w}</td><td>${st?(x.position??"–"):(k==="intraday"?"Cash bis zum bestandenen 5-Jahres-Test":"startet "+dt(DP.papierstart))}</td><td class="r num ${x.rendite>0?"str":""}">${st?pc(x.rendite,2):"–"}</td><td class="r num">${st?pc(x.mdd,1):"–"}</td></tr>`}).join("")}</tbody></table></div>`;
+  if(st) h+=dpChart(DP.reihe);
+  h+=`<p class="note" style="max-width:none;margin:14px 0 4px"><b>Letzte Monatsentscheidung</b> (Monatsende ${dt(E.signal_vom)}, ${DP.ausgefuehrt?"ausgeführt zum Schluss "+dt(DP.ausfuehrung):"<b>Ausführung heute zum Schluss ("+dt(DP.ausfuehrung)+")</b>"}): Kern <b>${kz(E)}</b> · ohne Deckel ${E.filter_raus?"Cash":(E.fuehrer_ohne_deckel||[]).join(", ")} · Lucky Punch ${E.lucky_investiert?"TQQQ":"Cash"}${E.festgeschrieben?" · festgeschrieben "+E.festgeschrieben.slice(0,16).replace("T"," ")+" UTC":""}.${DP.gehalten_bis_ausfuehrung?" Bis dahin gilt: "+kz(DP.gehalten_bis_ausfuehrung)+".":""}</p>`;
+  const Z=V||E, inK=new Set(Z.fuehrer||[]), inR=new Set(Z.fuehrer_ohne_deckel||[]), sk={}, fl=new Set(Z.aufgefuellt||[]); (Z.uebersprungen||[]).forEach(x=>sk[x[0]]=x);
+  h+=`<h3 class="bt" style="margin-top:18px">${V?`Vorschau: Rangliste, als wäre heute (${dt(V.signal_vom)}) Monatsende`:`Rangliste zum Monatsende ${dt(E.signal_vom)}`}</h3>
+   <div class="tblwrap"><table><thead><tr><th class="r">Rang</th><th>ETF</th><th class="r">12-1-Momentum</th><th>Kern</th><th>ohne Deckel</th><th>Hinweis</th></tr></thead><tbody>${(Z.rangliste||[]).map(([t,mo],i)=>`<tr><td class="r num">${i+1}</td><td><b>${t}</b></td><td class="r num">${pc(mo)}</td><td>${inK.has(t)&&!Z.filter_raus?'<span class="badge in">gekauft</span>':""}</td><td>${inR.has(t)&&!Z.filter_raus?'<span class="badge single">gekauft</span>':""}</td><td class="note">${sk[t]?`übersprungen: korreliert ${sk[t][2].toFixed(2)} mit ${sk[t][1]}${fl.has(t)?" (aufgefüllt)":""}`:""}</td></tr>`).join("")}</tbody></table></div>
+   ${V?`<p class="note" style="max-width:none;margin-top:6px">Die Vorschau ändert sich bis zum Monatsende nur durch Filter und Korrelation; das 12-1-Momentum steht schon fest, weil der laufende Monat ausgelassen wird. Konjunkturfilter nach heutigem Stand: ${V.filter_raus?"raus":"investiert"} · Lucky Punch: ${V.lucky_investiert?"TQQQ":"Cash"}.</p>`:""}`;
+  const P=(DP.protokoll||[]).slice().reverse();
+  const pr=r=>r.typ==="monat"?`Monatsende ${dt(r.signal_vom)} → Ausführung ${dt(r.ausfuehrung)}: Kern ${kz(r)} · ohne Deckel ${r.filter_raus?"Cash":(r.fuehrer_ohne_deckel||[]).join(", ")} · Lucky ${r.lucky_investiert?"TQQQ":"Cash"}`:r.typ==="ruecksetzer_einstieg"?`Rücksetzer gekauft ${dt(r.einstieg)} zu ${r.kurs_einstieg} (Ziel ${r.ziel}, Stop ${r.stop})`:`Rücksetzer ${dt(r.einstieg)}–${dt(r.ausstieg)}: ${r.grund}, ${pc(r.rendite_pct,2)}`;
+  h+=`<h3 class="bt" style="margin-top:22px">Protokoll (wächst nur)</h3>${P.length?`<div class="tblwrap"><table><thead><tr><th>festgeschrieben (UTC)</th><th>Eintrag</th></tr></thead><tbody>${P.map(r=>`<tr><td class="num">${(r.festgeschrieben||"").slice(0,16).replace("T"," ")}</td><td>${pr(r)}</td></tr>`).join("")}</tbody></table></div>`:`<div class="empty"><p>Noch keine Einträge. Die erste Monatsentscheidung (Monatsende 30.09.) wird in der Nacht zum 01.10. festgeschrieben und zum Schluss des 01.10. ausgeführt.</p></div>`}`;
+  h+=`<p class="note" style="max-width:none;margin-top:14px">Rückrechnung mit genau diesem Code, 2008–2026 (Ausführung wie im Papierbetrieb): Kern 16,2 % p.a., max. DD −47 %, schlechtestes Jahr −14 % · ohne Deckel 15,8 % · SPY 11,3 %, −52 % · Gesamt 40/10/40/10 mit Intraday als Cash 11,0 %, −28 %, schlechtestes Jahr −8 %. Gerechnet wie im Research trifft der Code Test 28 (16,4 % gegen 16,3 %, −45 %). Einschränkungen: ETF-Liste aus heutiger Sicht (Rückschau), Kante des Branchen-Momentums wird kleiner (Test 28), Cluster-Deckel ist neu und nicht getestet – deshalb läuft die Fassung ohne Deckel als Vergleich mit. Frühwarnung Kern: Reiter Orakel. Parameter: Top ${DP.parameter.top}, Korrelationsgrenze ${DP.parameter.korrelation_max}, Kosten ${DP.parameter.kosten*100} % je Umschlag.${(DP.fehlende_kurse||[]).length?" <b>Fehlende Kurse: "+DP.fehlende_kurse.join(", ")+" – Entscheidung wird erst bei vollständigen Daten festgeschrieben.</b>":""}</p>`;
+  m.innerHTML=h;}
+fetch("depot_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{DP=d;}).catch(()=>{});
 let OR=null, ORSEL="C20";
 function orrender(){const m=document.getElementById("orMount"),tl=document.getElementById("orTiles");if(!OR){tl.innerHTML="";return;}
   const dt=s=>s?s.split("-").reverse().join("."):"–", sg=(x,d=1)=>x==null||isNaN(x)?"–":(x>0?"+":"")+x.toFixed(d);
