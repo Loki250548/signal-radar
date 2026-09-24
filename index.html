@@ -83,6 +83,7 @@
     <button class="tab" role="tab" aria-selected="false" data-view="rs">Forschung</button>
     <button class="tab" role="tab" aria-selected="false" data-view="sy">Sympathie</button>
     <button class="tab" role="tab" aria-selected="false" data-view="ke">Kern</button>
+    <button class="tab" role="tab" aria-selected="false" data-view="or">Orakel</button>
   </div>
 
   <div class="tiles" id="tiles" hidden>
@@ -158,6 +159,11 @@
     <p class="note" id="keRule">Kernportfolio „Surfen mit Risiko" (Tests 9, 11, v3) · Drei Linien je Index, Prüfung nur am <b>Monatsende</b>, Ausführung am ersten Handelstag danach. <b>Halten</b>: 1×, nie handeln. <b>Trendfilter</b>: gehebelt über der 200-Tage-Linie, sonst Ausweich. <b>Konjunkturfilter</b>: gehebelt, außer der Index liegt unter der 200-Tage-Linie <i>und</i> die US-Arbeitslosenquote liegt über ihrem 12-Monats-Schnitt. Ausweich: Gold, wenn Gold im Aufwärtstrend, sonst Cash. <b>Papierbetrieb ab 01.10.2026, kein Kapital.</b> Zwischen den Stichtagen wird nicht gehandelt, unabhängig von der Nachrichtenlage.</p>
     <div class="tiles" id="keTiles"></div>
     <div id="keMount"><div class="empty"><h2>Noch keine Daten</h2><p>core_data.json wird vom Nachtlauf erzeugt.</p></div></div>
+  </div>
+  <div id="orView" hidden>
+    <p class="note">Prognose-Agent, der <b>nur vorwärts lernt</b>. Jede Nacht gibt er für jedes Instrument eine Wahrscheinlichkeit ab (A: steigt es über 5 bzw. 20 Handelstage? B/C: schlägt es den Median seiner Gruppe?), Einstieg nächste Eröffnung. Die Prognosen stehen in einer Hash-Kette im Repo, bevor der Markt öffnet, und werden erst nach Ablauf gegen die Realität gewertet. Nach jeder Auflösung schätzt er seine Gewichte neu: eingefrorenes Vorwissen aus 2006–2026 zählt so viel wie ein halbes Jahr Vorwärtsdaten, danach entscheidet die Zukunft. <b>Maßstab ist die Klimatologie</b> (Basisrate), nicht 50 %. Kein Kapital.</p>
+    <div class="tiles" id="orTiles"></div>
+    <div id="orMount"><div class="empty"><h2>Noch keine Daten</h2><p>orakel_data.json wird vom Nachtlauf erzeugt.</p></div></div>
   </div>
   <div id="syView" hidden>
     <p class="note" id="syRule">Test 13 · Blue Chip fällt ≥ 8 % gegen den SPY bei Volumen ≥ 3×, während der Median der Sektor-Peers ≤ −3 % liegt (Branchenverkauf, keine eigene Nachricht) → Einstieg Schluss des Folgetags, 60 Handelstage halten. <b>Papierbetrieb</b> – Kandidat (t 2,95), nicht bestätigt. Kontrolle: idiosynkratische Schocks (Peers &gt; −1 %) werden nur gelistet, nicht gehandelt.</p>
@@ -374,9 +380,9 @@ document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
   const v=b.dataset.view;
   ["tiles","controls","mount"].forEach(id=>document.getElementById(id).hidden=(v!=="ins"));
   document.getElementById("idxView").hidden=(v!=="idx"); document.getElementById("attView").hidden=(v!=="att");
-  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt"); document.getElementById("rsView").hidden=(v!=="rs"); document.getElementById("syView").hidden=(v!=="sy"); document.getElementById("keView").hidden=(v!=="ke");
-  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest",rs:"· Forschung",sy:"· Sympathie-Schock",ke:"· Kern"})[v]||"· Insider-Cluster";
-  if(v==="wl")wrender(); if(v==="sy")syrender(); if(v==="ke")kerender();
+  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt"); document.getElementById("rsView").hidden=(v!=="rs"); document.getElementById("syView").hidden=(v!=="sy"); document.getElementById("keView").hidden=(v!=="ke"); document.getElementById("orView").hidden=(v!=="or");
+  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest",rs:"· Forschung",sy:"· Sympathie-Schock",ke:"· Kern",or:"· Orakel"})[v]||"· Insider-Cluster";
+  if(v==="wl")wrender(); if(v==="sy")syrender(); if(v==="ke")kerender(); if(v==="or")orrender();
 }));
 let SY=null;
 function syrender(){const m=document.getElementById("syMount");if(!SY){m.innerHTML=`<div class="empty"><h2>Noch keine Daten</h2><p>sympathy_data.json wird vom Nachtlauf erzeugt.</p></div>`;return;}
@@ -413,6 +419,33 @@ function kerender(){const m=document.getElementById("keMount"),tl=document.getEl
 fetch("core_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{KE=d;}).catch(()=>{});
 fetch("sympathy_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{SY=d;}).catch(()=>{});
 fetch("index_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(iload).catch(()=>{});
+let OR=null, ORSEL="C20";
+function orrender(){const m=document.getElementById("orMount"),tl=document.getElementById("orTiles");if(!OR){tl.innerHTML="";return;}
+  const dt=s=>s?s.split("-").reverse().join("."):"–", sg=(x,d=1)=>x==null||isNaN(x)?"–":(x>0?"+":"")+x.toFixed(d);
+  const T=OR.tasks||{}, keys=Object.keys(T).sort(), days=Math.max(0,...keys.map(k=>T[k].days||0));
+  tl.innerHTML=`<div class="tile"><div class="k">Datenstand (Prognose ab nächster Eröffnung)</div><div class="v num">${dt(OR.asof)}</div></div>
+   <div class="tile"><div class="k">Journal · Hash-Kette</div><div class="v num">${OR.n_records} · ${OR.chain_ok?"OK":"GEBROCHEN"}<div class="k" style="margin-top:2px">Kopf ${OR.head.slice(0,12)} · Modell ${OR.model}</div></div></div>
+   <div class="tile"><div class="k">aufgelöste Prognosetage</div><div class="v num">${days}</div></div>
+   <div class="tile"><div class="k">Urteil</div><div class="v" style="font-size:14px">${days<60?"zu früh – frühestens nach ~3 Monaten aussagekräftig":"siehe t-Werte (≥ 2 = Hinweis, ≥ 3 = belastbar)"}</div></div>`;
+  let h=`<h3 class="bt" style="margin-top:18px">Vorwärts-Bilanz</h3>`;
+  const res=keys.filter(k=>T[k].days);
+  h+=res.length?`<div class="tblwrap"><table><thead><tr><th>Aufgabe</th><th class="r">Tage</th><th class="r">Prognosen</th><th class="r">Skill vs. Klima</th><th class="r">t</th><th class="r">Papier Top/long p.a.</th><th class="r">Durchschnitt p.a.</th><th class="r">Differenz p.a.</th><th class="r">t</th></tr></thead><tbody>${res.map(k=>{const x=T[k];return `<tr><td><b>${k[0]} ${OR.task_names[k[0]]}</b> · ${k.slice(1)} T</td><td class="r num">${x.days}</td><td class="r num">${x.n}</td><td class="r num ${x.skill>0?'str':''}">${sg(x.skill,2)} %</td><td class="r num">${sg(x.t,2)}</td><td class="r num">${sg(x.port_ann*100)} %</td><td class="r num">${sg(x.bench_ann*100)} %</td><td class="r num ${x.diff_ann>0?'str':''}">${sg(x.diff_ann*100)} %</td><td class="r num">${sg(x.diff_t,2)}</td></tr>`}).join("")}</tbody></table></div>`
+    :`<div class="empty"><p>Noch nichts aufgelöst. Die ersten 5-Tage-Prognosen werden nach fünf Handelstagen gewertet, die 20-Tage-Prognosen nach rund vier Wochen.</p></div>`;
+  const opts=keys.filter(k=>T[k].latest).map(k=>`<option value="${k}" ${k===ORSEL?"selected":""}>${k[0]} ${OR.task_names[k[0]]} · ${k.slice(1)} Tage</option>`).join("");
+  h+=`<h3 class="bt" style="margin-top:22px">Aktuelle Prognosen</h3><div class="controls"><label><select id="orsel" style="background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:9px 11px;font-size:14px">${opts}</select></label></div>`;
+  const L=(T[ORSEL]||{}).latest||{}, ts=OR.styles[ORSEL[0]]==="ts";
+  const rows=Object.entries(L).map(([t,[p,pc]])=>({t,p,pc,e:p-pc})).sort((a,b)=>b.e-a.e);
+  const mx=Math.max(0.01,...rows.map(r=>Math.abs(r.e)));
+  h+=`<div class="tblwrap"><table><thead><tr><th>Ticker</th><th class="r">P(${ts?"steigt":"schlägt Median"})</th><th class="r">Klimatologie</th><th class="r">Abstand (Pp)</th><th style="width:40%">Signal</th></tr></thead><tbody>${rows.map(r=>`<tr><td><b>${r.t}</b></td><td class="r num">${(r.p*100).toFixed(1)} %</td><td class="r num">${(r.pc*100).toFixed(1)} %</td><td class="r num ${r.e>0?'str':''}">${sg(r.e*100)}</td><td><div style="position:relative;height:10px;background:var(--line);border-radius:5px"><div style="position:absolute;top:0;height:10px;border-radius:5px;background:${r.e>0?"var(--gold)":"var(--mut)"};left:${r.e>0?50:50-Math.abs(r.e)/mx*50}%;width:${Math.abs(r.e)/mx*50}%"></div></div></td></tr>`).join("")}</tbody></table></div>`;
+  const W=OR.weights||{}, ex={}; (OR.experts||[]).forEach(e=>ex[e.task+e.h+e.name]=e);
+  const wk=Object.keys(W).sort();
+  const names=[...new Set(wk.flatMap(k=>Object.keys(W[k].w)))];
+  h+=`<h3 class="bt" style="margin-top:22px">Aktuelle Theorie – Gewichte je Hypothese</h3><p class="note" style="max-width:none">Positiv = die Hypothese erhöht die Wahrscheinlichkeit, negativ = sie wirkt umgekehrt, nahe 0 = keine Wirkung. In Klammern der vorwärts gemessene t-Wert der Hypothese allein, sobald Daten da sind. Maus über den Namen zeigt den Mechanismus.</p>
+   <div class="tblwrap"><table><thead><tr><th>Hypothese</th>${wk.map(k=>`<th class="r">${k[0]} ${k.slice(1)}T</th>`).join("")}</tr></thead><tbody>${names.map(n=>`<tr><td title="${(OR.mechanism[n]||"").replace(/"/g,"&quot;")}"><b>${n}</b></td>${wk.map(k=>{const w=W[k].w[n],e=ex[k+n];return `<td class="r num ${w>0.02?'str':''}">${w==null?"–":sg(w,3)}${e&&e.t!=null?` <span class="k">(${sg(e.t,1)})</span>`:""}</td>`}).join("")}</tr>`).join("")}</tbody></table></div>
+   <p class="note" style="max-width:none;margin-top:14px">Vorwärtsdaten je Modell: ${wk.map(k=>k+" "+W[k].n_fwd).join(" · ")}. Neue Hypothesen kommen wöchentlich dazu (ohne Vorwissen aus der Historie, weil sie mit Kenntnis der Vergangenheit entstanden sind); schwache werden ausgemustert, bleiben aber im Journal. Erzeugt ${OR.generated}.</p>`;
+  m.innerHTML=h;
+  document.getElementById("orsel").addEventListener("input",e=>{ORSEL=e.target.value;orrender();});}
+fetch("orakel_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{OR=d;}).catch(()=>{});
 </script>
 </body>
 </html>
