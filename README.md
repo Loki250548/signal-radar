@@ -32,6 +32,12 @@ Keine Anlageberatung.
 ## Kern · „Surfen mit Risiko" (Papierbetrieb ab 01.10.2026)
 `core.py` schreibt nachts `core_data.json` (Reiter **Kern**): je Index (S&P 500, Nasdaq 100) drei Linien – Halten 1×, Trendfilter (gehebelt über der 200-Tage-Linie am Monatsende), Konjunkturfilter (Ausstieg nur bei Trendbruch *und* US-Arbeitslosenquote über 12-Monats-Schnitt). Ausweich Gold/Cash. Signal nur am Monatsende, Ausführung am ersten Handelstag danach. Hebel (Konstante `LEV`) ist ein Platzhalter. Belege: Backtest-Log Tests 9, 11, v3. Kein Kapital.
 
+## Depot · Struktur 40/10/40/10 (Papierbetrieb ab 01.10.2026)
+`depot.py` schreibt nachts `depot_data.json` (Reiter **Depot**) und ergänzt `depot_log.jsonl`. Linien: **Kern 40 %** Führer-System (am Monatsende die 5 stärksten von 41 US-Branchen-ETFs nach 12-1-Momentum, max. 1 je Cluster = Korrelation der Tagesrenditen < 0,90, Konjunkturfilter mit Gold-Ausweich, Rücksetzer-Zusatz SPY +5 %/−5 %), **Gold 10 %** (GLD), **Intraday 40 %** (bis zum bestandenen 5-Jahres-Test Cash), **Lucky Punch 10 %** (TQQQ über der 10-Monats-Linie des Nasdaq 100, sonst Cash), dazu die Vergleichslinien Kern ohne Cluster-Deckel und SPY halten. Signal zum Monatsschluss, Ausführung zum Schluss des ersten Handelstags danach.
+- **Festgeschrieben:** Jede Monatsentscheidung ab Papierstart steht in `depot_log.jsonl`, bevor sie ausgeführt wird, und wird nie neu berechnet. Das Protokoll wächst nur.
+- **Kontrolle:** `python depot.py --rueckrechnung` rechnet ab 2002 mit genau diesem Code zurück. Gerechnet wie im Research trifft er Test 28 (2008–2026 16,4 % gegen 16,3 % p.a., max. DD −45 %).
+- Kein Kapital. Belege: Tests 26, 28, 34, 36 im Projekt.
+
 ## Orakel · Prognose-Agent, der nur vorwärts lernt (seit 24.09.2026)
 `orakel/orakel.py` läuft im Nachtlauf nach `core.py` und schreibt `orakel_data.json` (Reiter **Orakel**). Jede Nacht gibt er Wahrscheinlichkeiten ab: **A Markt** (18 ETFs: steigt das Instrument über 5/20 Handelstage?), **B Sektoren/Länder** (34 ETFs) und **C Einzeltitel** (46 Großwerte): schlägt der Titel den Median seiner Gruppe? Einstieg jeweils nächste Eröffnung.
 - **Fälschungssicher:** `orakel/state/journal.jsonl` ist eine Hash-Kette (jede Zeile enthält den Hash der vorigen). Der Git-Commit um 04:30 UTC belegt, dass die Prognose vor der US-Eröffnung stand. `python orakel/orakel.py verify` prüft die Kette.
