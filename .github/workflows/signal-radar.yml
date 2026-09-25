@@ -33,6 +33,14 @@ jobs:
         continue-on-error: true
         run: python depot.py
 
+      - name: Screen 22 Boersen (Monatsscreen nach Monatsende, sonst Exit-Pruefung)
+        continue-on-error: true
+        run: python screen.py
+
+      - name: Cash-and-Carry-Ampel BTC/ETH (Deribit)
+        continue-on-error: true
+        run: python funding.py
+
       - name: Orakel (Prognose-Agent, lernt nur vorwaerts)
         continue-on-error: true
         run: |
@@ -48,5 +56,8 @@ jobs:
           git add orakel/state/journal.jsonl orakel/state/bericht.md orakel/state/prior.json orakel_data.json || true
           git add depot_data.json || true
           git add depot_log.jsonl || true
+          git add screen_data.json funding_data.json || true
+          git add screen_log.jsonl || true
+          git add funding_log.jsonl || true
           git commit -m "Signal Radar $(date -u +%F)" || echo "keine Aenderung"
           git push
