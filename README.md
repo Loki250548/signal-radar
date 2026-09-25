@@ -38,6 +38,12 @@ Keine Anlageberatung.
 - **Kontrolle:** `python depot.py --rueckrechnung` rechnet ab 2002 mit genau diesem Code zurück. Gerechnet wie im Research trifft er Test 28 (2008–2026 16,4 % gegen 16,3 % p.a., max. DD −45 %).
 - Kein Kapital. Belege: Tests 26, 28, 34, 36 im Projekt.
 
+## Screen · 22 Börsen, drei Papier-Körbe (Papier ab Monatsende 30.09.2026)
+`screen.py` rechnet nach jedem Monatsende den Checklisten-Screen aus Test 19 (Regel v2) über 22 Börsen (Aktien ab 2 Mrd. USD) und schreibt drei Körbe mit je 10 Titeln in `screen_log.jsonl` fest: **v2** (Top-Dezil je Land, Gates FCF/ROE/Nettoschulden, Cluster-, Branchen- und Sektor-Deckel, Mid Caps), **v1** (alte Regel mit Sektor-Deckel) und **pur** (Momentum-Dezil ohne Gates). Täglich prüft er die Exit-Regel (unter 200-Tage-Linie und ≥ 25 % unter dem 52-Wochen-Hoch) und bewertet die Körbe in USD gegen MSCI World und SPY → `screen_data.json`, Reiter **Screen**. `python screen.py --vorschau` rechnet den Screen zum letzten Handelstag, ohne etwas festzuschreiben. Kein Kapital.
+
+## Carry · Cash-and-Carry-Ampel BTC/ETH (Papier ab 01.10.2026)
+`funding.py` liest die Funding Rates der Perpetuals bei Deribit und schaltet je Instrument über die 200-Tage-Linie (Test 15): Ampel, Funding der letzten 7/30/365 Tage, Papier-Ergebnis auf Nominal und Kapital (30 % Puffer), Kapitalrechner → `funding_data.json`, Reiter **Carry**; Ampelwechsel in `funding_log.jsonl`. Liquidations- und Börsenrisiko sind nicht eingerechnet. Kein Kapital.
+
 ## Orakel · Prognose-Agent, der nur vorwärts lernt (seit 24.09.2026)
 `orakel/orakel.py` läuft im Nachtlauf nach `core.py` und schreibt `orakel_data.json` (Reiter **Orakel**). Jede Nacht gibt er Wahrscheinlichkeiten ab: **A Markt** (18 ETFs: steigt das Instrument über 5/20 Handelstage?), **B Sektoren/Länder** (34 ETFs) und **C Einzeltitel** (46 Großwerte): schlägt der Titel den Median seiner Gruppe? Einstieg jeweils nächste Eröffnung.
 - **Fälschungssicher:** `orakel/state/journal.jsonl` ist eine Hash-Kette (jede Zeile enthält den Hash der vorigen). Der Git-Commit um 04:30 UTC belegt, dass die Prognose vor der US-Eröffnung stand. `python orakel/orakel.py verify` prüft die Kette.
