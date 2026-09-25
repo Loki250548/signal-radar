@@ -46,6 +46,7 @@
   .empty h2{color:var(--ink);font-size:18px;margin:0 0 8px}
   .tabs{display:flex;gap:6px;margin:18px 0 6px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
   .tabs .tab{flex:0 0 auto;white-space:nowrap}
+  td.num{white-space:nowrap}
   .tab{appearance:none;background:none;border:none;color:var(--mut);font-size:14px;font-weight:600;padding:10px 14px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
   .tab[aria-selected=true]{color:var(--ink);border-bottom-color:var(--gold)}
   .tab:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
@@ -83,6 +84,8 @@
     <button class="tab" role="tab" aria-selected="false" data-view="bt">Backtest</button>
     <button class="tab" role="tab" aria-selected="false" data-view="rs">Forschung</button>
     <button class="tab" role="tab" aria-selected="false" data-view="sy">Sympathie</button>
+    <button class="tab" role="tab" aria-selected="false" data-view="sc">Screen</button>
+    <button class="tab" role="tab" aria-selected="false" data-view="fu">Carry</button>
     <button class="tab" role="tab" aria-selected="false" data-view="dp">Depot</button>
     <button class="tab" role="tab" aria-selected="false" data-view="ke">Kern</button>
     <button class="tab" role="tab" aria-selected="false" data-view="or">Orakel</button>
@@ -143,7 +146,7 @@
   <div id="wlView" hidden>
     <div class="rule" id="wlRule"></div>
     <div class="tiles">
-      <div class="tile"><div class="k">Regel-konform (kaufbar)</div><div class="v num" id="w_n">–</div></div>
+      <div class="tile"><div class="k">Regel-konform (nur Beobachtung)</div><div class="v num" id="w_n">–</div></div>
       <div class="tile"><div class="k">Geprüfte Streichungen</div><div class="v num" id="w_all">–</div></div>
       <div class="tile"><div class="k">Ø seit Stichtag · Watchlist</div><div class="v num" id="w_ret">–</div></div>
       <div class="tile"><div class="k">Nächster Stichtag</div><div class="v num" id="w_next">–</div></div>
@@ -161,6 +164,16 @@
     <p class="note" id="keRule">Kernportfolio „Surfen mit Risiko" (Tests 9, 11, v3) · Drei Linien je Index, Prüfung nur am <b>Monatsende</b>, Ausführung am ersten Handelstag danach. <b>Halten</b>: 1×, nie handeln. <b>Trendfilter</b>: gehebelt über der 200-Tage-Linie, sonst Ausweich. <b>Konjunkturfilter</b>: gehebelt, außer der Index liegt unter der 200-Tage-Linie <i>und</i> die US-Arbeitslosenquote liegt über ihrem 12-Monats-Schnitt. Ausweich: Gold, wenn Gold im Aufwärtstrend, sonst Cash. <b>Papierbetrieb ab 01.10.2026, kein Kapital.</b> Zwischen den Stichtagen wird nicht gehandelt, unabhängig von der Nachrichtenlage.</p>
     <div class="tiles" id="keTiles"></div>
     <div id="keMount"><div class="empty"><h2>Noch keine Daten</h2><p>core_data.json wird vom Nachtlauf erzeugt.</p></div></div>
+  </div>
+  <div id="scView" hidden>
+    <p class="note" style="max-width:none"><b>Checklisten-Screen über 22 Börsen</b> (Test 19, Regel v2), drei Papier-Körbe mit je 10 Titeln, gleichgewichtet, <b>Papier ab dem Monatsende 30.09.2026</b>, kein Kapital. Universum: Aktien ab 2 Mrd. USD Börsenwert, Rangfolge nach 12-1-Momentum. <b>v2</b>: Top-Dezil je Land und Momentum &gt; 0, Gates FCF &gt; 0, ROE ≥ 15 %, Nettoschulden &lt; 2 × EBITDA, max. 1 je Korrelations-Cluster (Wochenrenditen r ≥ 0,60), 1 je Branche, 2 je Sektor, mind. 3 Mid Caps. <b>v1</b>: alte Regel, oberes Drittel je Land, Gates, nur über der 200-Tage-Linie, max. 2 je Sektor. <b>pur</b>: Top-Dezil ohne Gates und Deckel, die 10 umsatzstärksten. Alle: kein Kauf, wenn die Exit-Regel schon erfüllt ist; v1/v2 mind. 5 Mio. USD Tagesumsatz. <b>Exit täglich</b>: unter der 200-Tage-Linie <i>und</i> ≥ 25 % unter dem 52-Wochen-Hoch. Monatsscreen im Nachtlauf nach dem Monatsende, Körbe werden in <code>screen_log.jsonl</code> festgeschrieben, Handel zum ersten Schluss nach der Festschreibung, 0,3 % Kosten je Seite, Bewertung in USD ohne Dividenden. Vorbehalt: Fundamentaldaten sind der aktuelle Yahoo-Stand; Momentum in den USA ist seit 2015 schwach (Test 22), die Körbe sind ein Vorwärtstest, kein belegtes Signal.</p>
+    <div class="tiles" id="scTiles"></div>
+    <div id="scMount"><div class="empty"><h2>Noch keine Daten</h2><p>screen_data.json wird vom Nachtlauf erzeugt.</p></div></div>
+  </div>
+  <div id="fuView" hidden>
+    <p class="note" style="max-width:none"><b>Cash-and-Carry-Ampel BTC/ETH</b> (Test 15): Spot kaufen und denselben Betrag als Perpetual short verkaufen – marktneutral, Ertrag ist die Funding Rate, die Long-Positionen an die Shorts zahlen. <b>Regel</b>: je Instrument in Position, solange der Tagesschluss über der 200-Tage-Linie liegt (Test 15: darüber 12,7 % p.a., darunter −0,7 %), sonst Cash; 0,13 % Kosten je Ein- oder Ausstieg. Rendite auf den Nominalbetrag und auf das Kapital mit 30 % Puffer für die Short-Seite. <b>Nicht enthalten</b>: Liquidationsrisiko bei schnellen Anstiegen, Gegenparteirisiko der Börse (FTX), Basis-Schwankung. Quelle Deribit, <b>Papier ab 01.10.2026</b>, kein Kapital.</p>
+    <div class="tiles" id="fuTiles"></div>
+    <div id="fuMount"><div class="empty"><h2>Noch keine Daten</h2><p>funding_data.json wird vom Nachtlauf erzeugt.</p></div></div>
   </div>
   <div id="dpView" hidden>
     <p class="note" style="max-width:none">Depot-Struktur <b>40 Kern / 10 Gold / 40 Intraday / 10 Lucky Punch</b> (festgelegt 24.09.2026) im <b>Papierbetrieb ab 01.10.2026</b>, kein Kapital. <b>Kern</b> = Führer-System: am Monatsende die 5 stärksten von 41 US-Branchen-ETFs nach 12-1-Momentum, max. 1 je Cluster (Tagesrenditen der letzten 252 Tage korrelieren ≥ 0,90), Konjunkturfilter (raus nur bei SPY unter 10-Monats-Linie <i>und</i> steigender Arbeitslosigkeit, dann Gold falls im Trend, sonst Cash), dazu Rücksetzer-Zusatz SPY (+5 % Ziel, −5 % Stop). <b>Gold</b> statisch. <b>Intraday</b> startet erst nach bestandenem 5-Jahres-Test (Test 37), bis dahin Cash. <b>Lucky Punch</b> = Nasdaq 100 dreifach (TQQQ) über der 10-Monats-Linie, sonst Cash. Signal zum Monatsschluss, Ausführung zum Schluss des ersten Handelstags danach; Monatsentscheidungen werden in <code>depot_log.jsonl</code> festgeschrieben und nie neu berechnet.</p>
@@ -189,7 +202,7 @@
     <b>nicht validiert, kein Edge.</b> Ein Signal ist ein Kandidat, keine Antwort: Was muss wahr sein? Gegenseite? Ausdruck mit begrenztem Risiko? Falsifikation?
     Index-Wechsel: Referenz = Schluss am letzten Handelstag <i>vor</i> dem Stichtag (Fonds handeln dort). Renditen danach messen die Umkehr-These, nicht die Ankündigung.
     Aufmerksamkeit: Reddit · StockTwits · News EN/DE (u. a. finanzen.net, boerse.de, onvista). <b>Overlay, kein Signal</b> – hohe Aufmerksamkeit = überlaufen (Crowding-Risiko), stille Kandidaten sind die interessanteren. X/Truth Social bewusst nicht enthalten (keine freie API).
-    Watchlist: Regel aus Backtest 2023–26, Haltedauer ~20 Handelstage. Kandidaten, keine Empfehlung. Keine Anlageberatung.
+    Watchlist: Regel aus dem Backtest, der sich als fehlerhaft erwiesen hat (Test 6/6b, siehe Reiter Backtest) – läuft nur als Beobachtung, keine Handelsregel. Haltedauer ~20 Handelstage. Keine Anlageberatung.
   </div>
 </div>
 
@@ -321,9 +334,11 @@ function btTable(rows){return `<div class="tblwrap"><table><thead><tr><th>Segmen
 fetch("backtest_stats.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(b=>{
   const me=b.meta||{}; document.getElementById("btMeta").innerHTML=`<b>Zeitraum:</b> ${me.period||""} · <b>Benchmark:</b> ${me.benchmark||""}<br><b>Insider:</b> ${me.insider_source||""}<br><b>Index:</b> ${me.index_source||""}`;
   let s="";
-  if(b.index) s+=`<h3 class="bt">These 2 · Index-Wechsel (Umkehr ab Stichtag)</h3>${btTable(b.index.rows||[])}`;
+  const K=b.korrektur; if(K){const tf=x=>x==null?"–":(x>0?"+":"")+x.toFixed(1).replace(".",",");
+    s+=`<h3 class="bt">${K.titel} <span class="badge out">${K.urteil}</span></h3><div class="tblwrap"><table><thead><tr><th>Stichprobe</th><th class="r">n</th><th class="r">Ø Überrendite +20 T</th><th class="r">t</th></tr></thead><tbody>${K.rows.map(r=>`<tr><td>${r.label}</td><td class="r num">${r.n}</td><td class="r num">${pct(r.mean)}</td><td class="r num">${tf(r.t)}${r.t_hinweis?`<div class="note">${r.t_hinweis}</div>`:""}</td></tr>`).join("")}</tbody></table></div><div class="rule" style="border-left-color:var(--red)">${K.notes.map(n=>"• "+n).join("<br>")}</div><h3 class="bt" style="margin-top:26px">Alte Auswertung (fehlerhafte Stichprobe, nur zur Dokumentation)</h3>`;}
+  if(b.index) s+=`<h3 class="bt">These 2 · Index-Wechsel (Umkehr ab Stichtag)${K?" – überholt":""}</h3>${btTable(b.index.rows||[])}`;
   if(b.refinements) s+=`<h3 class="bt">Verfeinerung · Typ, Volumen, Vorlauf → Regel</h3>${btTable(b.refinements.rows||[])}<div class="rule">${(b.refinements.notes||[]).map(n=>"• "+n).join("<br>")}</div>`;
-  if(b.insider) s+=`<h3 class="bt">These 1 · Insider-Cluster (${b.insider.n_cluster} Events, Kontrolle ${b.insider.n_single} Einzelkäufe)</h3>${btTable(b.insider.rows||[])}`;
+  if(b.insider) s+=`<h3 class="bt">These 1 · Insider-Cluster (${b.insider.n_cluster} Events, Kontrolle ${b.insider.n_single} Einzelkäufe) – ohne Vorteil: nach 60 und 120 Tagen negativ</h3>${btTable(b.insider.rows||[])}`;
   document.getElementById("btmount").innerHTML=s;
 }).catch(()=>{});
 
@@ -357,7 +372,7 @@ function iload(d){
   const ai=avg(tr.filter(r=>r.action==="in").map(r=>r.ret_since_ref)), ao=avg(tr.filter(r=>r.action==="out").map(r=>r.ret_since_ref));
   document.getElementById("i_in").innerHTML=pct(ai); document.getElementById("i_out").innerHTML=pct(ao);
   document.getElementById("imeta").innerHTML=`<b>${d.source||""}</b> · Stand ${d.as_of||"?"} · erzeugt ${(d.generated||"").replace("T"," ").replace(/\+00:00$/," UTC")}`;
-  document.getElementById("wlRule").innerHTML=`<b>Regel (aus Backtest):</b> ${d.rule||""}`;
+  document.getElementById("wlRule").innerHTML=`<b>Nur Beobachtung – Regel widerlegt</b> (Test 6/6b: die Backtest-Stichprobe war fehlerhaft, auf allen Streichungen +0,5 %, t 0,5; Details im Reiter Backtest). Regel: ${d.rule||""}`;
   irender(); wrender();
 }
 function irender(){
@@ -387,9 +402,9 @@ document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{
   const v=b.dataset.view;
   ["tiles","controls","mount"].forEach(id=>document.getElementById(id).hidden=(v!=="ins"));
   document.getElementById("idxView").hidden=(v!=="idx"); document.getElementById("attView").hidden=(v!=="att");
-  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt"); document.getElementById("rsView").hidden=(v!=="rs"); document.getElementById("syView").hidden=(v!=="sy"); document.getElementById("keView").hidden=(v!=="ke"); document.getElementById("dpView").hidden=(v!=="dp"); document.getElementById("orView").hidden=(v!=="or");
-  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest",rs:"· Forschung",sy:"· Sympathie-Schock",ke:"· Kern",dp:"· Depot",or:"· Orakel"})[v]||"· Insider-Cluster";
-  if(v==="wl")wrender(); if(v==="sy")syrender(); if(v==="ke")kerender(); if(v==="dp")dprender(); if(v==="or")orrender();
+  document.getElementById("wlView").hidden=(v!=="wl"); document.getElementById("btView").hidden=(v!=="bt"); document.getElementById("rsView").hidden=(v!=="rs"); document.getElementById("syView").hidden=(v!=="sy"); document.getElementById("keView").hidden=(v!=="ke"); document.getElementById("dpView").hidden=(v!=="dp"); document.getElementById("scView").hidden=(v!=="sc"); document.getElementById("fuView").hidden=(v!=="fu"); document.getElementById("orView").hidden=(v!=="or");
+  document.getElementById("subT").textContent=({idx:"· Index-Wechsel",att:"· Aufmerksamkeit",wl:"· Watchlist",bt:"· Backtest",rs:"· Forschung",sy:"· Sympathie-Schock",ke:"· Kern",dp:"· Depot",sc:"· Screen",fu:"· Cash-and-Carry",or:"· Orakel"})[v]||"· Insider-Cluster";
+  if(v==="wl")wrender(); if(v==="sy")syrender(); if(v==="ke")kerender(); if(v==="dp")dprender(); if(v==="sc")scrender(); if(v==="fu")furender(); if(v==="or")orrender();
 }));
 let SY=null;
 function syrender(){const m=document.getElementById("syMount");if(!SY){m.innerHTML=`<div class="empty"><h2>Noch keine Daten</h2><p>sympathy_data.json wird vom Nachtlauf erzeugt.</p></div>`;return;}
@@ -426,6 +441,51 @@ function kerender(){const m=document.getElementById("keMount"),tl=document.getEl
 fetch("core_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{KE=d;}).catch(()=>{});
 fetch("sympathy_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{SY=d;}).catch(()=>{});
 fetch("index_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(iload).catch(()=>{});
+let SC=null, FU=null;
+function lineChart(lines,h){const all=[...new Set(lines.flatMap(l=>l.pts.map(p=>p[0])))].sort();if(all.length<3)return "";const W=620,H=h||120,ix={};all.forEach((d,i)=>ix[d]=i);
+  const v=lines.flatMap(l=>l.pts.map(p=>p[1])),mn=Math.min(...v),mx=Math.max(...v),X=i=>i/(all.length-1)*W,Y=y=>H-4-(y-mn)/(mx-mn||1)*(H-8);
+  const path=l=>l.pts.map((p,i)=>(i?"L":"M")+X(ix[p[0]]).toFixed(1)+","+Y(p[1]).toFixed(1)).join("");
+  const zero=(mn<0&&mx>0)?`<line x1="0" x2="${W}" y1="${Y(0).toFixed(1)}" y2="${Y(0).toFixed(1)}" stroke="var(--line)" stroke-width="1"/>`:"";
+  return `<div style="background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:10px 14px;margin-top:12px"><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" style="width:100%;height:${H}px;display:block" role="img" aria-label="Verlauf">${zero}${lines.map(l=>`<path d="${path(l)}" fill="none" stroke="${l.color}" stroke-width="2" ${l.dash?`stroke-dasharray="${l.dash}"`:""} vector-effect="non-scaling-stroke"/>`).join("")}</svg><div class="note" style="max-width:none;margin-top:6px">${lines.map(l=>`<span style="color:${l.color}">${l.dash?"┅":"━"}</span> ${l.name}`).join(" · ")} · ${all[0].split("-").reverse().join(".")} – ${all[all.length-1].split("-").reverse().join(".")}</div></div>`;}
+function scrender(){const m=document.getElementById("scMount"),tl=document.getElementById("scTiles");if(!SC){tl.innerHTML="";return;}
+  const dt=s=>s?s.slice(0,10).split("-").reverse().join("."):"–", pc=(x,d=1)=>x==null?"–":(x>0?"+":"")+x.toFixed(d)+" %", nf=(x,d=1)=>x==null?"–":x.toLocaleString("de-DE",{maximumFractionDigits:d});
+  const L=SC.linien||{}, A=SC.aktuell||{}, V=SC.vorschau, LS=SC.letzter_screen, st=(LS&&LS.stat)||(V&&V.stat)||{}, started=Object.keys(A).length>0, KN=SC.koerbe_namen||{};
+  tl.innerHTML=`<div class="tile"><div class="k">Datenstand</div><div class="v num">${dt(SC.stand)}</div></div>
+   <div class="tile"><div class="k">Nächster Monatsscreen</div><div class="v num">${dt(SC.naechster_screen)}<div class="k" style="margin-top:2px">${started?"Körbe laufen":"erste Körbe zum Monatsende "+dt(SC.start_signal)}</div></div></div>
+   <div class="tile"><div class="k">Universum ${LS?"(letzter Screen "+dt(LS.signal_vom)+")":"(Vorschau)"}</div><div class="v num">${nf(st.universum,0)}<div class="k" style="margin-top:2px">${Object.keys(st.regionen||{}).length} Länder · Top-Dezil ${nf(st.dezil,0)} · Fundamentaldaten geprüft ${nf(st.fundamentaldaten_abgerufen,0)}</div></div></div>
+   ${(SC.fehler||[]).length?`<div class="tile"><div class="k">Fehler im letzten Lauf</div><div class="v" style="font-size:13px;color:#d16a5a">${SC.fehler.join("<br>")}</div></div>`:""}`;
+  let h="";
+  if(Object.keys(L).length){const order=["v2","v1","pur","URTH","SPY"].filter(k=>L[k]);
+    h+=`<h3 class="bt" style="margin-top:18px">Papier-Linien</h3><div class="tblwrap"><table><thead><tr><th>Linie</th><th>Start</th><th class="r">Rendite</th><th class="r">max. Drawdown</th><th class="r">Cash-Anteil</th></tr></thead><tbody>${order.map(k=>{const x=L[k];return `<tr><td class="${k==="v2"?"str":""}">${x.name}</td><td class="num">${dt(x.start)}</td><td class="r num ${x.rendite>0?"str":""}">${pc(x.rendite,2)}</td><td class="r num">${pc(x.mdd)}</td><td class="r num">${x.cash_anteil==null?"–":nf(x.cash_anteil)+" %"}</td></tr>`}).join("")}</tbody></table></div>`;
+    const R=SC.reihen||{}, col={v2:"var(--gold)",v1:"var(--teal)",pur:"#b58be0",URTH:"var(--mut)",SPY:"var(--dim)"};
+    h+=lineChart(["v2","v1","pur","URTH","SPY"].filter(k=>R[k]&&R[k].length).map(k=>({name:(L[k]||{}).name||k,color:col[k],dash:(k==="URTH"||k==="SPY")?"5 4":"",pts:R[k]})));}
+  const tbl=(rows,live)=>`<div class="tblwrap"><table><thead><tr><th>Titel</th><th>Land</th><th>Sektor · Branche</th><th class="r">12-1</th><th class="r">Mrd. USD</th><th class="r">Umsatz Mio. USD/Tag</th><th class="r">ROE</th><th class="r">FCF Mrd. (Landeswährung)</th><th class="r">Nettoschuld/EBITDA</th>${live?`<th class="r">seit Einstieg</th><th class="r">vs 200 T</th><th class="r">vom Hoch</th><th>Status</th>`:`<th>200 T</th><th class="r">vom Hoch</th>`}</tr></thead><tbody>${rows.map(t=>`<tr><td><b>${t.sym}</b><div class="co">${t.name}</div></td><td>${t.land}</td><td class="note" style="max-width:220px">${t.sektor||"–"} · ${t.branche||"–"}</td><td class="r num">${pc(t.mom,0)}</td><td class="r num">${nf(t.mcap_usd)}</td><td class="r num">${nf(t.adv_usd,0)}</td><td class="r num">${t.roe==null?"–":nf(t.roe,0)+" %"}</td><td class="r num">${t.fcf==null?"–":nf(t.fcf,2)}</td><td class="r num">${t.nd_ebitda==null?"–":nf(t.nd_ebitda,2)}</td>${live?`<td class="r num">${pc(t.seit_pct)}</td><td class="r num">${pc(t.sma_abstand)}</td><td class="r num">${pc(t.hoch_abstand)}</td><td>${t.exit?`<span class="badge out">Exit ${dt(t.exit)}</span>`:(t.einstieg==null?`<span class="badge plan">Kauf ausstehend</span>`:`<span class="badge in">im Korb</span>`)}</td>`:`<td>${t.ueber200?"über":"unter"}</td><td class="r num">${pc(t.abstand_hoch_pct)}</td>`}</tr>`).join("")}</tbody></table></div>`;
+  if(started){for(const k of ["v2","v1","pur"]){const a=A[k];if(!a)continue;h+=`<h3 class="bt" style="margin-top:22px">${KN[k]||k} · Korb vom Monatsende ${dt(a.signal_vom)} (festgeschrieben ${dt(a.festgeschrieben)})</h3>${tbl(a.titel,true)}`;}}
+  if(V){h+=`<h3 class="bt" style="margin-top:22px">Vorschau: Körbe, als wäre ${dt(V.signal_vom)} Monatsende (erstellt ${dt(V.erstellt)}, zählt nicht)</h3><p class="note" style="max-width:none">Das 12-1-Momentum steht bis zum Monatsende fest (der laufende Monat wird ausgelassen). Ändern können sich Börsenwert, Fundamentaldaten, 200-Tage-Status und Korrelationen.</p>`;
+    for(const k of ["v2","v1","pur"]){if(V.koerbe&&V.koerbe[k])h+=`<h3 class="bt" style="margin-top:14px">${KN[k]||k}</h3>${tbl(V.koerbe[k],false)}`;}
+    const ex=(k,w)=>Object.entries(w||{}).sort((a,b)=>b[1]-a[1]).map(([a,b])=>a+" "+b).join(" · ");
+    h+=`<p class="note" style="max-width:none;margin-top:8px">Ausschlüsse beim Durchgehen der Rangfolge – v2: ${ex("v2",V.stat.v2_ausschluesse)} (${V.stat.v2_geprueft} Titel geprüft) · v1: ${ex("v1",V.stat.v1_ausschluesse)} (${V.stat.v1_geprueft} geprüft).</p>`;}
+  const P=(SC.protokoll||[]).slice().reverse();
+  h+=`<h3 class="bt" style="margin-top:22px">Protokoll (wächst nur)</h3>${P.length?`<div class="tblwrap"><table><thead><tr><th>festgeschrieben (UTC)</th><th>Eintrag</th></tr></thead><tbody>${P.map(r=>`<tr><td class="num">${(r.festgeschrieben||"").slice(0,16).replace("T"," ")}</td><td>${r.typ==="korb"?`Korb ${KN[r.korb]||r.korb} zum Monatsende ${dt(r.signal_vom)}`:`Exit ${r.sym} (${r.name||""}) aus ${KN[r.korb]||r.korb}: Schluss ${r.schluss} unter 200-T-Linie ${r.sma200}, ≥ 25 % unter Hoch ${r.hoch52} (${dt(r.signal_vom)})`}</td></tr>`).join("")}</tbody></table></div>`:`<div class="empty"><p>Noch keine Einträge. Die ersten Körbe werden in der Nacht nach dem 30.09. festgeschrieben.</p></div>`}`;
+  m.innerHTML=h;}
+function furender(){const m=document.getElementById("fuMount"),tl=document.getElementById("fuTiles");if(!FU){tl.innerHTML="";return;}
+  const dt=s=>s?s.slice(0,10).split("-").reverse().join("."):"–", pc=(x,d=1)=>x==null?"–":(x>0?"+":"")+x.toFixed(d).replace(".",",")+" %";
+  const col={"grün":"#5fc48f","gelb":"#e0a63c","rot":"#d16a5a","grau":"var(--mut)"}, I=FU.instrumente||{}, keys=Object.keys(I);
+  tl.innerHTML=keys.map(k=>{const x=I[k];return `<div class="tile"><div class="k">${k} · Ampel</div><div class="v" style="font-size:20px"><span style="display:inline-block;width:12px;height:12px;border-radius:6px;margin-right:8px;background:${col[x.ampel]||col.grau}"></span>${x.ampel}<div class="k" style="margin-top:4px">${x.text}</div><div class="k" style="margin-top:4px">Kurs ${Math.round(x.kurs).toLocaleString("de-DE")} · 200-T-Linie ${Math.round(x.sma200).toLocaleString("de-DE")} (${pc(x.abstand_pct)})</div></div></div>`}).join("")+
+   `<div class="tile"><div class="k">Datenstand</div><div class="v num" style="font-size:18px">${(FU.stand||"").slice(0,16).replace("T"," ")} UTC<div class="k" style="margin-top:2px">Papierstart ${dt(FU.papierstart)}</div></div></div>`+
+   ((FU.fehler||[]).length?`<div class="tile"><div class="k">Fehler</div><div class="v" style="font-size:13px;color:#d16a5a">${FU.fehler.join("<br>")}</div></div>`:"");
+  let h=`<h3 class="bt" style="margin-top:18px">Funding und Papier</h3><div class="tblwrap"><table><thead><tr><th>Instrument</th><th class="r">Funding 7 T p.a.</th><th class="r">30 T p.a.</th><th class="r">365 T p.a.</th><th class="r">Papier seit ${dt(FU.papierstart)} · Nominal</th><th class="r">auf Kapital</th><th class="r">Regel 12 Monate zurück · Nominal</th><th class="r">auf Kapital</th><th class="r">Wechsel 12 M</th></tr></thead><tbody>${keys.map(k=>{const x=I[k],p=x.papier,r=x.rueckblick_12m||{};return `<tr><td><b>${k}</b><div class="co">${x.instrument}</div></td><td class="r num">${pc(x.funding_7d_pa,2)}</td><td class="r num">${pc(x.funding_30d_pa,2)}</td><td class="r num">${pc(x.funding_365d_pa,2)}</td><td class="r num">${p?pc(p.rendite,3):"startet "+dt(FU.papierstart)}</td><td class="r num">${p?pc(p.rendite_kapital,3):"–"}</td><td class="r num">${pc(r.rendite,2)}</td><td class="r num">${pc(r.rendite_kapital,2)}</td><td class="r num">${r.wechsel??"–"}</td></tr>`}).join("")}</tbody></table></div>`;
+  h+=`<p class="note" style="max-width:none;margin-top:8px"><b>Einordnung:</b> In Test 15 (2019–2026) brachte die Regel bei BTC rund 12,7 % p.a. im Bullenmarkt. In den letzten 12 Monaten lag das Funding deutlich niedriger (siehe Spalte 365 T) – unter dem Geldmarktzins von rund 4 %. Die Prämie ist also nicht verschwunden, aber zurzeit zu klein, um Börsen- und Liquidationsrisiko zu bezahlen. Die Ampel zeigt, wann sie wieder lohnt.</p>`;
+  const cc={BTC:"var(--gold)",ETH:"var(--teal)"};
+  h+=`<h3 class="bt" style="margin-top:18px">Funding je Tag, auf das Jahr gerechnet (365 Tage)</h3>`+lineChart(keys.map(k=>({name:k,color:cc[k]||"var(--mut)",pts:I[k].tage_funding_pa.map(p=>[p[0],Math.max(-60,Math.min(60,p[1]))])})),110)+`<p class="note">Werte über ±60 % p.a. abgeschnitten.</p>`;
+  h+=`<h3 class="bt" style="margin-top:18px">Kapitalbedarf</h3><div class="controls"><label>Nominal (USD) <input type="number" id="fuNom" value="50000" step="10000" min="0" style="width:130px"></label></div><div id="fuCalc" class="note" style="max-width:none"></div>`;
+  const P=(FU.protokoll||[]).slice().reverse();
+  h+=`<h3 class="bt" style="margin-top:22px">Ampelwechsel (Protokoll, wächst nur)</h3>${P.length?`<div class="tblwrap"><table><thead><tr><th>festgeschrieben (UTC)</th><th>Instrument</th><th>Ampel</th><th class="r">Kurs</th><th class="r">200-T-Linie</th><th class="r">Funding 7 T p.a.</th></tr></thead><tbody>${P.map(r=>`<tr><td class="num">${(r.festgeschrieben||"").slice(0,16).replace("T"," ")}</td><td>${r.instrument}</td><td><span style="color:${col[r.ampel]||"inherit"}">●</span> ${r.ampel}</td><td class="r num">${Math.round(r.kurs).toLocaleString("de-DE")}</td><td class="r num">${Math.round(r.sma200).toLocaleString("de-DE")}</td><td class="r num">${pc(r.funding_7d_pa,2)}</td></tr>`).join("")}</tbody></table></div>`:`<div class="empty"><p>Noch keine Einträge.</p></div>`}`;
+  m.innerHTML=h;
+  const calc=()=>{const n=+document.getElementById("fuNom").value||0,cap=n*(1+(FU.puffer||0.3));document.getElementById("fuCalc").innerHTML=keys.map(k=>{const f=I[k].funding_30d_pa;return `<b>${k}</b>: Kapital ${Math.round(cap).toLocaleString("de-DE")} USD (Spot ${Math.round(n).toLocaleString("de-DE")} + Puffer ${Math.round(cap-n).toLocaleString("de-DE")}) · Ertrag beim Funding der letzten 30 Tage ${f==null?"–":Math.round(n*f/100).toLocaleString("de-DE")+" USD p.a."} = ${f==null?"–":pc(f/(1+(FU.puffer||0.3)),2)} aufs Kapital, vor Kosten, Steuern und Liquidationsrisiko`}).join("<br>");};
+  document.getElementById("fuNom").addEventListener("input",calc); calc();}
+fetch("screen_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{SC=d;}).catch(()=>{});
+fetch("funding_data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{FU=d;}).catch(()=>{});
 let DP=null;
 function dpChart(rows){if(!rows||rows.length<3)return "";const W=620,H=120,K=[["gesamt","var(--gold)",""],["kern","var(--teal)",""],["spy","var(--mut)","5 4"]];
   const v=rows.flatMap(p=>K.map(k=>p[k[0]])).filter(x=>x!=null),mn=Math.min(...v),mx=Math.max(...v),X=i=>i/(rows.length-1)*W,Y=y=>H-4-(y-mn)/(mx-mn||1)*(H-8);
