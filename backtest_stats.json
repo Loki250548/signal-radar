@@ -1,4 +1,47 @@
 {
+ "korrektur": {
+  "titel": "Korrektur vom 20.09.2026 (Test 6 und 6b): Index-Streichung als Signal widerlegt",
+  "urteil": "widerlegt",
+  "rows": [
+   {
+    "label": "Test 6 · Streichungen S&P 400/600 (Wikipedia, unabhängige Quelle), 2012–2022 · +20 T vs. Russell 2000, nach 1 % Kosten",
+    "n": 126,
+    "mean": 0.6,
+    "t": 0.4
+   },
+   {
+    "label": "Test 6 · dito 2023–2026",
+    "n": 162,
+    "mean": -0.5,
+    "t": -0.3
+   },
+   {
+    "label": "Test 6b · alle Änderungen 2023–26 aus dem Pressearchiv, exakte frühere Methode",
+    "n": 264,
+    "mean": 0.5,
+    "t": 0.5
+   },
+   {
+    "label": "Test 6b · davon vom alten Suchmuster erkannt (= Grundlage der alten Tabellen unten)",
+    "n": 116,
+    "mean": 6.6,
+    "t": 1.8,
+    "t_hinweis": "nach Stichtagen gebündelt; alt ungebündelt 4,3"
+   },
+   {
+    "label": "Test 6b · davon vom alten Suchmuster übersehen",
+    "n": 148,
+    "mean": -4.3,
+    "t": null
+   }
+  ],
+  "notes": [
+   "Ursache 1: Das alte Suchmuster im S&P-Pressearchiv erkannte „S&P“ nur in einer von zwei Quelltext-Schreibweisen (HTML-Entity). Es fand 432 von rund 900 Änderungen, fast alle aus 2025–26. Der alte Backtest lief also nur über gut ein Jahr, nicht 2023–26.",
+   "Ursache 2: Die t-Werte waren nicht nach Stichtagen gebündelt. Die 116 erkannten Ereignisse stammen im Kern von drei Quartalsstichtagen (Dez 2025 +13,1 %, März 2026 +7,8 %, Juni 2026 +7,4 %). Gebündelt t = 1,8 statt 4,3.",
+   "Übrig bleibt nur eine kurze Erholung: −3,4 % in den 15 Tagen vor dem Stichtag, danach +1,7 % über 5 Tage (t 2,5), nach Kosten fast null. Quartalsverlauf: 2023 bis Q3 2025 überwiegend negativ, seit Q4 2025 positiv – Regime, kein stabiles Signal.",
+   "Folge: Die Watchlist-Regel (Abstieg/Exit, Vorlauf > −5 %) beruht auf der fehlerhaften Stichprobe. Sie läuft nur noch als Beobachtung weiter, nicht als Handelsregel. Der Generator im Research-Harness ist korrigiert (html.unescape, Historie ab 2013)."
+  ]
+ },
  "insider": {
   "done": true,
   "n_cluster": 2508,
@@ -415,6 +458,7 @@
    }
   ],
   "notes": [
+   "Alte Auswertung auf der fehlerhaften Stichprobe (siehe Korrektur oben), nur zur Dokumentation.",
    "Survivorship: 63 M&A-Streichungen nach Stichtag nicht handelbar (korrekt ausgeschlossen); 1 Insolvenzfall (WOLF) hätte −100 % gebracht → Regel schließt Insolvenz aus. Mit WOLF als Totalverlust: Ø +5,5 %, Median +4,2 %, t 3,3.",
    "Keine der 123 handelbaren Streichungen ist innerhalb von 60 HT nach Stichtag delistet worden.",
    "Ohne Transaktionskosten (Small/Mid Caps ~1–2 % pro Umschlag). Ein Marktregime (2023–2026). MidCap n=28 fragil.",
@@ -422,7 +466,7 @@
   ]
  },
  "meta": {
-  "period": "2023Q1–2026Q1 (Forward-Renditen bis Sep 2026)",
+  "period": "2023Q1–2026Q1 (Forward-Renditen bis Sep 2026) – tatsächlich nur 2025–26 erfasst, siehe Korrektur",
   "insider_source": "SEC Form-345-Strukturdaten, ~100.000 offene Insiderkäufe, 2.508 Cluster-Events",
   "index_source": "S&P DJI Pressemitteilungen, 174 Mitteilungen, 432 Änderungen, 314 mit Kursdaten",
   "benchmark": "Überrendite gegenüber SPY"
