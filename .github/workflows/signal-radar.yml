@@ -33,6 +33,13 @@ jobs:
         continue-on-error: true
         run: python depot.py
 
+      - name: Orakel (Prognose-Agent, lernt nur vorwaerts)
+        continue-on-error: true
+        run: |
+          pip install --quiet numpy pandas yfinance
+          python orakel/orakel.py run
+          python orakel/pruefung.py
+
       - name: Screen 22 Boersen (Monatsscreen nach Monatsende, sonst Exit-Pruefung)
         continue-on-error: true
         run: python screen.py
@@ -40,13 +47,6 @@ jobs:
       - name: Cash-and-Carry-Ampel BTC/ETH (Deribit)
         continue-on-error: true
         run: python funding.py
-
-      - name: Orakel (Prognose-Agent, lernt nur vorwaerts)
-        continue-on-error: true
-        run: |
-          pip install --quiet numpy pandas yfinance
-          python orakel/orakel.py run
-          python orakel/pruefung.py
 
       - name: Ergebnis ins Repo schreiben
         run: |
