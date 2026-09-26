@@ -44,6 +44,10 @@ jobs:
         continue-on-error: true
         run: python screen.py
 
+      - name: Phoenix-Korb (Monatsscreen nach Monatsende, sonst Bewertung; Papier ab 30.09.2026)
+        continue-on-error: true
+        run: python phoenix.py
+
       - name: Cash-and-Carry-Ampel BTC/ETH (Deribit)
         continue-on-error: true
         run: python funding.py
@@ -59,5 +63,6 @@ jobs:
           git add screen_data.json funding_data.json || true
           git add screen_log.jsonl || true
           git add funding_log.jsonl || true
+          git add phoenix_data.json phoenix_log.jsonl || true
           git commit -m "Signal Radar $(date -u +%F)" || echo "keine Aenderung"
           git push
