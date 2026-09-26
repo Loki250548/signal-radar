@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-24",
+ "stand": "2026-09-25",
  "papierstart": "2026-10-01",
  "gestartet": false,
  "naechste_pruefung": "2026-09-30",
@@ -131,7 +131,7 @@
  "gehalten_bis_ausfuehrung": null,
  "vorschau": {
   "typ": "monat",
-  "signal_vom": "2026-09-24",
+  "signal_vom": "2026-09-25",
   "fuehrer": [
    "SMH",
    "OIH",
@@ -204,8 +204,8 @@
    ]
   ],
   "aufgefuellt": [],
-  "spy": 767.18,
-  "spy_ma10": 718.11,
+  "spy": 771.35,
+  "spy_ma10": 718.53,
   "spy_unter_ma10": false,
   "arbeitslosigkeit": {
    "monat": "2026-08",
@@ -214,11 +214,11 @@
    "steigt": false
   },
   "filter_raus": false,
-  "gold": 391.69,
-  "gold_ma10": 413.61,
+  "gold": 393.41,
+  "gold_ma10": 413.78,
   "gold_trend": false,
-  "ndx": 30478.86,
-  "ndx_ma10": 27577.41,
+  "ndx": 30608.13,
+  "ndx_ma10": 27590.34,
   "lucky_investiert": true,
   "ziel_kern": {
    "SMH": 0.2,
@@ -237,12 +237,12 @@
   "vollstaendig": false
  },
  "ruecksetzer": {
-  "spy": 767.18,
-  "sma200": 714.36,
+  "spy": 771.35,
+  "sma200": 714.84,
   "hoch20": 773.5,
   "ausloeser": 734.82,
   "ueber_sma200": true,
-  "abstand_hoch20_pct": -0.82,
+  "abstand_hoch20_pct": -0.28,
   "status": "keine Position"
  },
  "linien": {},

@@ -1,6 +1,6 @@
-# Orakel – Stand 2026-09-24
+# Orakel – Stand 2026-09-25
 
-Journal: 12 Eintraege, Hash-Kette OK, Kopf `9cb304d740518959`, Modell `885755fa119e`
+Journal: 18 Eintraege, Hash-Kette OK, Kopf `d587faddefffe12f`, Modell `885755fa119e`
 
 ## Vorwaerts-Bilanz (nur aufgeloeste Prognosen)
 
@@ -23,12 +23,12 @@ Skill = Log-Loss-Verbesserung gegen die Klimatologie. t nach Newey-West (Tage ue
 
 In Klammern: Abstand zur Klimatologie in Prozentpunkten (das eigentliche Signal).
 
-- **A Markt, 5 Tage** (P steigt, ab 2026-09-24): oben IWM 56 % (+1.4), EWJ 57 % (+1.4), DIA 59 % (+0.9), EFA 58 % (+0.9), EEM 55 % (+0.6) · unten QQQ 57 % (-0.8), UUP 50 % (-1.1), EWG 55 % (-1.4)
-- **A Markt, 20 Tage** (P steigt, ab 2026-09-24): oben USO 54 % (+1.5), QQQ 66 % (+0.5), DBC 55 % (+0.2), UUP 51 % (-0.6), SPY 66 % (-1.3) · unten IWM 56 % (-5.3), SLV 46 % (-5.5), GLD 50 % (-5.6)
-- **B Sektoren/Laender, 5 Tage** (P schlaegt Median, ab 2026-09-24): oben XLE 52 % (+2.2), XBI 51 % (+1.4), EWZ 51 % (+1.3), EWY 51 % (+1.3), EWI 51 % (+1.1) · unten ITB 47 % (-2.5), FXI 47 % (-2.5), XLC 47 % (-3.2)
-- **B Sektoren/Laender, 20 Tage** (P schlaegt Median, ab 2026-09-24): oben XBI 54 % (+3.9), EWT 53 % (+3.3), SMH 53 % (+3.1), EWY 53 % (+2.7), XLE 52 % (+2.2) · unten XLU 46 % (-3.6), XLF 46 % (-3.9), INDA 46 % (-4.3)
-- **C Einzeltitel, 5 Tage** (P schlaegt Median, ab 2026-09-24): oben CSCO 52 % (+2.2), GOOGL 51 % (+1.3), XOM 51 % (+0.7), BAC 51 % (+0.6), CAT 50 % (+0.5) · unten LIN 48 % (-2.3), TSLA 47 % (-2.6), META 47 % (-3.4)
-- **C Einzeltitel, 20 Tage** (P schlaegt Median, ab 2026-09-24): oben INTC 53 % (+2.9), LLY 52 % (+2.3), AMD 52 % (+2.1), MRK 52 % (+1.6), CSCO 52 % (+1.5) · unten LIN 46 % (-3.8), PG 45 % (-4.5), BRK-B 45 % (-4.6)
+- **A Markt, 5 Tage** (P steigt, ab 2026-09-25): oben DBC 55 % (+2.1), USO 53 % (+1.6), IWM 56 % (+1.1), UUP 52 % (+0.8), TLT 54 % (+0.5) · unten IEF 52 % (-1.5), GLD 53 % (-1.6), EWG 54 % (-1.9)
+- **A Markt, 20 Tage** (P steigt, ab 2026-09-25): oben QQQ 65 % (+0.4), USO 53 % (+0.3), DBC 55 % (+0.0), EWJ 59 % (-0.4), UUP 51 % (-0.7) · unten IWM 56 % (-5.5), IEF 51 % (-6.1), HYG 57 % (-6.1)
+- **B Sektoren/Laender, 5 Tage** (P schlaegt Median, ab 2026-09-25): oben XLE 52 % (+2.4), XBI 52 % (+2.0), EWZ 51 % (+1.3), EWY 51 % (+1.0), SMH 51 % (+1.0) · unten EWQ 48 % (-2.0), ITB 47 % (-3.3), XLC 46 % (-3.7)
+- **B Sektoren/Laender, 20 Tage** (P schlaegt Median, ab 2026-09-25): oben SMH 54 % (+3.7), EWY 53 % (+2.8), EWT 53 % (+2.6), XLK 52 % (+2.0), XLV 52 % (+1.8) · unten EWC 47 % (-2.8), INDA 47 % (-3.0), XLRE 46 % (-3.6)
+- **C Einzeltitel, 5 Tage** (P schlaegt Median, ab 2026-09-25): oben CSCO 52 % (+2.2), GOOGL 51 % (+1.5), XOM 51 % (+1.3), CAT 51 % (+1.1), JNJ 51 % (+0.9) · unten TSLA 47 % (-2.8), NKE 47 % (-3.0), META 46 % (-3.8)
+- **C Einzeltitel, 20 Tage** (P schlaegt Median, ab 2026-09-25): oben AMD 53 % (+2.7), CAT 52 % (+2.5), ASML 52 % (+2.1), TXN 52 % (+2.0), GE 52 % (+1.7) · unten ABBV 47 % (-3.0), NKE 47 % (-3.2), PG 47 % (-3.2)
 
 ## Aktuelle Theorie (Gewichte des Gesamtmodells)
 
