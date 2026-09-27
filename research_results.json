@@ -1,0 +1,2723 @@
+{
+ "generated": "2026-09-27T11:16:33+00:00",
+ "cost_pct": 1.0,
+ "note": "Ueberrenditen nach Kosten; t_clustered = t-Wert nach Ereignisdatum gebuendelt",
+ "theses": [
+  {
+   "id": "idx_del",
+   "name": "These 2 · Index-Streichung, Umkehr (Regel)",
+   "rule": "Streichung Abstieg/Exit, nicht S&P 100, kein M&A/Insolvenz, Vorlauf 10 HT > −5 %; Einstieg Schluss vor Stichtag; Haltedauer ~20 HT",
+   "status": "widerlegt",
+   "registered": "2026-09-20",
+   "n_events": 130,
+   "n_oos": 4,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 126,
+      "mean": 0.23,
+      "median": -0.65,
+      "hit": 46.0,
+      "t": 0.31,
+      "clusters": 38,
+      "t_clustered": 0.26
+     },
+     "oos": {
+      "n": 4
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 126,
+      "mean": -0.06,
+      "median": -0.02,
+      "hit": 50.0,
+      "t": -0.08,
+      "clusters": 38,
+      "t_clustered": -0.02
+     },
+     "oos": {
+      "n": 4
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 126,
+      "mean": 0.33,
+      "median": -1.43,
+      "hit": 43.7,
+      "t": 0.26,
+      "clusters": 38,
+      "t_clustered": 0.1
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 126,
+      "mean": -0.32,
+      "median": -2.34,
+      "hit": 42.9,
+      "t": -0.26,
+      "clusters": 38,
+      "t_clustered": -0.16
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 125,
+      "mean": -0.76,
+      "median": -3.21,
+      "hit": 44.0,
+      "t": -0.31,
+      "clusters": 37,
+      "t_clustered": -0.21
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 125,
+      "mean": 0.26,
+      "median": -3.52,
+      "hit": 44.0,
+      "t": 0.11,
+      "clusters": 37,
+      "t_clustered": 0.04
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 111,
+      "mean": 0.42,
+      "median": -7.98,
+      "hit": 42.3,
+      "t": 0.1,
+      "clusters": 34,
+      "t_clustered": -1.81
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 111,
+      "mean": 0.92,
+      "median": -6.0,
+      "hit": 43.2,
+      "t": 0.24,
+      "clusters": 34,
+      "t_clustered": -1.45
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 92,
+      "mean": 0.44,
+      "median": -1.33,
+      "hit": 45.7,
+      "t": 0.29,
+      "clusters": 25,
+      "t_clustered": -0.82
+     },
+     "x60_SPY": {
+      "n": 91,
+      "mean": -3.15,
+      "median": -6.24,
+      "hit": 36.3,
+      "t": -1.17,
+      "clusters": 24,
+      "t_clustered": -1.78
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 3
+     },
+     "x60_SPY": {
+      "n": 3
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 8,
+      "mean": -8.04,
+      "median": -2.94,
+      "hit": 12.5,
+      "t": -2.08
+     },
+     "x60_SPY": {
+      "n": 8,
+      "mean": -10.35,
+      "median": -10.88,
+      "hit": 25.0,
+      "t": -1.81
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 21,
+      "mean": 2.65,
+      "median": -1.91,
+      "hit": 47.6,
+      "t": 0.87,
+      "clusters": 8,
+      "t_clustered": 1.29
+     },
+     "x60_SPY": {
+      "n": 21,
+      "mean": 12.35,
+      "median": 8.82,
+      "hit": 76.2,
+      "t": 1.65,
+      "clusters": 8,
+      "t_clustered": 0.8
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 2
+     },
+     "x60_SPY": {
+      "n": 2
+     }
+    }
+   },
+   "active_regimes": [
+    "auf/ruhig"
+   ],
+   "trials": 40,
+   "verdict": "widerlegt",
+   "notes": [
+    "Backtest 2023–26: +20d Ø +9,4 %, Median +8,4 %, Treffer 72 %, t 4,2 (Vorlauf-Filter).",
+    "Survivorship geprüft (WOLF −100 % → Insolvenz-Ausschluss). Ohne Kosten. Fundamental-Gate (NI>0 & OCF>0) hebt Median auf +9,1 %, n=26.",
+    "Regime: nur im ruhigen Aufwärtstrend validiert (40 von 46 Events). Im Stress n=0 → dort nicht handeln, bis bewiesen.",
+    "Test 6 (Parallelsitzung, 20.09.): unabhängige Quelle 2012–26, 1.103 Streichungen, nach Kosten +0,6 % / −0,5 %, t 0,4. Ursache: Generator dekodierte HTML-Entities nicht → nur 432 von ~900 Änderungen, alle 2025–26; t ohne Bündelung (gebündelt 1,8). Watchlist = Papier-Test."
+   ]
+  },
+  {
+   "id": "idx_del_raw",
+   "name": "Index-Streichung, alle Abstiege/Exits (ohne Vorlauf-Filter)",
+   "rule": "wie oben, aber ohne Vorlauf-Bedingung – Kontrollgruppe",
+   "status": "widerlegt",
+   "registered": "2026-09-20",
+   "n_events": 255,
+   "n_oos": 13,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 241,
+      "mean": 0.22,
+      "median": -0.96,
+      "hit": 44.8,
+      "t": 0.37,
+      "clusters": 58,
+      "t_clustered": 1.61
+     },
+     "oos": {
+      "n": 13,
+      "mean": -6.51,
+      "median": -6.82,
+      "hit": 15.4,
+      "t": -4.52
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 241,
+      "mean": -0.05,
+      "median": -0.62,
+      "hit": 46.5,
+      "t": -0.08,
+      "clusters": 58,
+      "t_clustered": 1.42
+     },
+     "oos": {
+      "n": 13,
+      "mean": -4.49,
+      "median": -4.8,
+      "hit": 30.8,
+      "t": -3.12
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 241,
+      "mean": -1.42,
+      "median": -2.41,
+      "hit": 42.3,
+      "t": -1.51,
+      "clusters": 58,
+      "t_clustered": 0.1
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 241,
+      "mean": -1.92,
+      "median": -3.27,
+      "hit": 39.0,
+      "t": -2.13,
+      "clusters": 58,
+      "t_clustered": -0.0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 238,
+      "mean": -3.66,
+      "median": -4.65,
+      "hit": 39.9,
+      "t": -2.02,
+      "clusters": 55,
+      "t_clustered": -0.69
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 238,
+      "mean": -2.75,
+      "median": -4.16,
+      "hit": 41.2,
+      "t": -1.55,
+      "clusters": 55,
+      "t_clustered": -0.43
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 213,
+      "mean": -3.02,
+      "median": -8.16,
+      "hit": 37.6,
+      "t": -1.1,
+      "clusters": 49,
+      "t_clustered": -0.77
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 213,
+      "mean": -2.24,
+      "median": -6.0,
+      "hit": 40.8,
+      "t": -0.84,
+      "clusters": 49,
+      "t_clustered": -0.46
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 158,
+      "mean": 0.06,
+      "median": -0.92,
+      "hit": 46.8,
+      "t": 0.05,
+      "clusters": 38,
+      "t_clustered": 0.3
+     },
+     "x60_SPY": {
+      "n": 155,
+      "mean": -3.78,
+      "median": -4.9,
+      "hit": 38.7,
+      "t": -1.8,
+      "clusters": 35,
+      "t_clustered": -1.35
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 7,
+      "mean": 1.19,
+      "median": 8.32,
+      "hit": 57.1,
+      "t": 0.27,
+      "clusters": 7,
+      "t_clustered": 0.27
+     },
+     "x60_SPY": {
+      "n": 7,
+      "mean": -2.01,
+      "median": 15.52,
+      "hit": 71.4,
+      "t": -0.16,
+      "clusters": 7,
+      "t_clustered": -0.16
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 14,
+      "mean": -11.36,
+      "median": -9.08,
+      "hit": 14.3,
+      "t": -3.0
+     },
+     "x60_SPY": {
+      "n": 14,
+      "mean": -14.19,
+      "median": -10.88,
+      "hit": 28.6,
+      "t": -2.4
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 51,
+      "mean": -2.21,
+      "median": -2.74,
+      "hit": 41.2,
+      "t": -1.02,
+      "clusters": 9,
+      "t_clustered": 0.88
+     },
+     "x60_SPY": {
+      "n": 51,
+      "mean": 1.37,
+      "median": -1.85,
+      "hit": 47.1,
+      "t": 0.29,
+      "clusters": 9,
+      "t_clustered": 1.03
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 11,
+      "mean": -8.01,
+      "median": -4.84,
+      "hit": 9.1,
+      "t": -3.13,
+      "clusters": 3,
+      "t_clustered": -3.63
+     },
+     "x60_SPY": {
+      "n": 11,
+      "mean": -12.98,
+      "median": -9.96,
+      "hit": 18.2,
+      "t": -2.65,
+      "clusters": 3,
+      "t_clustered": -5.3
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 40,
+   "verdict": "widerlegt",
+   "notes": [
+    "Kontrolle: zeigt, wie viel der Vorlauf-Filter bringt.",
+    "siehe idx_del"
+   ]
+  },
+  {
+   "id": "crisis_recovery",
+   "name": "These 3 · Krisen-Erholung nach Paniktagen",
+   "rule": "S&P-500-Titel mit Nachrichtentag (Vol ≥4×, Sprung ≤ −4 %) im Stress-Regime (VIX > 30, SPY unter 200-Tage-Linie); Einstieg Schluss des Nachrichtentags; Haltedauer ~60 HT",
+   "status": "beobachten",
+   "registered": "2026-09-21",
+   "n_events": 43,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 43,
+      "mean": 0.03,
+      "median": -0.86,
+      "hit": 41.9,
+      "t": 0.03,
+      "clusters": 29,
+      "t_clustered": 0.26
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 43,
+      "mean": -0.02,
+      "median": -0.86,
+      "hit": 44.2,
+      "t": -0.02,
+      "clusters": 29,
+      "t_clustered": -0.08
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 43,
+      "mean": 0.32,
+      "median": -0.6,
+      "hit": 46.5,
+      "t": 0.16,
+      "clusters": 29,
+      "t_clustered": 0.78
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 43,
+      "mean": -0.15,
+      "median": -0.76,
+      "hit": 46.5,
+      "t": -0.08,
+      "clusters": 29,
+      "t_clustered": 0.4
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 43,
+      "mean": 5.28,
+      "median": 2.01,
+      "hit": 55.8,
+      "t": 1.77,
+      "clusters": 29,
+      "t_clustered": 2.13
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 43,
+      "mean": 4.65,
+      "median": 2.81,
+      "hit": 55.8,
+      "t": 1.59,
+      "clusters": 29,
+      "t_clustered": 1.95
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 43,
+      "mean": 1.81,
+      "median": -1.09,
+      "hit": 46.5,
+      "t": 0.54,
+      "clusters": 29,
+      "t_clustered": 1.1
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 43,
+      "mean": 1.01,
+      "median": -2.87,
+      "hit": 41.9,
+      "t": 0.31,
+      "clusters": 29,
+      "t_clustered": 0.86
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 43,
+      "mean": 0.32,
+      "median": -0.6,
+      "hit": 46.5,
+      "t": 0.16,
+      "clusters": 29,
+      "t_clustered": 0.78
+     },
+     "x60_SPY": {
+      "n": 43,
+      "mean": 5.28,
+      "median": 2.01,
+      "hit": 55.8,
+      "t": 1.77,
+      "clusters": 29,
+      "t_clustered": 2.13
+     }
+    }
+   },
+   "active_regimes": [
+    "ab/stress"
+   ],
+   "trials": 48,
+   "protocol": {
+    "max_year_share": 79.1,
+    "half1": 4.7,
+    "half2": 5.83,
+    "mean_wo_top5": 0.42,
+    "placebo_mean": 1.32,
+    "placebo_p95": 6.21,
+    "placebo_rank": 89.0,
+    "placebo_draws": 200
+   },
+   "t_required": 5.13,
+   "checks": {
+    "t_clustered": false,
+    "halves_same_sign": true,
+    "beats_placebo": false,
+    "robust_wo_top5": true,
+    "spread_over_time": false
+   },
+   "verdict": "unbestätigt",
+   "notes": [
+    "2019–26, 134 Events: +60d Ø +20,7 %, Median +8,6 %, Treffer 70 %, t 5,4 vs SPY. In ruhigen Regimen: ±0 (Münzwurf).",
+    "Vorbehalt: 134 Events = 4 Episoden (2020, 2022, Apr 2025, Mär 2026), alle V-förmig erholt. 2008-Typ (mehrere falsche Böden) nicht im Sample. Generator folgt; Events bisher Seed.",
+    "Strenge Prüfung ausstehend: 4 Episoden (gebündelt t ≈ 2), 8 Exit-Regeln probiert, Universum = heutige Mitglieder (Survivorship). Kandidat, kein Signal.",
+    "Protokoll (x60_SPY, 1.0 % Kosten): Urteil unbestätigt · t_clustered=✘ · halves_same_sign=✔ · beats_placebo=✘ · robust_wo_top5=✔ · spread_over_time=✘"
+   ]
+  },
+  {
+   "id": "sympathy_bluechip",
+   "name": "Test 13 · Sympathie-Schock bei Blue Chips (Kandidat)",
+   "rule": "Blue Chip (Top 100 Dollar-Umsatz S&P 500) ≥8 % unter SPY bei Vol ≥3×, Sektor-Peers Median ≤ −3 %; Einstieg Schluss Folgetag; 60 HT",
+   "status": "kandidat",
+   "registered": "2026-09-21",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [
+    "auf/ruhig",
+    "auf/nervoes",
+    "ab/nervoes",
+    "ab/stress"
+   ],
+   "trials": 20,
+   "verdict": "kandidat",
+   "notes": [
+    "Test 13 (Parallelsitzung, S&P 1500 2010–26): n=57, +9,3 % / 60 T vs SPY, Median +7,1 %, Treffer 65 %, t 2,95, beide Hälften positiv, 12 von 15 Jahren; idiosynkratische Schocks −0,9 %. Nicht bestätigt: Entdeckungsstichprobe, ~20 Auswertungen, t < 3.",
+    "Ab 21.09.2026 Live-Detektor (sympathy.py) → Papierbetrieb; Events hier sind ausschließlich OOS. Unabhängige Prüfung STOXX 600 ausstehend."
+   ]
+  },
+  {
+   "id": "idx_add_500",
+   "name": "S&P-500-Aufnahmen (tot)",
+   "rule": "Aufnahme in S&P 500, Einstieg Schluss vor Stichtag",
+   "status": "tot",
+   "registered": "2026-09-20",
+   "n_events": 28,
+   "n_oos": 3,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 25,
+      "mean": -1.65,
+      "median": -2.2,
+      "hit": 36.0,
+      "t": -1.66,
+      "clusters": 19,
+      "t_clustered": -1.28
+     },
+     "oos": {
+      "n": 3
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 25,
+      "mean": -1.66,
+      "median": -2.33,
+      "hit": 32.0,
+      "t": -1.53,
+      "clusters": 19,
+      "t_clustered": -0.97
+     },
+     "oos": {
+      "n": 3
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 25,
+      "mean": -2.12,
+      "median": -1.98,
+      "hit": 44.0,
+      "t": -0.66,
+      "clusters": 19,
+      "t_clustered": -1.22
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 25,
+      "mean": -3.12,
+      "median": -3.3,
+      "hit": 48.0,
+      "t": -1.03,
+      "clusters": 19,
+      "t_clustered": -1.3
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 23,
+      "mean": 6.45,
+      "median": -4.82,
+      "hit": 39.1,
+      "t": 0.62,
+      "clusters": 17,
+      "t_clustered": 0.68
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 23,
+      "mean": 5.01,
+      "median": -5.97,
+      "hit": 34.8,
+      "t": 0.49,
+      "clusters": 17,
+      "t_clustered": 0.59
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 17,
+      "mean": 36.21,
+      "median": 1.56,
+      "hit": 52.9,
+      "t": 1.01,
+      "clusters": 12,
+      "t_clustered": 1.03
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 17,
+      "mean": 31.83,
+      "median": 0.13,
+      "hit": 52.9,
+      "t": 0.89,
+      "clusters": 12,
+      "t_clustered": 0.93
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 20,
+      "mean": -6.52,
+      "median": -5.04,
+      "hit": 30.0,
+      "t": -2.0,
+      "clusters": 16,
+      "t_clustered": -2.22
+     },
+     "x60_SPY": {
+      "n": 18,
+      "mean": 0.95,
+      "median": -10.96,
+      "hit": 27.8,
+      "t": 0.08,
+      "clusters": 14,
+      "t_clustered": 0.25
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 2
+     },
+     "x60_SPY": {
+      "n": 2
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 3
+     },
+     "x60_SPY": {
+      "n": 3
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 1,
+   "verdict": "tot",
+   "notes": [
+    "Backtest: −0,7 % (+5d), −1,1 % (+20d). Index-Effekt im großen Index wegarbitragiert."
+   ]
+  },
+  {
+   "id": "insider_naive",
+   "name": "These 1 · Insider-Cluster naiv (tot)",
+   "rule": "≥2 Directors/Officers, offener Markt, kein 10b5-1, ≥100k $",
+   "status": "tot",
+   "registered": "2026-09-20",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 1,
+   "verdict": "tot",
+   "notes": [
+    "2.508 Events 2023–26: +120d Ø −1,7 %, Median −8,4 %, Treffer 38 % vs SPY; vs IWM ≈ 0."
+   ]
+  },
+  {
+   "id": "insider_quality",
+   "name": "Insider-Cluster + Qualität/Bewertung (tot)",
+   "rule": "Cluster in profitablen, cashpositiven, günstigen Firmen, point-in-time",
+   "status": "tot",
+   "registered": "2026-09-20",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 1,
+   "verdict": "tot",
+   "notes": [
+    "+120d Ø −4,1 % vs IWM, t −2,2. Die verführerische Geschichte ist signifikant negativ."
+   ]
+  },
+  {
+   "id": "insider_distress",
+   "name": "Spur · Insider-Cluster in Verlust-/Cash-negativen Firmen",
+   "rule": "Cluster wo NI<0 und OCF<0 (letztes 10-K) – Korbstrategie",
+   "status": "beobachten",
+   "registered": "2026-09-20",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [
+    "ab/stress"
+   ],
+   "trials": 24,
+   "verdict": "beobachten",
+   "notes": [
+    "+120d Ø +7,0 % vs IWM, t 2,3 – aber Median −11 %, Treffer 41 %. Lotterie mit positivem Erwartungswert; nur als Korb. Verfeinerung offen.",
+    "Regime: im Stress-Bär +27 % Ø (n=13, Median +1,6 %) – Spur eines Stress-Signals; im ruhigen Bullenmarkt Lotterie (Median −14 %)."
+   ]
+  },
+  {
+   "id": "pead_xbrl",
+   "name": "PEAD über XBRL-Gewinnüberraschung (tot, Wiedervorlage)",
+   "rule": "Top-5 % SUE (NI vs Vorjahresquartal, normiert), Einstieg Quartalsende+45 T",
+   "status": "tot",
+   "registered": "2026-09-20",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 1,
+   "verdict": "tot",
+   "notes": [
+    "3.261 Events 2024–26: Median −0,8 % (+20d), −5,0 % (+60d), Spread Top/Bottom ≈ 0. Grobe Messung; Wiedervorlage mit Konsens-Daten."
+   ]
+  },
+  {
+   "id": "vrp_contango",
+   "name": "These VIX · Vol-Prämie mit Contango-Filter",
+   "rule": "Short-Vol (SVXY) nur bei VIX3M > VIX, sonst Cash; Entscheidung zum Schluss",
+   "status": "fragil",
+   "registered": "2026-09-20",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [
+    "auf/ruhig",
+    "auf/nervoes",
+    "ab/ruhig",
+    "ab/nervoes"
+   ],
+   "trials": 6,
+   "verdict": "fragil",
+   "notes": [
+    "2012–26: CAGR +29,7 %, MaxDD −49 %, Sharpe 0,82; ab 2018 (−0,5x): +15,3 %, −34 %, 0,62. In Cash an allen 3 Krisentagen – mit nur 1 Warntag 2018/2024. Instrument (EU) offen.",
+    "Regime: per Konstruktion nur bei Contango; im Stress (Backwardation) aus.",
+    "Test 2: nur ohne Ausführungsverzug; 1 Tag Verzug → Feb 2018 −32 %, Aug 2024 −31 %. Schwelle 1,00 = Zufall; 1,05 hält, Sharpe 0,72 < SPY 0,86."
+   ]
+  },
+  {
+   "id": "overlay_tom",
+   "name": "Overlay · Turn-of-Month",
+   "rule": "letzter + erste 3 Handelstage des Monats",
+   "status": "overlay",
+   "registered": "2026-09-20",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 6,
+   "verdict": "overlay",
+   "notes": [
+    "SPY 2000–26: ToM-Tage +16 % p.a. vs +6 % übrige; t 2,0. Timing für Core-Zukäufe.",
+    "Regime-abhängig (nervös +23 % ann. Differenz, Stress −15 %); ohne Kosten/Placebo."
+   ]
+  },
+  {
+   "id": "overlay_voltarget",
+   "name": "Overlay · Vol-Targeting",
+   "rule": "Exposure = 15 % / realisierte 20-Tage-Vol, max 1,5x",
+   "status": "overlay",
+   "registered": "2026-09-20",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 1,
+   "verdict": "overlay",
+   "notes": [
+    "SPY 2000–26: Sharpe 0,51 vs 0,43, MaxDD −49 % vs −57 %. Drawdown-Dämpfer für den Core."
+   ]
+  },
+  {
+   "id": "todo_momentum",
+   "name": "Offen · 12-1-Momentum (S&P 1500)",
+   "rule": "Top-Dezil 12-1-Monats-Rendite, monatlich",
+   "status": "offen",
+   "registered": "2026-09-20",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 1,
+   "verdict": "offen",
+   "notes": [
+    "stärkster Faktor der Literatur; Universum nötig."
+   ]
+  },
+  {
+   "id": "todo_russell",
+   "name": "Offen · Russell-Rekonstitution, Umkehr",
+   "rule": "Streichungen aus Russell 2000 nach Juni-Rekonstitution",
+   "status": "offen",
+   "registered": "2026-09-20",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 1,
+   "verdict": "offen",
+   "notes": [
+    "größerer Zwangsfluss als S&P; Listen prüfen."
+   ]
+  },
+  {
+   "id": "todo_spinoffs",
+   "name": "Offen · Spin-offs",
+   "rule": "Mutter und Tochter nach Abspaltung, 6–12 Monate",
+   "status": "offen",
+   "registered": "2026-09-20",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 1,
+   "verdict": "offen",
+   "notes": [
+    "Form 10 auf EDGAR; kleines n."
+   ]
+  },
+  {
+   "id": "todo_cot",
+   "name": "Offen · COT Commercial-Extreme (Rohstoffe)",
+   "rule": "Commercial-Netto-Positionierung im 3-Jahres-Extrem",
+   "status": "offen",
+   "registered": "2026-09-20",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 1,
+   "verdict": "offen",
+   "notes": [
+    "CFTC wöchentlich, frei. Dein Rohstoff-Fach."
+   ]
+  },
+  {
+   "id": "parallel_tests_1_5",
+   "name": "Tests 1–5 (Parallelsitzung) · Bollinger-Krypto, CBOE-Optionsindizes, VIX 15/20, Nachrichtenstimmung",
+   "rule": "siehe Backtest-Log",
+   "status": "tot",
+   "registered": "2026-09-20",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 1,
+   "verdict": "tot",
+   "notes": [
+    "Alle negativ nach Kosten/Placebo. VXTH (Index + VIX-Calls) einzig asymmetrisch (+3,8 % p.a., t 1,1, fast nur Corona) – Absicherungskandidat, keine Renditequelle."
+   ]
+  },
+  {
+   "id": "momentum_winners",
+   "name": "Kandidat · Gewinner-Momentum long-only (12-1, monatlich)",
+   "rule": "Top-Dezil 12-1-Momentum, monatlich, kein Short-Bein; Universum historisch",
+   "status": "beobachten",
+   "registered": "2026-09-21",
+   "n_events": 0,
+   "n_oos": 0,
+   "horizons": {
+    "x5_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x5_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x20_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x60_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_SPY": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    },
+    "x120_IWM": {
+     "in": {
+      "n": 0
+     },
+     "oos": {
+      "n": 0
+     }
+    }
+   },
+   "regimes": {
+    "auf/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "auf/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/ruhig": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/nervoes": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    },
+    "ab/stress": {
+     "x20_SPY": {
+      "n": 0
+     },
+     "x60_SPY": {
+      "n": 0
+     }
+    }
+   },
+   "active_regimes": [],
+   "trials": 8,
+   "verdict": "beobachten",
+   "notes": [
+    "2020–26 S&P 500: +1,1 %/Monat vs SPY, Treffer 64 %, t 2,7 – aber Survivorship (heutige Mitglieder). Short-Bein tot (Momentum-Crash an Regime-Wenden). Braucht portfolio.py mit historischem Universum."
+   ]
+  }
+ ]
+}
