@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-26",
+ "stand": "2026-10-01",
  "start_signal": "2026-09-30",
  "regel": "Phönix-Korb — Papierbetrieb (Test 56/56b, Vorab-Festlegung claude/phoenix_korb_vorab.md vom 26.09.2026)",
  "koerbe": {
@@ -379,6 +379,178 @@
    }
   ]
  },
- "signale": [],
- "protokoll": []
+ "linien": {
+  "gewinn_haupt": {
+   "name": "Phönix Gewinn",
+   "rendite": null,
+   "mdd": null,
+   "start": null
+  },
+  "gewinn_exit": {
+   "name": "Phönix Gewinn + Exit-Regel",
+   "rendite": null,
+   "mdd": null,
+   "start": null
+  },
+  "verlust_haupt": {
+   "name": "Phönix Verlust",
+   "rendite": null,
+   "mdd": null,
+   "start": null
+  },
+  "verlust_exit": {
+   "name": "Phönix Verlust + Exit-Regel",
+   "rendite": null,
+   "mdd": null,
+   "start": null
+  }
+ },
+ "reihen": {
+  "gewinn_haupt": [],
+  "gewinn_exit": [],
+  "verlust_haupt": [],
+  "verlust_exit": []
+ },
+ "positionen": [],
+ "signale": [
+  {
+   "signal_vom": "2026-09-30",
+   "festgeschrieben": "2026-10-01T11:21:38+00:00",
+   "marktlage": {
+    "datum": "2026-09-30",
+    "sp500": 7651.54,
+    "ma10": 7230.78,
+    "abstand_hoch_pct": -1.9,
+    "vix": 16.34,
+    "krise": false
+   },
+   "stat": {
+    "universum": 13937,
+    "mit_kursen": 13937,
+    "signale_roh": 8,
+    "signale": 6
+   },
+   "kandidaten": [
+    {
+     "sym": "DNA",
+     "name": "Ginkgo Bioworks Holdings, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 0.864,
+     "adv_usd": 16.68,
+     "schluss": 12.83,
+     "abstand_36m_hoch_pct": -81.0,
+     "vom_24m_tief_pct": 125.1,
+     "streng": true,
+     "sektor": "Healthcare",
+     "branche": "Biotechnology",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "PACB",
+     "name": "Pacific Biosciences of California, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 0.737,
+     "adv_usd": 16.28,
+     "schluss": 2.37,
+     "abstand_36m_hoch_pct": -75.8,
+     "vom_24m_tief_pct": 146.9,
+     "streng": true,
+     "sektor": "Healthcare",
+     "branche": "Medical Devices",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "DV",
+     "name": "DoubleVerify Holdings, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 2.107,
+     "adv_usd": 49.24,
+     "schluss": 13.49,
+     "abstand_36m_hoch_pct": -66.3,
+     "vom_24m_tief_pct": 42.0,
+     "streng": false,
+     "sektor": "Communication Services",
+     "branche": "Advertising Agencies",
+     "gewinn": true,
+     "korb": "gewinn"
+    },
+    {
+     "sym": "AMN",
+     "name": "AMN Healthcare Services, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 1.389,
+     "adv_usd": 25.15,
+     "schluss": 35.87,
+     "abstand_36m_hoch_pct": -52.7,
+     "vom_24m_tief_pct": 127.6,
+     "streng": false,
+     "sektor": "Healthcare",
+     "branche": "Medical Care Facilities",
+     "gewinn": true,
+     "korb": "gewinn"
+    },
+    {
+     "sym": "FTRE",
+     "name": "Fortrea Holdings Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 1.897,
+     "adv_usd": 27.97,
+     "schluss": 19.95,
+     "abstand_36m_hoch_pct": -50.3,
+     "vom_24m_tief_pct": 364.0,
+     "streng": false,
+     "sektor": "Healthcare",
+     "branche": "Biotechnology",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "ATKR",
+     "name": "Atkore Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 3.2,
+     "adv_usd": 82.43,
+     "schluss": 94.75,
+     "abstand_36m_hoch_pct": -50.2,
+     "vom_24m_tief_pct": 62.8,
+     "streng": false,
+     "sektor": "Industrials",
+     "branche": "Electrical Equipment & Parts",
+     "gewinn": false,
+     "korb": "verlust"
+    }
+   ],
+   "neu": {
+    "gewinn": [
+     "DV",
+     "AMN"
+    ],
+    "verlust": [
+     "DNA",
+     "PACB",
+     "FTRE",
+     "ATKR"
+    ]
+   }
+  }
+ ],
+ "protokoll": [
+  {
+   "typ": "signal",
+   "festgeschrieben": "2026-10-01T11:21:38+00:00",
+   "signal_vom": "2026-09-30",
+   "korb": null,
+   "sym": null,
+   "datum": null,
+   "anzahl": 6
+  }
+ ]
 }
