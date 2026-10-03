@@ -1,6 +1,6 @@
 {
- "stand": "2026-10-01",
- "erstellt": "2026-10-02T10:50:38+00:00",
+ "stand": "2026-10-02",
+ "erstellt": "2026-10-03T10:08:56+00:00",
  "start_signal": "2026-09-30",
  "koerbe_namen": {
   "v2": "v2 · Cluster-Deckel",
@@ -11,7 +11,32 @@
   "URTH": "MSCI World (URTH)",
   "SPY": "S&P 500 (SPY)"
  },
- "linien": {},
+ "linien": {
+  "v2": {
+   "name": "v2 · Cluster-Deckel",
+   "nav": 0.9973,
+   "rendite": 0.0,
+   "mdd": 0.0,
+   "start": "2026-10-02",
+   "cash_anteil": 0.0
+  },
+  "v1": {
+   "name": "v1 · Sektor-Deckel",
+   "nav": 0.9973,
+   "rendite": 0.0,
+   "mdd": 0.0,
+   "start": "2026-10-02",
+   "cash_anteil": 0.0
+  },
+  "pur": {
+   "name": "Momentum-Dezil pur",
+   "nav": 0.997,
+   "rendite": 0.0,
+   "mdd": 0.0,
+   "start": "2026-10-02",
+   "cash_anteil": 0.0
+  }
+ },
  "aktuell": {
   "v2": {
    "signal_vom": "2026-09-30",
@@ -33,11 +58,11 @@
      "sektor": "Technology",
      "sym": "SNDK",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 1787.69,
-     "seit_pct": null,
-     "sma_abstand": 57.1,
-     "hoch_abstand": -23.4,
+     "einstieg": 1719.99,
+     "kurs": 1719.99,
+     "seit_pct": 0.0,
+     "sma_abstand": 50.1,
+     "hoch_abstand": -26.3,
      "exit": null
     },
     {
@@ -125,10 +150,10 @@
      "sektor": "Healthcare",
      "sym": "CDNA",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 66.23,
-     "seit_pct": null,
-     "sma_abstand": 132.2,
+     "einstieg": 67.15,
+     "kurs": 67.15,
+     "seit_pct": 0.0,
+     "sma_abstand": 133.5,
      "hoch_abstand": 0.0,
      "exit": null
     },
@@ -194,11 +219,11 @@
      "sektor": "Industrials",
      "sym": "ATI",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 191.14,
-     "seit_pct": null,
-     "sma_abstand": 14.7,
-     "hoch_abstand": -17.5,
+     "einstieg": 192.42,
+     "kurs": 192.42,
+     "seit_pct": 0.0,
+     "sma_abstand": 15.2,
+     "hoch_abstand": -17.0,
      "exit": null
     },
     {
@@ -217,11 +242,11 @@
      "sektor": "Energy",
      "sym": "PBF",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 82.34,
-     "seit_pct": null,
-     "sma_abstand": 71.6,
-     "hoch_abstand": 0.0,
+     "einstieg": 80.78,
+     "kurs": 80.78,
+     "seit_pct": 0.0,
+     "sma_abstand": 67.4,
+     "hoch_abstand": -1.9,
      "exit": null
     },
     {
@@ -240,11 +265,11 @@
      "sektor": "Basic Materials",
      "sym": "AYA",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 26.91,
-     "seit_pct": null,
-     "sma_abstand": 36.7,
-     "hoch_abstand": -11.4,
+     "einstieg": 27.12,
+     "kurs": 27.12,
+     "seit_pct": 0.0,
+     "sma_abstand": 37.3,
+     "hoch_abstand": -10.7,
      "exit": null
     }
    ]
@@ -269,11 +294,11 @@
      "sektor": "Technology",
      "sym": "SNDK",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 1787.69,
-     "seit_pct": null,
-     "sma_abstand": 57.1,
-     "hoch_abstand": -23.4,
+     "einstieg": 1719.99,
+     "kurs": 1719.99,
+     "seit_pct": 0.0,
+     "sma_abstand": 50.1,
+     "hoch_abstand": -26.3,
      "exit": null
     },
     {
@@ -361,10 +386,10 @@
      "sektor": "Healthcare",
      "sym": "CDNA",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 66.23,
-     "seit_pct": null,
-     "sma_abstand": 132.2,
+     "einstieg": 67.15,
+     "kurs": 67.15,
+     "seit_pct": 0.0,
+     "sma_abstand": 133.5,
      "hoch_abstand": 0.0,
      "exit": null
     },
@@ -476,11 +501,11 @@
      "sektor": "Energy",
      "sym": "PBF",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 82.34,
-     "seit_pct": null,
-     "sma_abstand": 71.6,
-     "hoch_abstand": 0.0,
+     "einstieg": 80.78,
+     "kurs": 80.78,
+     "seit_pct": 0.0,
+     "sma_abstand": 67.4,
+     "hoch_abstand": -1.9,
      "exit": null
     }
    ]
@@ -505,11 +530,11 @@
      "sektor": "Technology",
      "sym": "MU",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 1097.39,
-     "seit_pct": null,
-     "sma_abstand": 62.0,
-     "hoch_abstand": -9.6,
+     "einstieg": 1074.89,
+     "kurs": 1074.89,
+     "seit_pct": 0.0,
+     "sma_abstand": 57.7,
+     "hoch_abstand": -11.4,
      "exit": null
     },
     {
@@ -528,11 +553,11 @@
      "sektor": "Technology",
      "sym": "SNDK",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 1787.69,
-     "seit_pct": null,
-     "sma_abstand": 57.1,
-     "hoch_abstand": -23.4,
+     "einstieg": 1719.99,
+     "kurs": 1719.99,
+     "seit_pct": 0.0,
+     "sma_abstand": 50.1,
+     "hoch_abstand": -26.3,
      "exit": null
     },
     {
@@ -551,11 +576,11 @@
      "sektor": "Technology",
      "sym": "AMD",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 615.73,
-     "seit_pct": null,
-     "sma_abstand": 65.3,
-     "hoch_abstand": -2.4,
+     "einstieg": 633.91,
+     "kurs": 633.91,
+     "seit_pct": 0.0,
+     "sma_abstand": 69.2,
+     "hoch_abstand": 0.0,
      "exit": null
     },
     {
@@ -597,11 +622,11 @@
      "sektor": "Technology",
      "sym": "INTC",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 120.0,
-     "seit_pct": null,
-     "sma_abstand": 48.6,
-     "hoch_abstand": -14.9,
+     "einstieg": 119.33,
+     "kurs": 119.33,
+     "seit_pct": 0.0,
+     "sma_abstand": 47.0,
+     "hoch_abstand": -15.3,
      "exit": null
     },
     {
@@ -643,11 +668,11 @@
      "sektor": "Technology",
      "sym": "MRVL",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 268.08,
-     "seit_pct": null,
-     "sma_abstand": 61.5,
-     "hoch_abstand": -15.3,
+     "einstieg": 272.29,
+     "kurs": 272.29,
+     "seit_pct": 0.0,
+     "sma_abstand": 63.1,
+     "hoch_abstand": -13.9,
      "exit": null
     },
     {
@@ -689,11 +714,11 @@
      "sektor": "Communication Services",
      "sym": "NBIS",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 232.28,
-     "seit_pct": null,
-     "sma_abstand": 39.1,
-     "hoch_abstand": -19.0,
+     "einstieg": 242.81,
+     "kurs": 242.81,
+     "seit_pct": 0.0,
+     "sma_abstand": 44.8,
+     "hoch_abstand": -15.3,
      "exit": null
     },
     {
@@ -712,20 +737,47 @@
      "sektor": "Technology",
      "sym": "LITE",
      "ueber200": true,
-     "einstieg": null,
-     "kurs": 1045.78,
-     "seit_pct": null,
-     "sma_abstand": 41.0,
-     "hoch_abstand": -0.7,
+     "einstieg": 1085.42,
+     "kurs": 1085.42,
+     "seit_pct": 0.0,
+     "sma_abstand": 45.6,
+     "hoch_abstand": 0.0,
      "exit": null
     }
    ]
   }
  },
  "reihen": {
-  "v2": [],
-  "v1": [],
-  "pur": []
+  "v2": [
+   [
+    "2026-10-02",
+    0.9973
+   ]
+  ],
+  "v1": [
+   [
+    "2026-10-02",
+    0.9973
+   ]
+  ],
+  "pur": [
+   [
+    "2026-10-02",
+    0.997
+   ]
+  ],
+  "URTH": [
+   [
+    "2026-10-02",
+    1.0
+   ]
+  ],
+  "SPY": [
+   [
+    "2026-10-02",
+    1.0
+   ]
+  ]
  },
  "vorschau": null,
  "letzter_screen": {

@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-02",
+ "stand": "2026-10-03",
  "start_signal": "2026-09-30",
  "regel": "Phönix-Korb — Papierbetrieb (Test 56/56b, Vorab-Festlegung claude/phoenix_korb_vorab.md vom 26.09.2026)",
  "koerbe": {
@@ -10,36 +10,147 @@
  "linien": {
   "gewinn_haupt": {
    "name": "Phönix Gewinn",
-   "rendite": null,
-   "mdd": null,
-   "start": null
+   "rendite": -0.02,
+   "mdd": 0.0,
+   "start": "2026-10-02"
   },
   "gewinn_exit": {
    "name": "Phönix Gewinn + Exit-Regel",
-   "rendite": null,
-   "mdd": null,
-   "start": null
+   "rendite": -0.02,
+   "mdd": 0.0,
+   "start": "2026-10-02"
   },
   "verlust_haupt": {
    "name": "Phönix Verlust",
-   "rendite": null,
-   "mdd": null,
-   "start": null
+   "rendite": -0.04,
+   "mdd": 0.0,
+   "start": "2026-10-02"
   },
   "verlust_exit": {
    "name": "Phönix Verlust + Exit-Regel",
-   "rendite": null,
-   "mdd": null,
-   "start": null
+   "rendite": -0.04,
+   "mdd": 0.0,
+   "start": "2026-10-02"
+  },
+  "URTH": {
+   "name": "MSCI World (URTH)",
+   "rendite": 0.0,
+   "mdd": 0.0,
+   "start": "2026-10-02"
   }
  },
  "reihen": {
-  "gewinn_haupt": [],
-  "gewinn_exit": [],
-  "verlust_haupt": [],
-  "verlust_exit": []
+  "gewinn_haupt": [
+   [
+    "2026-10-02",
+    0.9998
+   ]
+  ],
+  "gewinn_exit": [
+   [
+    "2026-10-02",
+    0.9998
+   ]
+  ],
+  "verlust_haupt": [
+   [
+    "2026-10-02",
+    0.9996
+   ]
+  ],
+  "verlust_exit": [
+   [
+    "2026-10-02",
+    0.9996
+   ]
+  ],
+  "URTH": [
+   [
+    "2026-10-02",
+    1.0
+   ]
+  ]
  },
- "positionen": [],
+ "positionen": [
+  {
+   "korb": "gewinn",
+   "sym": "DV",
+   "name": "DoubleVerify Holdings, Inc.",
+   "land": "USA",
+   "sektor": "Communication Services",
+   "signal_vom": "2026-09-30",
+   "einstieg": "2026-10-02",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "gewinn",
+   "sym": "AMN",
+   "name": "AMN Healthcare Services, Inc.",
+   "land": "USA",
+   "sektor": "Healthcare",
+   "signal_vom": "2026-09-30",
+   "einstieg": "2026-10-02",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "DNA",
+   "name": "Ginkgo Bioworks Holdings, Inc.",
+   "land": "USA",
+   "sektor": "Healthcare",
+   "signal_vom": "2026-09-30",
+   "einstieg": "2026-10-02",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "PACB",
+   "name": "Pacific Biosciences of California, Inc.",
+   "land": "USA",
+   "sektor": "Healthcare",
+   "signal_vom": "2026-09-30",
+   "einstieg": "2026-10-02",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "FTRE",
+   "name": "Fortrea Holdings Inc.",
+   "land": "USA",
+   "sektor": "Healthcare",
+   "signal_vom": "2026-09-30",
+   "einstieg": "2026-10-02",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "ATKR",
+   "name": "Atkore Inc.",
+   "land": "USA",
+   "sektor": "Industrials",
+   "signal_vom": "2026-09-30",
+   "einstieg": "2026-10-02",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  }
+ ],
  "signale": [
   {
    "signal_vom": "2026-09-30",
@@ -179,6 +290,60 @@
    "sym": null,
    "datum": null,
    "anzahl": 6
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-10-03T10:08:58+00:00",
+   "signal_vom": "2026-09-30",
+   "korb": "gewinn",
+   "sym": "DV",
+   "datum": "2026-10-02",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-10-03T10:08:58+00:00",
+   "signal_vom": "2026-09-30",
+   "korb": "gewinn",
+   "sym": "AMN",
+   "datum": "2026-10-02",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-10-03T10:08:58+00:00",
+   "signal_vom": "2026-09-30",
+   "korb": "verlust",
+   "sym": "DNA",
+   "datum": "2026-10-02",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-10-03T10:08:58+00:00",
+   "signal_vom": "2026-09-30",
+   "korb": "verlust",
+   "sym": "PACB",
+   "datum": "2026-10-02",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-10-03T10:08:58+00:00",
+   "signal_vom": "2026-09-30",
+   "korb": "verlust",
+   "sym": "FTRE",
+   "datum": "2026-10-02",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-10-03T10:08:58+00:00",
+   "signal_vom": "2026-09-30",
+   "korb": "verlust",
+   "sym": "ATKR",
+   "datum": "2026-10-02",
+   "anzahl": null
   }
  ]
 }
