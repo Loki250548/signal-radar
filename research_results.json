@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T11:16:33+00:00",
+ "generated": "2026-10-04T11:44:25+00:00",
  "cost_pct": 1.0,
  "note": "Ueberrenditen nach Kosten; t_clustered = t-Wert nach Ereignisdatum gebuendelt",
  "theses": [
@@ -9,8 +9,8 @@
    "rule": "Streichung Abstieg/Exit, nicht S&P 100, kein M&A/Insolvenz, Vorlauf 10 HT > −5 %; Einstieg Schluss vor Stichtag; Haltedauer ~20 HT",
    "status": "widerlegt",
    "registered": "2026-09-20",
-   "n_events": 130,
-   "n_oos": 4,
+   "n_events": 131,
+   "n_oos": 5,
    "horizons": {
     "x5_SPY": {
      "in": {
@@ -70,13 +70,13 @@
     },
     "x60_SPY": {
      "in": {
-      "n": 125,
-      "mean": -0.76,
-      "median": -3.21,
-      "hit": 44.0,
-      "t": -0.31,
-      "clusters": 37,
-      "t_clustered": -0.21
+      "n": 126,
+      "mean": -0.97,
+      "median": -3.62,
+      "hit": 43.7,
+      "t": -0.4,
+      "clusters": 38,
+      "t_clustered": -0.42
      },
      "oos": {
       "n": 0
@@ -84,13 +84,13 @@
     },
     "x60_IWM": {
      "in": {
-      "n": 125,
-      "mean": 0.26,
-      "median": -3.52,
-      "hit": 44.0,
-      "t": 0.11,
-      "clusters": 37,
-      "t_clustered": 0.04
+      "n": 126,
+      "mean": 0.1,
+      "median": -3.58,
+      "hit": 43.7,
+      "t": 0.05,
+      "clusters": 38,
+      "t_clustered": -0.14
      },
      "oos": {
       "n": 0
@@ -137,13 +137,13 @@
       "t_clustered": -0.82
      },
      "x60_SPY": {
-      "n": 91,
-      "mean": -3.15,
-      "median": -6.24,
-      "hit": 36.3,
-      "t": -1.17,
-      "clusters": 24,
-      "t_clustered": -1.78
+      "n": 92,
+      "mean": -3.41,
+      "median": -6.25,
+      "hit": 35.9,
+      "t": -1.28,
+      "clusters": 25,
+      "t_clustered": -2.08
      }
     },
     "auf/nervoes": {
@@ -225,8 +225,8 @@
    "rule": "wie oben, aber ohne Vorlauf-Bedingung – Kontrollgruppe",
    "status": "widerlegt",
    "registered": "2026-09-20",
-   "n_events": 255,
-   "n_oos": 13,
+   "n_events": 258,
+   "n_oos": 17,
    "horizons": {
     "x5_SPY": {
      "in": {
@@ -294,13 +294,13 @@
     },
     "x60_SPY": {
      "in": {
-      "n": 238,
-      "mean": -3.66,
-      "median": -4.65,
-      "hit": 39.9,
-      "t": -2.02,
-      "clusters": 55,
-      "t_clustered": -0.69
+      "n": 240,
+      "mean": -3.83,
+      "median": -4.78,
+      "hit": 39.6,
+      "t": -2.13,
+      "clusters": 57,
+      "t_clustered": -0.95
      },
      "oos": {
       "n": 0
@@ -308,13 +308,13 @@
     },
     "x60_IWM": {
      "in": {
-      "n": 238,
-      "mean": -2.75,
-      "median": -4.16,
-      "hit": 41.2,
-      "t": -1.55,
-      "clusters": 55,
-      "t_clustered": -0.43
+      "n": 240,
+      "mean": -2.86,
+      "median": -4.25,
+      "hit": 40.8,
+      "t": -1.62,
+      "clusters": 57,
+      "t_clustered": -0.62
      },
      "oos": {
       "n": 0
@@ -361,13 +361,13 @@
       "t_clustered": 0.3
      },
      "x60_SPY": {
-      "n": 155,
-      "mean": -3.78,
-      "median": -4.9,
-      "hit": 38.7,
-      "t": -1.8,
-      "clusters": 35,
-      "t_clustered": -1.35
+      "n": 157,
+      "mean": -4.04,
+      "median": -5.65,
+      "hit": 38.2,
+      "t": -1.95,
+      "clusters": 37,
+      "t_clustered": -1.74
      }
     },
     "auf/nervoes": {
@@ -909,13 +909,13 @@
     },
     "x120_SPY": {
      "in": {
-      "n": 17,
-      "mean": 36.21,
-      "median": 1.56,
-      "hit": 52.9,
-      "t": 1.01,
-      "clusters": 12,
-      "t_clustered": 1.03
+      "n": 18,
+      "mean": 32.25,
+      "median": -7.97,
+      "hit": 50.0,
+      "t": 0.95,
+      "clusters": 13,
+      "t_clustered": 0.96
      },
      "oos": {
       "n": 0
@@ -923,13 +923,13 @@
     },
     "x120_IWM": {
      "in": {
-      "n": 17,
-      "mean": 31.83,
-      "median": 0.13,
-      "hit": 52.9,
-      "t": 0.89,
-      "clusters": 12,
-      "t_clustered": 0.93
+      "n": 18,
+      "mean": 28.45,
+      "median": -9.84,
+      "hit": 50.0,
+      "t": 0.84,
+      "clusters": 13,
+      "t_clustered": 0.88
      },
      "oos": {
       "n": 0
