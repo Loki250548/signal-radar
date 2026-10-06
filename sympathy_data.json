@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-03T10:08:02+00:00",
- "asof": "2026-10-02",
+ "generated": "2026-10-06T11:34:26+00:00",
+ "asof": "2026-10-05",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
  "universe": 503,
  "blue_chips": [
@@ -25,7 +25,6 @@
   "BE",
   "BKNG",
   "BRK-B",
-  "BSX",
   "C",
   "CAT",
   "CIEN",
@@ -100,32 +99,14 @@
   "VLO",
   "VRT",
   "VZ",
+  "WBD",
   "WDC",
   "WFC",
   "WMT",
   "XOM"
  ],
  "signals_today": [],
- "control_today": [
-  {
-   "ticker": "STX",
-   "sector": "Information Technology",
-   "date": "2026-10-02",
-   "excess": -11.0,
-   "vol_ratio": 3.6,
-   "peer_median": 0.7,
-   "blue_chip": true
-  },
-  {
-   "ticker": "WDC",
-   "sector": "Information Technology",
-   "date": "2026-10-02",
-   "excess": -11.0,
-   "vol_ratio": 3.6,
-   "peer_median": 0.7,
-   "blue_chip": true
-  }
- ],
+ "control_today": [],
  "positions": [],
  "stats": {
   "open": 0,
