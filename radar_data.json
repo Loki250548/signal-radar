@@ -1,11 +1,32 @@
 {
-  "generated": "2026-10-08T11:35:30+00:00",
+  "generated": "2026-10-09T11:30:51+00:00",
   "source": "SEC EDGAR — Form 4 (Daily Index)",
-  "filing_date": "2026-10-07",
-  "filings_scanned": 660,
-  "purchases_found": 227,
+  "filing_date": "2026-10-08",
+  "filings_scanned": 639,
+  "purchases_found": 149,
   "min_value": 10000.0,
   "signals": [
+    {
+      "thesis": "insider-cluster",
+      "ticker": "COE",
+      "company": "51Talk Online Education Group",
+      "insiders": 1,
+      "buyers": [
+        "Huang Jack Jiajia"
+      ],
+      "roles": [
+        "Dir/Off/10%"
+      ],
+      "titles": [
+        "Chief Executive Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 64667059.2,
+      "total_shares": 5624280,
+      "avg_price": 11.4978,
+      "latest_date": "2026-09-25",
+      "strength": 162.8
+    },
     {
       "thesis": "insider-cluster",
       "ticker": "BORR",
@@ -19,56 +40,89 @@
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 12728400.0,
-      "total_shares": 3000000,
-      "avg_price": 4.2428,
-      "latest_date": "2026-10-06",
-      "strength": 94.8
+      "total_value": 10780500.0,
+      "total_shares": 2500000,
+      "avg_price": 4.3122,
+      "latest_date": "2026-10-07",
+      "strength": 87.4
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "IRIX",
-      "company": "IRIDEX CORP",
+      "ticker": "TSM",
+      "company": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "insiders": 30,
+      "buyers": [
+        "Cao Min",
+        "Chang Tzonz-Sheng",
+        "Chen Chih-Ho",
+        "Chen Pei-Hung",
+        "Chin Yung-Pei",
+        "Chuang Juiping",
+        "Chuang Tzu-Sou",
+        "Fang Shu-Hua",
+        "He Jun",
+        "Hou Yung-Chin",
+        "Hsu Kuo-Chin",
+        "Huang Jen-Chau",
+        "Hwang Yuan-Ko",
+        "Jang Syun-Ming",
+        "Ku Yao-Ching",
+        "Lee Chun-Hsien",
+        "Lin Chris Horng-Dar",
+        "Lin Shyue-Shyh",
+        "Lu Chin-Sheng",
+        "Lu Lee-Chung",
+        "Mii Yuh-Jier",
+        "Tien Bor-Zen",
+        "Wang Ying-Lang",
+        "Wei Che-Chia",
+        "Wu Shien-Yang",
+        "Wu Yi-Huang",
+        "Yeap Choh Fei",
+        "Yoo Chue-San",
+        "Yuan Lipen",
+        "Zhang Kevin Xiaoqiang"
+      ],
+      "roles": [
+        "Dir/Off",
+        "Off"
+      ],
+      "titles": [
+        "Chairman and CEO",
+        "Controller",
+        "EVP and Co-COO",
+        "SVP",
+        "SVP and CFO",
+        "SVP and Deputy Co-COO",
+        "SVP and GC",
+        "VP",
+        "VP and CIO"
+      ],
+      "plan10b5_1": false,
+      "total_value": 242933.4,
+      "total_shares": 3060,
+      "avg_price": 79.39,
+      "latest_date": "2026-10-07",
+      "strength": 72.8
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "AVR",
+      "company": "Anteris Technologies Global Corp.",
       "insiders": 1,
       "buyers": [
-        "Lin Shih-Yao David"
+        "L1 Capital Pty Ltd"
       ],
       "roles": [
         "10%"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 2620551.96,
-      "total_shares": 2373618,
-      "avg_price": 1.104,
-      "latest_date": "2026-03-30",
-      "strength": 34.4
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "AGMB",
-      "company": "AgomAb Therapeutics NV",
-      "insiders": 3,
-      "buyers": [
-        "Epstein David R",
-        "Kemula Pierre Thadee Victor",
-        "Knotnerus Tim Jasper"
-      ],
-      "roles": [
-        "Dir",
-        "Dir/Off",
-        "Off"
-      ],
-      "titles": [
-        "Chief Executive Officer",
-        "Chief Financial Officer"
-      ],
-      "plan10b5_1": false,
-      "total_value": 533340.0,
-      "total_shares": 62000,
-      "avg_price": 8.6023,
+      "total_value": 3915900.2,
+      "total_shares": 545390,
+      "avg_price": 7.18,
       "latest_date": "2026-10-06",
-      "strength": 25.0
+      "strength": 41.6
     },
     {
       "thesis": "insider-cluster",
@@ -83,30 +137,115 @@
       ],
       "titles": [],
       "plan10b5_1": true,
-      "total_value": 4567295.62,
-      "total_shares": 131422,
-      "avg_price": 34.7529,
-      "latest_date": "2026-10-05",
-      "strength": 22.4
+      "total_value": 8198203.89,
+      "total_shares": 232690,
+      "avg_price": 35.2323,
+      "latest_date": "2026-10-06",
+      "strength": 29.6
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "MXF",
-      "company": "MEXICO FUND INC",
+      "ticker": "FUL",
+      "company": "FULLER H B CO",
       "insiders": 1,
       "buyers": [
-        "Saba Capital Management, L.P."
+        "BAILLY R JEFFREY"
       ],
       "roles": [
-        "10%"
+        "Dir"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 1040662.0,
-      "total_shares": 51800,
-      "avg_price": 20.09,
-      "latest_date": "2026-10-05",
-      "strength": 22.4
+      "total_value": 1000000.0,
+      "total_shares": 20000,
+      "avg_price": 50.0,
+      "latest_date": "2026-10-07",
+      "strength": 28.0
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "PDI",
+      "company": "PIMCO Dynamic Income Fund",
+      "insiders": 1,
+      "buyers": [
+        "FLATTUM DAVID C"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 499016.52,
+      "total_shares": 34896,
+      "avg_price": 14.3,
+      "latest_date": "2026-10-06",
+      "strength": 20.4
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "PHK",
+      "company": "PIMCO HIGH INCOME FUND",
+      "insiders": 1,
+      "buyers": [
+        "FLATTUM DAVID C"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 498490.53,
+      "total_shares": 120408,
+      "avg_price": 4.14,
+      "latest_date": "2026-10-06",
+      "strength": 20.4
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "IMMR",
+      "company": "IMMERSION CORP",
+      "insiders": 1,
+      "buyers": [
+        "Singer Eric"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "President and CEO"
+      ],
+      "plan10b5_1": false,
+      "total_value": 585599.0,
+      "total_shares": 82000,
+      "avg_price": 7.1415,
+      "latest_date": "2026-10-07",
+      "strength": 17.3
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "NRXS",
+      "company": "Neuraxis, INC",
+      "insiders": 3,
+      "buyers": [
+        "Carrico Brian Allen",
+        "Carrico Thomas Joeseph",
+        "Henrichs Timothy Robert"
+      ],
+      "roles": [
+        "Dir/Off",
+        "Off"
+      ],
+      "titles": [
+        "CRO, CCO, CPO",
+        "Chief Executive Officer",
+        "Chief Financial Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 24519.44,
+      "total_shares": 5066,
+      "avg_price": 4.84,
+      "latest_date": "2026-10-08",
+      "strength": 10.1
     },
     {
       "thesis": "insider-cluster",
@@ -121,87 +260,30 @@
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 528526.88,
-      "total_shares": 50288,
-      "avg_price": 10.51,
-      "latest_date": "2026-10-05",
-      "strength": 16.5
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "STWI",
-      "company": "StageWise Strategies Corp.",
-      "insiders": 1,
-      "buyers": [
-        "Tourism & Entertainment Group, LLC"
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 276000.0,
-      "total_shares": 2000000,
-      "avg_price": 0.138,
-      "latest_date": "2026-10-05",
-      "strength": 12.5
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "VRA",
-      "company": "Vera Bradley, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "Brockman Ivan"
-      ],
-      "roles": [
-        "Dir"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 100400.0,
-      "total_shares": 20000,
-      "avg_price": 5.02,
+      "total_value": 115107.18,
+      "total_shares": 10994,
+      "avg_price": 10.47,
       "latest_date": "2026-10-06",
-      "strength": 10.2
+      "strength": 8.8
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "SAH",
-      "company": "SONIC AUTOMOTIVE INC",
+      "ticker": "CINT",
+      "company": "CI&T Inc",
       "insiders": 1,
       "buyers": [
-        "Rusnak Paul P."
+        "Martins Fernando Matt Borges"
       ],
       "roles": [
-        "10%"
+        "Dir/10%"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 134056.2,
-      "total_shares": 2238,
-      "avg_price": 59.9,
-      "latest_date": "2026-10-06",
-      "strength": 9.3
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "INLX",
-      "company": "INTELLINETICS, INC.",
-      "insiders": 1,
-      "buyers": [
-        "TAGLICH ROBERT"
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 40000.0,
-      "total_shares": 8000,
-      "avg_price": 5.0,
-      "latest_date": "2026-10-06",
-      "strength": 6.0
+      "total_value": 98646.54,
+      "total_shares": 31490,
+      "avg_price": 3.1326,
+      "latest_date": "2026-10-07",
+      "strength": 8.3
     },
     {
       "thesis": "insider-cluster",
@@ -216,10 +298,71 @@
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 33299.0,
-      "total_shares": 3550,
-      "avg_price": 9.38,
-      "latest_date": "2026-10-05",
+      "total_value": 83541.98,
+      "total_shares": 8878,
+      "avg_price": 9.41,
+      "latest_date": "2026-10-06",
+      "strength": 7.8
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "CET",
+      "company": "CENTRAL SECURITIES CORP",
+      "insiders": 1,
+      "buyers": [
+        "Hill John C"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "CEO & President"
+      ],
+      "plan10b5_1": false,
+      "total_value": 56370.0,
+      "total_shares": 1000,
+      "avg_price": 56.37,
+      "latest_date": "2026-10-06",
+      "strength": 6.7
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "INM",
+      "company": "InMed Pharmaceuticals Inc.",
+      "insiders": 1,
+      "buyers": [
+        "ADAR1 Capital Management, LLC"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 43452.82,
+      "total_shares": 32709,
+      "avg_price": 1.3285,
+      "latest_date": "2026-10-08",
+      "strength": 6.2
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "WVVI",
+      "company": "WILLAMETTE VALLEY VINEYARDS INC",
+      "insiders": 1,
+      "buyers": [
+        "Osborn Michael Jordan"
+      ],
+      "roles": [
+        "Off"
+      ],
+      "titles": [
+        "Chief Executive Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 19309.33,
+      "total_shares": 10000,
+      "avg_price": 1.9309,
+      "latest_date": "2026-10-07",
       "strength": 5.6
     },
     {
@@ -237,11 +380,11 @@
         "Chief Executive Officer"
       ],
       "plan10b5_1": true,
-      "total_value": 17393.16,
-      "total_shares": 14046,
-      "avg_price": 1.2383,
-      "latest_date": "2026-10-06",
-      "strength": 2.3
+      "total_value": 13352.93,
+      "total_shares": 11010,
+      "avg_price": 1.2128,
+      "latest_date": "2026-10-07",
+      "strength": 2.2
     }
   ]
 }
