@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T11:44:25+00:00",
+ "generated": "2026-10-11T12:01:41+00:00",
  "cost_pct": 1.0,
  "note": "Ueberrenditen nach Kosten; t_clustered = t-Wert nach Ereignisdatum gebuendelt",
  "theses": [
@@ -9,8 +9,8 @@
    "rule": "Streichung Abstieg/Exit, nicht S&P 100, kein M&A/Insolvenz, Vorlauf 10 HT > −5 %; Einstieg Schluss vor Stichtag; Haltedauer ~20 HT",
    "status": "widerlegt",
    "registered": "2026-09-20",
-   "n_events": 131,
-   "n_oos": 5,
+   "n_events": 132,
+   "n_oos": 6,
    "horizons": {
     "x5_SPY": {
      "in": {
@@ -225,8 +225,8 @@
    "rule": "wie oben, aber ohne Vorlauf-Bedingung – Kontrollgruppe",
    "status": "widerlegt",
    "registered": "2026-09-20",
-   "n_events": 258,
-   "n_oos": 17,
+   "n_events": 257,
+   "n_oos": 16,
    "horizons": {
     "x5_SPY": {
      "in": {
@@ -656,9 +656,9 @@
     "half1": 4.7,
     "half2": 5.83,
     "mean_wo_top5": 0.42,
-    "placebo_mean": 1.32,
-    "placebo_p95": 6.21,
-    "placebo_rank": 89.0,
+    "placebo_mean": 1.48,
+    "placebo_p95": 6.72,
+    "placebo_rank": 89.5,
     "placebo_draws": 200
    },
    "t_required": 5.13,
