@@ -1,6 +1,6 @@
 {
- "stand": "2026-10-09",
- "erstellt": "2026-10-10T10:51:50+00:00",
+ "stand": "2026-10-12",
+ "erstellt": "2026-10-13T12:10:35+00:00",
  "start_signal": "2026-09-30",
  "koerbe_namen": {
   "v2": "v2 · Cluster-Deckel",
@@ -14,39 +14,39 @@
  "linien": {
   "v2": {
    "name": "v2 · Cluster-Deckel",
-   "nav": 0.97913,
-   "rendite": -1.82,
-   "mdd": -3.98,
+   "nav": 0.9683,
+   "rendite": -2.91,
+   "mdd": -5.04,
    "start": "2026-10-02",
    "cash_anteil": 0.0
   },
   "v1": {
    "name": "v1 · Sektor-Deckel",
-   "nav": 0.98591,
-   "rendite": -1.14,
-   "mdd": -4.47,
+   "nav": 0.98064,
+   "rendite": -1.67,
+   "mdd": -4.98,
    "start": "2026-10-02",
    "cash_anteil": 0.0
   },
   "pur": {
    "name": "Momentum-Dezil pur",
-   "nav": 0.94207,
-   "rendite": -5.51,
-   "mdd": -5.51,
+   "nav": 0.91013,
+   "rendite": -8.71,
+   "mdd": -8.71,
    "start": "2026-10-02",
    "cash_anteil": 0.0
   },
   "URTH": {
    "name": "MSCI World (URTH)",
-   "nav": 1.00776,
-   "rendite": 0.78,
+   "nav": 1.00675,
+   "rendite": 0.67,
    "mdd": -0.89,
    "start": "2026-10-02"
   },
   "SPY": {
    "name": "S&P 500 (SPY)",
-   "nav": 1.0116,
-   "rendite": 1.16,
+   "nav": 1.01099,
+   "rendite": 1.1,
    "mdd": -0.66,
    "start": "2026-10-02"
   }
@@ -73,10 +73,10 @@
      "sym": "SNDK",
      "ueber200": true,
      "einstieg": 1719.99,
-     "kurs": 1581.82,
-     "seit_pct": -8.0,
-     "sma_abstand": 33.9,
-     "hoch_abstand": -32.3,
+     "kurs": 1487.33,
+     "seit_pct": -13.5,
+     "sma_abstand": 25.2,
+     "hoch_abstand": -36.3,
      "exit": null
     },
     {
@@ -96,10 +96,10 @@
      "sym": "285A.T",
      "ueber200": true,
      "einstieg": 19300.0,
-     "kurs": 17505.0,
-     "seit_pct": -9.3,
-     "sma_abstand": 22.2,
-     "hoch_abstand": -51.7,
+     "kurs": 15180.0,
+     "seit_pct": -21.3,
+     "sma_abstand": 5.6,
+     "hoch_abstand": -58.1,
      "exit": null
     },
     {
@@ -119,10 +119,10 @@
      "sym": "3167.TW",
      "ueber200": true,
      "einstieg": 981.0,
-     "kurs": 1055.0,
-     "seit_pct": 7.5,
-     "sma_abstand": 78.9,
-     "hoch_abstand": 0.0,
+     "kurs": 977.0,
+     "seit_pct": -0.4,
+     "sma_abstand": 64.6,
+     "hoch_abstand": -7.4,
      "exit": null
     },
     {
@@ -142,10 +142,10 @@
      "sym": "2059.TW",
      "ueber200": true,
      "einstieg": 12145.0,
-     "kurs": 10615.0,
-     "seit_pct": -12.6,
-     "sma_abstand": 63.3,
-     "hoch_abstand": -26.8,
+     "kurs": 10060.0,
+     "seit_pct": -17.2,
+     "sma_abstand": 54.0,
+     "hoch_abstand": -30.7,
      "exit": null
     },
     {
@@ -165,10 +165,10 @@
      "sym": "CDNA",
      "ueber200": true,
      "einstieg": 67.15,
-     "kurs": 63.67,
-     "seit_pct": -5.2,
-     "sma_abstand": 113.1,
-     "hoch_abstand": -8.8,
+     "kurs": 63.12,
+     "seit_pct": -6.0,
+     "sma_abstand": 109.7,
+     "hoch_abstand": -9.6,
      "exit": null
     },
     {
@@ -188,10 +188,10 @@
      "sym": "688300.SS",
      "ueber200": true,
      "einstieg": 139.36,
-     "kurs": 136.49,
-     "seit_pct": -2.1,
-     "sma_abstand": 12.0,
-     "hoch_abstand": -49.9,
+     "kurs": 133.51,
+     "seit_pct": -4.2,
+     "sma_abstand": 9.2,
+     "hoch_abstand": -51.0,
      "exit": null
     },
     {
@@ -211,10 +211,10 @@
      "sym": "EB5.SI",
      "ueber200": true,
      "einstieg": 4.13,
-     "kurs": 4.4,
-     "seit_pct": 6.5,
-     "sma_abstand": 38.5,
-     "hoch_abstand": -14.1,
+     "kurs": 4.19,
+     "seit_pct": 1.5,
+     "sma_abstand": 31.5,
+     "hoch_abstand": -18.2,
      "exit": null
     },
     {
@@ -234,10 +234,10 @@
      "sym": "ATI",
      "ueber200": true,
      "einstieg": 192.42,
-     "kurs": 191.84,
-     "seit_pct": -0.3,
-     "sma_abstand": 13.5,
-     "hoch_abstand": -17.2,
+     "kurs": 187.98,
+     "seit_pct": -2.3,
+     "sma_abstand": 11.0,
+     "hoch_abstand": -18.9,
      "exit": null
     },
     {
@@ -257,10 +257,10 @@
      "sym": "PBF",
      "ueber200": true,
      "einstieg": 80.78,
-     "kurs": 84.27,
-     "seit_pct": 4.3,
-     "sma_abstand": 69.5,
-     "hoch_abstand": -5.7,
+     "kurs": 85.02,
+     "seit_pct": 5.2,
+     "sma_abstand": 70.0,
+     "hoch_abstand": -4.8,
      "exit": null
     },
     {
@@ -280,10 +280,10 @@
      "sym": "AYA",
      "ueber200": true,
      "einstieg": 27.12,
-     "kurs": 27.42,
-     "seit_pct": 1.1,
-     "sma_abstand": 36.7,
-     "hoch_abstand": -9.7,
+     "kurs": 26.45,
+     "seit_pct": -2.5,
+     "sma_abstand": 31.5,
+     "hoch_abstand": -12.9,
      "exit": null
     }
    ]
@@ -309,10 +309,10 @@
      "sym": "SNDK",
      "ueber200": true,
      "einstieg": 1719.99,
-     "kurs": 1581.82,
-     "seit_pct": -8.0,
-     "sma_abstand": 33.9,
-     "hoch_abstand": -32.3,
+     "kurs": 1487.33,
+     "seit_pct": -13.5,
+     "sma_abstand": 25.2,
+     "hoch_abstand": -36.3,
      "exit": null
     },
     {
@@ -332,10 +332,10 @@
      "sym": "285A.T",
      "ueber200": true,
      "einstieg": 19300.0,
-     "kurs": 17505.0,
-     "seit_pct": -9.3,
-     "sma_abstand": 22.2,
-     "hoch_abstand": -51.7,
+     "kurs": 15180.0,
+     "seit_pct": -21.3,
+     "sma_abstand": 5.6,
+     "hoch_abstand": -58.1,
      "exit": null
     },
     {
@@ -355,10 +355,10 @@
      "sym": "3167.TW",
      "ueber200": true,
      "einstieg": 981.0,
-     "kurs": 1055.0,
-     "seit_pct": 7.5,
-     "sma_abstand": 78.9,
-     "hoch_abstand": 0.0,
+     "kurs": 977.0,
+     "seit_pct": -0.4,
+     "sma_abstand": 64.6,
+     "hoch_abstand": -7.4,
      "exit": null
     },
     {
@@ -378,10 +378,10 @@
      "sym": "2059.TW",
      "ueber200": true,
      "einstieg": 12145.0,
-     "kurs": 10615.0,
-     "seit_pct": -12.6,
-     "sma_abstand": 63.3,
-     "hoch_abstand": -26.8,
+     "kurs": 10060.0,
+     "seit_pct": -17.2,
+     "sma_abstand": 54.0,
+     "hoch_abstand": -30.7,
      "exit": null
     },
     {
@@ -401,10 +401,10 @@
      "sym": "CDNA",
      "ueber200": true,
      "einstieg": 67.15,
-     "kurs": 63.67,
-     "seit_pct": -5.2,
-     "sma_abstand": 113.1,
-     "hoch_abstand": -8.8,
+     "kurs": 63.12,
+     "seit_pct": -6.0,
+     "sma_abstand": 109.7,
+     "hoch_abstand": -9.6,
      "exit": null
     },
     {
@@ -424,10 +424,10 @@
      "sym": "688300.SS",
      "ueber200": true,
      "einstieg": 139.36,
-     "kurs": 136.49,
-     "seit_pct": -2.1,
-     "sma_abstand": 12.0,
-     "hoch_abstand": -49.9,
+     "kurs": 133.51,
+     "seit_pct": -4.2,
+     "sma_abstand": 9.2,
+     "hoch_abstand": -51.0,
      "exit": null
     },
     {
@@ -447,10 +447,10 @@
      "sym": "6446.TW",
      "ueber200": true,
      "einstieg": 1165.0,
-     "kurs": 1195.0,
-     "seit_pct": 2.6,
-     "sma_abstand": 40.5,
-     "hoch_abstand": -24.6,
+     "kurs": 1165.0,
+     "seit_pct": 0.0,
+     "sma_abstand": 36.4,
+     "hoch_abstand": -26.5,
      "exit": null
     },
     {
@@ -470,10 +470,10 @@
      "sym": "EB5.SI",
      "ueber200": true,
      "einstieg": 4.13,
-     "kurs": 4.4,
-     "seit_pct": 6.5,
-     "sma_abstand": 38.5,
-     "hoch_abstand": -14.1,
+     "kurs": 4.19,
+     "seit_pct": 1.5,
+     "sma_abstand": 31.5,
+     "hoch_abstand": -18.2,
      "exit": null
     },
     {
@@ -493,10 +493,10 @@
      "sym": "7750.TW",
      "ueber200": true,
      "einstieg": 1885.0,
-     "kurs": 1975.0,
-     "seit_pct": 4.8,
-     "sma_abstand": 11.7,
-     "hoch_abstand": -35.7,
+     "kurs": 1815.0,
+     "seit_pct": -3.7,
+     "sma_abstand": 2.4,
+     "hoch_abstand": -40.9,
      "exit": null
     },
     {
@@ -516,10 +516,10 @@
      "sym": "PBF",
      "ueber200": true,
      "einstieg": 80.78,
-     "kurs": 84.27,
-     "seit_pct": 4.3,
-     "sma_abstand": 69.5,
-     "hoch_abstand": -5.7,
+     "kurs": 85.02,
+     "seit_pct": 5.2,
+     "sma_abstand": 70.0,
+     "hoch_abstand": -4.8,
      "exit": null
     }
    ]
@@ -545,10 +545,10 @@
      "sym": "MU",
      "ueber200": true,
      "einstieg": 1074.89,
-     "kurs": 1029.0,
-     "seit_pct": -4.3,
-     "sma_abstand": 46.6,
-     "hoch_abstand": -15.2,
+     "kurs": 989.04,
+     "seit_pct": -8.0,
+     "sma_abstand": 40.2,
+     "hoch_abstand": -18.5,
      "exit": null
     },
     {
@@ -568,10 +568,10 @@
      "sym": "SNDK",
      "ueber200": true,
      "einstieg": 1719.99,
-     "kurs": 1581.82,
-     "seit_pct": -8.0,
-     "sma_abstand": 33.9,
-     "hoch_abstand": -32.3,
+     "kurs": 1487.33,
+     "seit_pct": -13.5,
+     "sma_abstand": 25.2,
+     "hoch_abstand": -36.3,
      "exit": null
     },
     {
@@ -591,10 +591,10 @@
      "sym": "AMD",
      "ueber200": true,
      "einstieg": 633.91,
-     "kurs": 608.1,
-     "seit_pct": -4.1,
-     "sma_abstand": 57.8,
-     "hoch_abstand": -6.4,
+     "kurs": 594.24,
+     "seit_pct": -6.3,
+     "sma_abstand": 53.5,
+     "hoch_abstand": -8.5,
      "exit": null
     },
     {
@@ -614,10 +614,10 @@
      "sym": "285A.T",
      "ueber200": true,
      "einstieg": 19300.0,
-     "kurs": 17505.0,
-     "seit_pct": -9.3,
-     "sma_abstand": 22.2,
-     "hoch_abstand": -51.7,
+     "kurs": 15180.0,
+     "seit_pct": -21.3,
+     "sma_abstand": 5.6,
+     "hoch_abstand": -58.1,
      "exit": null
     },
     {
@@ -637,10 +637,10 @@
      "sym": "INTC",
      "ueber200": true,
      "einstieg": 119.33,
-     "kurs": 104.7,
-     "seit_pct": -12.3,
-     "sma_abstand": 26.1,
-     "hoch_abstand": -25.7,
+     "kurs": 101.35,
+     "seit_pct": -15.1,
+     "sma_abstand": 21.6,
+     "hoch_abstand": -28.1,
      "exit": null
     },
     {
@@ -660,10 +660,10 @@
      "sym": "000660.KS",
      "ueber200": true,
      "einstieg": 1841000.0,
-     "kurs": 1681000.0,
-     "seit_pct": -8.7,
-     "sma_abstand": 17.5,
-     "hoch_abstand": -42.4,
+     "kurs": 1443000.0,
+     "seit_pct": -21.6,
+     "sma_abstand": 0.5,
+     "hoch_abstand": -50.6,
      "exit": null
     },
     {
@@ -683,10 +683,10 @@
      "sym": "MRVL",
      "ueber200": true,
      "einstieg": 272.29,
-     "kurs": 275.28,
-     "seit_pct": 1.1,
-     "sma_abstand": 60.2,
-     "hoch_abstand": -13.0,
+     "kurs": 265.86,
+     "seit_pct": -2.4,
+     "sma_abstand": 54.0,
+     "hoch_abstand": -16.0,
      "exit": null
     },
     {
@@ -706,10 +706,10 @@
      "sym": "005930.KS",
      "ueber200": true,
      "einstieg": 276000.0,
-     "kurs": 262000.0,
-     "seit_pct": -5.1,
-     "sma_abstand": 15.2,
-     "hoch_abstand": -27.7,
+     "kurs": 232000.0,
+     "seit_pct": -15.9,
+     "sma_abstand": 1.7,
+     "hoch_abstand": -36.0,
      "exit": null
     },
     {
@@ -729,10 +729,10 @@
      "sym": "NBIS",
      "ueber200": true,
      "einstieg": 242.81,
-     "kurs": 221.07,
-     "seit_pct": -9.0,
-     "sma_abstand": 28.9,
-     "hoch_abstand": -22.9,
+     "kurs": 210.06,
+     "seit_pct": -13.5,
+     "sma_abstand": 22.1,
+     "hoch_abstand": -26.7,
      "exit": null
     },
     {
@@ -752,10 +752,10 @@
      "sym": "LITE",
      "ueber200": true,
      "einstieg": 1085.42,
-     "kurs": 1103.355,
-     "seit_pct": 1.7,
-     "sma_abstand": 44.4,
-     "hoch_abstand": -2.7,
+     "kurs": 995.41,
+     "seit_pct": -8.3,
+     "sma_abstand": 29.7,
+     "hoch_abstand": -12.2,
      "exit": null
     }
    ]
@@ -785,7 +785,11 @@
    ],
    [
     "2026-10-09",
-    0.97913
+    0.97924
+   ],
+   [
+    "2026-10-12",
+    0.9683
    ]
   ],
   "v1": [
@@ -811,7 +815,11 @@
    ],
    [
     "2026-10-09",
-    0.98591
+    0.98601
+   ],
+   [
+    "2026-10-12",
+    0.98064
    ]
   ],
   "pur": [
@@ -837,7 +845,11 @@
    ],
    [
     "2026-10-09",
-    0.94207
+    0.94218
+   ],
+   [
+    "2026-10-12",
+    0.91013
    ]
   ],
   "URTH": [
@@ -864,6 +876,10 @@
    [
     "2026-10-09",
     1.00776
+   ],
+   [
+    "2026-10-12",
+    1.00675
    ]
   ],
   "SPY": [
@@ -890,6 +906,10 @@
    [
     "2026-10-09",
     1.0116
+   ],
+   [
+    "2026-10-12",
+    1.01099
    ]
   ]
  },
