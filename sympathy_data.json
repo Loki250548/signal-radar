@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-14T09:48:21+00:00",
- "asof": "2026-10-13",
+ "generated": "2026-10-15T09:23:47+00:00",
+ "asof": "2026-10-14",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
  "universe": 502,
  "blue_chips": [
