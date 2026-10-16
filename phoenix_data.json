@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-15",
+ "stand": "2026-10-16",
  "start_signal": "2026-09-30",
  "regel": "Phönix-Korb — Papierbetrieb (Test 56/56b, Vorab-Festlegung claude/phoenix_korb_vorab.md vom 26.09.2026)",
  "koerbe": {
@@ -10,31 +10,31 @@
  "linien": {
   "gewinn_haupt": {
    "name": "Phönix Gewinn",
-   "rendite": 0.08,
+   "rendite": 0.3,
    "mdd": -0.11,
    "start": "2026-10-02"
   },
   "gewinn_exit": {
    "name": "Phönix Gewinn + Exit-Regel",
-   "rendite": 0.08,
+   "rendite": 0.3,
    "mdd": -0.11,
    "start": "2026-10-02"
   },
   "verlust_haupt": {
    "name": "Phönix Verlust",
-   "rendite": -0.75,
+   "rendite": -0.49,
    "mdd": -2.01,
    "start": "2026-10-02"
   },
   "verlust_exit": {
    "name": "Phönix Verlust + Exit-Regel",
-   "rendite": -0.75,
+   "rendite": -0.49,
    "mdd": -2.01,
    "start": "2026-10-02"
   },
   "URTH": {
    "name": "MSCI World (URTH)",
-   "rendite": -0.13,
+   "rendite": 0.28,
    "mdd": -1.18,
    "start": "2026-10-02"
   }
@@ -76,6 +76,10 @@
    [
     "2026-10-14",
     1.00076
+   ],
+   [
+    "2026-10-15",
+    1.00298
    ]
   ],
   "gewinn_exit": [
@@ -114,6 +118,10 @@
    [
     "2026-10-14",
     1.00076
+   ],
+   [
+    "2026-10-15",
+    1.00298
    ]
   ],
   "verlust_haupt": [
@@ -152,6 +160,10 @@
    [
     "2026-10-14",
     0.99253
+   ],
+   [
+    "2026-10-15",
+    0.99509
    ]
   ],
   "verlust_exit": [
@@ -190,6 +202,10 @@
    [
     "2026-10-14",
     0.99253
+   ],
+   [
+    "2026-10-15",
+    0.99509
    ]
   ],
   "URTH": [
@@ -228,6 +244,10 @@
    [
     "2026-10-14",
     0.9987
+   ],
+   [
+    "2026-10-15",
+    1.00279
    ]
   ]
  },
@@ -240,7 +260,7 @@
    "sektor": "Communication Services",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": 0.1,
+   "seit_pct": 0.4,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -253,7 +273,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": 2.8,
+   "seit_pct": 9.2,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -266,7 +286,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": -6.6,
+   "seit_pct": -4.8,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -279,7 +299,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": -21.7,
+   "seit_pct": -22.8,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -292,7 +312,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": 6.7,
+   "seit_pct": 13.7,
    "ausstieg": null,
    "grund": null,
    "offen": true
