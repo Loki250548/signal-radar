@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-17T08:49:22+00:00",
- "asof": "2026-10-16",
+ "generated": "2026-10-20T09:40:31+00:00",
+ "asof": "2026-10-19",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
  "universe": 502,
  "blue_chips": [
@@ -37,6 +37,7 @@
   "CVX",
   "DDOG",
   "DELL",
+  "DHR",
   "DIS",
   "GE",
   "GEV",
@@ -91,7 +92,6 @@
   "TER",
   "TJX",
   "TMO",
-  "TMUS",
   "TSLA",
   "TXN",
   "UBER",
