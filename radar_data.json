@@ -1,11 +1,87 @@
 {
-  "generated": "2026-10-21T09:32:02+00:00",
+  "generated": "2026-10-22T09:34:52+00:00",
   "source": "SEC EDGAR — Form 4 (Daily Index)",
-  "filing_date": "2026-10-20",
-  "filings_scanned": 585,
-  "purchases_found": 99,
+  "filing_date": "2026-10-21",
+  "filings_scanned": 422,
+  "purchases_found": 101,
   "min_value": 10000.0,
   "signals": [
+    {
+      "thesis": "insider-cluster",
+      "ticker": "GXVIX",
+      "company": "Global X Venture & Innovation Fund",
+      "insiders": 1,
+      "buyers": [
+        "GLOBAL X MANAGEMENT COMPANY, INC."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 50000000.0,
+      "total_shares": 3891050,
+      "avg_price": 12.85,
+      "latest_date": "2026-10-19",
+      "strength": 143.4
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "BPRE",
+      "company": "Bluerock Private Real Estate Fund",
+      "insiders": 1,
+      "buyers": [
+        "KAMFAR RAMIN"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 6690012.35,
+      "total_shares": 543110,
+      "avg_price": 12.318,
+      "latest_date": "2026-10-21",
+      "strength": 69.2
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "FBK",
+      "company": "FB Financial Corp",
+      "insiders": 1,
+      "buyers": [
+        "INGRAM ORRIN H II"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 3075575.56,
+      "total_shares": 58162,
+      "avg_price": 52.8795,
+      "latest_date": "2026-10-20",
+      "strength": 47.6
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "TENX",
+      "company": "TENAX THERAPEUTICS, INC.",
+      "insiders": 1,
+      "buyers": [
+        "ADAR1 Capital Management, LLC"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 4390278.63,
+      "total_shares": 2768547,
+      "avg_price": 1.5858,
+      "latest_date": "2026-10-21",
+      "strength": 43.9
+    },
     {
       "thesis": "insider-cluster",
       "ticker": "CRBG",
@@ -19,149 +95,11 @@
       ],
       "titles": [],
       "plan10b5_1": true,
-      "total_value": 24105123.9,
-      "total_shares": 694390,
-      "avg_price": 34.7141,
-      "latest_date": "2026-10-16",
-      "strength": 50.1
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "SCISX",
-      "company": "MA Specialty Credit Income Fund",
-      "insiders": 1,
-      "buyers": [
-        "MA Eagle II Holdings Fund"
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 4799999.99,
-      "total_shares": 193861,
-      "avg_price": 24.76,
-      "latest_date": "2026-10-16",
-      "strength": 45.8
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "LEO",
-      "company": "BNY MELLON STRATEGIC MUNICIPALS, INC.",
-      "insiders": 1,
-      "buyers": [
-        "Saba Capital Management, L.P."
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 3823275.94,
-      "total_shares": 676208,
-      "avg_price": 5.654,
+      "total_value": 11182475.22,
+      "total_shares": 324048,
+      "avg_price": 34.5087,
       "latest_date": "2026-10-19",
-      "strength": 41.1
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "DSM",
-      "company": "BNY MELLON STRATEGIC MUNICIPAL BOND FUND, INC.",
-      "insiders": 1,
-      "buyers": [
-        "Saba Capital Management, L.P."
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 2193000.52,
-      "total_shares": 415444,
-      "avg_price": 5.2787,
-      "latest_date": "2026-10-19",
-      "strength": 31.6
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "JOF",
-      "company": "JAPAN SMALLER CAPITALIZATION FUND INC",
-      "insiders": 1,
-      "buyers": [
-        "Saba Capital Management, L.P."
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 1103781.36,
-      "total_shares": 92444,
-      "avg_price": 11.94,
-      "latest_date": "2026-10-19",
-      "strength": 23.0
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "BOLD",
-      "company": "Boundless Bio, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "TANG KEVIN"
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 1048778.91,
-      "total_shares": 448422,
-      "avg_price": 2.3388,
-      "latest_date": "2026-10-20",
-      "strength": 22.5
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "ECF",
-      "company": "ELLSWORTH GROWTH & INCOME FUND LTD",
-      "insiders": 1,
-      "buyers": [
-        "Saba Capital Management, L.P."
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 772677.36,
-      "total_shares": 66852,
-      "avg_price": 11.558,
-      "latest_date": "2026-10-19",
-      "strength": 19.6
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "DX",
-      "company": "DYNEX CAPITAL INC",
-      "insiders": 2,
-      "buyers": [
-        "Popenoe Smriti Laxman",
-        "Sartori Michael Andrew"
-      ],
-      "roles": [
-        "Dir/Off",
-        "Off"
-      ],
-      "titles": [
-        "Chief Financial Officer",
-        "Co-CEO and President"
-      ],
-      "plan10b5_1": false,
-      "total_value": 334520.0,
-      "total_shares": 26000,
-      "avg_price": 12.8662,
-      "latest_date": "2026-10-20",
-      "strength": 19.0
+      "strength": 34.4
     },
     {
       "thesis": "insider-cluster",
@@ -176,137 +114,199 @@
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 621317.32,
-      "total_shares": 60176,
-      "avg_price": 10.325,
-      "latest_date": "2026-10-19",
-      "strength": 17.8
+      "total_value": 1813796.1,
+      "total_shares": 175246,
+      "avg_price": 10.35,
+      "latest_date": "2026-10-20",
+      "strength": 28.9
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "GRF",
-      "company": "EAGLE CAPITAL GROWTH FUND, INC.",
+      "ticker": "RAPP",
+      "company": "Rapport Therapeutics, Inc.",
       "insiders": 1,
       "buyers": [
-        "Sims David C"
+        "Ignelzi Troy A."
       ],
       "roles": [
-        "Dir/Off"
+        "Off"
       ],
       "titles": [
-        "CFO, CCO, Secretary, Treasurer"
+        "Chief Financial Officer"
       ],
       "plan10b5_1": false,
-      "total_value": 217265.24,
-      "total_shares": 21574,
-      "avg_price": 10.0707,
-      "latest_date": "2026-10-16",
-      "strength": 11.3
+      "total_value": 287100.0,
+      "total_shares": 11000,
+      "avg_price": 26.1,
+      "latest_date": "2026-10-21",
+      "strength": 15.9
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "XGN",
-      "company": "EXAGEN INC.",
+      "ticker": "SKAS",
+      "company": "Saker Aviation Services, Inc.",
       "insiders": 1,
       "buyers": [
-        "Chernett Jorey"
+        "Eriksen Howard Timothy"
       ],
       "roles": [
         "10%"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 208880.0,
-      "total_shares": 28000,
-      "avg_price": 7.46,
-      "latest_date": "2026-10-19",
-      "strength": 11.1
+      "total_value": 280416.0,
+      "total_shares": 50800,
+      "avg_price": 5.52,
+      "latest_date": "2026-10-20",
+      "strength": 12.6
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "NVA",
-      "company": "Nova Minerals Corp",
+      "ticker": "CRF",
+      "company": "CORNERSTONE TOTAL RETURN FUND INC",
+      "insiders": 1,
+      "buyers": [
+        "Bradshaw Joshua"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "Vice Chairman and President"
+      ],
+      "plan10b5_1": false,
+      "total_value": 235200.0,
+      "total_shares": 40000,
+      "avg_price": 5.88,
+      "latest_date": "2026-10-20",
+      "strength": 11.7
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "YORW",
+      "company": "YORK WATER CO",
       "insiders": 2,
       "buyers": [
-        "Geller Avi",
-        "Gerteisen Christopher"
-      ],
-      "roles": [
-        "Dir",
-        "Dir/Off"
-      ],
-      "titles": [
-        "Chief Executive Officer"
-      ],
-      "plan10b5_1": false,
-      "total_value": 53865.66,
-      "total_shares": 16674,
-      "avg_price": 3.2305,
-      "latest_date": "2026-10-19",
-      "strength": 10.0
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "JCTC",
-      "company": "JEWETT CAMERON TRADING CO LTD",
-      "insiders": 1,
-      "buyers": [
-        "AJB Investment Fund II, LP"
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 106105.12,
-      "total_shares": 36525,
-      "avg_price": 2.905,
-      "latest_date": "2026-10-20",
-      "strength": 8.5
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "NXG",
-      "company": "NXG NextGen Infrastructure Income Fund",
-      "insiders": 1,
-      "buyers": [
-        "Sunderland Todd"
-      ],
-      "roles": [],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 93000.0,
-      "total_shares": 2000,
-      "avg_price": 46.5,
-      "latest_date": "2026-10-19",
-      "strength": 8.1
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "AYI",
-      "company": "ACUITY INC. (DE)",
-      "insiders": 1,
-      "buyers": [
-        "O'Shaughnessy Laura"
+        "Brossman Douglas S",
+        "Velazquez David M"
       ],
       "roles": [
         "Dir"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 44138.72,
-      "total_shares": 146,
-      "avg_price": 302.32,
-      "latest_date": "2026-10-16",
-      "strength": 7.5
+      "total_value": 82000.09,
+      "total_shares": 2639,
+      "avg_price": 31.0673,
+      "latest_date": "2026-10-20",
+      "strength": 11.4
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "NNOX",
-      "company": "Nano-X Imaging Ltd.",
+      "ticker": "DX",
+      "company": "DYNEX CAPITAL INC",
       "insiders": 1,
       "buyers": [
-        "Meltzer Erez"
+        "BOSTON BYRON L"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "Co-CEO & Chairman of the Board"
+      ],
+      "plan10b5_1": false,
+      "total_value": 199940.4,
+      "total_shares": 18360,
+      "avg_price": 10.89,
+      "latest_date": "2026-10-20",
+      "strength": 10.9
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "CLM",
+      "company": "Cornerstone Strategic Investment Fund, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Bradshaw Joshua"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "Vice Chairman and President"
+      ],
+      "plan10b5_1": false,
+      "total_value": 194560.0,
+      "total_shares": 32000,
+      "avg_price": 6.08,
+      "latest_date": "2026-10-20",
+      "strength": 10.8
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "DSM",
+      "company": "BNY MELLON STRATEGIC MUNICIPAL BOND FUND, INC.",
+      "insiders": 1,
+      "buyers": [
+        "Saba Capital Management, L.P."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 155056.72,
+      "total_shares": 29146,
+      "avg_price": 5.32,
+      "latest_date": "2026-10-20",
+      "strength": 9.9
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "PETV",
+      "company": "PetVivo Holdings, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "A.L. Sarroff Fund, LLC"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 112253.46,
+      "total_shares": 157710,
+      "avg_price": 0.7118,
+      "latest_date": "2026-10-16",
+      "strength": 8.7
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "VRXA",
+      "company": "Veraxa Biotech AG - Post de-SPAC",
+      "insiders": 1,
+      "buyers": [
+        "Ziegler Christoph Samuel"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 65400.0,
+      "total_shares": 60000,
+      "avg_price": 1.09,
+      "latest_date": "2026-10-20",
+      "strength": 8.6
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "OWLS",
+      "company": "OBOOK HOLDINGS INC.",
+      "insiders": 1,
+      "buyers": [
+        "WANG CHUN KAI"
       ],
       "roles": [
         "Dir/Off"
@@ -315,11 +315,68 @@
         "Chief Executive Officer"
       ],
       "plan10b5_1": false,
-      "total_value": 22500.0,
-      "total_shares": 50000,
-      "avg_price": 0.45,
+      "total_value": 104073.35,
+      "total_shares": 24384,
+      "avg_price": 4.2681,
       "latest_date": "2026-10-19",
-      "strength": 5.0
+      "strength": 8.5
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "LEO",
+      "company": "BNY MELLON STRATEGIC MUNICIPALS, INC.",
+      "insiders": 1,
+      "buyers": [
+        "Saba Capital Management, L.P."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 88362.56,
+      "total_shares": 15448,
+      "avg_price": 5.72,
+      "latest_date": "2026-10-20",
+      "strength": 7.9
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "MHH",
+      "company": "Mastech Digital, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "SHAW STEVEN A"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 60052.0,
+      "total_shares": 9400,
+      "avg_price": 6.3885,
+      "latest_date": "2026-10-20",
+      "strength": 6.9
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "ECF",
+      "company": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "insiders": 1,
+      "buyers": [
+        "Saba Capital Management, L.P."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 41687.4,
+      "total_shares": 3660,
+      "avg_price": 11.39,
+      "latest_date": "2026-10-20",
+      "strength": 6.1
     },
     {
       "thesis": "insider-cluster",
@@ -334,11 +391,30 @@
       ],
       "titles": [],
       "plan10b5_1": true,
-      "total_value": 50317.04,
-      "total_shares": 296,
-      "avg_price": 169.99,
+      "total_value": 99425.48,
+      "total_shares": 598,
+      "avg_price": 166.2633,
+      "latest_date": "2026-10-21",
+      "strength": 5.1
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "GRCE",
+      "company": "Grace Therapeutics, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Opaleye Management Inc."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 16002.56,
+      "total_shares": 8512,
+      "avg_price": 1.88,
       "latest_date": "2026-10-19",
-      "strength": 3.9
+      "strength": 4.5
     },
     {
       "thesis": "insider-cluster",
@@ -355,11 +431,11 @@
         "Chief Executive Officer"
       ],
       "plan10b5_1": true,
-      "total_value": 12171.08,
-      "total_shares": 12422,
-      "avg_price": 0.9798,
-      "latest_date": "2026-10-19",
-      "strength": 2.1
+      "total_value": 10519.03,
+      "total_shares": 11082,
+      "avg_price": 0.9492,
+      "latest_date": "2026-10-20",
+      "strength": 2.0
     }
   ]
 }
