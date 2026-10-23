@@ -1,86 +1,51 @@
 {
-  "generated": "2026-10-22T09:34:52+00:00",
+  "generated": "2026-10-23T09:31:02+00:00",
   "source": "SEC EDGAR — Form 4 (Daily Index)",
-  "filing_date": "2026-10-21",
-  "filings_scanned": 422,
-  "purchases_found": 101,
+  "filing_date": "2026-10-22",
+  "filings_scanned": 507,
+  "purchases_found": 155,
   "min_value": 10000.0,
   "signals": [
     {
       "thesis": "insider-cluster",
-      "ticker": "GXVIX",
-      "company": "Global X Venture & Innovation Fund",
+      "ticker": "DOLE",
+      "company": "Dole plc",
       "insiders": 1,
       "buyers": [
-        "GLOBAL X MANAGEMENT COMPANY, INC."
+        "Pale Fire Capital SE"
       ],
       "roles": [
         "10%"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 50000000.0,
-      "total_shares": 3891050,
-      "avg_price": 12.85,
-      "latest_date": "2026-10-19",
-      "strength": 143.4
+      "total_value": 51326461.41,
+      "total_shares": 3890136,
+      "avg_price": 13.194,
+      "latest_date": "2026-10-22",
+      "strength": 145.3
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "BPRE",
-      "company": "Bluerock Private Real Estate Fund",
-      "insiders": 1,
+      "ticker": "RAPP",
+      "company": "Rapport Therapeutics, Inc.",
+      "insiders": 4,
       "buyers": [
-        "KAMFAR RAMIN"
+        "MARAGANORE JOHN",
+        "PAUL STEVEN M",
+        "Silva Paul M",
+        "Young Wendy B."
       ],
       "roles": [
         "Dir"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 6690012.35,
-      "total_shares": 543110,
-      "avg_price": 12.318,
-      "latest_date": "2026-10-21",
-      "strength": 69.2
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "FBK",
-      "company": "FB Financial Corp",
-      "insiders": 1,
-      "buyers": [
-        "INGRAM ORRIN H II"
-      ],
-      "roles": [
-        "Dir"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 3075575.56,
-      "total_shares": 58162,
-      "avg_price": 52.8795,
-      "latest_date": "2026-10-20",
-      "strength": 47.6
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "TENX",
-      "company": "TENAX THERAPEUTICS, INC.",
-      "insiders": 1,
-      "buyers": [
-        "ADAR1 Capital Management, LLC"
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 4390278.63,
-      "total_shares": 2768547,
-      "avg_price": 1.5858,
-      "latest_date": "2026-10-21",
-      "strength": 43.9
+      "total_value": 2845593.4,
+      "total_shares": 105188,
+      "avg_price": 27.0525,
+      "latest_date": "2026-10-22",
+      "strength": 51.9
     },
     {
       "thesis": "insider-cluster",
@@ -95,236 +60,36 @@
       ],
       "titles": [],
       "plan10b5_1": true,
-      "total_value": 11182475.22,
-      "total_shares": 324048,
-      "avg_price": 34.5087,
-      "latest_date": "2026-10-19",
-      "strength": 34.4
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "GF",
-      "company": "NEW GERMANY FUND INC",
-      "insiders": 1,
-      "buyers": [
-        "Saba Capital Management, L.P."
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 1813796.1,
-      "total_shares": 175246,
-      "avg_price": 10.35,
+      "total_value": 13539089.17,
+      "total_shares": 386714,
+      "avg_price": 35.0106,
       "latest_date": "2026-10-20",
-      "strength": 28.9
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "RAPP",
-      "company": "Rapport Therapeutics, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "Ignelzi Troy A."
-      ],
-      "roles": [
-        "Off"
-      ],
-      "titles": [
-        "Chief Financial Officer"
-      ],
-      "plan10b5_1": false,
-      "total_value": 287100.0,
-      "total_shares": 11000,
-      "avg_price": 26.1,
-      "latest_date": "2026-10-21",
-      "strength": 15.9
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "SKAS",
-      "company": "Saker Aviation Services, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "Eriksen Howard Timothy"
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 280416.0,
-      "total_shares": 50800,
-      "avg_price": 5.52,
-      "latest_date": "2026-10-20",
-      "strength": 12.6
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "CRF",
-      "company": "CORNERSTONE TOTAL RETURN FUND INC",
-      "insiders": 1,
-      "buyers": [
-        "Bradshaw Joshua"
-      ],
-      "roles": [
-        "Dir/Off"
-      ],
-      "titles": [
-        "Vice Chairman and President"
-      ],
-      "plan10b5_1": false,
-      "total_value": 235200.0,
-      "total_shares": 40000,
-      "avg_price": 5.88,
-      "latest_date": "2026-10-20",
-      "strength": 11.7
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "YORW",
-      "company": "YORK WATER CO",
-      "insiders": 2,
-      "buyers": [
-        "Brossman Douglas S",
-        "Velazquez David M"
-      ],
-      "roles": [
-        "Dir"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 82000.09,
-      "total_shares": 2639,
-      "avg_price": 31.0673,
-      "latest_date": "2026-10-20",
-      "strength": 11.4
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "DX",
-      "company": "DYNEX CAPITAL INC",
-      "insiders": 1,
-      "buyers": [
-        "BOSTON BYRON L"
-      ],
-      "roles": [
-        "Dir/Off"
-      ],
-      "titles": [
-        "Co-CEO & Chairman of the Board"
-      ],
-      "plan10b5_1": false,
-      "total_value": 199940.4,
-      "total_shares": 18360,
-      "avg_price": 10.89,
-      "latest_date": "2026-10-20",
-      "strength": 10.9
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "CLM",
-      "company": "Cornerstone Strategic Investment Fund, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "Bradshaw Joshua"
-      ],
-      "roles": [
-        "Dir/Off"
-      ],
-      "titles": [
-        "Vice Chairman and President"
-      ],
-      "plan10b5_1": false,
-      "total_value": 194560.0,
-      "total_shares": 32000,
-      "avg_price": 6.08,
-      "latest_date": "2026-10-20",
-      "strength": 10.8
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "DSM",
-      "company": "BNY MELLON STRATEGIC MUNICIPAL BOND FUND, INC.",
-      "insiders": 1,
-      "buyers": [
-        "Saba Capital Management, L.P."
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 155056.72,
-      "total_shares": 29146,
-      "avg_price": 5.32,
-      "latest_date": "2026-10-20",
-      "strength": 9.9
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "PETV",
-      "company": "PetVivo Holdings, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "A.L. Sarroff Fund, LLC"
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 112253.46,
-      "total_shares": 157710,
-      "avg_price": 0.7118,
-      "latest_date": "2026-10-16",
-      "strength": 8.7
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "VRXA",
-      "company": "Veraxa Biotech AG - Post de-SPAC",
-      "insiders": 1,
-      "buyers": [
-        "Ziegler Christoph Samuel"
-      ],
-      "roles": [
-        "Dir"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 65400.0,
-      "total_shares": 60000,
-      "avg_price": 1.09,
-      "latest_date": "2026-10-20",
-      "strength": 8.6
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "OWLS",
-      "company": "OBOOK HOLDINGS INC.",
-      "insiders": 1,
-      "buyers": [
-        "WANG CHUN KAI"
-      ],
-      "roles": [
-        "Dir/Off"
-      ],
-      "titles": [
-        "Chief Executive Officer"
-      ],
-      "plan10b5_1": false,
-      "total_value": 104073.35,
-      "total_shares": 24384,
-      "avg_price": 4.2681,
-      "latest_date": "2026-10-19",
-      "strength": 8.5
+      "strength": 37.8
     },
     {
       "thesis": "insider-cluster",
       "ticker": "LEO",
       "company": "BNY MELLON STRATEGIC MUNICIPALS, INC.",
+      "insiders": 2,
+      "buyers": [
+        "BANK OF AMERICA CORP /DE/",
+        "Saba Capital Management, L.P."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 528341.21,
+      "total_shares": 92211,
+      "avg_price": 5.7297,
+      "latest_date": "2026-10-21",
+      "strength": 18.5
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "MXF",
+      "company": "MEXICO EQUITY & INCOME FUND INC",
       "insiders": 1,
       "buyers": [
         "Saba Capital Management, L.P."
@@ -334,30 +99,165 @@
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 88362.56,
-      "total_shares": 15448,
-      "avg_price": 5.72,
-      "latest_date": "2026-10-20",
-      "strength": 7.9
+      "total_value": 654869.4,
+      "total_shares": 32070,
+      "avg_price": 20.42,
+      "latest_date": "2026-10-21",
+      "strength": 18.2
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "MHH",
-      "company": "Mastech Digital, Inc.",
-      "insiders": 1,
+      "ticker": "DSM",
+      "company": "BNY MELLON STRATEGIC MUNICIPAL BOND FUND, INC.",
+      "insiders": 2,
       "buyers": [
-        "SHAW STEVEN A"
+        "BANK OF AMERICA CORP /DE/",
+        "Saba Capital Management, L.P."
       ],
       "roles": [
         "10%"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 60052.0,
-      "total_shares": 9400,
-      "avg_price": 6.3885,
+      "total_value": 222094.73,
+      "total_shares": 41750,
+      "avg_price": 5.3196,
+      "latest_date": "2026-10-21",
+      "strength": 13.4
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "AGMB",
+      "company": "AgomAb Therapeutics NV",
+      "insiders": 1,
+      "buyers": [
+        "Epstein David R"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 177600.0,
+      "total_shares": 20000,
+      "avg_price": 8.88,
+      "latest_date": "2026-10-21",
+      "strength": 13.0
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "AMT",
+      "company": "AMERICAN TOWER CORP /MA/",
+      "insiders": 1,
+      "buyers": [
+        "Clarke Teresa Hillary"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 127436.07,
+      "total_shares": 676,
+      "avg_price": 188.3845,
       "latest_date": "2026-10-20",
-      "strength": 6.9
+      "strength": 11.3
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "LIQT",
+      "company": "LIQTECH INTERNATIONAL INC",
+      "insiders": 1,
+      "buyers": [
+        "Boswell Peyton"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 100000.0,
+      "total_shares": 100000,
+      "avg_price": 1.0,
+      "latest_date": "2026-06-05",
+      "strength": 10.2
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "SNES",
+      "company": "SenesTech, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "GLENBROOK CAPITAL MANAGEMENT"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 149676.15,
+      "total_shares": 207750,
+      "avg_price": 0.7205,
+      "latest_date": "2026-10-22",
+      "strength": 9.7
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "GROW",
+      "company": "U S GLOBAL INVESTORS INC",
+      "insiders": 2,
+      "buyers": [
+        "Gator Capital Management, LLC",
+        "Pilecki Derek Steven"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 29668.08,
+      "total_shares": 11544,
+      "avg_price": 2.57,
+      "latest_date": "2026-10-20",
+      "strength": 7.4
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "LOAN",
+      "company": "MANHATTAN BRIDGE CAPITAL, INC",
+      "insiders": 1,
+      "buyers": [
+        "RAN ASSAF"
+      ],
+      "roles": [
+        "Dir/Off/10%"
+      ],
+      "titles": [
+        "President and CEO"
+      ],
+      "plan10b5_1": false,
+      "total_value": 69385.49,
+      "total_shares": 20000,
+      "avg_price": 3.4693,
+      "latest_date": "2026-10-22",
+      "strength": 7.3
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "XFLT",
+      "company": "XAI Floating Rate & Alternative Income Trust",
+      "insiders": 1,
+      "buyers": [
+        "Spence John Yogi"
+      ],
+      "roles": [],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 68280.0,
+      "total_shares": 4000,
+      "avg_price": 17.07,
+      "latest_date": "2026-10-21",
+      "strength": 7.2
     },
     {
       "thesis": "insider-cluster",
@@ -372,57 +272,19 @@
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 41687.4,
-      "total_shares": 3660,
-      "avg_price": 11.39,
-      "latest_date": "2026-10-20",
-      "strength": 6.1
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "NBIS",
-      "company": "Nebius Group N.V.",
-      "insiders": 1,
-      "buyers": [
-        "Grimme Arne"
-      ],
-      "roles": [
-        "Dir"
-      ],
-      "titles": [],
-      "plan10b5_1": true,
-      "total_value": 99425.48,
-      "total_shares": 598,
-      "avg_price": 166.2633,
+      "total_value": 60216.0,
+      "total_shares": 5200,
+      "avg_price": 11.58,
       "latest_date": "2026-10-21",
-      "strength": 5.1
+      "strength": 6.9
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "GRCE",
-      "company": "Grace Therapeutics, Inc.",
+      "ticker": "API",
+      "company": "Agora, Inc.",
       "insiders": 1,
       "buyers": [
-        "Opaleye Management Inc."
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 16002.56,
-      "total_shares": 8512,
-      "avg_price": 1.88,
-      "latest_date": "2026-10-19",
-      "strength": 4.5
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "UXIN",
-      "company": "Uxin Ltd",
-      "insiders": 1,
-      "buyers": [
-        "Dai Kun"
+        "Zhao Bin"
       ],
       "roles": [
         "Dir/Off"
@@ -431,11 +293,74 @@
         "Chief Executive Officer"
       ],
       "plan10b5_1": true,
-      "total_value": 10519.03,
-      "total_shares": 11082,
-      "avg_price": 0.9492,
+      "total_value": 336609.5,
+      "total_shares": 76534,
+      "avg_price": 4.3982,
+      "latest_date": "2026-10-22",
+      "strength": 6.8
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "NMCO",
+      "company": "Nuveen Municipal Credit Opportunities Fund",
+      "insiders": 2,
+      "buyers": [
+        "BANK OF AMERICA CORP /DE/",
+        "Jones Nathaniel T."
+      ],
+      "roles": [
+        "10%",
+        "Off"
+      ],
+      "titles": [
+        "Vice President"
+      ],
+      "plan10b5_1": false,
+      "total_value": 10347.78,
+      "total_shares": 1233,
+      "avg_price": 8.3924,
       "latest_date": "2026-10-20",
-      "strength": 2.0
+      "strength": 6.6
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "GF",
+      "company": "NEW GERMANY FUND INC",
+      "insiders": 1,
+      "buyers": [
+        "Saba Capital Management, L.P."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 51406.56,
+      "total_shares": 4924,
+      "avg_price": 10.44,
+      "latest_date": "2026-10-21",
+      "strength": 6.5
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "ANIX",
+      "company": "Anixa Biosciences Inc",
+      "insiders": 1,
+      "buyers": [
+        "KUMAR AMIT"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "Chief Executive Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 43520.0,
+      "total_shares": 16000,
+      "avg_price": 2.72,
+      "latest_date": "2026-10-22",
+      "strength": 6.2
     }
   ]
 }
