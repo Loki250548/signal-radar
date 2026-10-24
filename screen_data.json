@@ -1,6 +1,6 @@
 {
- "stand": "2026-10-22",
- "erstellt": "2026-10-23T09:35:33+00:00",
+ "stand": "2026-10-23",
+ "erstellt": "2026-10-24T09:08:25+00:00",
  "start_signal": "2026-09-30",
  "koerbe_namen": {
   "v2": "v2 · Cluster-Deckel",
@@ -14,40 +14,40 @@
  "linien": {
   "v2": {
    "name": "v2 · Cluster-Deckel",
-   "nav": 0.86535,
-   "rendite": -13.23,
+   "nav": 0.85347,
+   "rendite": -14.42,
+   "mdd": -16.31,
+   "start": "2026-10-02",
+   "cash_anteil": 8.1
+  },
+  "v1": {
+   "name": "v1 · Sektor-Deckel",
+   "nav": 0.87572,
+   "rendite": -12.19,
    "mdd": -15.14,
    "start": "2026-10-02",
    "cash_anteil": 7.9
   },
-  "v1": {
-   "name": "v1 · Sektor-Deckel",
-   "nav": 0.8859,
-   "rendite": -11.17,
-   "mdd": -14.16,
-   "start": "2026-10-02",
-   "cash_anteil": 7.8
-  },
   "pur": {
    "name": "Momentum-Dezil pur",
-   "nav": 0.74125,
-   "rendite": -25.65,
+   "nav": 0.74667,
+   "rendite": -25.11,
    "mdd": -25.65,
    "start": "2026-10-02",
-   "cash_anteil": 38.6
+   "cash_anteil": 38.4
   },
   "URTH": {
    "name": "MSCI World (URTH)",
-   "nav": 0.99345,
-   "rendite": -0.66,
-   "mdd": -1.7,
+   "nav": 0.98853,
+   "rendite": -1.15,
+   "mdd": -2.18,
    "start": "2026-10-02"
   },
   "SPY": {
    "name": "S&P 500 (SPY)",
-   "nav": 0.99262,
-   "rendite": -0.74,
-   "mdd": -2.03,
+   "nav": 0.98744,
+   "rendite": -1.26,
+   "mdd": -2.45,
    "start": "2026-10-02"
   }
  },
@@ -73,10 +73,10 @@
      "sym": "SNDK",
      "ueber200": true,
      "einstieg": 1719.99,
-     "kurs": 1260.93,
-     "seit_pct": -26.7,
-     "sma_abstand": 2.4,
-     "hoch_abstand": -46.0,
+     "kurs": 1238.03,
+     "seit_pct": -28.0,
+     "sma_abstand": 0.1,
+     "hoch_abstand": -47.0,
      "exit": null
     },
     {
@@ -121,7 +121,7 @@
      "einstieg": 981.0,
      "kurs": 924.0,
      "seit_pct": -5.8,
-     "sma_abstand": 48.0,
+     "sma_abstand": 47.2,
      "hoch_abstand": -14.8,
      "exit": null
     },
@@ -144,7 +144,7 @@
      "einstieg": 12145.0,
      "kurs": 9755.0,
      "seit_pct": -19.7,
-     "sma_abstand": 43.7,
+     "sma_abstand": 43.1,
      "hoch_abstand": -32.8,
      "exit": null
     },
@@ -165,9 +165,9 @@
      "sym": "CDNA",
      "ueber200": true,
      "einstieg": 67.15,
-     "kurs": 69.16,
-     "seit_pct": 3.0,
-     "sma_abstand": 116.0,
+     "kurs": 69.21,
+     "seit_pct": 3.1,
+     "sma_abstand": 114.5,
      "hoch_abstand": -2.2,
      "exit": null
     },
@@ -188,10 +188,10 @@
      "sym": "688300.SS",
      "ueber200": true,
      "einstieg": 107.2,
-     "kurs": 95.32,
-     "seit_pct": -11.1,
-     "sma_abstand": -1.1,
-     "hoch_abstand": -54.5,
+     "kurs": 94.31,
+     "seit_pct": -12.0,
+     "sma_abstand": -2.4,
+     "hoch_abstand": -55.0,
      "exit": "2026-10-22"
     },
     {
@@ -211,10 +211,10 @@
      "sym": "EB5.SI",
      "ueber200": true,
      "einstieg": 4.13,
-     "kurs": 3.76,
-     "seit_pct": -9.0,
-     "sma_abstand": 15.3,
-     "hoch_abstand": -26.6,
+     "kurs": 3.68,
+     "seit_pct": -10.9,
+     "sma_abstand": 12.5,
+     "hoch_abstand": -28.1,
      "exit": null
     },
     {
@@ -234,10 +234,10 @@
      "sym": "ATI",
      "ueber200": true,
      "einstieg": 192.42,
-     "kurs": 161.84,
-     "seit_pct": -15.9,
-     "sma_abstand": -5.9,
-     "hoch_abstand": -30.2,
+     "kurs": 156.88,
+     "seit_pct": -18.5,
+     "sma_abstand": -8.9,
+     "hoch_abstand": -32.3,
      "exit": "2026-10-22"
     },
     {
@@ -257,10 +257,10 @@
      "sym": "PBF",
      "ueber200": true,
      "einstieg": 80.78,
-     "kurs": 79.25,
-     "seit_pct": -1.9,
-     "sma_abstand": 51.5,
-     "hoch_abstand": -13.1,
+     "kurs": 76.17,
+     "seit_pct": -5.7,
+     "sma_abstand": 45.0,
+     "hoch_abstand": -16.5,
      "exit": null
     },
     {
@@ -280,10 +280,10 @@
      "sym": "AYA",
      "ueber200": true,
      "einstieg": 27.12,
-     "kurs": 23.86,
-     "seit_pct": -12.0,
-     "sma_abstand": 16.0,
-     "hoch_abstand": -21.5,
+     "kurs": 23.77,
+     "seit_pct": -12.4,
+     "sma_abstand": 15.3,
+     "hoch_abstand": -21.8,
      "exit": null
     }
    ]
@@ -309,10 +309,10 @@
      "sym": "SNDK",
      "ueber200": true,
      "einstieg": 1719.99,
-     "kurs": 1260.93,
-     "seit_pct": -26.7,
-     "sma_abstand": 2.4,
-     "hoch_abstand": -46.0,
+     "kurs": 1238.03,
+     "seit_pct": -28.0,
+     "sma_abstand": 0.1,
+     "hoch_abstand": -47.0,
      "exit": null
     },
     {
@@ -357,7 +357,7 @@
      "einstieg": 981.0,
      "kurs": 924.0,
      "seit_pct": -5.8,
-     "sma_abstand": 48.0,
+     "sma_abstand": 47.2,
      "hoch_abstand": -14.8,
      "exit": null
     },
@@ -380,7 +380,7 @@
      "einstieg": 12145.0,
      "kurs": 9755.0,
      "seit_pct": -19.7,
-     "sma_abstand": 43.7,
+     "sma_abstand": 43.1,
      "hoch_abstand": -32.8,
      "exit": null
     },
@@ -401,9 +401,9 @@
      "sym": "CDNA",
      "ueber200": true,
      "einstieg": 67.15,
-     "kurs": 69.16,
-     "seit_pct": 3.0,
-     "sma_abstand": 116.0,
+     "kurs": 69.21,
+     "seit_pct": 3.1,
+     "sma_abstand": 114.5,
      "hoch_abstand": -2.2,
      "exit": null
     },
@@ -424,10 +424,10 @@
      "sym": "688300.SS",
      "ueber200": true,
      "einstieg": 107.2,
-     "kurs": 95.32,
-     "seit_pct": -11.1,
-     "sma_abstand": -1.1,
-     "hoch_abstand": -54.5,
+     "kurs": 94.31,
+     "seit_pct": -12.0,
+     "sma_abstand": -2.4,
+     "hoch_abstand": -55.0,
      "exit": "2026-10-22"
     },
     {
@@ -449,7 +449,7 @@
      "einstieg": 1165.0,
      "kurs": 1160.0,
      "seit_pct": -0.4,
-     "sma_abstand": 31.3,
+     "sma_abstand": 30.8,
      "hoch_abstand": -26.8,
      "exit": null
     },
@@ -470,10 +470,10 @@
      "sym": "EB5.SI",
      "ueber200": true,
      "einstieg": 4.13,
-     "kurs": 3.76,
-     "seit_pct": -9.0,
-     "sma_abstand": 15.3,
-     "hoch_abstand": -26.6,
+     "kurs": 3.68,
+     "seit_pct": -10.9,
+     "sma_abstand": 12.5,
+     "hoch_abstand": -28.1,
      "exit": null
     },
     {
@@ -495,7 +495,7 @@
      "einstieg": 1885.0,
      "kurs": 1810.0,
      "seit_pct": -4.0,
-     "sma_abstand": -0.2,
+     "sma_abstand": -0.5,
      "hoch_abstand": -41.0,
      "exit": "2026-10-22"
     },
@@ -516,10 +516,10 @@
      "sym": "PBF",
      "ueber200": true,
      "einstieg": 80.78,
-     "kurs": 79.25,
-     "seit_pct": -1.9,
-     "sma_abstand": 51.5,
-     "hoch_abstand": -13.1,
+     "kurs": 76.17,
+     "seit_pct": -5.7,
+     "sma_abstand": 45.0,
+     "hoch_abstand": -16.5,
      "exit": null
     }
    ]
@@ -545,10 +545,10 @@
      "sym": "MU",
      "ueber200": true,
      "einstieg": 1074.89,
-     "kurs": 856.49,
-     "seit_pct": -20.3,
-     "sma_abstand": 17.4,
-     "hoch_abstand": -29.4,
+     "kurs": 877.55,
+     "seit_pct": -18.4,
+     "sma_abstand": 19.9,
+     "hoch_abstand": -27.7,
      "exit": null
     },
     {
@@ -568,10 +568,10 @@
      "sym": "SNDK",
      "ueber200": true,
      "einstieg": 1719.99,
-     "kurs": 1260.93,
-     "seit_pct": -26.7,
-     "sma_abstand": 2.4,
-     "hoch_abstand": -46.0,
+     "kurs": 1238.03,
+     "seit_pct": -28.0,
+     "sma_abstand": 0.1,
+     "hoch_abstand": -47.0,
      "exit": null
     },
     {
@@ -591,10 +591,10 @@
      "sym": "AMD",
      "ueber200": true,
      "einstieg": 633.91,
-     "kurs": 507.93,
-     "seit_pct": -19.9,
-     "sma_abstand": 26.8,
-     "hoch_abstand": -21.8,
+     "kurs": 516.79,
+     "seit_pct": -18.5,
+     "sma_abstand": 28.5,
+     "hoch_abstand": -20.4,
      "exit": null
     },
     {
@@ -637,10 +637,10 @@
      "sym": "INTC",
      "ueber200": true,
      "einstieg": 119.33,
-     "kurs": 85.49,
-     "seit_pct": -28.4,
-     "sma_abstand": -0.1,
-     "hoch_abstand": -39.3,
+     "kurs": 86.96,
+     "seit_pct": -27.1,
+     "sma_abstand": 1.3,
+     "hoch_abstand": -38.3,
      "exit": "2026-10-22"
     },
     {
@@ -683,10 +683,10 @@
      "sym": "MRVL",
      "ueber200": true,
      "einstieg": 272.29,
-     "kurs": 223.47,
-     "seit_pct": -17.9,
-     "sma_abstand": 25.0,
-     "hoch_abstand": -29.4,
+     "kurs": 228.51,
+     "seit_pct": -16.1,
+     "sma_abstand": 27.3,
+     "hoch_abstand": -27.8,
      "exit": null
     },
     {
@@ -729,10 +729,10 @@
      "sym": "NBIS",
      "ueber200": true,
      "einstieg": 242.81,
-     "kurs": 159.17,
-     "seit_pct": -34.4,
-     "sma_abstand": -9.3,
-     "hoch_abstand": -44.5,
+     "kurs": 158.74,
+     "seit_pct": -34.6,
+     "sma_abstand": -9.7,
+     "hoch_abstand": -44.6,
      "exit": "2026-10-16"
     },
     {
@@ -752,10 +752,10 @@
      "sym": "LITE",
      "ueber200": true,
      "einstieg": 1085.42,
-     "kurs": 752.54,
-     "seit_pct": -30.7,
-     "sma_abstand": -4.3,
-     "hoch_abstand": -33.6,
+     "kurs": 756.17,
+     "seit_pct": -30.3,
+     "sma_abstand": -4.0,
+     "hoch_abstand": -33.3,
      "exit": "2026-10-22"
     }
    ]
@@ -822,6 +822,10 @@
    [
     "2026-10-22",
     0.86535
+   ],
+   [
+    "2026-10-23",
+    0.85347
    ]
   ],
   "v1": [
@@ -884,6 +888,10 @@
    [
     "2026-10-22",
     0.8859
+   ],
+   [
+    "2026-10-23",
+    0.87572
    ]
   ],
   "pur": [
@@ -946,6 +954,10 @@
    [
     "2026-10-22",
     0.74125
+   ],
+   [
+    "2026-10-23",
+    0.74667
    ]
   ],
   "URTH": [
@@ -1008,6 +1020,10 @@
    [
     "2026-10-22",
     0.99345
+   ],
+   [
+    "2026-10-23",
+    0.98853
    ]
   ],
   "SPY": [
@@ -1070,6 +1086,10 @@
    [
     "2026-10-22",
     0.99262
+   ],
+   [
+    "2026-10-23",
+    0.98744
    ]
   ]
  },
@@ -1412,76 +1432,76 @@
    "typ": "exit"
   },
   {
-   "typ": "exit",
+   "festgeschrieben": "2026-10-23T09:35:33+00:00",
+   "hoch52": 209.646,
    "korb": "v2",
-   "sym": "688300.SS",
    "name": "Novoray Corporation",
+   "schluss": 95.32,
    "signal_korb": "2026-09-30",
    "signal_vom": "2026-10-22",
-   "schluss": 95.32,
    "sma200": 96.3356,
-   "hoch52": 209.646,
-   "festgeschrieben": "2026-10-23T09:35:33+00:00"
+   "sym": "688300.SS",
+   "typ": "exit"
   },
   {
-   "typ": "exit",
-   "korb": "v2",
-   "sym": "ATI",
-   "name": "ATI Inc.",
-   "signal_korb": "2026-09-30",
-   "signal_vom": "2026-10-22",
-   "schluss": 161.84,
-   "sma200": 172.0526,
+   "festgeschrieben": "2026-10-23T09:35:33+00:00",
    "hoch52": 231.78,
-   "festgeschrieben": "2026-10-23T09:35:33+00:00"
-  },
-  {
-   "typ": "exit",
-   "korb": "v1",
-   "sym": "688300.SS",
-   "name": "Novoray Corporation",
+   "korb": "v2",
+   "name": "ATI Inc.",
+   "schluss": 161.84,
    "signal_korb": "2026-09-30",
    "signal_vom": "2026-10-22",
-   "schluss": 95.32,
-   "sma200": 96.3356,
+   "sma200": 172.0526,
+   "sym": "ATI",
+   "typ": "exit"
+  },
+  {
+   "festgeschrieben": "2026-10-23T09:35:33+00:00",
    "hoch52": 209.646,
-   "festgeschrieben": "2026-10-23T09:35:33+00:00"
-  },
-  {
-   "typ": "exit",
    "korb": "v1",
-   "sym": "7750.TW",
-   "name": "Syntec Technology Co., Ltd.",
+   "name": "Novoray Corporation",
+   "schluss": 95.32,
    "signal_korb": "2026-09-30",
    "signal_vom": "2026-10-22",
-   "schluss": 1810.0,
-   "sma200": 1813.48,
+   "sma200": 96.3356,
+   "sym": "688300.SS",
+   "typ": "exit"
+  },
+  {
+   "festgeschrieben": "2026-10-23T09:35:33+00:00",
    "hoch52": 3070.0,
-   "festgeschrieben": "2026-10-23T09:35:33+00:00"
-  },
-  {
-   "typ": "exit",
-   "korb": "pur",
-   "sym": "INTC",
-   "name": "Intel Corporation",
+   "korb": "v1",
+   "name": "Syntec Technology Co., Ltd.",
+   "schluss": 1810.0,
    "signal_korb": "2026-09-30",
    "signal_vom": "2026-10-22",
-   "schluss": 85.49,
-   "sma200": 85.5892,
+   "sma200": 1813.48,
+   "sym": "7750.TW",
+   "typ": "exit"
+  },
+  {
+   "festgeschrieben": "2026-10-23T09:35:33+00:00",
    "hoch52": 140.94,
-   "festgeschrieben": "2026-10-23T09:35:33+00:00"
-  },
-  {
-   "typ": "exit",
    "korb": "pur",
-   "sym": "LITE",
-   "name": "Lumentum Holdings Inc.",
+   "name": "Intel Corporation",
+   "schluss": 85.49,
    "signal_korb": "2026-09-30",
    "signal_vom": "2026-10-22",
-   "schluss": 752.54,
-   "sma200": 786.2273,
+   "sma200": 85.5892,
+   "sym": "INTC",
+   "typ": "exit"
+  },
+  {
+   "festgeschrieben": "2026-10-23T09:35:33+00:00",
    "hoch52": 1133.4,
-   "festgeschrieben": "2026-10-23T09:35:33+00:00"
+   "korb": "pur",
+   "name": "Lumentum Holdings Inc.",
+   "schluss": 752.54,
+   "signal_korb": "2026-09-30",
+   "signal_vom": "2026-10-22",
+   "sma200": 786.2273,
+   "sym": "LITE",
+   "typ": "exit"
   }
  ],
  "parameter": {
