@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T10:17:35+00:00",
+ "generated": "2026-10-25T10:46:41+00:00",
  "cost_pct": 1.0,
  "note": "Ueberrenditen nach Kosten; t_clustered = t-Wert nach Ereignisdatum gebuendelt",
  "theses": [
@@ -9,8 +9,8 @@
    "rule": "Streichung Abstieg/Exit, nicht S&P 100, kein M&A/Insolvenz, Vorlauf 10 HT > −5 %; Einstieg Schluss vor Stichtag; Haltedauer ~20 HT",
    "status": "widerlegt",
    "registered": "2026-09-20",
-   "n_events": 132,
-   "n_oos": 6,
+   "n_events": 133,
+   "n_oos": 7,
    "horizons": {
     "x5_SPY": {
      "in": {
@@ -233,8 +233,8 @@
    "rule": "wie oben, aber ohne Vorlauf-Bedingung – Kontrollgruppe",
    "status": "widerlegt",
    "registered": "2026-09-20",
-   "n_events": 256,
-   "n_oos": 15,
+   "n_events": 259,
+   "n_oos": 18,
    "horizons": {
     "x5_SPY": {
      "in": {
