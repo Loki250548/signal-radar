@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-24T09:07:38+00:00",
- "asof": "2026-10-23",
+ "generated": "2026-10-27T10:04:46+00:00",
+ "asof": "2026-10-26",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
  "universe": 502,
  "blue_chips": [
@@ -19,7 +19,6 @@
   "APP",
   "AVGO",
   "AXP",
-  "AZO",
   "BA",
   "BAC",
   "BE",
@@ -39,6 +38,7 @@
   "DELL",
   "DHR",
   "DIS",
+  "ETN",
   "GE",
   "GEV",
   "GLW",
