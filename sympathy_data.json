@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T11:03:34+00:00",
- "asof": "2026-10-29",
+ "generated": "2026-10-31T10:38:54+00:00",
+ "asof": "2026-10-30",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
  "universe": 502,
  "blue_chips": [
@@ -106,35 +106,7 @@
   "XOM"
  ],
  "signals_today": [],
- "control_today": [
-  {
-   "ticker": "GOOGL",
-   "sector": "Communication Services",
-   "date": "2026-10-29",
-   "excess": -12.3,
-   "vol_ratio": 5.4,
-   "peer_median": 2.0,
-   "blue_chip": true
-  },
-  {
-   "ticker": "GOOG",
-   "sector": "Communication Services",
-   "date": "2026-10-29",
-   "excess": -11.9,
-   "vol_ratio": 5.6,
-   "peer_median": 2.0,
-   "blue_chip": true
-  },
-  {
-   "ticker": "NOW",
-   "sector": "Information Technology",
-   "date": "2026-10-29",
-   "excess": -26.6,
-   "vol_ratio": 6.1,
-   "peer_median": 0.1,
-   "blue_chip": true
-  }
- ],
+ "control_today": [],
  "positions": [],
  "stats": {
   "open": 0,
