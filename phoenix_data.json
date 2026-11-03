@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-31",
+ "stand": "2026-11-03",
  "start_signal": "2026-09-30",
  "regel": "Phönix-Korb — Papierbetrieb (Test 56/56b, Vorab-Festlegung claude/phoenix_korb_vorab.md vom 26.09.2026)",
  "koerbe": {
@@ -10,32 +10,32 @@
  "linien": {
   "gewinn_haupt": {
    "name": "Phönix Gewinn",
-   "rendite": 0.95,
-   "mdd": -0.21,
+   "rendite": 0.83,
+   "mdd": -0.29,
    "start": "2026-10-02"
   },
   "gewinn_exit": {
    "name": "Phönix Gewinn + Exit-Regel",
-   "rendite": 0.95,
-   "mdd": -0.21,
+   "rendite": 0.83,
+   "mdd": -0.29,
    "start": "2026-10-02"
   },
   "verlust_haupt": {
    "name": "Phönix Verlust",
-   "rendite": -0.03,
-   "mdd": -2.49,
+   "rendite": -0.95,
+   "mdd": -2.5,
    "start": "2026-10-02"
   },
   "verlust_exit": {
    "name": "Phönix Verlust + Exit-Regel",
-   "rendite": -0.03,
-   "mdd": -2.49,
+   "rendite": -0.95,
+   "mdd": -2.5,
    "start": "2026-10-02"
   },
   "URTH": {
    "name": "MSCI World (URTH)",
-   "rendite": -1.39,
-   "mdd": -2.43,
+   "rendite": -1.63,
+   "mdd": -2.66,
    "start": "2026-10-02"
   }
  },
@@ -124,6 +124,10 @@
    [
     "2026-10-30",
     1.00948
+   ],
+   [
+    "2026-11-02",
+    1.00826
    ]
   ],
   "gewinn_exit": [
@@ -210,6 +214,10 @@
    [
     "2026-10-30",
     1.00948
+   ],
+   [
+    "2026-11-02",
+    1.00826
    ]
   ],
   "verlust_haupt": [
@@ -296,6 +304,10 @@
    [
     "2026-10-30",
     0.99971
+   ],
+   [
+    "2026-11-02",
+    0.99054
    ]
   ],
   "verlust_exit": [
@@ -382,6 +394,10 @@
    [
     "2026-10-30",
     0.99971
+   ],
+   [
+    "2026-11-02",
+    0.99054
    ]
   ],
   "URTH": [
@@ -468,6 +484,10 @@
    [
     "2026-10-30",
     0.98607
+   ],
+   [
+    "2026-11-02",
+    0.98371
    ]
   ]
  },
@@ -493,7 +513,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": 28.6,
+   "seit_pct": 25.0,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -506,7 +526,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": -9.2,
+   "seit_pct": -20.2,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -519,7 +539,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": 2.8,
+   "seit_pct": -7.5,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -532,7 +552,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": 6.5,
+   "seit_pct": 0.1,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -679,6 +699,389 @@
      "ATKR"
     ]
    }
+  },
+  {
+   "signal_vom": "2026-10-30",
+   "festgeschrieben": "2026-11-03T12:27:21+00:00",
+   "marktlage": {
+    "datum": "2026-11-02",
+    "sp500": 7541.4,
+    "ma10": 7364.47,
+    "abstand_hoch_pct": -3.5,
+    "vix": 21.15,
+    "krise": false
+   },
+   "stat": {
+    "universum": 13414,
+    "mit_kursen": 13414,
+    "signale_roh": 23,
+    "signale": 21
+   },
+   "kandidaten": [
+    {
+     "sym": "INDP",
+     "name": "Indaptus Therapeutics, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 0.466,
+     "adv_usd": 3.19,
+     "schluss": 3.09,
+     "abstand_36m_hoch_pct": -95.3,
+     "vom_24m_tief_pct": 169.9,
+     "streng": true,
+     "sektor": "Healthcare",
+     "branche": "Biotechnology",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "BNED",
+     "name": "Barnes & Noble Education, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 0.441,
+     "adv_usd": 3.05,
+     "schluss": 12.67,
+     "abstand_36m_hoch_pct": -91.5,
+     "vom_24m_tief_pct": 46.8,
+     "streng": true,
+     "sektor": "Consumer Cyclical",
+     "branche": "Specialty Retail",
+     "gewinn": true,
+     "korb": "gewinn"
+    },
+    {
+     "sym": "SPT",
+     "name": "Sprout Social, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 0.733,
+     "adv_usd": 13.53,
+     "schluss": 12.05,
+     "abstand_36m_hoch_pct": -80.5,
+     "vom_24m_tief_pct": 111.4,
+     "streng": true,
+     "sektor": "Technology",
+     "branche": "Software - Application",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "PACB",
+     "name": "Pacific Biosciences of California, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 0.729,
+     "adv_usd": 28.39,
+     "schluss": 2.61,
+     "abstand_36m_hoch_pct": -73.4,
+     "vom_24m_tief_pct": 171.9,
+     "streng": true,
+     "sektor": "Healthcare",
+     "branche": "Medical Devices",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "SG",
+     "name": "Sweetgreen, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 1.365,
+     "adv_usd": 61.35,
+     "schluss": 11.07,
+     "abstand_36m_hoch_pct": -73.0,
+     "vom_24m_tief_pct": 113.3,
+     "streng": true,
+     "sektor": "Consumer Cyclical",
+     "branche": "Restaurants",
+     "gewinn": true,
+     "korb": "gewinn"
+    },
+    {
+     "sym": "BHVN",
+     "name": "Biohaven Ltd.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 2.29,
+     "adv_usd": 48.2,
+     "schluss": 15.42,
+     "abstand_36m_hoch_pct": -71.8,
+     "vom_24m_tief_pct": 82.3,
+     "streng": true,
+     "sektor": "Healthcare",
+     "branche": "Biotechnology",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "RPD",
+     "name": "Rapid7, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 1.001,
+     "adv_usd": 30.27,
+     "schluss": 16.56,
+     "abstand_36m_hoch_pct": -71.7,
+     "vom_24m_tief_pct": 200.5,
+     "streng": true,
+     "sektor": "Technology",
+     "branche": "Software - Infrastructure",
+     "gewinn": true,
+     "korb": "gewinn"
+    },
+    {
+     "sym": "AMC",
+     "name": "AMC Entertainment Holdings, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 2.847,
+     "adv_usd": 75.47,
+     "schluss": 3.06,
+     "abstand_36m_hoch_pct": -71.3,
+     "vom_24m_tief_pct": 212.2,
+     "streng": true,
+     "sektor": "Communication Services",
+     "branche": "Entertainment",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "DV",
+     "name": "DoubleVerify Holdings, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 2.118,
+     "adv_usd": 47.79,
+     "schluss": 13.56,
+     "abstand_36m_hoch_pct": -66.1,
+     "vom_24m_tief_pct": 42.7,
+     "streng": false,
+     "sektor": "Communication Services",
+     "branche": "Advertising Agencies",
+     "gewinn": true,
+     "korb": "gewinn"
+    },
+    {
+     "sym": "SBC",
+     "name": "SBC Medical Group Holdings Incorporated",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 0.546,
+     "adv_usd": 1.04,
+     "schluss": 5.275,
+     "abstand_36m_hoch_pct": -65.1,
+     "vom_24m_tief_pct": 72.4,
+     "streng": false,
+     "sektor": "Industrials",
+     "branche": "Consulting Services",
+     "gewinn": true,
+     "korb": "gewinn"
+    },
+    {
+     "sym": "ACHC",
+     "name": "Acadia Healthcare Company, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 2.758,
+     "adv_usd": 46.63,
+     "schluss": 29.96,
+     "abstand_36m_hoch_pct": -64.1,
+     "vom_24m_tief_pct": 122.9,
+     "streng": false,
+     "sektor": "Healthcare",
+     "branche": "Medical Care Facilities",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "BLMN",
+     "name": "Bloomin' Brands, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 0.933,
+     "adv_usd": 27.21,
+     "schluss": 10.57,
+     "abstand_36m_hoch_pct": -63.1,
+     "vom_24m_tief_pct": 95.7,
+     "streng": false,
+     "sektor": "Consumer Cyclical",
+     "branche": "Restaurants",
+     "gewinn": true,
+     "korb": "gewinn"
+    },
+    {
+     "sym": "GDRX",
+     "name": "GoodRx Holdings, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 1.211,
+     "adv_usd": 4.62,
+     "schluss": 3.49,
+     "abstand_36m_hoch_pct": -61.4,
+     "vom_24m_tief_pct": 86.6,
+     "streng": false,
+     "sektor": "Healthcare",
+     "branche": "Health Information Services",
+     "gewinn": true,
+     "korb": "gewinn"
+    },
+    {
+     "sym": "TDOC",
+     "name": "Teladoc Health, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 1.573,
+     "adv_usd": 35.09,
+     "schluss": 8.51,
+     "abstand_36m_hoch_pct": -60.5,
+     "vom_24m_tief_pct": 61.8,
+     "streng": false,
+     "sektor": "Healthcare",
+     "branche": "Health Information Services",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "BMBL",
+     "name": "Bumble Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 0.915,
+     "adv_usd": 35.18,
+     "schluss": 5.99,
+     "abstand_36m_hoch_pct": -59.9,
+     "vom_24m_tief_pct": 127.8,
+     "streng": false,
+     "sektor": "Communication Services",
+     "branche": "Internet Content & Information",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "RPAY",
+     "name": "Repay Holdings Corporation",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 0.414,
+     "adv_usd": 1.92,
+     "schluss": 4.58,
+     "abstand_36m_hoch_pct": -58.4,
+     "vom_24m_tief_pct": 76.2,
+     "streng": false,
+     "sektor": "Technology",
+     "branche": "Software - Infrastructure",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "AMPH",
+     "name": "Amphastar Pharmaceuticals, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 1.15,
+     "adv_usd": 12.63,
+     "schluss": 27.72,
+     "abstand_36m_hoch_pct": -55.2,
+     "vom_24m_tief_pct": 47.1,
+     "streng": false,
+     "sektor": "Healthcare",
+     "branche": "Drug Manufacturers - Specialty & Generic",
+     "gewinn": true,
+     "korb": "gewinn"
+    },
+    {
+     "sym": "FIVN",
+     "name": "Five9, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 2.673,
+     "adv_usd": 74.84,
+     "schluss": 36.34,
+     "abstand_36m_hoch_pct": -53.8,
+     "vom_24m_tief_pct": 139.6,
+     "streng": false,
+     "sektor": "Technology",
+     "branche": "Software - Infrastructure",
+     "gewinn": true,
+     "korb": "gewinn"
+    },
+    {
+     "sym": "PRGO",
+     "name": "Perrigo Company plc",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 2.179,
+     "adv_usd": 42.46,
+     "schluss": 15.78,
+     "abstand_36m_hoch_pct": -51.7,
+     "vom_24m_tief_pct": 56.1,
+     "streng": false,
+     "sektor": "Healthcare",
+     "branche": "Drug Manufacturers - Specialty & Generic",
+     "gewinn": false,
+     "korb": "verlust"
+    },
+    {
+     "sym": "BAH",
+     "name": "Booz Allen Hamilton Holding Corporation",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 10.483,
+     "adv_usd": 154.64,
+     "schluss": 88.49,
+     "abstand_36m_hoch_pct": -51.3,
+     "vom_24m_tief_pct": 45.9,
+     "streng": false,
+     "sektor": "Industrials",
+     "branche": "Consulting Services",
+     "gewinn": true,
+     "korb": "gewinn"
+    },
+    {
+     "sym": "KPLT",
+     "name": "Katapult Holdings, Inc.",
+     "land": "USA",
+     "cur": "USD",
+     "mcap_usd": 0.938,
+     "adv_usd": 2.93,
+     "schluss": 10.38,
+     "abstand_36m_hoch_pct": -50.1,
+     "vom_24m_tief_pct": 137.5,
+     "streng": false,
+     "sektor": "Technology",
+     "branche": "Software - Infrastructure",
+     "gewinn": true,
+     "korb": "gewinn"
+    }
+   ],
+   "neu": {
+    "gewinn": [
+     "BNED",
+     "SG",
+     "RPD",
+     "DV",
+     "SBC",
+     "BLMN",
+     "GDRX",
+     "AMPH",
+     "FIVN",
+     "BAH",
+     "KPLT"
+    ],
+    "verlust": [
+     "INDP",
+     "SPT",
+     "PACB",
+     "BHVN",
+     "AMC",
+     "ACHC",
+     "TDOC",
+     "BMBL",
+     "RPAY",
+     "PRGO"
+    ]
+   }
   }
  ],
  "protokoll": [
@@ -744,6 +1147,15 @@
    "sym": "ATKR",
    "datum": "2026-10-02",
    "anzahl": null
+  },
+  {
+   "typ": "signal",
+   "festgeschrieben": "2026-11-03T12:27:21+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": null,
+   "sym": null,
+   "datum": null,
+   "anzahl": 21
   }
  ]
 }
