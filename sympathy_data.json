@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-03T12:21:43+00:00",
- "asof": "2026-11-02",
+ "generated": "2026-11-04T12:32:52+00:00",
+ "asof": "2026-11-03",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
  "universe": 501,
  "blue_chips": [
@@ -83,6 +83,7 @@
   "PG",
   "PLTR",
   "QCOM",
+  "RDDT",
   "RTX",
   "SMCI",
   "SNDK",
@@ -91,7 +92,6 @@
   "TER",
   "TJX",
   "TMO",
-  "TMUS",
   "TSLA",
   "TXN",
   "UBER",
