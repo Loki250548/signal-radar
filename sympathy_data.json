@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-04T12:32:52+00:00",
- "asof": "2026-11-03",
+ "generated": "2026-11-05T12:47:41+00:00",
+ "asof": "2026-11-04",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
- "universe": 501,
+ "universe": 502,
  "blue_chips": [
   "AAPL",
   "ABBV",
@@ -38,6 +38,7 @@
   "DELL",
   "DHR",
   "DIS",
+  "ETN",
   "GE",
   "GEV",
   "GLW",
@@ -83,7 +84,6 @@
   "PG",
   "PLTR",
   "QCOM",
-  "RDDT",
   "RTX",
   "SMCI",
   "SNDK",

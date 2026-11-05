@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-04",
+ "stand": "2026-11-05",
  "start_signal": "2026-09-30",
  "regel": "Phönix-Korb — Papierbetrieb (Test 56/56b, Vorab-Festlegung claude/phoenix_korb_vorab.md vom 26.09.2026)",
  "koerbe": {
@@ -10,31 +10,31 @@
  "linien": {
   "gewinn_haupt": {
    "name": "Phönix Gewinn",
-   "rendite": 0.78,
+   "rendite": 0.89,
    "mdd": -0.33,
    "start": "2026-10-02"
   },
   "gewinn_exit": {
    "name": "Phönix Gewinn + Exit-Regel",
-   "rendite": 0.78,
+   "rendite": 0.89,
    "mdd": -0.33,
    "start": "2026-10-02"
   },
   "verlust_haupt": {
    "name": "Phönix Verlust",
-   "rendite": -0.43,
+   "rendite": -0.17,
    "mdd": -2.5,
    "start": "2026-10-02"
   },
   "verlust_exit": {
    "name": "Phönix Verlust + Exit-Regel",
-   "rendite": -0.43,
+   "rendite": -0.17,
    "mdd": -2.5,
    "start": "2026-10-02"
   },
   "URTH": {
    "name": "MSCI World (URTH)",
-   "rendite": -1.57,
+   "rendite": 0.16,
    "mdd": -2.66,
    "start": "2026-10-02"
   }
@@ -132,6 +132,10 @@
    [
     "2026-11-03",
     1.00779
+   ],
+   [
+    "2026-11-04",
+    1.00892
    ]
   ],
   "gewinn_exit": [
@@ -226,6 +230,10 @@
    [
     "2026-11-03",
     1.00779
+   ],
+   [
+    "2026-11-04",
+    1.00892
    ]
   ],
   "verlust_haupt": [
@@ -320,6 +328,10 @@
    [
     "2026-11-03",
     0.99571
+   ],
+   [
+    "2026-11-04",
+    0.99835
    ]
   ],
   "verlust_exit": [
@@ -414,6 +426,10 @@
    [
     "2026-11-03",
     0.99571
+   ],
+   [
+    "2026-11-04",
+    0.99835
    ]
   ],
   "URTH": [
@@ -508,6 +524,10 @@
    [
     "2026-11-03",
     0.98434
+   ],
+   [
+    "2026-11-04",
+    1.00164
    ]
   ]
  },
@@ -533,7 +553,150 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": 23.7,
+   "seit_pct": 30.3,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "gewinn",
+   "sym": "BNED",
+   "name": "Barnes & Noble Education, Inc.",
+   "land": "USA",
+   "sektor": "Consumer Cyclical",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "gewinn",
+   "sym": "SG",
+   "name": "Sweetgreen, Inc.",
+   "land": "USA",
+   "sektor": "Consumer Cyclical",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "gewinn",
+   "sym": "RPD",
+   "name": "Rapid7, Inc.",
+   "land": "USA",
+   "sektor": "Technology",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "gewinn",
+   "sym": "DV",
+   "name": "DoubleVerify Holdings, Inc.",
+   "land": "USA",
+   "sektor": "Communication Services",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "gewinn",
+   "sym": "SBC",
+   "name": "SBC Medical Group Holdings Incorporated",
+   "land": "USA",
+   "sektor": "Industrials",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "gewinn",
+   "sym": "BLMN",
+   "name": "Bloomin' Brands, Inc.",
+   "land": "USA",
+   "sektor": "Consumer Cyclical",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "gewinn",
+   "sym": "GDRX",
+   "name": "GoodRx Holdings, Inc.",
+   "land": "USA",
+   "sektor": "Healthcare",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "gewinn",
+   "sym": "AMPH",
+   "name": "Amphastar Pharmaceuticals, Inc.",
+   "land": "USA",
+   "sektor": "Healthcare",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "gewinn",
+   "sym": "FIVN",
+   "name": "Five9, Inc.",
+   "land": "USA",
+   "sektor": "Technology",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "gewinn",
+   "sym": "BAH",
+   "name": "Booz Allen Hamilton Holding Corporation",
+   "land": "USA",
+   "sektor": "Industrials",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "gewinn",
+   "sym": "KPLT",
+   "name": "Katapult Holdings, Inc.",
+   "land": "USA",
+   "sektor": "Technology",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -546,7 +709,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": -12.9,
+   "seit_pct": -5.7,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -559,7 +722,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": -3.9,
+   "seit_pct": 0.4,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -572,7 +735,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": 4.7,
+   "seit_pct": 4.1,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -586,6 +749,136 @@
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
    "seit_pct": 0.4,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "INDP",
+   "name": "Indaptus Therapeutics, Inc.",
+   "land": "USA",
+   "sektor": "Healthcare",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "SPT",
+   "name": "Sprout Social, Inc.",
+   "land": "USA",
+   "sektor": "Technology",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "PACB",
+   "name": "Pacific Biosciences of California, Inc.",
+   "land": "USA",
+   "sektor": "Healthcare",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "BHVN",
+   "name": "Biohaven Ltd.",
+   "land": "USA",
+   "sektor": "Healthcare",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "AMC",
+   "name": "AMC Entertainment Holdings, Inc.",
+   "land": "USA",
+   "sektor": "Communication Services",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "ACHC",
+   "name": "Acadia Healthcare Company, Inc.",
+   "land": "USA",
+   "sektor": "Healthcare",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "TDOC",
+   "name": "Teladoc Health, Inc.",
+   "land": "USA",
+   "sektor": "Healthcare",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "BMBL",
+   "name": "Bumble Inc.",
+   "land": "USA",
+   "sektor": "Communication Services",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "RPAY",
+   "name": "Repay Holdings Corporation",
+   "land": "USA",
+   "sektor": "Technology",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
+   "ausstieg": null,
+   "grund": null,
+   "offen": true
+  },
+  {
+   "korb": "verlust",
+   "sym": "PRGO",
+   "name": "Perrigo Company plc",
+   "land": "USA",
+   "sektor": "Healthcare",
+   "signal_vom": "2026-10-30",
+   "einstieg": "2026-11-04",
+   "seit_pct": 0.0,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -1176,6 +1469,195 @@
    "sym": null,
    "datum": null,
    "anzahl": 21
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "gewinn",
+   "sym": "BNED",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "gewinn",
+   "sym": "SG",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "gewinn",
+   "sym": "RPD",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "gewinn",
+   "sym": "DV",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "gewinn",
+   "sym": "SBC",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "gewinn",
+   "sym": "BLMN",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "gewinn",
+   "sym": "GDRX",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "gewinn",
+   "sym": "AMPH",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "gewinn",
+   "sym": "FIVN",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "gewinn",
+   "sym": "BAH",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "gewinn",
+   "sym": "KPLT",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "verlust",
+   "sym": "INDP",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "verlust",
+   "sym": "SPT",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "verlust",
+   "sym": "PACB",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "verlust",
+   "sym": "BHVN",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "verlust",
+   "sym": "AMC",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "verlust",
+   "sym": "ACHC",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "verlust",
+   "sym": "TDOC",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "verlust",
+   "sym": "BMBL",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "verlust",
+   "sym": "RPAY",
+   "datum": "2026-11-04",
+   "anzahl": null
+  },
+  {
+   "typ": "einstieg",
+   "festgeschrieben": "2026-11-05T12:48:30+00:00",
+   "signal_vom": "2026-10-30",
+   "korb": "verlust",
+   "sym": "PRGO",
+   "datum": "2026-11-04",
+   "anzahl": null
   }
  ]
 }
