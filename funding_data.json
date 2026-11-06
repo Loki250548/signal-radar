@@ -1,26 +1,26 @@
 {
- "stand": "2026-11-05T12:48+00:00",
+ "stand": "2026-11-06T12:29+00:00",
  "papierstart": "2026-10-01",
  "puffer": 0.3,
  "kosten_wechsel_pct": 0.13,
  "instrumente": {
   "BTC": {
    "instrument": "BTC-PERPETUAL",
-   "kurs": 80336.5,
-   "sma200": 73183.74,
-   "abstand_pct": 9.77,
+   "kurs": 75488.5,
+   "sma200": 73186.96,
+   "abstand_pct": 3.14,
    "ueber_200": true,
-   "kerze_bis": "2026-11-05T08:00+00:00",
-   "funding_7d_pa": 5.71,
-   "funding_30d_pa": 5.19,
-   "funding_365d_pa": 2.25,
-   "letzte_stunde": "2026-11-05T12:00+00:00",
+   "kerze_bis": "2026-11-06T08:00+00:00",
+   "funding_7d_pa": 5.06,
+   "funding_30d_pa": 5.32,
+   "funding_365d_pa": 2.26,
+   "letzte_stunde": "2026-11-06T12:00+00:00",
    "ampel": "grün",
    "text": "über der 200-Tage-Linie, Funding positiv → Papier in Position",
    "papier": {
-    "nav": 1.00349,
-    "rendite": 0.349,
-    "rendite_kapital": 0.269,
+    "nav": 1.00365,
+    "rendite": 0.365,
+    "rendite_kapital": 0.281,
     "p_a": null,
     "mdd": -0.129,
     "wechsel": 1,
@@ -168,23 +168,23 @@
      ],
      [
       "2026-11-05",
-      1.00349
+      1.00362
+     ],
+     [
+      "2026-11-06",
+      1.00365
      ]
     ]
    },
    "rueckblick_12m": {
-    "nav": 1.00828,
-    "rendite": 0.828,
-    "rendite_kapital": 0.637,
-    "p_a": 0.83,
+    "nav": 1.00844,
+    "rendite": 0.844,
+    "rendite_kapital": 0.649,
+    "p_a": 0.84,
     "mdd": -0.13,
     "wechsel": 1,
     "in_position": true,
     "reihe": [
-     [
-      "2025-11-05",
-      1.0
-     ],
      [
       "2025-11-06",
       1.0
@@ -1643,15 +1643,15 @@
      ],
      [
       "2026-11-05",
-      1.00828
+      1.00841
+     ],
+     [
+      "2026-11-06",
+      1.00844
      ]
     ]
    },
    "tage_funding_pa": [
-    [
-     "2025-11-06",
-     -5.49
-    ],
     [
      "2025-11-07",
      0.13
@@ -3106,27 +3106,31 @@
     ],
     [
      "2026-11-05",
-     5.16
+     9.7
+    ],
+    [
+     "2026-11-06",
+     1.15
     ]
    ]
   },
   "ETH": {
    "instrument": "ETH-PERPETUAL",
-   "kurs": 2415.25,
-   "sma200": 2156.14,
-   "abstand_pct": 12.02,
+   "kurs": 2225.05,
+   "sma200": 2155.77,
+   "abstand_pct": 3.21,
    "ueber_200": true,
-   "kerze_bis": "2026-11-05T08:00+00:00",
-   "funding_7d_pa": 2.79,
-   "funding_30d_pa": 2.55,
-   "funding_365d_pa": 1.56,
-   "letzte_stunde": "2026-11-05T12:00+00:00",
+   "kerze_bis": "2026-11-06T08:00+00:00",
+   "funding_7d_pa": 3.2,
+   "funding_30d_pa": 2.67,
+   "funding_365d_pa": 1.58,
+   "letzte_stunde": "2026-11-06T12:00+00:00",
    "ampel": "grün",
    "text": "über der 200-Tage-Linie, Funding positiv → Papier in Position",
    "papier": {
-    "nav": 1.00127,
-    "rendite": 0.127,
-    "rendite_kapital": 0.098,
+    "nav": 1.00138,
+    "rendite": 0.138,
+    "rendite_kapital": 0.106,
     "p_a": null,
     "mdd": -0.13,
     "wechsel": 1,
@@ -3274,23 +3278,23 @@
      ],
      [
       "2026-11-05",
-      1.00127
+      1.00132
+     ],
+     [
+      "2026-11-06",
+      1.00138
      ]
     ]
    },
    "rueckblick_12m": {
-    "nav": 1.00195,
-    "rendite": 0.195,
-    "rendite_kapital": 0.15,
-    "p_a": 0.19,
+    "nav": 1.00206,
+    "rendite": 0.206,
+    "rendite_kapital": 0.159,
+    "p_a": 0.21,
     "mdd": -0.603,
     "wechsel": 5,
     "in_position": true,
     "reihe": [
-     [
-      "2025-11-05",
-      1.0
-     ],
      [
       "2025-11-06",
       1.0
@@ -4749,15 +4753,15 @@
      ],
      [
       "2026-11-05",
-      1.00195
+      1.002
+     ],
+     [
+      "2026-11-06",
+      1.00206
      ]
     ]
    },
    "tage_funding_pa": [
-    [
-     "2025-11-06",
-     -0.67
-    ],
     [
      "2025-11-07",
      3.32
@@ -6212,7 +6216,11 @@
     ],
     [
      "2026-11-05",
-     4.61
+     6.46
+    ],
+    [
+     "2026-11-06",
+     2.24
     ]
    ]
   }

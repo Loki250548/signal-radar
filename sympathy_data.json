@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-05T12:47:41+00:00",
- "asof": "2026-11-04",
+ "generated": "2026-11-06T12:28:43+00:00",
+ "asof": "2026-11-05",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
  "universe": 502,
  "blue_chips": [
@@ -105,9 +105,29 @@
   "WMT",
   "XOM"
  ],
- "signals_today": [],
+ "signals_today": [
+  {
+   "ticker": "SNDK",
+   "sector": "Information Technology",
+   "date": "2026-11-05",
+   "excess": -17.9,
+   "vol_ratio": 3.3,
+   "peer_median": -3.4,
+   "blue_chip": true
+  }
+ ],
  "control_today": [],
- "positions": [],
+ "positions": [
+  {
+   "ticker": "SNDK",
+   "sector": "Information Technology",
+   "signal_date": "2026-11-05",
+   "excess_signal": -17.9,
+   "peer_median": -3.4,
+   "vol_ratio": 3.3,
+   "status": "pending"
+  }
+ ],
  "stats": {
   "open": 0,
   "closed": 0,
