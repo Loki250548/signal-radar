@@ -8,5 +8,15 @@
    "peer_median": -3.4,
    "excess": -17.9
   }
+ },
+ {
+  "ticker": "AMD",
+  "date": "2026-11-05",
+  "side": "long",
+  "meta": {
+   "sector": "Information Technology",
+   "peer_median": -3.4,
+   "excess": -12.9
+  }
  }
 ]

@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-06T12:28:43+00:00",
- "asof": "2026-11-05",
+ "generated": "2026-11-07T11:26:10+00:00",
+ "asof": "2026-11-06",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
  "universe": 502,
  "blue_chips": [
@@ -105,17 +105,7 @@
   "WMT",
   "XOM"
  ],
- "signals_today": [
-  {
-   "ticker": "SNDK",
-   "sector": "Information Technology",
-   "date": "2026-11-05",
-   "excess": -17.9,
-   "vol_ratio": 3.3,
-   "peer_median": -3.4,
-   "blue_chip": true
-  }
- ],
+ "signals_today": [],
  "control_today": [],
  "positions": [
   {
@@ -125,11 +115,36 @@
    "excess_signal": -17.9,
    "peer_median": -3.4,
    "vol_ratio": 3.3,
-   "status": "pending"
+   "status": "open",
+   "entry_date": "2026-11-06",
+   "entry": 835.06,
+   "spy_entry": 735.29,
+   "last_date": "2026-11-06",
+   "last": 835.06,
+   "excess_now": 0.0,
+   "days_held": 0,
+   "exit_date": null
+  },
+  {
+   "ticker": "AMD",
+   "sector": "Information Technology",
+   "signal_date": "2026-11-05",
+   "excess_signal": -12.9,
+   "peer_median": -3.4,
+   "vol_ratio": 3.0,
+   "status": "open",
+   "entry_date": "2026-11-06",
+   "entry": 449.04,
+   "spy_entry": 735.29,
+   "last_date": "2026-11-06",
+   "last": 449.04,
+   "excess_now": 0.0,
+   "days_held": 0,
+   "exit_date": null
   }
  ],
  "stats": {
-  "open": 0,
+  "open": 2,
   "closed": 0,
   "avg_excess_closed": null,
   "hit_closed": null
