@@ -76,6 +76,16 @@ def turn_of_month(D, h):
     return pd.DataFrame({t: ser for t in D["close"].columns})
 
 
+def mom_12_1_sharpe(D, h):
+    # Risikoadjustiertes 12-1-Momentum: Log-Rendite t-252..t-21 geteilt durch die Schwankung
+    # der Tagesrenditen im selben Fenster (Fenster wie mom_12_1, nicht gesucht).
+    c = D["close"]
+    r = np.log(c).diff()
+    ret = np.log(c.shift(21) / c.shift(252))
+    vol = r.shift(21).rolling(231, min_periods=200).std()
+    return ret / (vol * np.sqrt(231))
+
+
 REGISTRY = [
     dict(name="mom_12_1", fn=mom_12_1, styles=["ts", "xs"], born="2026-09-23", retired=None,
          mechanism="Momentum 12-1: Anleger reagieren zu langsam auf neue Information, Trends setzen sich fort "
@@ -98,6 +108,11 @@ REGISTRY = [
          mechanism="Angstpraemie: hoher VIX gegen sein Jahresmittel = hohe Risikopraemie, spaetere Renditen hoeher."),
     dict(name="turn_of_month", fn=turn_of_month, styles=["ts"], born="2026-09-23", retired=None,
          mechanism="Monatswechsel: Gehalts-/Pensionszufluesse und Fonds-Rebalancing am Monatsanfang (Ariel 1987)."),
+    dict(name="mom_12_1_sharpe", fn=mom_12_1_sharpe, styles=["ts", "xs"], born="2026-11-09", retired=None,
+         mechanism="Risikoadjustiertes Momentum (Barroso/Santa-Clara 2015, Daniel/Moskowitz 2016, Da/Gurun/Warachka 2014): "
+                   "Die Unterreaktion ist am staerksten bei stetigen Trends; steile, schwankungsreiche Gewinner sind "
+                   "ueberfuellte Trades. Verlierer: spaete Trendkaeufer in gehebelten, konzentrierten Gewinnern, die beim "
+                   "Abbau gleichzeitig verkaufen muessen (Anlass: Halbleiter-Abverkauf Okt./Nov. 2026 traf Top-Fuenftel in B und C)."),
 ]
 
 
