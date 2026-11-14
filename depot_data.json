@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-12",
+ "stand": "2026-11-13",
  "papierstart": "2026-10-01",
  "gestartet": true,
  "naechste_pruefung": "2026-11-30",
@@ -138,7 +138,7 @@
  "gehalten_bis_ausfuehrung": null,
  "vorschau": {
   "typ": "monat",
-  "signal_vom": "2026-11-12",
+  "signal_vom": "2026-11-13",
   "fuehrer": [
    "XLE",
    "SMH",
@@ -207,7 +207,7 @@
    [
     "XOP",
     "XLE",
-    0.917
+    0.916
    ],
    [
     "IEZ",
@@ -226,8 +226,8 @@
    ]
   ],
   "aufgefuellt": [],
-  "spy": 757.12,
-  "spy_ma10": 732.62,
+  "spy": 754.37,
+  "spy_ma10": 732.34,
   "spy_unter_ma10": false,
   "arbeitslosigkeit": {
    "monat": "2026-10",
@@ -236,12 +236,12 @@
    "steigt": false
   },
   "filter_raus": false,
-  "gold": 354.89,
-  "gold_ma10": 399.47,
+  "gold": 355.45,
+  "gold_ma10": 399.52,
   "gold_trend": false,
-  "ndx": 28289.19,
-  "ndx_ma10": 28157.56,
-  "lucky_investiert": true,
+  "ndx": 27943.74,
+  "ndx_ma10": 28123.01,
+  "lucky_investiert": false,
   "ziel_kern": {
    "XLE": 0.2,
    "SMH": 0.2,
@@ -259,67 +259,67 @@
   "vollstaendig": false
  },
  "ruecksetzer": {
-  "spy": 757.12,
-  "sma200": 728.99,
+  "spy": 754.37,
+  "sma200": 729.32,
   "hoch20": 773.09,
   "ausloeser": 734.44,
   "ueber_sma200": true,
-  "abstand_hoch20_pct": -2.07,
+  "abstand_hoch20_pct": -2.42,
   "status": "offen",
   "einstieg": "2026-11-06",
   "kurs_einstieg": 734.82,
   "ziel": 771.56,
   "stop": 698.08,
-  "tage": 5,
-  "seit_pct": 3.03
+  "tage": 6,
+  "seit_pct": 2.66
  },
  "linien": {
   "gesamt": {
    "name": "Gesamt 40/10/40/10",
-   "nav": 0.9677,
-   "rendite": -3.23,
+   "nav": 0.9627,
+   "rendite": -3.73,
    "mdd": -8.36,
    "position": "40/10/40/10"
   },
   "kern": {
    "name": "Kern: Führer-System",
-   "nav": 0.9913,
-   "rendite": -0.87,
+   "nav": 0.9852,
+   "rendite": -1.48,
    "mdd": -11.35,
    "position": "OIH, SMH, XBI, XOP, XPH + SPY-Rücksetzer"
   },
   "kern_roh": {
    "name": "Kern ohne Cluster-Deckel (Test-28-Fassung)",
-   "nav": 0.958,
-   "rendite": -4.2,
+   "nav": 0.9545,
+   "rendite": -4.55,
    "mdd": -13.58,
    "position": "OIH, SMH, XBI, XLE, XOP + SPY-Rücksetzer"
   },
   "gold": {
    "name": "Gold (GLD)",
-   "nav": 0.9319,
-   "rendite": -6.81,
+   "nav": 0.9333,
+   "rendite": -6.67,
    "mdd": -7.72,
    "position": "GLD"
   },
   "intraday": {
    "name": "Intraday (noch Cash)",
-   "nav": 1.005,
-   "rendite": 0.5,
+   "nav": 1.0052,
+   "rendite": 0.52,
    "mdd": 0.0,
    "position": "Cash (T-Bill)"
   },
   "lucky": {
    "name": "Lucky Punch (TQQQ)",
-   "nav": 0.7599,
-   "rendite": -24.01,
+   "nav": 0.732,
+   "rendite": -26.8,
    "mdd": -40.09,
    "position": "TQQQ"
   },
   "spy": {
    "name": "SPY halten",
-   "nav": 0.9928,
-   "rendite": -0.72,
+   "nav": 0.9892,
+   "rendite": -1.08,
    "mdd": -5.92,
    "position": "SPY"
   }
@@ -572,6 +572,14 @@
    "kern_roh": 0.958,
    "lucky": 0.7599,
    "spy": 0.9928
+  },
+  {
+   "d": "2026-11-13",
+   "gesamt": 0.9627,
+   "kern": 0.9852,
+   "kern_roh": 0.9545,
+   "lucky": 0.732,
+   "spy": 0.9892
   }
  ],
  "protokoll": [
