@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T12:43:40+00:00",
+ "generated": "2026-11-15T13:24:34+00:00",
  "cost_pct": 1.0,
  "note": "Ueberrenditen nach Kosten; t_clustered = t-Wert nach Ereignisdatum gebuendelt",
  "theses": [
@@ -118,13 +118,13 @@
     },
     "x120_SPY": {
      "in": {
-      "n": 111,
-      "mean": 0.42,
-      "median": -7.98,
-      "hit": 42.3,
-      "t": 0.1,
-      "clusters": 34,
-      "t_clustered": -1.81
+      "n": 112,
+      "mean": 0.64,
+      "median": -7.84,
+      "hit": 42.9,
+      "t": 0.16,
+      "clusters": 35,
+      "t_clustered": -1.58
      },
      "oos": {
       "n": 0
@@ -132,13 +132,13 @@
     },
     "x120_IWM": {
      "in": {
-      "n": 111,
-      "mean": 0.92,
-      "median": -6.0,
-      "hit": 43.2,
-      "t": 0.24,
-      "clusters": 34,
-      "t_clustered": -1.45
+      "n": 112,
+      "mean": 1.19,
+      "median": -5.61,
+      "hit": 43.8,
+      "t": 0.32,
+      "clusters": 35,
+      "t_clustered": -1.16
      },
      "oos": {
       "n": 0
@@ -245,8 +245,8 @@
    "rule": "wie oben, aber ohne Vorlauf-Bedingung – Kontrollgruppe",
    "status": "widerlegt",
    "registered": "2026-09-20",
-   "n_events": 261,
-   "n_oos": 20,
+   "n_events": 263,
+   "n_oos": 22,
    "horizons": {
     "x5_SPY": {
      "in": {
@@ -259,13 +259,13 @@
       "t_clustered": 1.61
      },
      "oos": {
-      "n": 17,
-      "mean": -8.96,
-      "median": -8.92,
-      "hit": 17.6,
-      "t": -3.64,
-      "clusters": 4,
-      "t_clustered": -2.5
+      "n": 18,
+      "mean": -9.85,
+      "median": -8.94,
+      "hit": 16.7,
+      "t": -3.97,
+      "clusters": 5,
+      "t_clustered": -3.29
      }
     },
     "x5_IWM": {
@@ -279,13 +279,13 @@
       "t_clustered": 1.42
      },
      "oos": {
-      "n": 17,
-      "mean": -7.29,
-      "median": -6.9,
-      "hit": 29.4,
-      "t": -2.71,
-      "clusters": 4,
-      "t_clustered": -2.17
+      "n": 18,
+      "mean": -8.33,
+      "median": -6.92,
+      "hit": 27.8,
+      "t": -3.05,
+      "clusters": 5,
+      "t_clustered": -2.9
      }
     },
     "x20_SPY": {
@@ -354,13 +354,13 @@
     },
     "x120_SPY": {
      "in": {
-      "n": 214,
-      "mean": -3.01,
-      "median": -8.07,
-      "hit": 37.4,
-      "t": -1.1,
-      "clusters": 50,
-      "t_clustered": -0.78
+      "n": 215,
+      "mean": -2.88,
+      "median": -7.98,
+      "hit": 37.7,
+      "t": -1.05,
+      "clusters": 51,
+      "t_clustered": -0.67
      },
      "oos": {
       "n": 0
@@ -368,13 +368,13 @@
     },
     "x120_IWM": {
      "in": {
-      "n": 214,
-      "mean": -2.23,
-      "median": -6.0,
-      "hit": 41.1,
-      "t": -0.84,
-      "clusters": 50,
-      "t_clustered": -0.46
+      "n": 215,
+      "mean": -2.07,
+      "median": -5.99,
+      "hit": 41.4,
+      "t": -0.78,
+      "clusters": 51,
+      "t_clustered": -0.32
      },
      "oos": {
       "n": 0
@@ -723,7 +723,7 @@
       "n": 0
      },
      "oos": {
-      "n": 0
+      "n": 2
      }
     },
     "x5_IWM": {
@@ -731,7 +731,7 @@
       "n": 0
      },
      "oos": {
-      "n": 0
+      "n": 2
      }
     },
     "x20_SPY": {
@@ -923,13 +923,13 @@
     },
     "x60_SPY": {
      "in": {
-      "n": 24,
-      "mean": 5.73,
-      "median": -5.26,
-      "hit": 37.5,
-      "t": 0.57,
-      "clusters": 18,
-      "t_clustered": 0.63
+      "n": 25,
+      "mean": 3.98,
+      "median": -5.69,
+      "hit": 36.0,
+      "t": 0.41,
+      "clusters": 19,
+      "t_clustered": 0.46
      },
      "oos": {
       "n": 0
@@ -937,13 +937,13 @@
     },
     "x60_IWM": {
      "in": {
-      "n": 24,
-      "mean": 4.64,
-      "median": -5.95,
-      "hit": 33.3,
-      "t": 0.47,
-      "clusters": 18,
-      "t_clustered": 0.57
+      "n": 25,
+      "mean": 3.12,
+      "median": -5.97,
+      "hit": 32.0,
+      "t": 0.33,
+      "clusters": 19,
+      "t_clustered": 0.42
      },
      "oos": {
       "n": 0
@@ -990,13 +990,13 @@
       "t_clustered": -2.13
      },
      "x60_SPY": {
-      "n": 19,
-      "mean": 0.33,
-      "median": -10.82,
-      "hit": 26.3,
-      "t": 0.03,
-      "clusters": 15,
-      "t_clustered": 0.19
+      "n": 20,
+      "mean": -1.59,
+      "median": -11.01,
+      "hit": 25.0,
+      "t": -0.14,
+      "clusters": 16,
+      "t_clustered": 0.01
      }
     },
     "auf/nervoes": {
