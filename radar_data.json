@@ -1,121 +1,37 @@
 {
-  "generated": "2026-11-14T11:54:13+00:00",
+  "generated": "2026-11-17T13:49:09+00:00",
   "source": "SEC EDGAR — Form 4 (Daily Index)",
-  "filing_date": "2026-11-13",
-  "filings_scanned": 1382,
-  "purchases_found": 255,
+  "filing_date": "2026-11-16",
+  "filings_scanned": 1272,
+  "purchases_found": 425,
   "min_value": 10000.0,
   "signals": [
     {
       "thesis": "insider-cluster",
-      "ticker": "STWD",
-      "company": "STARWOOD PROPERTY TRUST, INC.",
-      "insiders": 2,
-      "buyers": [
-        "Pollack Jonathan Lee",
-        "STERNLICHT BARRY S"
-      ],
-      "roles": [
-        "Dir",
-        "Dir/Off"
-      ],
-      "titles": [
-        "CEO, Chairman of the Board"
-      ],
-      "plan10b5_1": false,
-      "total_value": 33422263.2,
-      "total_shares": 2829600,
-      "avg_price": 11.8117,
-      "latest_date": "2026-11-12",
-      "strength": 154.3
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "FUN",
-      "company": "Six Flags Entertainment Corporation/NEW",
+      "ticker": "EMO",
+      "company": "ClearBridge Energy Midstream Opportunity Fund Inc.",
       "insiders": 1,
       "buyers": [
-        "JAFFER REHAN"
-      ],
-      "roles": [
-        "Dir"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 18492000.0,
-      "total_shares": 1650000,
-      "avg_price": 11.2073,
-      "latest_date": "2026-11-13",
-      "strength": 113.8
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "BH",
-      "company": "Biglari Holdings Inc.",
-      "insiders": 1,
-      "buyers": [
-        "BIGLARI, SARDAR"
-      ],
-      "roles": [
-        "Dir/Off/10%"
-      ],
-      "titles": [
-        "Chairman and CEO"
-      ],
-      "plan10b5_1": false,
-      "total_value": 22148498.12,
-      "total_shares": 14628,
-      "avg_price": 1514.1166,
-      "latest_date": "2026-11-12",
-      "strength": 96.1
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "PSEC",
-      "company": "PROSPECT CAPITAL CORP",
-      "insiders": 1,
-      "buyers": [
-        "Barry John F"
-      ],
-      "roles": [
-        "Dir/Off/10%"
-      ],
-      "titles": [
-        "CHIEF EXECUTIVE OFFICER"
-      ],
-      "plan10b5_1": false,
-      "total_value": 12109118.64,
-      "total_shares": 8029790,
-      "avg_price": 1.508,
-      "latest_date": "2026-11-10",
-      "strength": 71.6
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "SJT",
-      "company": "SAN JUAN BASIN ROYALTY TRUST",
-      "insiders": 1,
-      "buyers": [
-        "OLIVER ERIC L"
+        "PRUDENTIAL FINANCIAL INC"
       ],
       "roles": [
         "10%"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 8049632.12,
-      "total_shares": 1820756,
-      "avg_price": 4.421,
+      "total_value": 105000000.0,
+      "total_shares": 3000000,
+      "avg_price": 35.0,
       "latest_date": "2026-11-12",
-      "strength": 58.7
+      "strength": 206.9
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "AKAM",
-      "company": "AKAMAI TECHNOLOGIES INC",
+      "ticker": "HUBS",
+      "company": "HUBSPOT INC",
       "insiders": 1,
       "buyers": [
-        "LEIGHTON F THOMSON"
+        "Halligan Brian"
       ],
       "roles": [
         "Dir/Off"
@@ -124,124 +40,60 @@
         "Chief Executive Officer"
       ],
       "plan10b5_1": false,
-      "total_value": 5104800.0,
-      "total_shares": 60000,
-      "avg_price": 85.08,
+      "total_value": 9995716.8,
+      "total_shares": 45970,
+      "avg_price": 217.44,
       "latest_date": "2026-11-13",
-      "strength": 47.2
+      "strength": 65.2
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "IOND",
-      "company": "Ionic Digital Inc.",
+      "ticker": "SONO",
+      "company": "Sonos Inc",
       "insiders": 1,
       "buyers": [
-        "Abbate Michael"
+        "Kennedy Joseph Jude"
       ],
       "roles": [
         "Dir"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 2583157.24,
-      "total_shares": 39284,
-      "avg_price": 65.756,
-      "latest_date": "2026-11-12",
-      "strength": 43.8
+      "total_value": 3742994.8,
+      "total_shares": 200000,
+      "avg_price": 18.715,
+      "latest_date": "2026-11-13",
+      "strength": 52.3
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "NXGL",
-      "company": "NEXGEL, INC.",
-      "insiders": 2,
-      "buyers": [
-        "Kieser Brian Joseph",
-        "glassman steven mark"
-      ],
-      "roles": [
-        "Dir",
-        "Dir/Off/10%"
-      ],
-      "titles": [
-        "Interim CEO"
-      ],
-      "plan10b5_1": false,
-      "total_value": 1515382.0,
-      "total_shares": 275524,
-      "avg_price": 5.5,
-      "latest_date": "2026-11-10",
-      "strength": 36.0
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "UPST",
-      "company": "Upstart Holdings, Inc.",
+      "ticker": "CTEV",
+      "company": "Claritev Corp",
       "insiders": 1,
       "buyers": [
-        "Gu Paul"
+        "ARES MANAGEMENT LLC"
       ],
       "roles": [
-        "Dir/Off"
+        "10%"
       ],
-      "titles": [
-        "Chief Executive Officer"
-      ],
+      "titles": [],
       "plan10b5_1": false,
-      "total_value": 2056800.0,
-      "total_shares": 100000,
-      "avg_price": 20.568,
+      "total_value": 5465647.92,
+      "total_shares": 190218,
+      "avg_price": 28.7336,
       "latest_date": "2026-11-11",
-      "strength": 30.7
+      "strength": 48.8
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "KGS",
-      "company": "Kodiak Gas Services, Inc.",
-      "insiders": 2,
-      "buyers": [
-        "Darden Alexander Newsom",
-        "Holloway Gretchen Lynn"
-      ],
-      "roles": [
-        "Dir"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 999710.41,
-      "total_shares": 22290,
-      "avg_price": 44.8502,
-      "latest_date": "2026-11-12",
-      "strength": 30.0
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "TXO",
-      "company": "TXO Partners, L.P.",
-      "insiders": 1,
-      "buyers": [
-        "SIMPSON BOB R"
-      ],
-      "roles": [
-        "Dir/10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 1890439.19,
-      "total_shares": 134322,
-      "avg_price": 14.0739,
-      "latest_date": "2026-11-12",
-      "strength": 29.5
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "FF",
-      "company": "FutureFuel Corp.",
+      "ticker": "FPS",
+      "company": "Forgent Power Solutions, Inc.",
       "insiders": 4,
       "buyers": [
-        "Bedell Donald C.",
-        "Butcher Pamela R",
-        "Polet Roeland",
-        "SPARKS ROSE"
+        "Ard Amy E",
+        "Bhatia Neel",
+        "Hottinger Tyson",
+        "Niederpruem Gary John"
       ],
       "roles": [
         "Dir",
@@ -250,72 +102,365 @@
       ],
       "titles": [
         "Chief Executive Officer",
-        "Chief Financial Officer"
+        "Chief Financial Officer",
+        "Chief Legal Officer"
       ],
       "plan10b5_1": false,
-      "total_value": 615562.8,
-      "total_shares": 217660,
-      "avg_price": 2.8281,
-      "latest_date": "2026-11-12",
-      "strength": 28.4
+      "total_value": 2156669.43,
+      "total_shares": 103566,
+      "avg_price": 20.8241,
+      "latest_date": "2026-11-16",
+      "strength": 46.2
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "CTRI",
-      "company": "Centuri Holdings, Inc.",
+      "ticker": "PAM",
+      "company": "Pampa Energy Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Mindlin Damian Miguel"
+      ],
+      "roles": [
+        "Off"
+      ],
+      "titles": [
+        "Vicepresident"
+      ],
+      "plan10b5_1": false,
+      "total_value": 2873271.8,
+      "total_shares": 45400,
+      "avg_price": 63.2879,
+      "latest_date": "2026-11-13",
+      "strength": 46.1
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "AMG",
+      "company": "AFFILIATED MANAGERS GROUP, INC.",
+      "insiders": 1,
+      "buyers": [
+        "Cates G. Staley"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 2000000.0,
+      "total_shares": 5000,
+      "avg_price": 400.0,
+      "latest_date": "2026-11-12",
+      "strength": 38.8
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "SKYD",
+      "company": "Skydance Corp",
+      "insiders": 1,
+      "buyers": [
+        "Cardinale Gerald J."
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 2001274.29,
+      "total_shares": 259300,
+      "avg_price": 7.718,
+      "latest_date": "2026-11-13",
+      "strength": 38.8
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "KURA",
+      "company": "Kura Oncology, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "WILSON TROY EDWARD"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "President and CEO"
+      ],
+      "plan10b5_1": false,
+      "total_value": 3009530.02,
+      "total_shares": 400000,
+      "avg_price": 7.5238,
+      "latest_date": "2026-11-16",
+      "strength": 36.7
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "ADIG",
+      "company": "ADI GLOBAL DISTRIBUTION INC.",
+      "insiders": 5,
+      "buyers": [
+        "Aarnes Robert B",
+        "Cardazzi Marco",
+        "Carlet Michael",
+        "Copeland Alicia Crispin",
+        "Lane Jeannine J"
+      ],
+      "roles": [
+        "Dir/Off",
+        "Off"
+      ],
+      "titles": [
+        "Exec. VP, GC, Corp. Sec. & CCO",
+        "Executive VP and CMO",
+        "Executive VP and COO",
+        "Executive VP, CFO",
+        "President and CEO"
+      ],
+      "plan10b5_1": false,
+      "total_value": 651205.84,
+      "total_shares": 66220,
+      "avg_price": 9.834,
+      "latest_date": "2026-11-16",
+      "strength": 31.0
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "OIG",
+      "company": "Orion180 Insurance Group Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Gregg Kenneth"
+      ],
+      "roles": [
+        "Dir/Off/10%"
+      ],
+      "titles": [
+        "Chief Executive Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 2049379.56,
+      "total_shares": 192300,
+      "avg_price": 10.6572,
+      "latest_date": "2026-11-12",
+      "strength": 30.6
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "BRSP",
+      "company": "BrightSpire Capital, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Mazzei Michael"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "CEO"
+      ],
+      "plan10b5_1": false,
+      "total_value": 2000360.28,
+      "total_shares": 618226,
+      "avg_price": 3.2356,
+      "latest_date": "2026-11-16",
+      "strength": 30.3
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "NSLR",
+      "company": "Neostellar Capital Corp.",
+      "insiders": 1,
+      "buyers": [
+        "Klein Mark D"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "Chairman, CEO and President"
+      ],
+      "plan10b5_1": false,
+      "total_value": 1988000.0,
+      "total_shares": 330000,
+      "avg_price": 6.0242,
+      "latest_date": "2026-11-16",
+      "strength": 30.2
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "DOX",
+      "company": "AMDOCS LTD",
+      "insiders": 3,
+      "buyers": [
+        "DE LA VEGA RAFAEL",
+        "Gardner Adrian",
+        "Gelman Eliahu Meir"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 843237.97,
+      "total_shares": 19594,
+      "avg_price": 43.0355,
+      "latest_date": "2026-11-12",
+      "strength": 29.9
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "CNH",
+      "company": "CNH Industrial N.V.",
+      "insiders": 1,
+      "buyers": [
+        "Simonelli Lorenzo"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 1133169.12,
+      "total_shares": 91200,
+      "avg_price": 12.4251,
+      "latest_date": "2026-11-12",
+      "strength": 29.7
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "CTVA",
+      "company": "Corteva, Inc.",
       "insiders": 2,
       "buyers": [
-        "MARIUCCI ANNE L",
-        "Patton Charles R."
+        "KISSAM LUTHER C IV",
+        "PAGE GREGORY R"
       ],
       "roles": [
-        "Dir"
+        "Dir",
+        "Off"
       ],
-      "titles": [],
+      "titles": [
+        "Chief Executive Officer"
+      ],
       "plan10b5_1": false,
-      "total_value": 699820.0,
-      "total_shares": 31090,
-      "avg_price": 22.5095,
-      "latest_date": "2026-11-11",
-      "strength": 25.8
+      "total_value": 971424.74,
+      "total_shares": 104584,
+      "avg_price": 9.2885,
+      "latest_date": "2026-11-16",
+      "strength": 29.6
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "WY",
-      "company": "WEYERHAEUSER CO",
+      "ticker": "PCQ",
+      "company": "PIMCO CALIFORNIA MUNICIPAL INCOME FUND",
       "insiders": 1,
       "buyers": [
-        "BECKWITT RICHARD"
+        "MITTAL MOHIT"
       ],
-      "roles": [
-        "Dir"
-      ],
+      "roles": [],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 613200.0,
-      "total_shares": 30000,
-      "avg_price": 20.44,
-      "latest_date": "2026-11-11",
-      "strength": 22.4
+      "total_value": 1617980.0,
+      "total_shares": 200000,
+      "avg_price": 8.0899,
+      "latest_date": "2026-11-12",
+      "strength": 27.4
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "INDI",
-      "company": "indie Semiconductor, Inc.",
+      "ticker": "LEO",
+      "company": "BNY MELLON STRATEGIC MUNICIPALS, INC.",
       "insiders": 1,
       "buyers": [
-        "ALDRICH DAVID J"
+        "Saba Capital Management, L.P."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 1591367.76,
+      "total_shares": 272484,
+      "avg_price": 5.8402,
+      "latest_date": "2026-11-13",
+      "strength": 27.2
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "MPB",
+      "company": "MID PENN BANCORP INC",
+      "insiders": 1,
+      "buyers": [
+        "NORCROSS PHILIP A"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 1334488.4,
+      "total_shares": 38256,
+      "avg_price": 34.8831,
+      "latest_date": "2026-11-11",
+      "strength": 25.1
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "BGDE",
+      "company": "Big Digital Energy, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Endeavor Blockchain, LLC"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 1092348.0,
+      "total_shares": 372600,
+      "avg_price": 2.9317,
+      "latest_date": "2026-11-13",
+      "strength": 22.9
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "HOS",
+      "company": "HORNBECK OFFSHORE SERVICES, INC.",
+      "insiders": 1,
+      "buyers": [
+        "HORNBECK TODD M"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "PRESIDENT & CEO"
+      ],
+      "plan10b5_1": false,
+      "total_value": 1000001.88,
+      "total_shares": 171824,
+      "avg_price": 5.8199,
+      "latest_date": "2026-11-13",
+      "strength": 22.0
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "FF",
+      "company": "FutureFuel Corp.",
+      "insiders": 1,
+      "buyers": [
+        "KRUSZEWSKI RONALD J"
       ],
       "roles": [
         "Dir"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 598000.0,
-      "total_shares": 260000,
-      "avg_price": 2.3,
-      "latest_date": "2026-11-11",
-      "strength": 22.1
+      "total_value": 568000.0,
+      "total_shares": 200000,
+      "avg_price": 2.84,
+      "latest_date": "2026-11-12",
+      "strength": 21.6
     },
     {
       "thesis": "insider-cluster",
@@ -332,163 +477,520 @@
         "CEO, Co-Founder"
       ],
       "plan10b5_1": true,
-      "total_value": 4008844.63,
+      "total_value": 4021585.63,
       "total_shares": 26800,
-      "avg_price": 149.5838,
-      "latest_date": "2026-11-12",
+      "avg_price": 150.0592,
+      "latest_date": "2026-11-13",
+      "strength": 21.1
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "PED",
+      "company": "PEDEVCO CORP",
+      "insiders": 2,
+      "buyers": [
+        "Howie John K",
+        "KUKES SIMON G"
+      ],
+      "roles": [
+        "10%",
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 429827.3,
+      "total_shares": 34414,
+      "avg_price": 12.4899,
+      "latest_date": "2026-11-16",
       "strength": 21.0
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "GLP",
-      "company": "GLOBAL PARTNERS LP",
+      "ticker": "CACC",
+      "company": "CREDIT ACCEPTANCE CORP",
       "insiders": 1,
       "buyers": [
-        "Global GP LLC"
-      ],
-      "roles": [],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 884950.0,
-      "total_shares": 20000,
-      "avg_price": 44.2475,
-      "latest_date": "2026-11-13",
-      "strength": 20.8
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "CAT",
-      "company": "CATERPILLAR INC",
-      "insiders": 1,
-      "buyers": [
-        "MacLennan David"
+        "Quinn Sean Edward"
       ],
       "roles": [
         "Dir"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 417270.0,
-      "total_shares": 700,
-      "avg_price": 596.1,
+      "total_value": 505000.0,
+      "total_shares": 1000,
+      "avg_price": 505.0,
       "latest_date": "2026-11-12",
+      "strength": 20.5
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "BRK.B",
+      "company": "BERKSHIRE HATHAWAY INC",
+      "insiders": 1,
+      "buyers": [
+        "O'Sullivan Michael J."
+      ],
+      "roles": [
+        "Off"
+      ],
+      "titles": [
+        "See Remarks"
+      ],
+      "plan10b5_1": false,
+      "total_value": 500414.6,
+      "total_shares": 842,
+      "avg_price": 594.3166,
+      "latest_date": "2026-11-12",
+      "strength": 20.4
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "TH",
+      "company": "Target Hospitality Corp.",
+      "insiders": 1,
+      "buyers": [
+        "Schrenk Troy C."
+      ],
+      "roles": [
+        "Off"
+      ],
+      "titles": [
+        "Chief Commercial Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 500011.12,
+      "total_shares": 42804,
+      "avg_price": 11.6814,
+      "latest_date": "2026-11-13",
+      "strength": 20.4
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "YUMC",
+      "company": "Yum China Holdings, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "DIMITRIEF ALEXANDER"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 495000.0,
+      "total_shares": 10000,
+      "avg_price": 49.5,
+      "latest_date": "2026-11-13",
+      "strength": 20.3
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "CRMD",
+      "company": "CorMedix Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Todisco Joseph"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "Chief Executive Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 782400.0,
+      "total_shares": 160000,
+      "avg_price": 4.89,
+      "latest_date": "2026-11-13",
+      "strength": 19.7
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "AOMR",
+      "company": "Angel Oak Mortgage REIT, Inc.",
+      "insiders": 3,
+      "buyers": [
+        "MINAMI W D",
+        "Morgan Jonathan",
+        "Savarese Noelle"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 241048.74,
+      "total_shares": 41360,
+      "avg_price": 5.8281,
+      "latest_date": "2026-11-13",
       "strength": 18.8
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "BW",
-      "company": "Babcock & Wilcox Enterprises, Inc.",
-      "insiders": 3,
+      "ticker": "KTOS",
+      "company": "KRATOS DEFENSE & SECURITY SOLUTIONS, INC.",
+      "insiders": 1,
       "buyers": [
-        "Moeller Philip D",
-        "Tato Joseph A",
-        "Young Kenneth M"
+        "King David Arnold"
       ],
       "roles": [
-        "Dir",
-        "Dir/Off"
+        "Dir"
       ],
-      "titles": [
-        "Chief Executive Officer"
-      ],
+      "titles": [],
       "plan10b5_1": false,
-      "total_value": 220283.04,
-      "total_shares": 46000,
-      "avg_price": 4.7888,
+      "total_value": 402182.4,
+      "total_shares": 12000,
+      "avg_price": 33.5152,
       "latest_date": "2026-11-13",
-      "strength": 18.2
+      "strength": 18.5
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "ALDX",
-      "company": "Aldeyra Therapeutics, Inc.",
-      "insiders": 2,
+      "ticker": "DSM",
+      "company": "BNY MELLON STRATEGIC MUNICIPAL BOND FUND, INC.",
+      "insiders": 1,
       "buyers": [
-        "Alfieri Michael",
-        "DOUGLAS RICHARD"
+        "Saba Capital Management, L.P."
       ],
       "roles": [
-        "Dir",
-        "Off"
+        "10%"
       ],
-      "titles": [
-        "Principal Financial Officer"
-      ],
+      "titles": [],
       "plan10b5_1": false,
-      "total_value": 270800.0,
-      "total_shares": 420000,
-      "avg_price": 0.6448,
-      "latest_date": "2026-11-11",
-      "strength": 17.5
+      "total_value": 642454.36,
+      "total_shares": 116434,
+      "avg_price": 5.5178,
+      "latest_date": "2026-11-13",
+      "strength": 18.0
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "DTI",
-      "company": "Drilling Tools International Corp",
-      "insiders": 3,
+      "ticker": "LEGN",
+      "company": "Legend Biotech Corp",
+      "insiders": 1,
       "buyers": [
-        "FURST JACK D",
-        "Neuman Eric C",
-        "Prejean Robert Wayne"
+        "Salovey Peter"
       ],
       "roles": [
-        "Dir",
-        "Dir/Off"
+        "Dir"
       ],
-      "titles": [
-        "Chief Executive Officer"
-      ],
+      "titles": [],
       "plan10b5_1": false,
-      "total_value": 174049.02,
-      "total_shares": 98034,
-      "avg_price": 1.7754,
-      "latest_date": "2026-11-12",
-      "strength": 16.8
+      "total_value": 366500.0,
+      "total_shares": 40000,
+      "avg_price": 9.1625,
+      "latest_date": "2026-11-13",
+      "strength": 17.7
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "ALT",
-      "company": "Altimmune, Inc.",
-      "insiders": 3,
+      "ticker": "SENS",
+      "company": "Senseonics Holdings, Inc.",
+      "insiders": 1,
       "buyers": [
-        "Durso Jerome Benedict",
-        "Pisano Wayne",
-        "WEAVER GREGORY L"
+        "ROEDER DOUGLAS A"
       ],
       "roles": [
-        "Dir",
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 351720.37,
+      "total_shares": 34081,
+      "avg_price": 10.32,
+      "latest_date": "2026-11-13",
+      "strength": 17.4
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "DGICA",
+      "company": "DONEGAL GROUP INC",
+      "insiders": 1,
+      "buyers": [
+        "DONEGAL MUTUAL INSURANCE CO"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 569257.5,
+      "total_shares": 30000,
+      "avg_price": 18.9752,
+      "latest_date": "2026-11-13",
+      "strength": 17.1
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "HAWK",
+      "company": "HawkEye 360, Inc.",
+      "insiders": 4,
+      "buyers": [
+        "Fox Alex J",
+        "Probert Todd",
+        "Searle Craig Chih-Meng",
+        "Serafini John Sheldon"
+      ],
+      "roles": [
         "Dir/Off",
         "Off"
       ],
       "titles": [
         "Chief Financial Officer",
+        "Chief Operating Officer",
+        "Pres, HawkEye 360 Int'l",
         "President and CEO"
       ],
       "plan10b5_1": false,
-      "total_value": 164488.18,
-      "total_shares": 101400,
-      "avg_price": 1.6222,
-      "latest_date": "2026-11-13",
-      "strength": 16.5
+      "total_value": 119050.2,
+      "total_shares": 6564,
+      "avg_price": 18.1368,
+      "latest_date": "2026-11-16",
+      "strength": 17.0
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "IONS",
-      "company": "IONIS PHARMACEUTICALS INC",
+      "ticker": "MP",
+      "company": "MP Materials Corp. / DE",
       "insiders": 1,
       "buyers": [
-        "Hayden Michael R"
+        "Corbett Ryan"
+      ],
+      "roles": [
+        "Off"
+      ],
+      "titles": [
+        "Chief Financial Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 257250.0,
+      "total_shares": 7000,
+      "avg_price": 36.75,
+      "latest_date": "2026-11-16",
+      "strength": 15.2
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "MX",
+      "company": "MAGNACHIP SEMICONDUCTOR Corp",
+      "insiders": 1,
+      "buyers": [
+        "LEE CHAE"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "Chief Executive Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 436966.0,
+      "total_shares": 180000,
+      "avg_price": 2.4276,
+      "latest_date": "2026-11-16",
+      "strength": 15.2
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "SPCB",
+      "company": "SuperCom Ltd",
+      "insiders": 1,
+      "buyers": [
+        "Trabelsi Arie"
       ],
       "roles": [
         "Dir"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 296400.0,
-      "total_shares": 10000,
-      "avg_price": 29.64,
-      "latest_date": "2026-11-10",
-      "strength": 16.2
+      "total_value": 253880.0,
+      "total_shares": 39200,
+      "avg_price": 6.4765,
+      "latest_date": "2026-11-13",
+      "strength": 15.1
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "HL",
+      "company": "HECLA MINING CO/DE/",
+      "insiders": 1,
+      "buyers": [
+        "Andres Dale"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 250000.0,
+      "total_shares": 20000,
+      "avg_price": 12.5,
+      "latest_date": "2026-11-16",
+      "strength": 15.0
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "CATX",
+      "company": "Perspective Therapeutics, Inc.",
+      "insiders": 3,
+      "buyers": [
+        "Morich Frank",
+        "Williamson Robert F III",
+        "Woods Lori A"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 111804.53,
+      "total_shares": 127296,
+      "avg_price": 0.8783,
+      "latest_date": "2026-11-12",
+      "strength": 14.7
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "TLSI",
+      "company": "TriSalus Life Sciences, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Wahlstrom Mats"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 224000.0,
+      "total_shares": 100000,
+      "avg_price": 2.24,
+      "latest_date": "2026-11-12",
+      "strength": 14.3
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "MXF",
+      "company": "MEXICO FUND INC",
+      "insiders": 1,
+      "buyers": [
+        "Saba Capital Management, L.P."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 367246.08,
+      "total_shares": 17346,
+      "avg_price": 21.1718,
+      "latest_date": "2026-11-13",
+      "strength": 14.1
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "GOOD",
+      "company": "GLADSTONE COMMERCIAL CORP",
+      "insiders": 1,
+      "buyers": [
+        "Cooper Arthur S."
+      ],
+      "roles": [
+        "Off"
+      ],
+      "titles": [
+        "CEO & President"
+      ],
+      "plan10b5_1": false,
+      "total_value": 200000.0,
+      "total_shares": 20140,
+      "avg_price": 9.93,
+      "latest_date": "2026-11-13",
+      "strength": 13.6
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "DAIO",
+      "company": "DATA I/O CORP",
+      "insiders": 1,
+      "buyers": [
+        "Red Oak Partners, LLC"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 326133.59,
+      "total_shares": 130955,
+      "avg_price": 2.4904,
+      "latest_date": "2026-11-16",
+      "strength": 13.4
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "GERN",
+      "company": "GERON CORP",
+      "insiders": 2,
+      "buyers": [
+        "Semerjian Harout",
+        "Williams Timothy"
+      ],
+      "roles": [
+        "Dir/Off",
+        "Off"
+      ],
+      "titles": [
+        "EVP and Chief Legal Officer",
+        "President & CEO"
+      ],
+      "plan10b5_1": false,
+      "total_value": 124210.0,
+      "total_shares": 131000,
+      "avg_price": 0.9482,
+      "latest_date": "2026-11-16",
+      "strength": 13.2
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "IMRX",
+      "company": "Immuneering Corp",
+      "insiders": 1,
+      "buyers": [
+        "Gengos Andrew"
+      ],
+      "roles": [
+        "Off"
+      ],
+      "titles": [
+        "Chief Financial Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 179000.0,
+      "total_shares": 50000,
+      "avg_price": 3.58,
+      "latest_date": "2026-11-13",
+      "strength": 13.0
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "AGMB",
+      "company": "AgomAb Therapeutics NV",
+      "insiders": 1,
+      "buyers": [
+        "Epstein David R"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 177358.4,
+      "total_shares": 29960,
+      "avg_price": 5.9198,
+      "latest_date": "2026-11-13",
+      "strength": 12.9
     },
     {
       "thesis": "insider-cluster",
@@ -505,79 +1007,245 @@
         "Chief Executive Officer"
       ],
       "plan10b5_1": false,
-      "total_value": 467340.0,
-      "total_shares": 600000,
-      "avg_price": 0.7789,
-      "latest_date": "2026-11-11",
-      "strength": 15.7
+      "total_value": 295301.04,
+      "total_shares": 353400,
+      "avg_price": 0.8356,
+      "latest_date": "2026-11-12",
+      "strength": 12.9
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "TRTX",
-      "company": "TPG RE Finance Trust, Inc.",
+      "ticker": "DX",
+      "company": "DYNEX CAPITAL INC",
       "insiders": 2,
       "buyers": [
-        "Gillmore Michael",
-        "Smith Michael Bradley"
+        "BOSTON BYRON L",
+        "Popenoe Smriti Laxman"
       ],
       "roles": [
-        "Dir"
+        "Dir/Off"
       ],
-      "titles": [],
+      "titles": [
+        "Co-CEO & Chairman of the Board",
+        "Co-CEO and President"
+      ],
       "plan10b5_1": false,
-      "total_value": 161700.0,
-      "total_shares": 25000,
-      "avg_price": 6.468,
-      "latest_date": "2026-11-12",
-      "strength": 14.5
+      "total_value": 151475.1,
+      "total_shares": 15130,
+      "avg_price": 10.0116,
+      "latest_date": "2026-11-13",
+      "strength": 11.8
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "NXRT",
-      "company": "NexPoint Residential Trust, Inc.",
+      "ticker": "REI",
+      "company": "RING ENERGY, INC.",
       "insiders": 1,
       "buyers": [
-        "McGraner Matt"
+        "Johl Sundip Singh"
       ],
       "roles": [
         "Off"
       ],
       "titles": [
-        "See Remarks"
+        "EVP, Chief Financial Officer"
       ],
       "plan10b5_1": false,
-      "total_value": 199861.0,
-      "total_shares": 12730,
-      "avg_price": 15.7,
-      "latest_date": "2026-11-10",
-      "strength": 13.6
+      "total_value": 140173.66,
+      "total_shares": 115846,
+      "avg_price": 1.21,
+      "latest_date": "2026-11-13",
+      "strength": 11.7
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "VISN",
-      "company": "Vistance Networks, Inc.",
+      "ticker": "DTI",
+      "company": "Drilling Tools International Corp",
       "insiders": 1,
       "buyers": [
-        "Yates Timothy T"
+        "FURST JACK D"
       ],
       "roles": [
         "Dir"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 197365.0,
-      "total_shares": 50000,
-      "avg_price": 3.9473,
-      "latest_date": "2026-11-12",
-      "strength": 13.6
+      "total_value": 124107.87,
+      "total_shares": 73138,
+      "avg_price": 1.6969,
+      "latest_date": "2026-11-13",
+      "strength": 11.2
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "ABCL",
-      "company": "AbCellera Biologics Inc.",
+      "ticker": "NTWK",
+      "company": "NETSOL TECHNOLOGIES INC",
+      "insiders": 2,
+      "buyers": [
+        "GHAURI NAEEM",
+        "GHAURI NAJEEB"
+      ],
+      "roles": [
+        "Dir/Off",
+        "Off"
+      ],
+      "titles": [
+        "CEO",
+        "President"
+      ],
+      "plan10b5_1": false,
+      "total_value": 77340.0,
+      "total_shares": 18000,
+      "avg_price": 4.2967,
+      "latest_date": "2026-11-16",
+      "strength": 11.2
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "OPAL",
+      "company": "OPAL Fuels Inc.",
       "insiders": 1,
       "buyers": [
-        "Booth Andrew"
+        "Sutton Scott McDougald"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 123000.0,
+      "total_shares": 100000,
+      "avg_price": 1.23,
+      "latest_date": "2026-11-13",
+      "strength": 11.1
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "PCT",
+      "company": "PureCycle Technologies, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Musa Fernando"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "Executive Chairman"
+      ],
+      "plan10b5_1": false,
+      "total_value": 196992.0,
+      "total_shares": 115200,
+      "avg_price": 1.71,
+      "latest_date": "2026-11-13",
+      "strength": 10.9
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "TG",
+      "company": "TREDEGAR CORP",
+      "insiders": 1,
+      "buyers": [
+        "DasGupta Arijit"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "See Remarks"
+      ],
+      "plan10b5_1": false,
+      "total_value": 193460.0,
+      "total_shares": 34000,
+      "avg_price": 5.69,
+      "latest_date": "2026-11-16",
+      "strength": 10.8
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "ECOR",
+      "company": "electroCore, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Errico Thomas J."
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 108800.0,
+      "total_shares": 20000,
+      "avg_price": 5.44,
+      "latest_date": "2026-11-12",
+      "strength": 10.6
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "ENOV",
+      "company": "Enovis CORP",
+      "insiders": 1,
+      "buyers": [
+        "Lalor Angela S"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 98772.28,
+      "total_shares": 3508,
+      "avg_price": 28.1563,
+      "latest_date": "2026-11-13",
+      "strength": 10.2
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "KEEL",
+      "company": "Keel Infrastructure Corp.",
+      "insiders": 1,
+      "buyers": [
+        "WILSON LIAM DANIEL"
+      ],
+      "roles": [
+        "Off"
+      ],
+      "titles": [
+        "Chief Operating Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 100139.32,
+      "total_shares": 57884,
+      "avg_price": 1.73,
+      "latest_date": "2026-11-16",
+      "strength": 10.2
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "JOF",
+      "company": "JAPAN SMALLER CAPITALIZATION FUND INC",
+      "insiders": 1,
+      "buyers": [
+        "Saba Capital Management, L.P."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 146608.0,
+      "total_shares": 13600,
+      "avg_price": 10.78,
+      "latest_date": "2026-11-12",
+      "strength": 9.7
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "BW",
+      "company": "Babcock & Wilcox Enterprises, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Frymyer Cameron M"
       ],
       "roles": [
         "Off"
@@ -586,320 +1254,133 @@
         "Chief Financial Officer"
       ],
       "plan10b5_1": false,
-      "total_value": 194876.0,
-      "total_shares": 17200,
-      "avg_price": 11.33,
-      "latest_date": "2026-11-13",
-      "strength": 13.5
+      "total_value": 84200.0,
+      "total_shares": 20000,
+      "avg_price": 4.21,
+      "latest_date": "2026-11-16",
+      "strength": 9.5
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "CRESY",
-      "company": "CRESUD INC",
+      "ticker": "EVLV",
+      "company": "Evolv Technologies Holdings, Inc.",
       "insiders": 1,
       "buyers": [
-        "Elsztain Alejandro Gustavo"
+        "Charlton Kevin M."
       ],
       "roles": [
         "Dir"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 178000.0,
-      "total_shares": 200000,
-      "avg_price": 0.89,
+      "total_value": 80000.0,
+      "total_shares": 20000,
+      "avg_price": 4.0,
+      "latest_date": "2026-11-13",
+      "strength": 9.4
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "EQPT",
+      "company": "EquipmentShare.com Inc",
+      "insiders": 1,
+      "buyers": [
+        "Schlacks Jabbok"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "Founder & CEO"
+      ],
+      "plan10b5_1": false,
+      "total_value": 125131.68,
+      "total_shares": 8136,
+      "avg_price": 15.38,
       "latest_date": "2026-11-12",
-      "strength": 13.0
+      "strength": 9.1
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "CTEV",
-      "company": "Claritev Corp",
+      "ticker": "RMI",
+      "company": "RiverNorth Opportunistic Municipal Income Fund, Inc.",
       "insiders": 1,
       "buyers": [
-        "Dalton Travis"
+        "Browne Jonathan Paul"
       ],
-      "roles": [
-        "Dir/Off"
-      ],
-      "titles": [
-        "Pres., CEO & Executive Chair"
-      ],
-      "plan10b5_1": false,
-      "total_value": 299854.8,
-      "total_shares": 10220,
-      "avg_price": 29.34,
-      "latest_date": "2026-11-11",
-      "strength": 13.0
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "FCPT",
-      "company": "Four Corners Property Trust, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "Lenehan William H"
-      ],
-      "roles": [
-        "Dir/Off"
-      ],
-      "titles": [
-        "President and CEO"
-      ],
-      "plan10b5_1": false,
-      "total_value": 299984.55,
-      "total_shares": 12936,
-      "avg_price": 23.1899,
-      "latest_date": "2026-11-13",
-      "strength": 13.0
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "NTHI",
-      "company": "NEONC TECHNOLOGIES HOLDINGS, INC.",
-      "insiders": 1,
-      "buyers": [
-        "Heshmatpour Amir F"
-      ],
-      "roles": [
-        "Dir/Off/10%"
-      ],
-      "titles": [
-        "CEO, President"
-      ],
-      "plan10b5_1": false,
-      "total_value": 301002.0,
-      "total_shares": 60000,
-      "avg_price": 5.0167,
-      "latest_date": "2026-11-13",
-      "strength": 13.0
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "GAM",
-      "company": "GENERAL AMERICAN INVESTORS CO INC",
-      "insiders": 1,
-      "buyers": [
-        "Stark Eugene S"
-      ],
-      "roles": [
-        "Off"
-      ],
-      "titles": [
-        "VP Administration"
-      ],
-      "plan10b5_1": false,
-      "total_value": 176000.0,
-      "total_shares": 8000,
-      "avg_price": 22.0,
-      "latest_date": "2026-11-13",
-      "strength": 12.9
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "XBIT",
-      "company": "XBiotech Inc.",
-      "insiders": 1,
-      "buyers": [
-        "SIMARD JOHN"
-      ],
-      "roles": [
-        "Dir/10%"
-      ],
+      "roles": [],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 286818.0,
-      "total_shares": 140000,
-      "avg_price": 2.0487,
-      "latest_date": "2026-11-03",
-      "strength": 12.7
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "KEEL",
-      "company": "Keel Infrastructure Corp.",
-      "insiders": 1,
-      "buyers": [
-        "Freedman Amy"
-      ],
-      "roles": [
-        "Dir"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 152200.0,
-      "total_shares": 80000,
-      "avg_price": 1.9025,
-      "latest_date": "2026-11-12",
-      "strength": 12.1
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "CCNE",
-      "company": "CNB FINANCIAL CORP/PA",
-      "insiders": 2,
-      "buyers": [
-        "POWELL JEFFREY S",
-        "Peduzzi Michael D"
-      ],
-      "roles": [
-        "Dir",
-        "Dir/Off"
-      ],
-      "titles": [
-        "President & CEO"
-      ],
-      "plan10b5_1": false,
-      "total_value": 75573.2,
-      "total_shares": 2120,
-      "avg_price": 35.6477,
-      "latest_date": "2026-11-13",
-      "strength": 11.1
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "NGS",
-      "company": "NATURAL GAS SERVICES GROUP INC",
-      "insiders": 1,
-      "buyers": [
-        "JACKSON JOHN EARL"
-      ],
-      "roles": [
-        "Dir"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 115580.0,
-      "total_shares": 4000,
-      "avg_price": 28.895,
-      "latest_date": "2026-11-13",
-      "strength": 10.8
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "NXTC",
-      "company": "NextCure, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "ADAR1 Capital Management, LLC"
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 188691.2,
-      "total_shares": 36999,
-      "avg_price": 5.0999,
-      "latest_date": "2026-11-11",
-      "strength": 10.7
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "CRVS",
-      "company": "Corvus Pharmaceuticals, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "Arcara Jeffrey"
-      ],
-      "roles": [
-        "Off"
-      ],
-      "titles": [
-        "Chief Business Officer"
-      ],
-      "plan10b5_1": false,
-      "total_value": 100950.43,
+      "total_value": 120449.8,
       "total_shares": 9000,
-      "avg_price": 11.2167,
-      "latest_date": "2026-11-13",
-      "strength": 10.3
+      "avg_price": 13.3833,
+      "latest_date": "2026-11-16",
+      "strength": 8.9
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "GROW",
-      "company": "U S GLOBAL INVESTORS INC",
+      "ticker": "SEI",
+      "company": "Solaris Energy Infrastructure, Inc.",
       "insiders": 1,
       "buyers": [
-        "Gator Capital Management, LLC"
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 165381.42,
-      "total_shares": 66068,
-      "avg_price": 2.5032,
-      "latest_date": "2026-11-06",
-      "strength": 10.1
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "STIM",
-      "company": "Neuronetics, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "Chernett Jorey"
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 159200.0,
-      "total_shares": 80000,
-      "avg_price": 1.99,
-      "latest_date": "2026-11-09",
-      "strength": 10.0
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "LPCN",
-      "company": "Lipocine Inc.",
-      "insiders": 1,
-      "buyers": [
-        "Patel Mahesh V."
-      ],
-      "roles": [
-        "Dir/Off"
-      ],
-      "titles": [
-        "Chief Executive Officer"
-      ],
-      "plan10b5_1": false,
-      "total_value": 158975.0,
-      "total_shares": 100000,
-      "avg_price": 1.5897,
-      "latest_date": "2026-11-13",
-      "strength": 10.0
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "EOSE",
-      "company": "Eos Energy Enterprises, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "DIMITRIEF ALEXANDER"
+        "TEAGUE AJ"
       ],
       "roles": [
         "Dir"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 93000.0,
-      "total_shares": 50000,
-      "avg_price": 1.86,
-      "latest_date": "2026-11-12",
-      "strength": 9.9
+      "total_value": 70484.8,
+      "total_shares": 1110,
+      "avg_price": 63.4998,
+      "latest_date": "2026-11-16",
+      "strength": 8.9
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "HPP",
-      "company": "Hudson Pacific Properties, Inc.",
+      "ticker": "ABEO",
+      "company": "ABEONA THERAPEUTICS INC.",
       "insiders": 1,
       "buyers": [
-        "LAMMAS MARK T"
+        "Charles Faith L."
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 68697.0,
+      "total_shares": 30000,
+      "avg_price": 2.2899,
+      "latest_date": "2026-11-13",
+      "strength": 8.8
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "CSQR",
+      "company": "Csquare, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "PIZZUTO TERRI"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 67840.0,
+      "total_shares": 4000,
+      "avg_price": 16.96,
+      "latest_date": "2026-11-13",
+      "strength": 8.8
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "SUNS",
+      "company": "Sunrise Realty Trust, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Tannenbaum Robyn"
       ],
       "roles": [
         "Off"
@@ -908,93 +1389,49 @@
         "President"
       ],
       "plan10b5_1": false,
-      "total_value": 87300.0,
+      "total_value": 68500.0,
       "total_shares": 10000,
-      "avg_price": 8.73,
-      "latest_date": "2026-11-12",
-      "strength": 9.7
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "CSQR",
-      "company": "Csquare, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "Cook Steven R. E."
-      ],
-      "roles": [
-        "Off"
-      ],
-      "titles": [
-        "Chief Financial Officer"
-      ],
-      "plan10b5_1": false,
-      "total_value": 69999.84,
-      "total_shares": 4055,
-      "avg_price": 17.26,
-      "latest_date": "2026-11-11",
-      "strength": 8.9
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "TRIN",
-      "company": "Trinity Capital Inc.",
-      "insiders": 1,
-      "buyers": [
-        "Brown Kyle Steven"
-      ],
-      "roles": [
-        "Dir/Off"
-      ],
-      "titles": [
-        "CEO, President and CIO"
-      ],
-      "plan10b5_1": false,
-      "total_value": 116000.81,
-      "total_shares": 6430,
-      "avg_price": 18.04,
-      "latest_date": "2026-11-11",
-      "strength": 8.8
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "CATX",
-      "company": "Perspective Therapeutics, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "Puhlmann Markus"
-      ],
-      "roles": [
-        "Off"
-      ],
-      "titles": [
-        "Chief Medical Officer"
-      ],
-      "plan10b5_1": false,
-      "total_value": 69089.0,
-      "total_shares": 82000,
-      "avg_price": 0.8425,
+      "avg_price": 6.85,
       "latest_date": "2026-11-12",
       "strength": 8.8
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "ZPTA",
-      "company": "Zapata Quantum, Inc.",
+      "ticker": "CVSI",
+      "company": "CV Sciences, Inc.",
       "insiders": 1,
       "buyers": [
-        "Golestani Clark"
+        "CHEEVER CHARLIE E III"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 108818.52,
+      "total_shares": 10881852,
+      "avg_price": 0.01,
+      "latest_date": "2026-11-11",
+      "strength": 8.6
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "MSC",
+      "company": "STUDIO CITY INTERNATIONAL HOLDINGS Ltd",
+      "insiders": 1,
+      "buyers": [
+        "HO LAWRENCE YAU LUNG"
       ],
       "roles": [
         "Dir"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 60000.0,
-      "total_shares": 80000,
-      "avg_price": 0.75,
-      "latest_date": "2026-11-11",
-      "strength": 8.4
+      "total_value": 61808.31,
+      "total_shares": 223664,
+      "avg_price": 0.2763,
+      "latest_date": "2026-11-13",
+      "strength": 8.5
     },
     {
       "thesis": "insider-cluster",
@@ -1002,169 +1439,45 @@
       "company": "Vivani Medical, Inc.",
       "insiders": 1,
       "buyers": [
-        "Dwyer Donald"
+        "Williams Gregg"
       ],
       "roles": [
-        "Off"
+        "Dir/10%"
       ],
-      "titles": [
-        "Chief Business Officer"
-      ],
+      "titles": [],
       "plan10b5_1": false,
-      "total_value": 39290.0,
-      "total_shares": 40000,
-      "avg_price": 0.9822,
-      "latest_date": "2026-11-12",
-      "strength": 7.2
+      "total_value": 95526.6,
+      "total_shares": 96200,
+      "avg_price": 0.993,
+      "latest_date": "2026-11-13",
+      "strength": 8.2
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "LOAN",
-      "company": "MANHATTAN BRIDGE CAPITAL, INC",
+      "ticker": "AGRO",
+      "company": "Adecoagro S.A.",
       "insiders": 1,
       "buyers": [
-        "RAN ASSAF"
-      ],
-      "roles": [
-        "Dir/Off/10%"
-      ],
-      "titles": [
-        "President and CEO"
-      ],
-      "plan10b5_1": false,
-      "total_value": 64783.0,
-      "total_shares": 20000,
-      "avg_price": 3.2391,
-      "latest_date": "2026-11-12",
-      "strength": 7.1
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "GLXZ",
-      "company": "Galaxy Gaming, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "BOUSHY JOHN M"
+        "Deprati Christian Ferdinando Emilio"
       ],
       "roles": [
         "Dir"
       ],
       "titles": [],
       "plan10b5_1": false,
-      "total_value": 35550.0,
-      "total_shares": 22500,
-      "avg_price": 1.58,
+      "total_value": 47725.8,
+      "total_shares": 6000,
+      "avg_price": 7.9543,
       "latest_date": "2026-11-12",
-      "strength": 6.9
+      "strength": 7.7
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "MRBK",
-      "company": "Meridian Corp",
+      "ticker": "THM",
+      "company": "INTERNATIONAL TOWER HILL MINES LTD",
       "insiders": 1,
       "buyers": [
-        "Warriner Kenneth Thomas"
-      ],
-      "roles": [
-        "Dir"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 32370.0,
-      "total_shares": 2000,
-      "avg_price": 16.185,
-      "latest_date": "2026-11-13",
-      "strength": 6.7
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "FISN",
-      "company": "DEEP FISSION, INC.",
-      "insiders": 1,
-      "buyers": [
-        "Muller Elizabeth"
-      ],
-      "roles": [
-        "Dir/Off/10%"
-      ],
-      "titles": [
-        "CEO, President"
-      ],
-      "plan10b5_1": false,
-      "total_value": 43224.0,
-      "total_shares": 20000,
-      "avg_price": 2.1612,
-      "latest_date": "2026-11-11",
-      "strength": 6.2
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "AEBI",
-      "company": "Aebi Schmidt Holding AG",
-      "insiders": 1,
-      "buyers": [
-        "Schroeder Henning"
-      ],
-      "roles": [
-        "Off"
-      ],
-      "titles": [
-        "CEO Europe and ROW"
-      ],
-      "plan10b5_1": false,
-      "total_value": 24276.0,
-      "total_shares": 2312,
-      "avg_price": 10.5,
-      "latest_date": "2026-11-12",
-      "strength": 6.1
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "ARR",
-      "company": "Armour Residential REIT, Inc.",
-      "insiders": 1,
-      "buyers": [
-        "Macauley Desmond"
-      ],
-      "roles": [
-        "Off"
-      ],
-      "titles": [
-        "Co-Chief Investment Officer"
-      ],
-      "plan10b5_1": false,
-      "total_value": 23659.8,
-      "total_shares": 2000,
-      "avg_price": 11.8299,
-      "latest_date": "2026-11-13",
-      "strength": 6.0
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "JYNT",
-      "company": "JOINT Corp",
-      "insiders": 1,
-      "buyers": [
-        "JOBSON CHARLES E"
-      ],
-      "roles": [
-        "10%"
-      ],
-      "titles": [],
-      "plan10b5_1": false,
-      "total_value": 37572.5,
-      "total_shares": 5650,
-      "avg_price": 6.65,
-      "latest_date": "2026-11-10",
-      "strength": 5.9
-    },
-    {
-      "thesis": "insider-cluster",
-      "ticker": "OWLS",
-      "company": "OBOOK HOLDINGS INC.",
-      "insiders": 1,
-      "buyers": [
-        "WANG CHUN KAI"
+        "Wiens David Victor"
       ],
       "roles": [
         "Dir/Off"
@@ -1173,51 +1486,445 @@
         "Chief Executive Officer"
       ],
       "plan10b5_1": false,
-      "total_value": 26806.82,
-      "total_shares": 12342,
-      "avg_price": 2.172,
-      "latest_date": "2026-11-12",
-      "strength": 5.3
+      "total_value": 78600.0,
+      "total_shares": 60000,
+      "avg_price": 1.31,
+      "latest_date": "2026-11-13",
+      "strength": 7.6
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "ZLAB",
-      "company": "Zai Lab Ltd",
+      "ticker": "CIA",
+      "company": "CITIZENS, INC.",
       "insiders": 1,
       "buyers": [
-        "GAYNOR RICHARD"
+        "Hoxworth Seth Alan"
       ],
       "roles": [
-        "Dir"
+        "Off"
       ],
-      "titles": [],
-      "plan10b5_1": true,
-      "total_value": 66778.64,
-      "total_shares": 2456,
-      "avg_price": 27.19,
-      "latest_date": "2026-11-10",
-      "strength": 4.4
+      "titles": [
+        "Chief Actuary & Risk Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 39251.95,
+      "total_shares": 11798,
+      "avg_price": 3.327,
+      "latest_date": "2026-11-13",
+      "strength": 7.2
     },
     {
       "thesis": "insider-cluster",
-      "ticker": "AIM",
-      "company": "AIM ImmunoTech Inc.",
+      "ticker": "LPTH",
+      "company": "LIGHTPATH TECHNOLOGIES INC",
       "insiders": 1,
       "buyers": [
-        "Equels Thomas K"
+        "Rubin Shmuel"
+      ],
+      "roles": [
+        "Off"
+      ],
+      "titles": [
+        "President & CEO"
+      ],
+      "plan10b5_1": false,
+      "total_value": 38381.2,
+      "total_shares": 5720,
+      "avg_price": 6.71,
+      "latest_date": "2026-11-13",
+      "strength": 7.1
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "SELF",
+      "company": "Global Self Storage, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "WINMILL MARK CAMPBELL"
       ],
       "roles": [
         "Dir/Off"
       ],
       "titles": [
-        "CEO & President"
+        "Chairman and CEO"
       ],
       "plan10b5_1": false,
-      "total_value": 10430.0,
-      "total_shares": 70000,
-      "avg_price": 0.149,
-      "latest_date": "2026-11-11",
-      "strength": 4.0
+      "total_value": 63699.94,
+      "total_shares": 13000,
+      "avg_price": 4.9,
+      "latest_date": "2026-11-13",
+      "strength": 7.0
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "LCTX",
+      "company": "Lineage Cell Therapeutics, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Howe Jill Ann"
+      ],
+      "roles": [
+        "Off"
+      ],
+      "titles": [
+        "Chief Financial Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 34200.0,
+      "total_shares": 40000,
+      "avg_price": 0.855,
+      "latest_date": "2026-11-16",
+      "strength": 6.8
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "EP",
+      "company": "EMPIRE PETROLEUM CORP",
+      "insiders": 1,
+      "buyers": [
+        "Energy Evolution Master Fund, Ltd."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 54225.59,
+      "total_shares": 22292,
+      "avg_price": 2.4325,
+      "latest_date": "2026-11-13",
+      "strength": 6.7
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "TCBX",
+      "company": "Third Coast Bancshares, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Caraway Bart"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "See Remarks"
+      ],
+      "plan10b5_1": false,
+      "total_value": 49783.14,
+      "total_shares": 1276,
+      "avg_price": 39.015,
+      "latest_date": "2026-11-16",
+      "strength": 6.5
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "KODK",
+      "company": "EASTMAN KODAK CO",
+      "insiders": 1,
+      "buyers": [
+        "Katz Philippe D"
+      ],
+      "roles": [
+        "Dir/10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 50880.0,
+      "total_shares": 6000,
+      "avg_price": 8.48,
+      "latest_date": "2026-11-12",
+      "strength": 6.5
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "LYNX",
+      "company": "Lyntris Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Morrison Brian"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "Chief Executive Officer"
+      ],
+      "plan10b5_1": false,
+      "total_value": 49615.5,
+      "total_shares": 3410,
+      "avg_price": 14.55,
+      "latest_date": "2026-11-12",
+      "strength": 6.5
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "GF",
+      "company": "NEW GERMANY FUND INC",
+      "insiders": 1,
+      "buyers": [
+        "Saba Capital Management, L.P."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 51507.8,
+      "total_shares": 5006,
+      "avg_price": 10.2892,
+      "latest_date": "2026-11-13",
+      "strength": 6.5
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "LEE",
+      "company": "LEE ENTERPRISES, Inc",
+      "insiders": 1,
+      "buyers": [
+        "Hoffmann David Henry"
+      ],
+      "roles": [
+        "Dir/10%"
+      ],
+      "titles": [],
+      "plan10b5_1": true,
+      "total_value": 293010.1,
+      "total_shares": 40246,
+      "avg_price": 7.2805,
+      "latest_date": "2026-11-16",
+      "strength": 6.4
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "JCTC",
+      "company": "JEWETT CAMERON TRADING CO LTD",
+      "insiders": 1,
+      "buyers": [
+        "AJB Investment Fund II, LP"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 41509.5,
+      "total_shares": 14570,
+      "avg_price": 2.849,
+      "latest_date": "2026-11-16",
+      "strength": 6.1
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "ORRF",
+      "company": "ORRSTOWN FINANCIAL SERVICES INC",
+      "insiders": 1,
+      "buyers": [
+        "Joiner Cindy Jeannette"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 22968.4,
+      "total_shares": 520,
+      "avg_price": 44.17,
+      "latest_date": "2026-11-12",
+      "strength": 5.9
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "OBDC",
+      "company": "Blue Owl Capital Corp",
+      "insiders": 1,
+      "buyers": [
+        "Kaye Eric A."
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 21620.0,
+      "total_shares": 2000,
+      "avg_price": 10.81,
+      "latest_date": "2026-11-13",
+      "strength": 5.8
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "QNTO",
+      "company": "QUAINT OAK BANCORP, INC.",
+      "insiders": 1,
+      "buyers": [
+        "CLARKE JAMES J"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 21550.0,
+      "total_shares": 1400,
+      "avg_price": 15.3929,
+      "latest_date": "2026-11-12",
+      "strength": 5.8
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "FISN",
+      "company": "DEEP FISSION, INC.",
+      "insiders": 1,
+      "buyers": [
+        "Goldman Tepper Leslie"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 20000.0,
+      "total_shares": 10255,
+      "avg_price": 1.9502,
+      "latest_date": "2026-11-13",
+      "strength": 5.7
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "LRMR",
+      "company": "Larimar Therapeutics, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "SHERMAN JEFFREY W"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 20115.79,
+      "total_shares": 6578,
+      "avg_price": 3.0576,
+      "latest_date": "2026-11-16",
+      "strength": 5.7
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "OTF",
+      "company": "Blue Owl Technology Finance Corp.",
+      "insiders": 1,
+      "buyers": [
+        "Kaye Eric A."
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 18880.0,
+      "total_shares": 2000,
+      "avg_price": 9.44,
+      "latest_date": "2026-11-13",
+      "strength": 5.6
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "PHIO",
+      "company": "Phio Pharmaceuticals Corp.",
+      "insiders": 1,
+      "buyers": [
+        "Deming David H"
+      ],
+      "roles": [
+        "Dir"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 19645.2,
+      "total_shares": 24000,
+      "avg_price": 0.8185,
+      "latest_date": "2026-11-13",
+      "strength": 5.6
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "API",
+      "company": "Agora, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Zhao Bin"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "Chief Executive Officer"
+      ],
+      "plan10b5_1": true,
+      "total_value": 156584.87,
+      "total_shares": 38358,
+      "avg_price": 4.0822,
+      "latest_date": "2026-11-13",
+      "strength": 5.0
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "GYRO",
+      "company": "Gyrodyne, LLC",
+      "insiders": 1,
+      "buyers": [
+        "TOWERVIEW LLC"
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 16510.56,
+      "total_shares": 3926,
+      "avg_price": 4.2054,
+      "latest_date": "2026-11-16",
+      "strength": 4.6
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "ECF",
+      "company": "ELLSWORTH GROWTH & INCOME FUND LTD",
+      "insiders": 1,
+      "buyers": [
+        "Saba Capital Management, L.P."
+      ],
+      "roles": [
+        "10%"
+      ],
+      "titles": [],
+      "plan10b5_1": false,
+      "total_value": 13788.0,
+      "total_shares": 1200,
+      "avg_price": 11.49,
+      "latest_date": "2026-11-13",
+      "strength": 4.3
+    },
+    {
+      "thesis": "insider-cluster",
+      "ticker": "NLCP",
+      "company": "NewLake Capital Partners, Inc.",
+      "insiders": 1,
+      "buyers": [
+        "Coniglio Anthony"
+      ],
+      "roles": [
+        "Dir/Off"
+      ],
+      "titles": [
+        "President and CEO"
+      ],
+      "plan10b5_1": false,
+      "total_value": 11120.0,
+      "total_shares": 800,
+      "avg_price": 13.9,
+      "latest_date": "2026-11-12",
+      "strength": 4.1
     }
   ]
 }
