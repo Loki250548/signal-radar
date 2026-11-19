@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-18",
+ "stand": "2026-11-19",
  "start_signal": "2026-09-30",
  "regel": "Phönix-Korb — Papierbetrieb (Test 56/56b, Vorab-Festlegung claude/phoenix_korb_vorab.md vom 26.09.2026)",
  "koerbe": {
@@ -10,32 +10,32 @@
  "linien": {
   "gewinn_haupt": {
    "name": "Phönix Gewinn",
-   "rendite": -1.44,
+   "rendite": -0.52,
    "mdd": -3.02,
    "start": "2026-10-02"
   },
   "gewinn_exit": {
    "name": "Phönix Gewinn + Exit-Regel",
-   "rendite": -1.44,
+   "rendite": -0.53,
    "mdd": -3.02,
    "start": "2026-10-02"
   },
   "verlust_haupt": {
    "name": "Phönix Verlust",
-   "rendite": -4.33,
+   "rendite": -4.26,
    "mdd": -5.83,
    "start": "2026-10-02"
   },
   "verlust_exit": {
    "name": "Phönix Verlust + Exit-Regel",
-   "rendite": -4.29,
+   "rendite": -4.25,
    "mdd": -5.79,
    "start": "2026-10-02"
   },
   "URTH": {
    "name": "MSCI World (URTH)",
-   "rendite": -4.24,
-   "mdd": -5.24,
+   "rendite": -4.73,
+   "mdd": -5.73,
    "start": "2026-10-02"
   }
  },
@@ -172,6 +172,10 @@
    [
     "2026-11-17",
     0.98562
+   ],
+   [
+    "2026-11-18",
+    0.99476
    ]
   ],
   "gewinn_exit": [
@@ -306,6 +310,10 @@
    [
     "2026-11-17",
     0.98562
+   ],
+   [
+    "2026-11-18",
+    0.99469
    ]
   ],
   "verlust_haupt": [
@@ -440,6 +448,10 @@
    [
     "2026-11-17",
     0.95669
+   ],
+   [
+    "2026-11-18",
+    0.9574
    ]
   ],
   "verlust_exit": [
@@ -574,6 +586,10 @@
    [
     "2026-11-17",
     0.9571
+   ],
+   [
+    "2026-11-18",
+    0.95749
    ]
   ],
   "URTH": [
@@ -708,6 +724,10 @@
    [
     "2026-11-17",
     0.9576
+   ],
+   [
+    "2026-11-18",
+    0.95273
    ]
   ]
  },
@@ -720,7 +740,7 @@
    "sektor": "Communication Services",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": 0.6,
+   "seit_pct": 0.5,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -733,7 +753,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": 4.0,
+   "seit_pct": 2.6,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -746,7 +766,7 @@
    "sektor": "Consumer Cyclical",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -6.1,
+   "seit_pct": -2.9,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -759,7 +779,7 @@
    "sektor": "Consumer Cyclical",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": 3.2,
+   "seit_pct": 10.7,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -772,7 +792,7 @@
    "sektor": "Technology",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -9.4,
+   "seit_pct": 2.0,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -798,7 +818,7 @@
    "sektor": "Industrials",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": 15.0,
+   "seit_pct": 17.9,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -811,7 +831,7 @@
    "sektor": "Consumer Cyclical",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -5.3,
+   "seit_pct": 0.1,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -824,7 +844,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -6.7,
+   "seit_pct": -9.7,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -837,7 +857,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": 3.9,
+   "seit_pct": 6.0,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -850,7 +870,7 @@
    "sektor": "Technology",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -29.7,
+   "seit_pct": -32.9,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -863,7 +883,7 @@
    "sektor": "Industrials",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -2.9,
+   "seit_pct": -4.8,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -876,7 +896,7 @@
    "sektor": "Technology",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -5.8,
+   "seit_pct": -1.3,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -889,7 +909,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": -32.6,
+   "seit_pct": -31.7,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -902,7 +922,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": -28.3,
+   "seit_pct": -28.0,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -915,7 +935,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-09-30",
    "einstieg": "2026-10-02",
-   "seit_pct": -2.0,
+   "seit_pct": 2.5,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -941,7 +961,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": 0.6,
+   "seit_pct": -0.3,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -954,7 +974,7 @@
    "sektor": "Technology",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -2.5,
+   "seit_pct": -3.0,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -967,7 +987,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -28.6,
+   "seit_pct": -28.2,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -980,7 +1000,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -13.1,
+   "seit_pct": -15.4,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -993,7 +1013,7 @@
    "sektor": "Communication Services",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -9.7,
+   "seit_pct": -14.5,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -1006,7 +1026,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": 17.6,
+   "seit_pct": 16.6,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -1019,7 +1039,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -12.5,
+   "seit_pct": -16.9,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -1045,7 +1065,7 @@
    "sektor": "Technology",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -14.7,
+   "seit_pct": -12.4,
    "ausstieg": null,
    "grund": null,
    "offen": true
@@ -1058,7 +1078,7 @@
    "sektor": "Healthcare",
    "signal_vom": "2026-10-30",
    "einstieg": "2026-11-04",
-   "seit_pct": -0.4,
+   "seit_pct": 7.0,
    "ausstieg": null,
    "grund": null,
    "offen": true

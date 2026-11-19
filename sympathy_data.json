@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-18T13:28:13+00:00",
- "asof": "2026-11-17",
+ "generated": "2026-11-19T13:54:13+00:00",
+ "asof": "2026-11-18",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
- "universe": 503,
+ "universe": 502,
  "blue_chips": [
   "AAPL",
   "ABBV",
@@ -18,6 +18,7 @@
   "APH",
   "APP",
   "AVGO",
+  "AXP",
   "BA",
   "BAC",
   "BE",
@@ -86,7 +87,6 @@
   "QCOM",
   "RTX",
   "SMCI",
-  "SNDK",
   "STX",
   "T",
   "TER",
@@ -106,7 +106,17 @@
   "XOM"
  ],
  "signals_today": [],
- "control_today": [],
+ "control_today": [
+  {
+   "ticker": "UNH",
+   "sector": "Health Care",
+   "date": "2026-11-18",
+   "excess": -9.9,
+   "vol_ratio": 3.5,
+   "peer_median": 0.1,
+   "blue_chip": true
+  }
+ ],
  "positions": [
   {
    "ticker": "SNDK",
@@ -136,10 +146,10 @@
    "entry_date": "2026-11-06",
    "entry": 449.04,
    "spy_entry": 735.29,
-   "last_date": "2026-11-17",
-   "last": 503.41,
-   "excess_now": 12.5,
-   "days_held": 7,
+   "last_date": "2026-11-18",
+   "last": 530.14,
+   "excess_now": 18.75,
+   "days_held": 8,
    "exit_date": null
   }
  ],
