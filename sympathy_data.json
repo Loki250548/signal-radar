@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-19T13:54:13+00:00",
- "asof": "2026-11-18",
+ "generated": "2026-11-20T13:34:51+00:00",
+ "asof": "2026-11-19",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
- "universe": 502,
+ "universe": 503,
  "blue_chips": [
   "AAPL",
   "ABBV",
@@ -26,7 +26,6 @@
   "BRK-B",
   "C",
   "CAT",
-  "CIEN",
   "COHR",
   "COIN",
   "COST",
@@ -87,6 +86,7 @@
   "QCOM",
   "RTX",
   "SMCI",
+  "SNDK",
   "STX",
   "T",
   "TER",
@@ -106,17 +106,7 @@
   "XOM"
  ],
  "signals_today": [],
- "control_today": [
-  {
-   "ticker": "UNH",
-   "sector": "Health Care",
-   "date": "2026-11-18",
-   "excess": -9.9,
-   "vol_ratio": 3.5,
-   "peer_median": 0.1,
-   "blue_chip": true
-  }
- ],
+ "control_today": [],
  "positions": [
   {
    "ticker": "SNDK",
@@ -127,12 +117,12 @@
    "vol_ratio": 3.3,
    "status": "open",
    "entry_date": "2026-11-06",
-   "entry": 835.06,
+   "entry": 104.38,
    "spy_entry": 735.29,
-   "last_date": "2026-11-17",
-   "last": 797.24,
-   "excess_now": -4.14,
-   "days_held": 7,
+   "last_date": "2026-11-19",
+   "last": 94.39,
+   "excess_now": -6.93,
+   "days_held": 9,
    "exit_date": null
   },
   {
@@ -146,10 +136,10 @@
    "entry_date": "2026-11-06",
    "entry": 449.04,
    "spy_entry": 735.29,
-   "last_date": "2026-11-18",
-   "last": 530.14,
-   "excess_now": 18.75,
-   "days_held": 8,
+   "last_date": "2026-11-19",
+   "last": 489.19,
+   "excess_now": 11.58,
+   "days_held": 9,
    "exit_date": null
   }
  ],
