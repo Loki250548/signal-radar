@@ -56,5 +56,15 @@
    "x120_IWM": null,
    "regime": "auf/nervoes"
   }
+ },
+ {
+  "ticker": "INTU",
+  "date": "2026-11-20",
+  "side": "long",
+  "meta": {
+   "sector": "Information Technology",
+   "peer_median": -3.5,
+   "excess": -9.1
+  }
  }
 ]
