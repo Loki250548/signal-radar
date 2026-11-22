@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T13:24:34+00:00",
+ "generated": "2026-11-22T14:10:07+00:00",
  "cost_pct": 1.0,
  "note": "Ueberrenditen nach Kosten; t_clustered = t-Wert nach Ereignisdatum gebuendelt",
  "theses": [
@@ -354,13 +354,13 @@
     },
     "x120_SPY": {
      "in": {
-      "n": 215,
-      "mean": -2.88,
-      "median": -7.98,
-      "hit": 37.7,
-      "t": -1.05,
-      "clusters": 51,
-      "t_clustered": -0.67
+      "n": 216,
+      "mean": -3.23,
+      "median": -8.07,
+      "hit": 37.5,
+      "t": -1.18,
+      "clusters": 52,
+      "t_clustered": -0.94
      },
      "oos": {
       "n": 0
@@ -368,13 +368,13 @@
     },
     "x120_IWM": {
      "in": {
-      "n": 215,
-      "mean": -2.07,
-      "median": -5.99,
-      "hit": 41.4,
-      "t": -0.78,
-      "clusters": 51,
-      "t_clustered": -0.32
+      "n": 216,
+      "mean": -2.41,
+      "median": -6.0,
+      "hit": 41.2,
+      "t": -0.91,
+      "clusters": 52,
+      "t_clustered": -0.61
      },
      "oos": {
       "n": 0
@@ -688,9 +688,9 @@
     "half1": 4.7,
     "half2": 5.83,
     "mean_wo_top5": 0.42,
-    "placebo_mean": 1.48,
-    "placebo_p95": 6.72,
-    "placebo_rank": 89.5,
+    "placebo_mean": 1.51,
+    "placebo_p95": 6.92,
+    "placebo_rank": 87.5,
     "placebo_draws": 200
    },
    "t_required": 5.13,
@@ -951,13 +951,13 @@
     },
     "x120_SPY": {
      "in": {
-      "n": 19,
-      "mean": 34.84,
-      "median": 1.56,
-      "hit": 52.6,
-      "t": 1.07,
-      "clusters": 14,
-      "t_clustered": 1.09
+      "n": 20,
+      "mean": 32.26,
+      "median": -7.63,
+      "hit": 50.0,
+      "t": 1.04,
+      "clusters": 15,
+      "t_clustered": 1.06
      },
      "oos": {
       "n": 0
@@ -965,13 +965,13 @@
     },
     "x120_IWM": {
      "in": {
-      "n": 19,
-      "mean": 31.62,
-      "median": 0.13,
-      "hit": 52.6,
-      "t": 0.98,
-      "clusters": 14,
-      "t_clustered": 1.02
+      "n": 20,
+      "mean": 29.37,
+      "median": -6.59,
+      "hit": 50.0,
+      "t": 0.95,
+      "clusters": 15,
+      "t_clustered": 1.0
      },
      "oos": {
       "n": 0
