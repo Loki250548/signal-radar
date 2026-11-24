@@ -1,6 +1,6 @@
-# Orakel – Stand 2026-11-20
+# Orakel – Stand 2026-11-23
 
-Journal: 441 Eintraege, Hash-Kette OK, Kopf `85cec2e178683bb7`, Modell `99be50332ee9`
+Journal: 453 Eintraege, Hash-Kette OK, Kopf `e282a9d4ccb6be4f`, Modell `99be50332ee9`
 
 ## Vorwaerts-Bilanz (nur aufgeloeste Prognosen)
 
@@ -8,94 +8,94 @@ Skill = Log-Loss-Verbesserung gegen die Klimatologie. t nach Newey-West (Tage ue
 
 | Aufgabe | h | Tage | Prognosen | Skill | t | Papier: Top/long | Durchschnitt | Differenz p.a. | t |
 |---|---|---|---|---|---|---|---|---|---|
-| A Markt | 5 | 38 | 682 | +0.51 % | 0.92 | -61.0 % | -39.2 % | -21.8 % | -0.45 |
-| A Markt | 20 | 23 | 413 | +1.47 % | 1.93 | -18.0 % | -27.4 % | +9.4 % | 1.59 |
-| B Sektoren/Laender | 5 | 38 | 1286 | -0.45 % | -0.82 | -46.2 % | -26.4 % | -19.8 % | -0.56 |
-| B Sektoren/Laender | 20 | 23 | 779 | -1.94 % | -13.78 | -108.8 % | -6.9 % | -101.9 % | -14.10 |
-| C Einzeltitel | 5 | 38 | 1746 | +0.07 % | 0.13 | -33.3 % | -22.6 % | -10.7 % | -0.23 |
-| C Einzeltitel | 20 | 23 | 1057 | -1.76 % | -6.47 | -124.9 % | -4.8 % | -120.1 % | -15.87 |
+| A Markt | 5 | 39 | 700 | +0.67 % | 1.04 | -63.7 % | -41.3 % | -22.4 % | -0.47 |
+| A Markt | 20 | 24 | 431 | +1.79 % | 1.85 | -27.5 % | -29.5 % | +2.0 % | 0.17 |
+| B Sektoren/Laender | 5 | 39 | 1320 | -0.39 % | -0.73 | -47.1 % | -29.3 % | -17.8 % | -0.52 |
+| B Sektoren/Laender | 20 | 24 | 813 | -1.95 % | -14.61 | -111.0 % | -8.7 % | -102.3 % | -14.73 |
+| C Einzeltitel | 5 | 39 | 1792 | +0.09 % | 0.17 | -36.1 % | -26.0 % | -10.1 % | -0.22 |
+| C Einzeltitel | 20 | 24 | 1103 | -1.77 % | -6.89 | -127.7 % | -7.2 % | -120.5 % | -16.85 |
 
 ## Welche Theorie traegt? (Experten einzeln, vorwaerts)
 
 | Aufgabe | h | Experte | Skill | t | Gewicht im Modell |
 |---|---|---|---|---|---|
-| A | 5 | mom_12_1_sharpe | +87.62 % | 19.17 | +0.257 |
-| A | 5 | turn_of_month | +0.60 % | 2.22 | +0.002 |
-| A | 5 | vix_level | +0.70 % | 2.05 | +0.028 |
-| A | 5 | dip_52w | +1.35 % | 1.86 | -0.079 |
-| A | 5 | low_vol | +0.75 % | 1.83 | -0.006 |
-| A | 5 | trend_200 | +1.18 % | 1.78 | +0.004 |
-| A | 5 | mom_1m | +0.87 % | 1.63 | +0.016 |
-| A | 5 | rsi2_oversold | +0.67 % | 1.48 | +0.005 |
-| A | 5 | mom_12_1 | +0.84 % | 1.45 | -0.001 |
-| A | 20 | vix_level | +0.91 % | 8.03 | +0.057 |
-| A | 20 | turn_of_month | +0.81 % | 3.23 | -0.048 |
-| A | 20 | mom_12_1 | +0.85 % | 3.08 | -0.047 |
-| A | 20 | rsi2_oversold | +0.93 % | 3.04 | -0.022 |
-| A | 20 | dip_52w | +1.01 % | 2.56 | -0.023 |
-| A | 20 | low_vol | +0.65 % | 2.54 | +0.004 |
-| A | 20 | mom_1m | +1.40 % | 2.48 | +0.063 |
-| A | 20 | trend_200 | +0.96 % | 2.17 | +0.017 |
-| B | 5 | mom_12_1_sharpe | +86.86 % | 1.31 | -0.341 |
-| B | 5 | rsi2_oversold | +0.01 % | 0.15 | -0.058 |
-| B | 5 | mom_1m | -0.03 % | -0.42 | +0.057 |
-| B | 5 | mom_12_1 | -0.17 % | -0.65 | -0.015 |
-| B | 5 | trend_200 | -0.10 % | -0.68 | -0.053 |
-| B | 5 | dip_52w | -0.03 % | -0.90 | +0.002 |
-| B | 5 | low_vol | -0.19 % | -0.94 | +0.023 |
-| B | 5 | rev_1w | -0.11 % | -1.17 | +0.057 |
-| B | 20 | dip_52w | +0.12 % | 5.99 | +0.042 |
-| B | 20 | rev_1w | +0.01 % | 0.06 | -0.050 |
-| B | 20 | rsi2_oversold | -0.06 % | -0.21 | -0.029 |
-| B | 20 | mom_1m | -0.02 % | -1.75 | -0.052 |
-| B | 20 | mom_12_1 | -0.86 % | -8.85 | -0.048 |
-| B | 20 | trend_200 | -0.22 % | -12.90 | -0.044 |
-| B | 20 | low_vol | -1.11 % | -19.31 | +0.085 |
-| C | 5 | mom_12_1_sharpe | +86.88 % | 2.22 | +0.011 |
-| C | 5 | low_vol | +0.44 % | 1.45 | +0.095 |
-| C | 5 | dip_52w | +0.08 % | 1.44 | +0.004 |
-| C | 5 | rev_1w | -0.08 % | -0.73 | +0.068 |
-| C | 5 | mom_1m | -0.04 % | -0.95 | +0.052 |
-| C | 5 | rsi2_oversold | -0.07 % | -1.39 | -0.027 |
-| C | 5 | mom_12_1 | -0.22 % | -1.56 | -0.007 |
-| C | 5 | trend_200 | -0.10 % | -1.68 | -0.012 |
-| C | 20 | rev_1w | +0.11 % | 1.07 | -0.035 |
-| C | 20 | rsi2_oversold | +0.27 % | 1.04 | -0.051 |
-| C | 20 | dip_52w | -0.07 % | -1.80 | +0.023 |
-| C | 20 | mom_1m | -0.03 % | -1.95 | -0.003 |
-| C | 20 | trend_200 | -0.12 % | -5.04 | -0.046 |
-| C | 20 | mom_12_1 | -0.50 % | -10.01 | -0.010 |
-| C | 20 | low_vol | -1.50 % | -25.69 | +0.121 |
+| A | 5 | mom_12_1_sharpe | +85.59 % | 20.52 | +0.247 |
+| A | 5 | turn_of_month | +0.66 % | 2.22 | +0.005 |
+| A | 5 | vix_level | +0.75 % | 2.08 | +0.023 |
+| A | 5 | dip_52w | +1.52 % | 1.88 | -0.087 |
+| A | 5 | low_vol | +0.82 % | 1.87 | -0.008 |
+| A | 5 | trend_200 | +1.33 % | 1.81 | +0.007 |
+| A | 5 | mom_1m | +0.99 % | 1.66 | +0.015 |
+| A | 5 | rsi2_oversold | +0.76 % | 1.55 | -0.002 |
+| A | 5 | mom_12_1 | +0.91 % | 1.53 | -0.008 |
+| A | 20 | vix_level | +0.95 % | 6.84 | +0.055 |
+| A | 20 | turn_of_month | +0.88 % | 2.98 | -0.052 |
+| A | 20 | mom_12_1 | +0.91 % | 2.91 | -0.053 |
+| A | 20 | rsi2_oversold | +1.03 % | 2.79 | -0.022 |
+| A | 20 | low_vol | +0.74 % | 2.34 | -0.002 |
+| A | 20 | dip_52w | +1.16 % | 2.34 | -0.031 |
+| A | 20 | mom_1m | +1.63 % | 2.28 | +0.067 |
+| A | 20 | trend_200 | +1.11 % | 2.06 | +0.020 |
+| B | 5 | mom_12_1_sharpe | +84.63 % | 1.49 | -0.321 |
+| B | 5 | rsi2_oversold | +0.01 % | 0.30 | -0.062 |
+| B | 5 | mom_1m | -0.02 % | -0.38 | +0.060 |
+| B | 5 | trend_200 | -0.09 % | -0.63 | -0.057 |
+| B | 5 | mom_12_1 | -0.17 % | -0.66 | -0.011 |
+| B | 5 | dip_52w | -0.03 % | -0.84 | +0.002 |
+| B | 5 | low_vol | -0.19 % | -0.98 | +0.021 |
+| B | 5 | rev_1w | -0.11 % | -1.16 | +0.061 |
+| B | 20 | dip_52w | +0.12 % | 6.14 | +0.041 |
+| B | 20 | rev_1w | +0.01 % | 0.04 | -0.055 |
+| B | 20 | rsi2_oversold | -0.07 % | -0.24 | -0.021 |
+| B | 20 | mom_1m | -0.04 % | -1.57 | -0.049 |
+| B | 20 | mom_12_1 | -0.85 % | -9.64 | -0.054 |
+| B | 20 | trend_200 | -0.21 % | -11.12 | -0.045 |
+| B | 20 | low_vol | -1.08 % | -18.54 | +0.087 |
+| C | 5 | low_vol | +0.42 % | 1.48 | +0.093 |
+| C | 5 | dip_52w | +0.08 % | 1.47 | +0.000 |
+| C | 5 | mom_12_1_sharpe | +84.66 % | 1.41 | +0.024 |
+| C | 5 | rev_1w | -0.07 % | -0.62 | +0.070 |
+| C | 5 | mom_1m | -0.04 % | -0.92 | +0.056 |
+| C | 5 | rsi2_oversold | -0.07 % | -1.38 | -0.024 |
+| C | 5 | mom_12_1 | -0.22 % | -1.56 | -0.003 |
+| C | 5 | trend_200 | -0.09 % | -1.66 | -0.020 |
+| C | 20 | rev_1w | +0.11 % | 1.12 | -0.039 |
+| C | 20 | rsi2_oversold | +0.25 % | 1.06 | -0.045 |
+| C | 20 | mom_1m | -0.04 % | -1.74 | +0.001 |
+| C | 20 | dip_52w | -0.08 % | -1.81 | +0.018 |
+| C | 20 | trend_200 | -0.11 % | -4.48 | -0.049 |
+| C | 20 | mom_12_1 | -0.48 % | -8.01 | -0.011 |
+| C | 20 | low_vol | -1.46 % | -19.72 | +0.125 |
 
 ## Kalibrierung (alle Aufgaben)
 
 | p-Bereich | n | Ø p | Trefferquote |
 |---|---|---|---|
-| 0.00–0.45 | 8 | 0.443 | 0.250 |
-| 0.45–0.50 | 3376 | 0.486 | 0.540 |
-| 0.50–0.55 | 2155 | 0.515 | 0.423 |
-| 0.55–0.60 | 354 | 0.567 | 0.381 |
-| 0.60–1.00 | 70 | 0.643 | 0.271 |
+| 0.00–0.45 | 16 | 0.438 | 0.125 |
+| 0.45–0.50 | 3483 | 0.486 | 0.539 |
+| 0.50–0.55 | 2221 | 0.515 | 0.422 |
+| 0.55–0.60 | 366 | 0.567 | 0.380 |
+| 0.60–1.00 | 73 | 0.642 | 0.260 |
 
 ## Aktuelle Prognosen
 
 In Klammern: Abstand zur Klimatologie in Prozentpunkten (das eigentliche Signal).
 
-- **A Markt, 5 Tage** (P steigt, ab 2026-11-20): oben USO 62 % (+10.5), DBC 59 % (+6.2), UUP 56 % (+5.2), IWM 54 % (-1.0), TLT 48 % (-5.1) · unten SLV 37 % (-14.3), HYG 38 % (-19.2), GLD 33 % (-21.3)
-- **A Markt, 20 Tage** (P steigt, ab 2026-11-20): oben UUP 57 % (+4.5), IEF 60 % (+3.2), TLT 56 % (+2.5), LQD 63 % (+1.8), FXI 53 % (-0.5) · unten DIA 58 % (-7.2), EWJ 51 % (-8.0), DBC 47 % (-8.4)
-- **B Sektoren/Laender, 5 Tage** (P schlaegt Median, ab 2026-11-20): oben INDA 65 % (+15.1), XLC 65 % (+14.7), EWQ 62 % (+12.3), FXI 62 % (+11.8), ITB 61 % (+11.4) · unten EWT 37 % (-13.0), EWC 36 % (-14.5), XLE 33 % (-17.1)
-- **B Sektoren/Laender, 20 Tage** (P schlaegt Median, ab 2026-11-20): oben EWS 55 % (+4.6), XLU 54 % (+3.7), FXI 53 % (+3.0), EWQ 53 % (+2.6), XLC 53 % (+2.6) · unten XLE 47 % (-3.2), XLV 46 % (-3.6), XBI 46 % (-3.6)
-- **C Einzeltitel, 5 Tage** (P schlaegt Median, ab 2026-11-20): oben COST 53 % (+3.4), BRK-B 53 % (+3.0), KO 53 % (+2.7), ABBV 52 % (+2.2), WMT 52 % (+2.2) · unten ORCL 47 % (-3.5), INTC 46 % (-3.8), PLTR 45 % (-4.7)
-- **C Einzeltitel, 20 Tage** (P schlaegt Median, ab 2026-11-20): oben COST 55 % (+5.1), MCD 55 % (+4.8), PEP 55 % (+4.7), WMT 55 % (+4.6), PG 54 % (+4.2) · unten TXN 45 % (-5.4), AMD 44 % (-6.2), PLTR 43 % (-6.5)
+- **A Markt, 5 Tage** (P steigt, ab 2026-11-23): oben USO 59 % (+8.0), UUP 56 % (+4.9), DBC 57 % (+4.2), IWM 55 % (-0.0), TLT 47 % (-6.3) · unten SLV 36 % (-15.0), HYG 38 % (-20.0), GLD 32 % (-22.0)
+- **A Markt, 20 Tage** (P steigt, ab 2026-11-23): oben UUP 56 % (+4.2), IEF 59 % (+2.2), TLT 55 % (+1.8), LQD 62 % (+1.3), FXI 52 % (-1.1) · unten EWJ 51 % (-7.8), USO 43 % (-9.5), DBC 43 % (-11.8)
+- **B Sektoren/Laender, 5 Tage** (P schlaegt Median, ab 2026-11-23): oben FXI 64 % (+14.0), XLC 63 % (+13.4), EWQ 63 % (+12.5), ITB 62 % (+11.6), XLU 61 % (+10.8) · unten SMH 38 % (-12.3), EWT 37 % (-13.3), XLE 32 % (-17.7)
+- **B Sektoren/Laender, 20 Tage** (P schlaegt Median, ab 2026-11-23): oben EWS 55 % (+5.2), XLU 53 % (+3.4), XLC 53 % (+2.9), EWQ 53 % (+2.8), FXI 52 % (+2.3) · unten XLP 47 % (-3.4), XLV 44 % (-6.0), XLE 44 % (-6.1)
+- **C Einzeltitel, 5 Tage** (P schlaegt Median, ab 2026-11-23): oben JPM 54 % (+4.3), LIN 54 % (+4.2), BRK-B 54 % (+3.9), KO 54 % (+3.7), COST 53 % (+3.4) · unten PLTR 44 % (-6.4), INTC 43 % (-7.4), NVDA 42 % (-7.6)
+- **C Einzeltitel, 20 Tage** (P schlaegt Median, ab 2026-11-23): oben LIN 56 % (+5.6), MCD 55 % (+5.3), WMT 55 % (+4.6), BAC 53 % (+2.6), HD 52 % (+2.4) · unten UNH 46 % (-4.4), AVGO 46 % (-4.5), AMD 42 % (-8.4)
 
 ## Aktuelle Theorie (Gewichte des Gesamtmodells)
 
-- A5 (Vorwaertsdaten: 682): mom_12_1 -0.001, mom_1m +0.016, trend_200 +0.004, dip_52w -0.079, low_vol -0.006, rsi2_oversold +0.005, vix_level +0.028, turn_of_month +0.002, mom_12_1_sharpe +0.257
-- A20 (Vorwaertsdaten: 413): mom_12_1 -0.047, mom_1m +0.063, trend_200 +0.017, dip_52w -0.023, low_vol +0.004, rsi2_oversold -0.022, vix_level +0.057, turn_of_month -0.048, mom_12_1_sharpe +0.000
-- B5 (Vorwaertsdaten: 1286): mom_12_1 -0.015, mom_1m +0.057, rev_1w +0.057, trend_200 -0.053, dip_52w +0.002, low_vol +0.023, rsi2_oversold -0.058, mom_12_1_sharpe -0.341
-- B20 (Vorwaertsdaten: 779): mom_12_1 -0.048, mom_1m -0.052, rev_1w -0.050, trend_200 -0.044, dip_52w +0.042, low_vol +0.085, rsi2_oversold -0.029, mom_12_1_sharpe +0.000
-- C5 (Vorwaertsdaten: 1746): mom_12_1 -0.007, mom_1m +0.052, rev_1w +0.068, trend_200 -0.012, dip_52w +0.004, low_vol +0.095, rsi2_oversold -0.027, mom_12_1_sharpe +0.011
-- C20 (Vorwaertsdaten: 1057): mom_12_1 -0.010, mom_1m -0.003, rev_1w -0.035, trend_200 -0.046, dip_52w +0.023, low_vol +0.121, rsi2_oversold -0.051, mom_12_1_sharpe +0.000
+- A5 (Vorwaertsdaten: 700): mom_12_1 -0.008, mom_1m +0.015, trend_200 +0.007, dip_52w -0.087, low_vol -0.008, rsi2_oversold -0.002, vix_level +0.023, turn_of_month +0.005, mom_12_1_sharpe +0.247
+- A20 (Vorwaertsdaten: 431): mom_12_1 -0.053, mom_1m +0.067, trend_200 +0.020, dip_52w -0.031, low_vol -0.002, rsi2_oversold -0.022, vix_level +0.055, turn_of_month -0.052, mom_12_1_sharpe +0.000
+- B5 (Vorwaertsdaten: 1320): mom_12_1 -0.011, mom_1m +0.060, rev_1w +0.061, trend_200 -0.057, dip_52w +0.002, low_vol +0.021, rsi2_oversold -0.062, mom_12_1_sharpe -0.321
+- B20 (Vorwaertsdaten: 813): mom_12_1 -0.054, mom_1m -0.049, rev_1w -0.055, trend_200 -0.045, dip_52w +0.041, low_vol +0.087, rsi2_oversold -0.021, mom_12_1_sharpe +0.000
+- C5 (Vorwaertsdaten: 1792): mom_12_1 -0.003, mom_1m +0.056, rev_1w +0.070, trend_200 -0.020, dip_52w +0.000, low_vol +0.093, rsi2_oversold -0.024, mom_12_1_sharpe +0.024
+- C20 (Vorwaertsdaten: 1103): mom_12_1 -0.011, mom_1m +0.001, rev_1w -0.039, trend_200 -0.049, dip_52w +0.018, low_vol +0.125, rsi2_oversold -0.045, mom_12_1_sharpe +0.000
 
 <!-- pruefung -->
 
@@ -106,65 +106,65 @@ Hürde für „bestätigt": Hypothese t ≥ **5.15**, Gesamtmodell je Aufgabe t 
 
 | Aufgabe | h | Tage | t | Urteil |
 |---|---|---|---|---|
-| A | 5 | 38 | 0.92 | zu früh |
-| A | 20 | 23 | 1.93 | zu früh |
-| B | 5 | 38 | -0.82 | zu früh |
-| B | 20 | 23 | -13.78 | zu früh |
-| C | 5 | 38 | 0.13 | zu früh |
-| C | 20 | 23 | -6.47 | zu früh |
+| A | 5 | 39 | 1.04 | zu früh |
+| A | 20 | 24 | 1.85 | zu früh |
+| B | 5 | 39 | -0.73 | zu früh |
+| B | 20 | 24 | -14.61 | zu früh |
+| C | 5 | 39 | 0.17 | zu früh |
+| C | 20 | 24 | -6.89 | zu früh |
 
 | Hypothese | Aufgabe | h | Tage | t | Urteil |
 |---|---|---|---|---|---|
-| mom_12_1_sharpe | A | 5 | 5 | 19.17 | zu früh |
-| vix_level | A | 20 | 23 | 8.03 | zu früh |
-| dip_52w | B | 20 | 23 | 5.99 | zu früh |
-| turn_of_month | A | 20 | 23 | 3.23 | zu früh |
-| mom_12_1 | A | 20 | 23 | 3.08 | zu früh |
-| rsi2_oversold | A | 20 | 23 | 3.04 | zu früh |
-| dip_52w | A | 20 | 23 | 2.56 | zu früh |
-| low_vol | A | 20 | 23 | 2.54 | zu früh |
-| mom_1m | A | 20 | 23 | 2.48 | zu früh |
-| mom_12_1_sharpe | C | 5 | 5 | 2.22 | zu früh |
-| turn_of_month | A | 5 | 38 | 2.22 | zu früh |
-| trend_200 | A | 20 | 23 | 2.17 | zu früh |
-| vix_level | A | 5 | 38 | 2.05 | zu früh |
-| dip_52w | A | 5 | 38 | 1.86 | zu früh |
-| low_vol | A | 5 | 38 | 1.83 | zu früh |
-| trend_200 | A | 5 | 38 | 1.78 | zu früh |
-| mom_1m | A | 5 | 38 | 1.63 | zu früh |
-| rsi2_oversold | A | 5 | 38 | 1.48 | zu früh |
-| low_vol | C | 5 | 38 | 1.45 | zu früh |
-| mom_12_1 | A | 5 | 38 | 1.45 | zu früh |
-| dip_52w | C | 5 | 38 | 1.44 | zu früh |
-| mom_12_1_sharpe | B | 5 | 5 | 1.31 | zu früh |
-| rev_1w | C | 20 | 23 | 1.07 | zu früh |
-| rsi2_oversold | C | 20 | 23 | 1.04 | zu früh |
-| rsi2_oversold | B | 5 | 38 | 0.15 | zu früh |
-| rev_1w | B | 20 | 23 | 0.06 | zu früh |
-| rsi2_oversold | B | 20 | 23 | -0.21 | zu früh |
-| mom_1m | B | 5 | 38 | -0.42 | zu früh |
-| mom_12_1 | B | 5 | 38 | -0.65 | zu früh |
-| trend_200 | B | 5 | 38 | -0.68 | zu früh |
-| rev_1w | C | 5 | 38 | -0.73 | zu früh |
-| dip_52w | B | 5 | 38 | -0.9 | zu früh |
-| low_vol | B | 5 | 38 | -0.94 | zu früh |
-| mom_1m | C | 5 | 38 | -0.95 | zu früh |
-| rev_1w | B | 5 | 38 | -1.17 | zu früh |
-| rsi2_oversold | C | 5 | 38 | -1.39 | zu früh |
-| mom_12_1 | C | 5 | 38 | -1.56 | zu früh |
-| trend_200 | C | 5 | 38 | -1.68 | zu früh |
-| mom_1m | B | 20 | 23 | -1.75 | zu früh |
-| dip_52w | C | 20 | 23 | -1.8 | zu früh |
-| mom_1m | C | 20 | 23 | -1.95 | zu früh |
-| trend_200 | C | 20 | 23 | -5.04 | zu früh |
-| mom_12_1 | B | 20 | 23 | -8.85 | zu früh |
-| mom_12_1 | C | 20 | 23 | -10.01 | zu früh |
-| trend_200 | B | 20 | 23 | -12.9 | zu früh |
-| low_vol | B | 20 | 23 | -19.31 | zu früh |
-| low_vol | C | 20 | 23 | -25.69 | zu früh |
+| mom_12_1_sharpe | A | 5 | 6 | 20.52 | zu früh |
+| vix_level | A | 20 | 24 | 6.84 | zu früh |
+| dip_52w | B | 20 | 24 | 6.14 | zu früh |
+| turn_of_month | A | 20 | 24 | 2.98 | zu früh |
+| mom_12_1 | A | 20 | 24 | 2.91 | zu früh |
+| rsi2_oversold | A | 20 | 24 | 2.79 | zu früh |
+| low_vol | A | 20 | 24 | 2.34 | zu früh |
+| dip_52w | A | 20 | 24 | 2.34 | zu früh |
+| mom_1m | A | 20 | 24 | 2.28 | zu früh |
+| turn_of_month | A | 5 | 39 | 2.22 | zu früh |
+| vix_level | A | 5 | 39 | 2.08 | zu früh |
+| trend_200 | A | 20 | 24 | 2.06 | zu früh |
+| dip_52w | A | 5 | 39 | 1.88 | zu früh |
+| low_vol | A | 5 | 39 | 1.87 | zu früh |
+| trend_200 | A | 5 | 39 | 1.81 | zu früh |
+| mom_1m | A | 5 | 39 | 1.66 | zu früh |
+| rsi2_oversold | A | 5 | 39 | 1.55 | zu früh |
+| mom_12_1 | A | 5 | 39 | 1.53 | zu früh |
+| mom_12_1_sharpe | B | 5 | 6 | 1.49 | zu früh |
+| low_vol | C | 5 | 39 | 1.48 | zu früh |
+| dip_52w | C | 5 | 39 | 1.47 | zu früh |
+| mom_12_1_sharpe | C | 5 | 6 | 1.41 | zu früh |
+| rev_1w | C | 20 | 24 | 1.12 | zu früh |
+| rsi2_oversold | C | 20 | 24 | 1.06 | zu früh |
+| rsi2_oversold | B | 5 | 39 | 0.3 | zu früh |
+| rev_1w | B | 20 | 24 | 0.04 | zu früh |
+| rsi2_oversold | B | 20 | 24 | -0.24 | zu früh |
+| mom_1m | B | 5 | 39 | -0.38 | zu früh |
+| rev_1w | C | 5 | 39 | -0.62 | zu früh |
+| trend_200 | B | 5 | 39 | -0.63 | zu früh |
+| mom_12_1 | B | 5 | 39 | -0.66 | zu früh |
+| dip_52w | B | 5 | 39 | -0.84 | zu früh |
+| mom_1m | C | 5 | 39 | -0.92 | zu früh |
+| low_vol | B | 5 | 39 | -0.98 | zu früh |
+| rev_1w | B | 5 | 39 | -1.16 | zu früh |
+| rsi2_oversold | C | 5 | 39 | -1.38 | zu früh |
+| mom_12_1 | C | 5 | 39 | -1.56 | zu früh |
+| mom_1m | B | 20 | 24 | -1.57 | zu früh |
+| trend_200 | C | 5 | 39 | -1.66 | zu früh |
+| mom_1m | C | 20 | 24 | -1.74 | zu früh |
+| dip_52w | C | 20 | 24 | -1.81 | zu früh |
+| trend_200 | C | 20 | 24 | -4.48 | zu früh |
+| mom_12_1 | C | 20 | 24 | -8.01 | zu früh |
+| mom_12_1 | B | 20 | 24 | -9.64 | zu früh |
+| trend_200 | B | 20 | 24 | -11.12 | zu früh |
+| low_vol | B | 20 | 24 | -18.54 | zu früh |
+| low_vol | C | 20 | 24 | -19.72 | zu früh |
 
 ## Frühwarnung Kern (Branchen-Momentum, Aufgabe B20)
 
-Ampel **grau**: zu wenig Daten (23/60 aufgelöste Prognosetage)
+Ampel **grau**: zu wenig Daten (24/60 aufgelöste Prognosetage)
 Messung: Papier-Vorsprung oberstes Fünftel minus Durchschnitt, letzte 120 aufgelöste Prognosetage, t nach Newey-West. Rot bei t ≤ −1,5, gelb bei Vorsprung ≤ 0.
 

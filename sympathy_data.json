@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-21T13:03:10+00:00",
- "asof": "2026-11-20",
+ "generated": "2026-11-24T15:17:49+00:00",
+ "asof": "2026-11-24",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
  "universe": 503,
  "blue_chips": [
@@ -18,7 +18,6 @@
   "APH",
   "APP",
   "AVGO",
-  "AXP",
   "BA",
   "BAC",
   "BE",
@@ -26,6 +25,7 @@
   "BRK-B",
   "C",
   "CAT",
+  "CIEN",
   "COHR",
   "COIN",
   "COST",
@@ -105,17 +105,7 @@
   "WMT",
   "XOM"
  ],
- "signals_today": [
-  {
-   "ticker": "INTU",
-   "sector": "Information Technology",
-   "date": "2026-11-20",
-   "excess": -9.1,
-   "vol_ratio": 3.5,
-   "peer_median": -3.5,
-   "blue_chip": true
-  }
- ],
+ "signals_today": [],
  "control_today": [],
  "positions": [
   {
@@ -125,7 +115,15 @@
    "excess_signal": -9.1,
    "peer_median": -3.5,
    "vol_ratio": 3.5,
-   "status": "pending"
+   "status": "open",
+   "entry_date": "2026-11-23",
+   "entry": 275.46,
+   "spy_entry": 722.29,
+   "last_date": "2026-11-24",
+   "last": 286.51,
+   "excess_now": 4.56,
+   "days_held": 1,
+   "exit_date": null
   },
   {
    "ticker": "SNDK",
@@ -138,10 +136,10 @@
    "entry_date": "2026-11-06",
    "entry": 104.38,
    "spy_entry": 735.29,
-   "last_date": "2026-11-19",
-   "last": 94.39,
-   "excess_now": -6.93,
-   "days_held": 9,
+   "last_date": "2026-11-24",
+   "last": 77.86,
+   "excess_now": -23.11,
+   "days_held": 12,
    "exit_date": null
   },
   {
@@ -155,15 +153,15 @@
    "entry_date": "2026-11-06",
    "entry": 449.04,
    "spy_entry": 735.29,
-   "last_date": "2026-11-20",
-   "last": 424.39,
-   "excess_now": 0.7,
-   "days_held": 10,
+   "last_date": "2026-11-24",
+   "last": 408.05,
+   "excess_now": -6.82,
+   "days_held": 12,
    "exit_date": null
   }
  ],
  "stats": {
-  "open": 2,
+  "open": 3,
   "closed": 0,
   "avg_excess_closed": null,
   "hit_closed": null
