@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T15:00:25+00:00",
+ "generated": "2026-11-26T14:21:20+00:00",
  "asof": "2026-11-25",
  "rule": "Blue Chip ≥8 % unter SPY bei Volumen ≥3×, Sektor-Peers Median ≤ −3 % → Einstieg Folgetag, 60 HT halten (Papier)",
  "universe": 503,
@@ -120,8 +120,8 @@
    "entry": 275.46,
    "spy_entry": 722.29,
    "last_date": "2026-11-25",
-   "last": 274.46,
-   "excess_now": 2.28,
+   "last": 271.72,
+   "excess_now": -0.58,
    "days_held": 2,
    "exit_date": null
   },
@@ -136,10 +136,10 @@
    "entry_date": "2026-11-06",
    "entry": 104.38,
    "spy_entry": 735.29,
-   "last_date": "2026-11-25",
-   "last": 72.33,
-   "excess_now": -26.35,
-   "days_held": 13,
+   "last_date": "2026-11-19",
+   "last": 94.39,
+   "excess_now": -6.93,
+   "days_held": 9,
    "exit_date": null
   },
   {
@@ -154,8 +154,8 @@
    "entry": 449.04,
    "spy_entry": 735.29,
    "last_date": "2026-11-25",
-   "last": 387.81,
-   "excess_now": -9.27,
+   "last": 406.03,
+   "excess_now": -7.05,
    "days_held": 13,
    "exit_date": null
   }
