@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-26T14:20:20+00:00",
+ "generated": "2026-11-27T14:17:46+00:00",
  "source": "Reddit (ApeWisdom) · StockTwits · Google-News-RSS EN/DE (u. a. finanzen.net, boerse.de, onvista)",
- "as_of": "2026-11-26",
+ "as_of": "2026-11-27",
  "tickers": {
   "SHMD": {
    "company": "SCHMID Group N.V.",
@@ -11,8 +11,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 1,
-   "news_en_7d": 2,
+   "stocktwits_24h": 0,
+   "news_en_7d": 3,
    "news_de_7d": 1,
    "headlines": [
     {
@@ -20,6 +20,12 @@
      "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XVFVSMUN6VzVxMThhUFd3VkF6akhNa1BmUVdvYTFnMnl2U0RTczFtVkt2RGNNdkxFVXlRUnhDQ2hJbjlndkI3ZUtUTkswWERzaTkwRjBQNENzQ2UxQmZydzF4OVFCaTZqX3l4MklydVl5MUJQRzcw?oc=5",
      "src": "TradingView",
      "d": "2026-11-25"
+    },
+    {
+     "t": "SCHMID Group (Nasdaq:SHMD) - Stock Analysis - Simply Wall St",
+     "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiLXEyRVJlU1VpZlFxbmwzUXR3U0lHZEx4VHpjVFN0TENoMmVDaHphVFktT0FuQmhESVZDLVFZUlZXMXY4TE1DbWF1SU16dEcyS3htS2VENWJiNWtwLWkzdmhGNkVJX1JGQVFOYWtB?oc=5",
+     "src": "Simply Wall St",
+     "d": "2026-11-24"
     },
     {
      "t": "SCHMID Launches QuantumLine P+ for Void-Free Bottom-Up Copper Filling of Through-Glass Vias - Stock Titan",
@@ -40,6 +46,10 @@
     {
      "date": "2026-11-26",
      "composite": 4
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 4
     }
    ]
   },
@@ -48,12 +58,12 @@
    "from": [
     "insider"
    ],
-   "reddit": 0,
-   "reddit_rank": null,
-   "reddit_prev24": 0,
-   "stocktwits_24h": 30,
-   "news_en_7d": 13,
-   "news_de_7d": 6,
+   "reddit": 1,
+   "reddit_rank": 286,
+   "reddit_prev24": 1,
+   "stocktwits_24h": 6,
+   "news_en_7d": 10,
+   "news_de_7d": 4,
    "headlines": [
     {
      "t": "Coherent Corp. (COHR.VI) Aktienkurs, Nachrichten, Kurs und Verlauf - Yahoo Finanzen Deutschland",
@@ -74,13 +84,13 @@
      "d": "2026-11-24"
     },
     {
-     "t": "Coherent Corp. (COHR) stock price, news, quote and history - Yahoo Finance Singapore",
-     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1VTDRxRHgtRGNyYlRScWs2SnE1OTl3SzZaU0dsb1o2SzFPa0l6Z1NEMzZsTkRTTHdNS2ZqOFZ0RGhoVUh6ZTNvQWl6dzlMVjRRY2c?oc=5",
-     "src": "Yahoo Finance Singapore",
-     "d": "2026-11-24"
+     "t": "Coherent Corp. (COHR) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oSW01VFBUQW9JRHNfNXUtRzRMTkJyTUhZalVWc2xmYUkzMEJPWlBKREM5bGtQRlIzR2xHSkNKeVdlQ3JlMmxRWER1NTZQaVVKeEE?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 49,
+   "composite": 21,
    "spike": null,
    "history": [
     {
@@ -90,6 +100,10 @@
     {
      "date": "2026-11-26",
      "composite": 49
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 21
     }
    ]
   },
@@ -101,21 +115,21 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 3,
+   "stocktwits_24h": 1,
    "news_en_7d": 10,
-   "news_de_7d": 10,
+   "news_de_7d": 21,
    "headlines": [
     {
-     "t": "Lundin Gold-Aktie unter 100-Tage-Linie - boerse.de",
-     "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS3E1US1XQnFaSXd5UkJFQUVseWs3MkpRUlRDTWh1b1JCRTFHbzBsa3hyY0RldUZ1ZnZ6cGE0d2FtMzlNSlgzREpGSVJDUWZhdlB4UkszdTdUNXYzSFNPUzAyazVpVlpJRk1HQ0xPQ0pkQVVMVWV6T0tsZEd5MWxCYTJoR0NxNzMy?oc=5",
-     "src": "boerse.de",
-     "d": "2026-11-26"
+     "t": "Lahontan Gold Aktie: Halde braucht noch weitere Tests - Börse Global",
+     "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSjhfSTdTODNFQ0QyUWxOUm5lM2FJUUJLRGluZDZxa0ZhZFcxMTlFYzVNWDF1YXNCSHhOSlNjaS1jMzR0OXBJLUNYVi1DUTBNbDNrSXlwUE4yTktoNWh3OFZsal9EajlWQ3hiS0NLbTJxOVgxSXJqSGVIYmlSZFZFMnVJS0ZycjlzSmRwdk1SSjQ3UQ?oc=5",
+     "src": "Börse Global",
+     "d": "2026-11-27"
     },
     {
-     "t": "First Mining Gold Aktie: Machbarkeitsstudie für Springpole rückt in den Fokus - AktienCheck.de",
-     "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR2x6c3dJa1daTkY1bzhJNmItdS1fOXNMSFprd3lhX0R4Qm9EVU5nb2c5c1JwcDNfdGtnYjZOVENNSmpwaFBJWnBudF9xZmUwSlZsY0Y5QWJpaVZ4X2dqUkhLNVFQUncwUktodXBhaFNIR3hPWm81UjlReGQwbk5BTHNWLUpTWHFZc3A4WTJFZnNoOVAzUGpxQ0VzZmRvQWlxR0psVlhkaXFUbjEyUlE?oc=5",
+     "t": "Gold Aktie: Aktienkurs, News &amp; Analyse - AktienCheck.de",
+     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE01b21SaHRicUZMV29kUG9pWWhKeHZWWkd5UjdIVWpzMmtGWDNqUm4wUU1FQldLVmZuSUdJU2NnNDdhWThMSDFyYlNPdnZNSzROelE?oc=5",
      "src": "AktienCheck.de",
-     "d": "2026-11-26"
+     "d": "2026-11-27"
     },
     {
      "t": "Royal Gold-Aktie über 50-Tage-Linie - boerse.de",
@@ -124,18 +138,22 @@
      "d": "2026-11-26"
     },
     {
-     "t": "Blue Gold Stock Plunges 19% After Hours: What's Happening? - Benzinga",
-     "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ2FBbWJnOF9JUjlzNDg1dlJJM0Jfb2pZaW1VMmlKb1Z2c29CdDdxTUthZTh6SmdEbEV4M2NyVjc0emVuUzh2cjZYWC0wT3hOd09ZYTJTNlRlcy1vTVBhZDRUbi1uQVlXNUZwQzU4TldSN2JsRU9GVEs1WW1lRk5xNVNScUtqUl9jVUE2VWpjVUMxSmhFTk5EQkUySHM5WHR5UTVOclU3a3l3UWFTWXA2OQ?oc=5",
-     "src": "Benzinga",
-     "d": "2026-11-26"
+     "t": "Gold Dec 26 (GC=F) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCLWFGVVBHUGF5Q2c0b1o5UTFKT0M1RWtfQS14aDl1SDdPR2t6eHFLQnkzbWU3MFhGTHQ1Mk1tWmpjVk9zYWpvMGRKVUhmeFk0NFhoUg?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-11-25"
     }
    ],
-   "composite": 23,
+   "composite": 32,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 23
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 32
     }
    ]
   },
@@ -147,10 +165,16 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 1,
-   "news_en_7d": 9,
+   "stocktwits_24h": 0,
+   "news_en_7d": 4,
    "news_de_7d": 0,
    "headlines": [
+    {
+     "t": "Borr Drilling (BORR) Stock Gets Fair Value Trim As Analysts Weigh Leverage And Margins - Yahoo Finance",
+     "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdkVMTGpndVlUMFRMRkNPeHVndnZUR2Nvby1VN2dpNThoU2xkZURJd3ZkTVUzWWJhZzRMWVk5dWJJNjNtME4xRUZSOXlPeFhZUHdlSGplem9lXzhzSTk2bEJZOGFhV3RRNGNfYko5Y2plMWFZWnpGdmNvbXRpN01MQXVqck5PblhVX29QdjROVjZaQlFPd3ZSdXR3?oc=5",
+     "src": "Yahoo Finance",
+     "d": "2026-11-27"
+    },
     {
      "t": "Borr Drilling (BORR) Stock May Sit Above Fair Value On Rig Loss News - Yahoo Finance",
      "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQY2w1V0hJQUZpbHFDdkJDTEZaRDNwQjBWMVJMRWZvalppUjNnNV9Wa1duSFpSYzRpRmtaUklCdVNKQ3V0QmVMRlhQdGhCZGdyaExRU1BCSzlUS0xiaG40eWJJdllab1ZCcVB1am9JdGF4TnhvYjE2cy1DNTJweGY2ZEsxRWpMel9Pa1JHTmhrUVFsOVFIVlBBZg?oc=5",
@@ -158,24 +182,22 @@
      "d": "2026-11-26"
     },
     {
-     "t": "Form 4 Borr Drilling Ltd: Tor Olav Troim (Director) For: 24 November - Investing.com Nigeria",
-     "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWTc5OFpoeEMwVkZORktXRlBzZ1JLUnZxZUFIM0V1N0Z3bjdQMWV0dENxOWZIT1VueXRGVXRaaXlVYzUyRjJvLXFhOVhnX0Q5SUFHWlVyTUNBclJ3YzIzc0pDOWh4aEpBdEQ1RmRmVE9NVmsxS3pkLVdFWGxOLV9xWUk1UURfbnBYcDBvOVZyUjJSbGNmaHoxUFFiMlN3NVkzYjROQWEyWi1mcERBTUN4bTd0VE9aN0J4MVluS2RkcFE5OUk?oc=5",
-     "src": "Investing.com Nigeria",
+     "t": "Form 4 Borr Drilling Ltd: Tor Olav Troim (Director) For: 24 November - Investing.com Canada",
+     "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeFRfUVZMSnVTREhNTDNrX3NoNTl1T1pUUkNOVW5ncm5vclhWTlZXZm93bTdiR1pGZGF1dGNtampWRS1pY1o3SFdBUjdrdlA2dVNpY3hmTHhQcHNLemFNV2ZKUXNJa05ZUFN6YXB0cVJoRUNtWFlManE1ckRvSmlPN1lWcFk4Z09LRVZyY1ZzSTMwdTNKOERIRkxwSkEyckppZE9yT0k2eGdKUTB2aHZOa084WFRBM2NFWGdONnVaaVZkZkk?oc=5",
+     "src": "Investing.com Canada",
      "d": "2026-11-25"
-    },
-    {
-     "t": "After a purchase, Drew Holdings Ltd. held 49.1M Borr Drilling (BORR) shares indirectly. - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMjAwNXlPbmVWVmlTajBzYXZuQzFwenVVYU5LRmp5RU02NjRicGZFOUZYWkdNUU1IWnhtM3JpampJeWo2eWI1X3FnMmRkLW1jVVpRY1FqQkpITFRUT2dYSlhKWXJIVVpYWFNYcUZFUzZiVGlNZkNBekxMU1NIaFNqbzI3bWI3bTA4U2pCeS11QUVadEFqQjZHZGE1S3h5MHM4Slo5U1REeWhzLXpxNDE0eg?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-23"
     }
    ],
-   "composite": 10,
+   "composite": 4,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 10
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 4
     }
    ]
   },
@@ -187,8 +209,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 5,
-   "news_en_7d": 7,
+   "stocktwits_24h": 3,
+   "news_en_7d": 8,
    "news_de_7d": 1,
    "headlines": [
     {
@@ -204,10 +226,10 @@
      "d": "2026-11-26"
     },
     {
-     "t": "Form 4 Destiny Tech100 Inc.: Saba Capital Management, L.P. (10% Owner) For: 24 November - Investing.com UK",
-     "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMnhvbTdvcFdUcmR5WTh3dG9sd3FMNHZzMUFXS1ZSOWJkRWx5WWx4dWQyN3pDekhQQVRyY1ZkWGxCWGVkdFlQNVVoWnpJZjJRRDNLVC1iamd2NE14eHhNb1hDdENLYkROWkJEV3JjR2hNeEEtTVhBT3dUV0c3dTRxWmdiMnBvcU1VbVh0N3JqazR0UUxJQXRSNEFCVnB5TFNqWHZ6MlVBTl9jOEY0QUZOMVNfU1JHb0MxZk5OdXMyWnhMU2Y3djItVWdXeG00YmZIdTN0WTJB?oc=5",
-     "src": "Investing.com UK",
-     "d": "2026-11-26"
+     "t": "Form 13D/A Destiny Tech100 Inc. For: 24 November By Investing.com - Investing.com South Africa",
+     "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUExITnphSno0Ujl2VzdSZjMxLW9BSkEyNWVRemE1ck01V1p5SDhJZnZiUFRkRVIwa2FQOEFQcEFuUzlYQTBIdmI1UERvRWt4LWlQTkYtUjRoWlpmbUhvdVJjLUN6TTlfSk1MR0ZZOVE3Sk02V0lKQkY4blJQbkdCSFN5MTNrNkRvd1ZwRTlzSDg5OXR5VU95b0UxM05LR1QtTm9HQXNRTUpPdw?oc=5",
+     "src": "Investing.com South Africa",
+     "d": "2026-11-25"
     },
     {
      "t": "After the buy, Saba’s reported indirect stake in Destiny Tech100 (DXYZ) stands above 5 million shares. - Stock Titan",
@@ -216,12 +238,16 @@
      "d": "2026-11-26"
     }
    ],
-   "composite": 13,
+   "composite": 12,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 13
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 12
     }
    ]
   },
@@ -233,8 +259,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 9,
-   "news_en_7d": 4,
+   "stocktwits_24h": 2,
+   "news_en_7d": 3,
    "news_de_7d": 2,
    "headlines": [
     {
@@ -256,18 +282,22 @@
      "d": "2026-11-23"
     },
     {
-     "t": "Form 4 Playboy Inc: Docler Holding S.a r.l. (Director, 10% Owner) For: 18 November - Investing.com Nigeria",
-     "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNi0yQmtmdUxnVllWLTlQVkNkR2dRcDRoR2hNM2JzYnBvSklFMU9vM1Z0Vk1hY1VxTzhzeDViVXBvVlFUaEhCNGJEMlNfd2llWnNPZlYtNEg0MFNmSGh3SEcwcEg3d3lLSkplZ2dDaXhLQ21aeGYxV2ZKVjVkT3UxeUxnNEdybV80cGhSZkFvaHlXbmxMRW5mMkNZbmxIb2dYTDlVazQtcUhDaVc1SWZxZC1GaEtkaUh4RzVmQ3g3d1FGRHFsT1FRSnpVR3hfWDg?oc=5",
-     "src": "Investing.com Nigeria",
-     "d": "2026-11-21"
+     "t": "Three entities report the same 18.8% stake in Playboy (PLBY). One shareholder reports a larger stake. - Stock Titan",
+     "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU2RPMFVITnRBdXFsTmJ4cjdKMGJOdDFTLUFVd0h1UW5fNzd0elE2aldCeURUUEtvdG1sV1hkVHJoLXJyWnhqZGFySFUxZV8tUzIxd0pjMTVScjNOMWY0S0R2bmNIZHFhLXdtbkY0MThfb0JMSEdDb0haalV1WXNQMDhCN1dmeHRQYlZTdFJiY1FoZ0xkYWhCTkVzRXZzSnZNN1o4QmZ1bnBzWXdwalpFRmxzQ3pnWDQ1eGVxLXJn?oc=5",
+     "src": "Stock Titan",
+     "d": "2026-11-25"
     }
    ],
-   "composite": 15,
+   "composite": 7,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 15
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 7
     }
    ]
   },
@@ -279,10 +309,16 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 30,
-   "news_en_7d": 7,
-   "news_de_7d": 2,
+   "stocktwits_24h": 5,
+   "news_en_7d": 20,
+   "news_de_7d": 3,
    "headlines": [
+    {
+     "t": "Galaxy Digital Inc (0P0.HA) Optionskette - Yahoo Finanzen Deutschland",
+     "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zOTQwS0wtTWF2SWVMNWUwb1BsQ0kzdk9EeHB5b3dWY0tpVExZNmZqQXowNmNMSmJ6YlBLQUp2SEpwejRDRV93cFhXMm1iTDExVm5pUDJHZHFYRHBJdl9n?oc=5",
+     "src": "Yahoo Finanzen Deutschland",
+     "d": "2026-11-26"
+    },
     {
      "t": "Zertifikate | Anlagezertifikate | Discountzertifikate | Bonuszertifikate | Aktienanleihen - finanzen.at",
      "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWHpxTjZXX1hHcXI0dVNqbEZlU3lEQlVlaTBwZnp4THQ5NUJmdVRHNVR5SG45YjlsZ3hPbm82X0taOGpodFJneTBZVHMzZ2JmX2xVallEMDVDdUtoajdad05OTXduNk1VWjRoQ3ptNE9FSTI1RzRXQXBCSnZJVWlKek9NUQ?oc=5",
@@ -296,24 +332,22 @@
      "d": "2026-11-24"
     },
     {
-     "t": "Galaxy Digital (NasdaqGS:GLXY) Stock May Be Undervalued Despite Trust Bank Charter Bid - Yahoo Finance",
-     "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZnctc1BrcFVjd0NmLTZFeUFBZkJCRXByM3ZuVXBKVlRGaVlNV1kyZm0zbHBIVzBnYXAyaDE5TDAtdWRIVkZxVzdUN0FSV0I2enBrZTQxZ2sweVRWdnpneUlmQUE4WGZCOVZ6bFpuZjdFX0VSMkdLUV9HeU50VnctQUF0RTFzdHNRUDBIQWZvMElWWlRfTW5pUkdKb001M2VR?oc=5",
-     "src": "Yahoo Finance",
-     "d": "2026-11-26"
-    },
-    {
-     "t": "Form 4 Galaxy Digital Inc: Anthony Paquette (CFO) For: 25 November - Investing.com Canada",
-     "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMXVWS0dQM3RtSjVmdktuS3dMTEx2Mkl6eGVqaEdQNV9tWXozZktnbmJvMklpTnpHcGp5YVRXVWdrVVVMdkpRNXF6cUIzUHVYV2N5MVh3OGYxQnNONTFaSmo5Sy1zNjNQM0xUalR0Q2VyWmxsbWlLVnljTXdGaUk3cERfMXhPSS1qalNLQWVSMWZFQnlpZXZ5a0RyRWItd2x1VkNUMklNeG00U1BpR3gtNzRiS0pKZkpQOEtQNHl3VGE?oc=5",
-     "src": "Investing.com Canada",
-     "d": "2026-11-26"
+     "t": "Galaxy Digital Inc (0P0.HA) company profile and facts - Yahoo Finance Australia",
+     "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qWkJHeExOQWd5b19XQ1BpemJpRUotakI5WWt5UVYxbUxQZUt4UjhvOTAwTFVvcEtERXhlUUxRN2IyYjg2MjZPMk9KUkwtZ2IxZmhPa0ZnZjNCY0IxYTBF?oc=5",
+     "src": "Yahoo Finance Australia",
+     "d": "2026-11-27"
     }
    ],
-   "composite": 39,
+   "composite": 28,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 39
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 28
     }
    ]
   },
@@ -325,35 +359,39 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 10,
-   "news_en_7d": 3,
+   "stocktwits_24h": 11,
+   "news_en_7d": 8,
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Kodiak AI (KDK) Stock Could Trade At A Discount Despite A 92% Fall - Simply Wall St",
-     "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQzV0bkFQTF95elk5c2xIdzBpUTU0eDFheVk5cmtTNFJCTW02U0w5WDlJVWhRdWU3NXBZc00tT1IwY1gxU1NzMGFuMW51Um80UlF4MF84Q2hJYmw1Q1JXYU4ta1AybVpkZmkxdXBreW5FeWpoQUVRZWZOcEVqejhIcWM5U3RoNWpvOXhPOWhkQjBMaUJTMXFYMUlxcmlvV1hCNVJrTXJHSmZUeUdLYmRTUG0tOEltR3gxY2NSUHJsdjNxeXpaV2dwWGdR0gHPAUFVX3lxTE51R0N2YmFOenlmYTMxS0tVUUs4VUM2dlNNWWd2dkRaa2pQOE5uQjdNekppTVM5SWtGMFlxdnpLRnZ0aVV3cFd2NFh2QTY4VTdwTTNDdGF4MlZacjZOUTFnaUFJczdyWEhMMnU4TGcyZ2RxdXpXN3pRandxcFBsaEZuOWRGMy1OY2h5a1dBaWlBSV9rQVhKMm9udjFublRQNWFYVXVzSXVzc3haOWk3OGFVTUs4Q2YzN2lhZndtUHdpWWNSZFN1WXpvY3BTWXAwaw?oc=5",
-     "src": "Simply Wall St",
-     "d": "2026-11-23"
-    },
-    {
-     "t": "At an average of $1.1067 a share, the CEO of Kodiak AI (KDK) bought more stock. - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNG9yWkFyd2dCRGQwZ1h5MmdjbXh6dGx2SUFNZ2lXWGtFTDRkOTNRaW5ES2V5czhhaGlfZUJLM3YwVm9nWkgzZkQwS1A4SVRsWmY1SUF5NVFjMmdFb05qTHFGVkpjaGlVeHI1a2U3V2lTR3hkak1jQXQ0VTBsdUY5Q2gtMHQ2Q01QcU8wNGMxcGxWcU5XQnVTNG9DQ1h2ZFRHZnUtTjllRU9qZw?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-25"
+     "t": "Form 4 Kodiak AI Inc: Donald L. Burnette (Director, 10% Owner, CEO) For: 24 November - Investing.com Canada",
+     "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN0lrVjJGLTAyWE9QWC1iWkxKc3JsVzdsejhNUmlIOHVqVkJWZHMzOUhubmZfbkU2QnpEeUwyMTcyTkJ6U0hFWEwwbk1XV2Z3LXgtaTNvUXotS0JCTDIyYXF1cVdZNUE5ZTl3VkdZRWI2RDdrUHJ4Qmdrb0dfUUpSMHF2ZnlLeE5yQUpVU2tyS1FsZDdQc0lWZzNJVmg3VE0zRTJlYXd3LUk1UV9ZQUZZRTMtRGR3b2E2TW5TT0JqNndBZDBsQkJfQWh1Nm9OY2hiUW9V?oc=5",
+     "src": "Investing.com Canada",
+     "d": "2026-11-26"
     },
     {
      "t": "Kodiak AI (NasdaqGM:KDK) Stock Forecast &amp; Analyst Predictions - Simply Wall St",
      "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB3LVJwYWRHUng3M2c3N1RnX1ZiV2N3QjRDVGM5dkIzYWVSdU1jdHdDNmszbVNsSzNhd1FNdEFhSGhDQ28ydHMzbmFLWXpwVWhodjV6d0ZzUm10a0hlNWhtdk9BTU83alBnUE1Jc19FRXNZUURieDZoc0hQdw?oc=5",
      "src": "Simply Wall St",
      "d": "2026-11-22"
+    },
+    {
+     "t": "At an average of $1.1067 a share, the CEO of Kodiak AI (KDK) bought more stock. - Stock Titan",
+     "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNG9yWkFyd2dCRGQwZ1h5MmdjbXh6dGx2SUFNZ2lXWGtFTDRkOTNRaW5ES2V5czhhaGlfZUJLM3YwVm9nWkgzZkQwS1A4SVRsWmY1SUF5NVFjMmdFb05qTHFGVkpjaGlVeHI1a2U3V2lTR3hkak1jQXQ0VTBsdUY5Q2gtMHQ2Q01QcU8wNGMxcGxWcU5XQnVTNG9DQ1h2ZFRHZnUtTjllRU9qZw?oc=5",
+     "src": "Stock Titan",
+     "d": "2026-11-25"
     }
    ],
-   "composite": 13,
+   "composite": 19,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 13
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 19
     }
    ]
   },
@@ -362,12 +400,12 @@
    "from": [
     "insider"
    ],
-   "reddit": 0,
-   "reddit_rank": null,
+   "reddit": 1,
+   "reddit_rank": 214,
    "reddit_prev24": 0,
-   "stocktwits_24h": 1,
-   "news_en_7d": 12,
-   "news_de_7d": 1,
+   "stocktwits_24h": 0,
+   "news_en_7d": 4,
+   "news_de_7d": 3,
    "headlines": [
     {
      "t": "The Williams Companies, Inc. (WMB.VI) Saisonalitätsdiagramm - Yahoo Finanzen Deutschland",
@@ -376,30 +414,34 @@
      "d": "2026-11-25"
     },
     {
+     "t": "Williams Aktie: Verwaltungsrat kauft für knapp eine Million Dollar – Vertrauen in den Gas-Pipeline-Riesen - AktienCheck.de",
+     "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSE5BRDFHY3dCVGhIX2ZUUl92YU1tdUdOMmRSQ3gxYjZkbk4yUDMxbVY3X0RhSG9XOS1FeHlDaHo3OWIzblZkQkItLVdzSFRmMFMwaWFRTWIzY3c0S2l4M1kxbGRaS2FCdjFwZkxBRTVGVDRaV1N4Y1dtbThjMUVVMktjSEpBdEdtOG12dXEyc0FSMk1QNWlQZW84TUl3V1hSUVhONmdncnk3QnJiRDdV?oc=5",
+     "src": "AktienCheck.de",
+     "d": "2026-11-26"
+    },
+    {
+     "t": "Williams Companies Aktie: Aktienkurs, News &amp; Analyse - AktienCheck.de",
+     "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX2ZwMDhTaXlGRmVoWTVxT3c2NUg3QjM5NFlRQzVUTU9ua3lqeEdpeVlQMndsZUhYbmJGSW9qSnJ3ZzFqMVhEdmx3WGtDMlUwdE1zMVhfQ0JaR1JMUHBYbGdpbHBqS3dyRThONmR0LWwyc3A4TlNodkozX1Etd1cxTEVqNmhkQQ?oc=5",
+     "src": "AktienCheck.de",
+     "d": "2026-11-27"
+    },
+    {
      "t": "The Williams Companies, Inc. (WMB) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
      "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tTWhMelpUVDFmNVBBUDNWdDFjX3UwMnh4UlhhbHZtQV9QU0h0UWlLNkVHX0UwTHJQSlVaXzdWY3ZGOWRndXR1SmlMNjl2bHRr?oc=5",
      "src": "Yahoo! Finance Canada",
-     "d": "2026-11-25"
-    },
-    {
-     "t": "The Williams Companies, Inc. (WMB) stock price, news, quote and history - Yahoo Finance Singapore",
-     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZRXRmUmZFc0xTbmRQWFotU2pkZVBPU3B4cjI0enhVMHdtTXpzdmNQMktDN3FVYXYtcGtsTlVLdXVlUC1aM1Z0RWJZejFNbU5G?oc=5",
-     "src": "Yahoo Finance Singapore",
-     "d": "2026-11-24"
-    },
-    {
-     "t": "Williams Companies, Inc. (The) (NYSE:WMB) Stock Has Average Price Target of $86.33 - MarketBeat",
-     "u": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSEV2ak5UM1ZwWWlxaHRqT1VHSk1QUUJJcEcwS2ZMOHNIZlpvZThxVDJOSXJmYkZsZ0JVLVVLUThLRzlqRWI0WmRpem1waWJpLXJNb2I4Q0NNa0Rtb3Y0QlZqNmc4WmNINy1iTXg1QVYyQ1pYWDdHQ2R1ei01SS1ybmx1aUR4SkZMbGJWNnEtRHV6YzlXTm9yTXBXUGVjTHVmc3RrazBVMWlSOC1xdWs2QWlhc2hRUUFpVHY5T3VzclhxamhXenowMW1lQ0h1cDRKRmN1Xw?oc=5",
-     "src": "MarketBeat",
      "d": "2026-11-26"
     }
    ],
-   "composite": 14,
+   "composite": 8,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 14
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 8
     }
    ]
   },
@@ -411,30 +453,30 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 3,
-   "news_en_7d": 9,
+   "stocktwits_24h": 1,
+   "news_en_7d": 10,
    "news_de_7d": 0,
    "headlines": [
+    {
+     "t": "Prenetics Global Limited (PRE) Stock Forecasts - Yahoo Finance",
+     "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc1N5cjdPWmUxejVEclQ2QjJkSUlOUlVELVJvbzB1REY4NE5JSE94b2FrcmhJNXZmOTl6ZVc5S1lIcmxxUFJ2NXM3TWtJem9Nd2JEQzlleWtPSXg4Ymx3eWVqSGZKbUowbzZCYjJBZ21WZVVMWG9rdGtGVy1aR0I0c3pHU0dtQUlkYXZhVW9sVGM0Nk1zQ0xVQQ?oc=5",
+     "src": "Yahoo Finance",
+     "d": "2026-11-27"
+    },
+    {
+     "t": "Form 4 Prenetics Global Ltd: Brian J. Rosin (CFO of IM8 (US) LLC) For: 20 November - Investing.com UK",
+     "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbVc0anRjY2ZyQy1udnFCMnVrcURSY0Y5OGoyc1pHclFaVGtBcjFWM2Z4djZOZmNpYnBEekdncjVzcFpycC1EcmVBX1VmTHl5eV9TeGtTOVNNejNab1I5YzZsYl9tUFFZeWNtTVRWMWRlMk9ScVNyM0NrWm1NdllmWHRmVW5PZmMyeWlRYVhSb0lZOTJMTFoyZEMyM1lsR0MyOG9mc21ZTnpzNHhGSDI4WEVKaU5aTG1vLTh6dmtick02bnpBWnpNcWRVV3U1ZnlicGc?oc=5",
+     "src": "Investing.com UK",
+     "d": "2026-11-27"
+    },
     {
      "t": "PRE: Prenetics Global Limited Latest Stock Price, Analysis, News and Trading Ideas - Stocktwits",
      "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBJdHlwTUE0VFgxN3NpdHNwRWlLdnQwYVZ3VkdwcVhqUXNMSlhsOHdKdTNKY1NEdVdZelRGeVlQMUM4MXkwcXNpSw?oc=5",
      "src": "Stocktwits",
      "d": "2026-11-25"
-    },
-    {
-     "t": "Prenetics Global Ltd (PRE) (Q3 2026) Earnings Call Highlights: IM8 Revenue Surges 3. ... By GuruFocus - Investing.com Canada",
-     "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMTF3bnREeFR2d2g1MzhLZjhLTG8tdHl2X290RjRFNE5hOXp2bG1nT25MM0JRMmRHRzczS25oRGNfaWRTRnVTbldUQ3VRbDZyQm0xOGxhaEZ6ZDM4dmp5a0g2NVN4MDh4Wm5jc2hVMElVV1NVWkN0eDB0dWpHeUNkOWRENVRHbGVZMGZLVWMyQTFPMEhPVXVuRFFYZkRlckVxcjk3dDBtX2NHYUJwVHRHbVNoZzIzX2ZxckNtVVB0TWMyZVVoZFFodkxB?oc=5",
-     "src": "Investing.com Canada",
-     "d": "2026-11-25"
-    },
-    {
-     "t": "Across four stock buys, the CEO of Prenetics Global (PRE) paid as much as $10 a share. - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ0p5Q0JDdFBJZmdTNnh6VWhoY3RiTjRCcW9BWElmaHhlTWpkcnhMeXZBbEhfOFdYb2FOMDg3c1pIcTJ4UUVjMUlnVnBVWlg5V3hFSEtjQ3JBQTB5cVpGNjZ1cGhQaUNsNmNxSzFWUkI3M3c5ekJXUWFORmdXMzdYR3FfRUh0cGZwRmhqa2Q0ekNfWHJjYUlfcEVjR3FweC1ham43Z2kxakhteDg4LVR3YTcxaw?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-25"
     }
    ],
-   "composite": 12,
+   "composite": 11,
    "spike": null,
    "history": [
     {
@@ -444,6 +486,10 @@
     {
      "date": "2026-11-26",
      "composite": 12
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 11
     }
    ]
   },
@@ -456,9 +502,15 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 30,
-   "news_en_7d": 4,
+   "news_en_7d": 7,
    "news_de_7d": 0,
    "headlines": [
+    {
+     "t": "TMC the metals company Inc. (TMC) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5LeFdsOEx6YkJVS0xYVGF6UDVGWkl5VENlREdWcjNBaThxV2hvdERlMTFhbjBqeDB3WS1ZNUVOSGx2YzBsZW5zb08wWGRkaGJa?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-11-26"
+    },
     {
      "t": "TMC the metals (Nasdaq:TMC) - Stock Analysis - Simply Wall St",
      "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjdl9BeC1JSnd5anVrN0owV0lMQXFmRHM0SWJpNm9ma0VDak9lV0I4ekhCbE9IVXFiMzZEeVA2QWVQb3EwVGV2SFRqSlo4OGFWOS1Rc3ZvMS1jWS1zVldsNndPZ2hmYVdzS0w0RWE3Wnhxd3dneHc?oc=5",
@@ -470,20 +522,18 @@
      "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPamRCa09abEJCaEdaZGs5LWQtQlpHSGhncEFlU3ZiUUpsTDRBbXdOckwtNGlKMTFoeDhNVWp1UEZET1VCN19lUEhRSE1JbWE1dkZ2NmtEOVNIYUk5cFFfTW9USE05aWlyNzc4bkRpV29JMGRBdl9CbVNPYnFMc3RDak8wa1dJRDE3dm8wbHh4eElINDlqX0huWC1ydkNMalR5aTdTT3F2bEUyWExGWENNckg3dTVrVGhqM0pnYXU1emVYd2I0NzFJTGVSdUtaelB4V2pV?oc=5",
      "src": "Investing.com Canada",
      "d": "2026-11-25"
-    },
-    {
-     "t": "TMC The Metals (TMC) Stock Stays Hard To Value After Permit Update - Simply Wall St",
-     "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTDRXd2FGYl84MkxDMmhlMDVxNU9EenJHZERwMUFHWEwxZDYtYzd2UXlIM3VtV0pxRUZHMl8zWlJqcGJBWm9HLXJOQmxHQV8xcm1VcnBYVzBWd3VLU0RZVGJ2bjA3Z1NxaEdHNE5YdHlQQ0dYZmVkUDJhWVpDTDNMdklEaU1hVnBiT0J6ZklzZGNXVWw2czJaeFBzRmRodEFLNmJSenpBNE1obkQ5a09vWlBIQktBUEF6MUhqUFZ2SG5uRkdJQ2RvVEJBdndMUdIB0wFBVV95cUxPWXBsS2dxQzdqQnU2bGIzUXlIa3N1Y2h0UTZxZEtTVUN1ZTUxY3NVTS1iWW1Nb1FIc1Q1Q1NLaHhxejZZWkdMYVBUTzFKX21COWpzNUhfbmc2dThlR3RzTkZCVEk5R2MtQ3NEdWdUX1lrZERTeld2OG0tc1FVUmdGR2J0MWFtbjlfYzhlSTMzZmRPRGQ1dzlNLWlCQ0xOaFh0aW5DRW9Oa1JXVDB1RmVjRUhrWXptWG1Xa1BabzhVMVFsdHJ2eTlEMlowUTViN0lHSFRB?oc=5",
-     "src": "Simply Wall St",
-     "d": "2026-11-21"
     }
    ],
-   "composite": 34,
+   "composite": 37,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 34
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 37
     }
    ]
   },
@@ -495,35 +545,39 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 2,
-   "news_en_7d": 17,
+   "stocktwits_24h": 0,
+   "news_en_7d": 7,
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Empery Digital Inc (Q0Z.MU) Stock Historical Prices &amp; Data - Yahoo! Finance Canada",
-     "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XaFNpQkJ3cFR3cEVBbDZCSUxkbDdsZXlWbVhfYk9HR2w5aTZMS0dJRGlreGRmR0t5VDNyV2Y1YTJ0anEyQjc1R2hEYTRJdUNiOHdXbl9EZGxUaHJTSlFF?oc=5",
-     "src": "Yahoo! Finance Canada",
+     "t": "Form 13D/A Empery Digital Inc. For: 26 November By Investing.com - Investing.com Nigeria",
+     "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbGtSNVZ4a01GWG82azYtM2oyT2ZyM1dwUjNjdEVlTG5XXzZlUE1RMjNaU0tZZVhGVUNyTW1BZXJHVXRQYkRBUHBjdkFMcXRJV2VBZTBkVTNYTm82QVhtbU02V1pvOXdtT1lGRHNQMjlhSzlpTjlmX0M1N21IcGp5aHZrNGxoY19qeWtXSm9PbTVCVFhyYVVMNERROWp0X1hxVkVwTGhzbzY?oc=5",
+     "src": "Investing.com Nigeria",
+     "d": "2026-11-26"
+    },
+    {
+     "t": "Empery Digital Inc (Q0Z.MU) company profile and facts - Yahoo Finance - Yahoo Finance Singapore",
+     "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94VEtLMXZpcDBfZkw5RjUtdzd0YUktZEhBbUVLd1A2LXAxT3dkWm10LVctazU4NS1DSWNUMUtGazBGWUViOXVrc1p4Qmh3TUxRTTFyY2FmelpNTy1YVnJF?oc=5",
+     "src": "Yahoo Finance Singapore",
      "d": "2026-11-23"
     },
     {
-     "t": "Form 8K Empery Digital Inc For: 23 November By Investing.com - Investing.com South Africa",
-     "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaGx1M2xBSEtTWVlBdmhlUEdRLUNZZ05EREEyNTVKaTdhdllLZzVmUnBTeHVIczlhdmxYV2xPWm9IcmNqNmV3dURqMlBWOFBTbFAzcGYtemhnMXFrWVZvb2p5LTNSdFJ2SFlJa1hTaDhBMmRPSnZRZ2FUS1EyTU95OEtwQlM1VTRoV1gwNlItUWFvYkVoNFhDTWs4MDltLTA4ekhsSVVB?oc=5",
-     "src": "Investing.com South Africa",
-     "d": "2026-11-24"
-    },
-    {
-     "t": "Empery Digital Announces Update on Share Repurchase Program - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVVREczBlUXpEaFBXZGxoTXdGV0g4eElQakNjZlpJZDVaa0IyeEpzMkNkM002bmhvX3NFajlrbDNIX3JUVGh3cGp5NzJLcVlwZVNNN00tRHR0aU9nUUlScXFoX05CbDI4eW5kbE1KLVJSd2R3Z1BjTHhnQkxCUXlLLVdKVU9yQWI4THNGYUdRdjFGX1hLaXJLc3dSZzNWSV9SQnhYUlpfejhfZw?oc=5",
+     "t": "A director bought Empery Digital (EMPD) shares on consecutive days, averaging $1.92 and $2.29. - Stock Titan",
+     "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTW9NR2VVejFwSWdPa2NucEhQS282SGJkVjVVQWZTLV84N3VGZHc5cy1KY2tkdHMta0h6bWxRWjJMUE41WjBmVDNUMGxaNGtWVUNEWmRvc3hRMUl1UlNIWnlaREctajBrcUp6WmlBNmhqR3VjcXlNc0RhOXpwam5GQ2QzUFc4MkNyMUYtWjktQU1fT1ZOdFVrQ1VjZ2FKYlcwRl96dkUyd19UR3VmaExwdEpn?oc=5",
      "src": "Stock Titan",
-     "d": "2026-11-23"
+     "d": "2026-11-25"
     }
    ],
-   "composite": 19,
+   "composite": 7,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 19
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 7
     }
    ]
   },
@@ -535,8 +589,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 2,
-   "news_en_7d": 10,
+   "stocktwits_24h": 4,
+   "news_en_7d": 7,
    "news_de_7d": 1,
    "headlines": [
     {
@@ -546,26 +600,26 @@
      "d": "2026-11-25"
     },
     {
-     "t": "Atlassian Corporation (TEAM) stock price, news, quote and history - Yahoo Finance Singapore",
-     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE42WFBFYXM5enBLQUhMUlFuWmpTdEFjOU9nV2h1c1MxNXJMem95RnVUTFYyR25wd1AwQmN6XzR4X2hCUW5JVksxWXBrMVZ3ZU9WTXc?oc=5",
-     "src": "Yahoo Finance Singapore",
-     "d": "2026-11-24"
-    },
-    {
      "t": "Form 4 Atlassian Corp: Michael Cannon-Brookes (Director, 10% Owner, CEO, Co-Founder) For: 25 November - Investing.com UK",
      "u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdmpmLVdBTHp1ajB2RVNVWUdvSjlLLUdzNllCODhBNm9vRXNDZTFWcW1PdXFKdWVja0d2QU9jOHA4cDNxbE1nOC1RSlZPU1paV1VGeUV4SVM0SmpJdEk2dVpzWTVLU1BKU05rc2FzcGpnRXQ1V2JtcTd6cHpyYnpzNkswaF9kSUdKMVQ0TnpUTWdOcnRqUHJGWkNNTGdoM28zUFZJUFA1T2NVOGg2UlFJYWcyY2xRSWdrUEE1c2tWdTJTRlZkVklHWU56UDFaSXFVOE9BUjZXTGdnUzExU2ZsV0JEQUU4c0E?oc=5",
      "src": "Investing.com UK",
      "d": "2026-11-25"
     },
     {
-     "t": "Sustainable Green Team Stock Price Forecast. Should You Buy SGTM? - StockInvest.us",
-     "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pd21MbWRhV2lreUgxQkRrUEhuY3dleWJLT2tBRm84OWZwRkcxd1dlWVlxZk5NM29rTGFDS21CU3oyYkl4NVU1Yw?oc=5",
-     "src": "StockInvest.us",
-     "d": "2026-11-23"
+     "t": "Michael Cannon-Brookes reported five planned buys totaling 13,400 Atlassian (TEAM) shares. - Stock Titan",
+     "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYXhSRURpN1AtV0s5bXdsRmpKbjFFTjBqTDdOVEFtMnczMjh2cTBPZTJfOTFBMmh0a0RaSW4wTWxPRU1uRnBJMlExRWk2eEhZUVY2WGhqVE1rQXlPV1VzMVFtOUlLNFdaZ1lrZ2p3NFBWMzdOYnhtU2RCY3VKbWoxYXpORG1FdGJqeDJGSl91aUt5Q29ib1Q0SVBkRHZsNEY4cXM0Q0hlU09NQVU2?oc=5",
+     "src": "Stock Titan",
+     "d": "2026-11-24"
+    },
+    {
+     "t": "Atlassian (TEAM) Stock Price Prediction: Rebound attempt tests resistance as momentum stays mixed - Blockchain News",
+     "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUW5zRmtIV2pVNXZ1STI0MWdnQmV4clFHdXVZQzdkVmlhTzQ4aTJxYjNfeDlwYzhUaDRZUnptZUp2U0xvOHRTNjJiM3ZGOXJha21Oa3BBaXdOcWZMME9VbkRWOFMyYTVXUDFxNGFmT2ZqWnlUcEVoMEFGWjhNV2tGUmFhUGxrNl8tbkx3UXNIY2VyWlRNemlKZlUyVEw0RElSTFcxNEZLUQ?oc=5",
+     "src": "Blockchain News",
+     "d": "2026-11-27"
     }
    ],
-   "composite": 13,
-   "spike": 0.87,
+   "composite": 12,
+   "spike": 0.8,
    "history": [
     {
      "date": "2026-11-13",
@@ -606,6 +660,10 @@
     {
      "date": "2026-11-26",
      "composite": 13
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 12
     }
    ]
   },
@@ -618,7 +676,7 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 10,
+   "news_en_7d": 0,
    "news_de_7d": 1,
    "headlines": [
     {
@@ -626,32 +684,18 @@
      "u": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQLU56UlRsV2ZfaXhFcnZJYWlnTEhQYWwxSnJ4ZUZFZ25tNF9jQW9DNUlpSkhmUm9RdExPV2pnUm15ZjRHYXRxWW42VE4zUzNCWXhlTjE5RTZ6LVNhQ2Y4eDRqMUd2ZWM3TDBtajRsNk5LSmMwVW5oOFdESXVvWkpWdl85Nm5mRVJDNWpEYXo3cG5tZ3U0ekxzLWY2ZmZBb25OdXR3QnRweDFsd2FLcTdtd2dHRWZjTERtcGRXM194ZkloUkZtblpCSl91TkpHSXVncVlUa19MTlcxSlN1UXQ2NnA1d2hwWlpRYWN3ZkpUN2ZsTXlq?oc=5",
      "src": "MarketScreener Deutschland",
      "d": "2026-11-23"
-    },
-    {
-     "t": "Form 4 Advanced Flower Capital Inc: Robyn Tannenbaum (President and CIO) For: 23 November - Investing.com Nigeria",
-     "u": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNenItU2I5M0hFUUFQWm1KbUd3ZVBwajBma1V6Xy1McXRCTXh6VzVHWlJuWFpheEgyY3VlMWJ4Zzl0M3RMQ0xrdHJHXy1uaURrV3cwT092MkxkMGhlalJseWxIWHJMSzNBWEN6WjRzc2xIVkF6ejdtZnoxYXdZUldPcTgwRk1PTTJqYVRHQ1gwaXlZN0VheDZJMVdUbjU3ZEFaUTNrYWRZdHFVUGVYWGxIeG5rODdkcXNNLVFLellUamQyaXp1dGNYbUtlZ1BXOWdqZmxXTFI4N1JGZTBCMGZn?oc=5",
-     "src": "Investing.com Nigeria",
-     "d": "2026-11-26"
-    },
-    {
-     "t": "Tranche Update on Advanced Flower Capital Inc.'s Equity Buyback Plan announced on May 7, 2026. - www.marketscreener.com",
-     "u": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOXRyQ0h6WjY1bktKa05kbkFLQ3EyRUwzSUpCX1hKeEMtdFV2ejlfRnZRSms5NFBaU08tZ3JSWTh4ckVVQ2RxOEZRQ3EzZURsbDBHZkM5bHNsN00tUGJmRWYzT1ZNUURvYmJQU2Jad2llNGNBdU5hX3BfcElpM1pTSVoxZ09lMDdtdlJjTjgxR1VpdzdlbVdpQUxTYVlCWkZiWGgzNW1Rd0hTbkVrWUJfWDZUcWVVRDBnS1VYX0RldEsxVTBLeUxpZ3k4TTZ5N0pJMF92OEdid2VGVzBp?oc=5",
-     "src": "www.marketscreener.com",
-     "d": "2026-11-24"
-    },
-    {
-     "t": "With up to $5M authorized for buybacks, Advanced Flower Capital (AFCG) has repurchased common shares. - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVlA0MHJ2bFRiTFdwNHdkX05xYTRRZll1ai1NX19qdzY3bHBwNkU4UVd4dWJscEh2ZEpoM09Ca3VVUHJyQUZrcDM2ZVFnaGs3bHRKRE42aEc2Y3JhUUZJR2xRbDlSWXVjN2FZT2hWdmpqcW5ObDc5TmRET0lteFo0VFJHSVBxQmp6TXd6SUNiU0VkTHF3NTdORDJLS1drS3Y3THVjZjFqenFqN09QS2xTVXVjN2wzdWM?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-25"
     }
    ],
-   "composite": 11,
+   "composite": 1,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 11
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 1
     }
    ]
   },
@@ -663,8 +707,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 1,
-   "news_en_7d": 7,
+   "stocktwits_24h": 0,
+   "news_en_7d": 3,
    "news_de_7d": 1,
    "headlines": [
     {
@@ -674,9 +718,9 @@
      "d": "2026-11-20"
     },
     {
-     "t": "Patrick Industries, Inc. (PATK) Stock Forecasts - Yahoo Finance",
-     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWjh2YjhuU0dDNFdXN010c1RWcmR5Z1FndDU5bmNrMEpaUktqYXM1ZUpxVktDUW1sNUphR3UyY3JFZ0lhejEwZkg0QjZBN0J6b1NkV0c2bVVWdkpoNXRseExSQzVlc1dnNVhuOTl3ZzZGZDMzNm9YQmZ4ZERyNGFkcjhCU0cxQ2Z5Q2t2a2Z4dw?oc=5",
-     "src": "Yahoo Finance",
+     "t": "Patrick Industries, Inc. (PATK) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5NW5jVWctMFZPT0dRMHNEa3otYlA3a1pVRUV4alMxUC1tOTRQT0RWUG1RSTFCMExHTzR2S21ZZGFwdi1rUlo5aF9NZnRucXVVaXc?oc=5",
+     "src": "Yahoo! Finance Canada",
      "d": "2026-11-25"
     },
     {
@@ -686,18 +730,22 @@
      "d": "2026-11-26"
     },
     {
-     "t": "Patrick Industries, Inc. (PATK) Latest Stock News &amp; Headlines - Yahoo Finance - Yahoo! Finance Canada",
-     "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94dDB4UmhXZWFQTDM4a0VVc3NWTExJUzlIZnRDQ2xtYjFmOHJQODhsbHpQamhWcEN0bzl3UFZqajdHMlRySkw1UzgxWV92VjZhdUp6U3RaMDI?oc=5",
-     "src": "Yahoo! Finance Canada",
-     "d": "2026-11-21"
+     "t": "A director’s spouse bought 5,000 shares of Patrick Industries (PATK) at a weighted average of $83.3625. - Stock Titan",
+     "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQjhEQjJUUmlxTUxLWlhCcFFCY09xOXBJTUlQZHpiMU0wUW83TVFpQWR1SWZDUTBXcXB0ZVA5T3k3dW44TDhlV3FsMXIyV0ZMNm5qVHFkYjhOUDRoSVA2V1ZnZUNfUF9oTWNQbzUtd240UlBaMGQ5VFExMnhPT1RKT01OR3ZEQnpMQzhtQmk1S0FYN1J3SUtXMFlMYVRYeHNBa1Y3RENlV0hRLXRMWTlPTm9FNGhBOUU?oc=5",
+     "src": "Stock Titan",
+     "d": "2026-11-25"
     }
    ],
-   "composite": 9,
+   "composite": 4,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 9
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 4
     }
    ]
   },
@@ -710,34 +758,32 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 4,
+   "news_en_7d": 2,
    "news_de_7d": 0,
    "headlines": [
+    {
+     "t": "Altisource Portfolio Solutions (Nasdaq:ASPS) - Stock Analysis - Simply Wall St",
+     "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMTVhNmVjbTR3MFh5SWdiZVZhYWNjOWtuZldiSVU3Qk5rcVVzU0FfSlNiQ2RINXZhNjJwSjNGQXVhazZFRTZ3WkN3RDRIRHZzSWhjVzM5RjVOXzRLUXJVVXdWOWxmMTZWVUVoYUdTY1FrU2FtLVQ2S2NnT3BHZ1R6cVJYMXpaN2taNHFkdTFvdW5LbnN1dlpRQ2g1NXA4RkFkWndFSV9tX3ByQnA2dk9DSE5Vaw?oc=5",
+     "src": "Simply Wall St",
+     "d": "2026-11-24"
+    },
     {
      "t": "Altisource Portfolio Solutions SA (ASPS) Stock News Today - TradingKey",
      "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhQ3JYTElqWXZ2djQ3My1qUHlYaGt4WlNoRXk5WlZlOHR2YlBpeGdLSl9lOU13cU1hdHFIY25FeWdkOV9iZzQ3QTRWdmRrT0F5VldnMVpmbEp3bmZIX0dPeGRrVklWY1ZYSHBsQkRoVTBmV1JOQ0xOYg?oc=5",
      "src": "TradingKey",
      "d": "2026-11-25"
-    },
-    {
-     "t": "Altisource Portfolio Solutions (ASPS) general counsel Ritts bought 50 shares for $293 at $5.85 - Quantisnow",
-     "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMjFYMHZHbmpYcmFGTEk2UWNOT3ljYTljeURodjlHUDEtdkkwRFZNWl9iLXNPWGpMeHdjM3hLYW1YXzFMQXdlQ1lpU1pLQkZpRnlraHdIdkVmd1BZd2FFT01VbFlQOVltbXg1QlpmcGdlZWRfNTdDT05fejQwYVVpQV8yTW50Qm1Za2NPR1gta1RXTTRvSjNoM1JpOEdxZllCWVBR?oc=5",
-     "src": "Quantisnow",
-     "d": "2026-11-19"
-    },
-    {
-     "t": "Form 4 ALTISOURCE PORTFOLIO SOLUTIONS S.A.: Gregory J. Ritts (Chief Legal &amp; Admin Officer) For: 18 November - Investing.com South Africa",
-     "u": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOQTR5YmVlaWlTZmdVUFh1MDNVM21aU3ppai1wdnlMelJiM0l2WU1KeGVteTVSTm5JWnVhSEpLMVgtVnBIMk9wLVlnLUVNQjBOa0pPOVUzSXVLOFVRRE90WXRsRnJFLWp4ekIzeWlRam5tY0w2WXJTMm81MWFmYlNqQnRiMjFmaF9aLUEwem9kb3d3NjNNWmpZblUxNG5sc0xRTDJXWXZVVFVVQVNWcmdId2oyV1cyZ2ZOTDdPRlY5VlotaTJUeFVRV0ZyRmFEVldYaGthWHBsc3V4QlZUd0VjdTlnRWwydXBYdzE0cUg4aTM4UQ?oc=5",
-     "src": "Investing.com South Africa",
-     "d": "2026-11-19"
     }
    ],
-   "composite": 4,
+   "composite": 2,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 4
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 2
     }
    ]
   },
@@ -754,16 +800,16 @@
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Form 4 Black Stone Minerals LP Unit: D. Mark DeWalch (Director) For: 24 November - Investing.com Australia",
-     "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONjQ2QXhLNEFsS2hscGRidndfdHF5R0FzR2Ywc0hQNjN2MTZrSDBBY0U0VklUQWZpblh2OVRsVHJMSVUtd1pkbXlvMzVzMTZ0bmdpU1IxY0NlNjJ3Uld0MFhfbDBCWmlLclBJYmFsTWpRMEZNQ3NhQkFMZExlSkkwajBKcGQ3alpicGdiSFB5a1J1NHdDQlB0Z1dTRHR1UVI3YW1DTEFxZlZLNnEyQXBoVGM2S0tPM0JMYk9fTnJmMk54ZnppOS1jTE84R2ZneGJnZGc?oc=5",
-     "src": "Investing.com Australia",
-     "d": "2026-11-26"
-    },
-    {
      "t": "Black Stone Minerals LP (NYSE:BSM) Screens as a GARP Opportunity - ChartMill",
      "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWXFJbXViaDI0V1otN1dmUVJQMGluVFRCTldMMklCM1JzSUNoZ1NOanpCWGt2bmFnS05aSXpLb0RuZHpQX2g3aUgxeWdFZWpEMUFZYVA5UXZJZnlnZ094anZua3R6Nl9DckMxdUJydXl2VzJQYTZpc1Q3VjZ3dUxWeS1vT2xnZzM3TWs3Tm1PS1JaemJqd2tXb2F3TGNCbGtqdU4xRklOc0FuaG9NckVvUFh3?oc=5",
      "src": "ChartMill",
      "d": "2026-11-21"
+    },
+    {
+     "t": "Form 4 Black Stone Minerals LP Unit: D. Mark DeWalch (Director) For: 24 November - Investing.com Australia",
+     "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONjQ2QXhLNEFsS2hscGRidndfdHF5R0FzR2Ywc0hQNjN2MTZrSDBBY0U0VklUQWZpblh2OVRsVHJMSVUtd1pkbXlvMzVzMTZ0bmdpU1IxY0NlNjJ3Uld0MFhfbDBCWmlLclBJYmFsTWpRMEZNQ3NhQkFMZExlSkkwajBKcGQ3alpicGdiSFB5a1J1NHdDQlB0Z1dTRHR1UVI3YW1DTEFxZlZLNnEyQXBoVGM2S0tPM0JMYk9fTnJmMk54ZnppOS1jTE84R2ZneGJnZGc?oc=5",
+     "src": "Investing.com Australia",
+     "d": "2026-11-26"
     },
     {
      "t": "Black Stone Minerals (NYSE:BSM) Stock: Insider D Mark Dewalch Purchases 22,222 Shares - MarketBeat",
@@ -778,6 +824,10 @@
     {
      "date": "2026-11-26",
      "composite": 3
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 3
     }
    ]
   },
@@ -790,14 +840,14 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 1,
-   "news_en_7d": 5,
+   "news_en_7d": 4,
    "news_de_7d": 0,
    "headlines": [
     {
      "t": "VivoPower PLC (VIVO) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hVjhXZVdJV3VFNEluWkVaS25VOU1rem0yMkxyN2lVUEVoclo3VVFaQUFpTzdsYmdDRHpQY3pCc1NjM1FkM2U3aUg1enpqLWlpdkE?oc=5",
      "src": "Yahoo! Finance Canada",
-     "d": "2026-11-25"
+     "d": "2026-11-26"
     },
     {
      "t": "VivoPower PLC (VIVO) stock price, news, quote and history - Yahoo Finance Australia",
@@ -806,18 +856,22 @@
      "d": "2026-11-23"
     },
     {
-     "t": "Form 13D/A VivoPower PLC For: 25 November By Investing.com - Investing.com UK",
-     "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNajR4N2F2SkEycjVJbmp3T3hmcHphZ09NSzZjWjVkeFN6NXVZenpMc0NSVUxVWU1NT3lXVUsxTEIyTEYzU1ZfNG9FTXN4dTdTdXFHdDB2QTRWczV4bVZFcVBzZmVhcVJ2WjhxTTVSRzBQZ0FacVBNZFhvZVhCWnJLWmxaY2ExZk9ibHBUUWZ3VVNGMXdUSk1xaTFYUy1lMEhZOGc?oc=5",
-     "src": "Investing.com UK",
+     "t": "Form 4 VivoPower PLC: Kevin Chin (Director, 10% Owner, Chairman &amp; CEO) For: 23 November By Investing.com - Investing.com India",
+     "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcmZMT3gyR2VOaWVOR1JvcHN2eXhjZ3o5NmdOVkxoVmJGWGZ1SUNSTDA2T0VhTHR4eFRjT3lqNjZFQzhUQjYtNmc5dTN5bVA0UGNya2laWjZUNC1LbWV0S3c0WUVUcWZpSEE0Y2ZtSVdhWDRRREhDeUFQeTRUZHdKcUR1ZkRLX2RHN0tHUkI2UkRTUDJnVndzc1ZrSUZwU2w1U0RxTUViSUU3NnIwTjczUHRJdXhvaXdsM1kyaXVjWkswbl9XQ2Vya1UxaXd6Y19Bd0xoSXhCcw?oc=5",
+     "src": "Investing.com India",
      "d": "2026-11-25"
     }
    ],
-   "composite": 6,
+   "composite": 5,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 6
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 5
     }
    ]
   },
@@ -829,16 +883,10 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 1,
-   "news_en_7d": 7,
+   "stocktwits_24h": 0,
+   "news_en_7d": 5,
    "news_de_7d": 2,
    "headlines": [
-    {
-     "t": "Medifast, Inc. (MED.MX) Saisonalitätsdiagramm - Yahoo Finanzen Deutschland",
-     "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xMDZUWlM0NlNLOTJGYzc2aHRFV1BpWjF6R29tS1pCbzhuTGFXWGR0UDdqcVFta1paZHY1OVIwckZLRDQ3VUJCdnR0RFAzSnNLaThINXhXNWx3QzVqcW5aZ01fREU?oc=5",
-     "src": "Yahoo Finanzen Deutschland",
-     "d": "2026-11-25"
-    },
     {
      "t": "EBITDA je Aktie von Medifast, Inc. – SWB:MDF - TradingView",
      "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQazBPcWJXX2x1dlE4T3cxQVA1TWp4WE5DUWVrbGdjaEl5WEJpOUJaVmF3Nzc3YkxMWWxhODFVakVuWEJqQ0YteTZQckRDbFlQbm4wbFBjTmlsWEpNejRfaEdMWFd4UXVNdkltRUVYVXZaQlJOOTJMYWktOUpNSnYzZ2huaGdHemlKRE5FSmJfUXZXR0tDc3Y0Qg?oc=5",
@@ -846,24 +894,34 @@
      "d": "2026-11-24"
     },
     {
+     "t": "Medifast, Inc. (MED.MX) Saisonalitätsdiagramm - Yahoo Finanzen Deutschland",
+     "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xMDZUWlM0NlNLOTJGYzc2aHRFV1BpWjF6R29tS1pCbzhuTGFXWGR0UDdqcVFta1paZHY1OVIwckZLRDQ3VUJCdnR0RFAzSnNLaThINXhXNWx3QzVqcW5aZ01fREU?oc=5",
+     "src": "Yahoo Finanzen Deutschland",
+     "d": "2026-11-25"
+    },
+    {
      "t": "Medifast, Inc. (MED) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
      "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MeTJZUW1RNkI2cmY2enNwNXZYSW13Z3BoeXMtQTVLam9GM2JydVA1aGFKM09NWnZKbzR3VldwN2NwSTIzWkpPLWtPOFF6enZL?oc=5",
      "src": "Yahoo! Finance Canada",
-     "d": "2026-11-24"
+     "d": "2026-11-26"
     },
     {
-     "t": "Medifast, Inc. (MED) options chain – Yahoo Finance - Yahoo Finance Singapore",
-     "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTjNPM2g2cVpTYzVSUHNURmlYVXBJYjU4YXpOQktncllHSHNEWWRwN2Z5b3ZjUllWNWxILTVEc0RTV2ZvTUMzNVo1TUJoOGJTR29kSFJxOWVwU3hpZm5IcFZabWlna3FEUXlHcmwwZE5lMHRNTHZfbFYteFZUOFB0TDJ2c1htYUJSMm4welBmU3M?oc=5",
-     "src": "Yahoo Finance Singapore",
-     "d": "2026-11-26"
+     "t": "Medifast, Inc. (MED) stock price, news, quote and history - Yahoo Finance UK",
+     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tRmR2WEJqaTByYjB6ajEzQlRjS2tMNnRNclVkem95N2gzRy1DSzhsbVVFYkZ0NEpqWVdHRTV3ZW5WVzNlSnh6NDRDdVZRTUVM?oc=5",
+     "src": "Yahoo Finance UK",
+     "d": "2026-11-25"
     }
    ],
-   "composite": 10,
+   "composite": 7,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 10
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 7
     }
    ]
   },
@@ -875,9 +933,9 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 1,
-   "news_en_7d": 10,
-   "news_de_7d": 1,
+   "stocktwits_24h": 0,
+   "news_en_7d": 15,
+   "news_de_7d": 2,
    "headlines": [
     {
      "t": "Teamshares Inc. gibt die Ernennung von Vincent Colman zum Direktor und Mitglied des Prüfungsausschusses mit Wirkung zum 25. November 2026 bekannt - MarketScreener Deutschland",
@@ -886,30 +944,34 @@
      "d": "2026-11-25"
     },
     {
+     "t": "Weekly Recap: Q3 revenue up 24% and $222.8 million preferred stock raise - TradingView",
+     "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNVJBSmVBTmpHODJvNC0yeW9iSUxYUnlSZEVUZHdoZjFjS1l2UE1ncjlWNVk1eUNqU011V0JmV0RBelNPZkJHeW9QWG1tRGwtMlpwNHZDZUVmNnJpZjhLOVY1MnhRU18taVE4ZWxGcVM1R2lGb2hNUUk2ck5HY21nejJqODYxeExXWjhEbENtS2puQnE0dkhGbWNSUUNRMjgzUXFIX1VIVXFJY2F6aG5XUkpLSl94TFVKZFBOb2pKWnh3bXByeXJqLUtn?oc=5",
+     "src": "TradingView",
+     "d": "2026-11-23"
+    },
+    {
+     "t": "Teamshares Inc. (TMS) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8wTGZYV1JiYlRSaWVzVWxkTHNGTlUxbEpwRVpIY3JUY292RzdwdzVUTTU0WktxU1lTMEppNFQ2ZW16Y0VvcTBkQ3BmZVpZdjNJ?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-11-25"
+    },
+    {
      "t": "TMS: Teamshares Inc. filed SEC Form 8-K: Leadership Update... - Quantisnow",
      "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbHdYR3ZlamVCZ3k1emRWREFQZ041d1huQWJlNHFQLWwtS0lESzJiZjh5cWhFc043TngyaVZHTVRiVm5WMHJNSEFULV9YelB6YnJVNllBQlpnN1gxSHlsT1J2OUxDTFJWUjEybjFtS2ZTeUtWN2xoeEwwMTluSXFGNUZfQmFEZHZLUnN2blkwNE0xbERGM25jV1VvdGt0RTZrbGpSMlBRRkZfQnow?oc=5",
      "src": "Quantisnow",
      "d": "2026-11-25"
-    },
-    {
-     "t": "Guy Levy Sells $12M Of Edap TMS Stock Following 35% Pullback - Benzinga",
-     "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTmw3SG1ZcGlxVEM0SGkzN2txeXE2d1oycnRHVl90T0kxcURwbUFSamtFQ19Hdkt2X0tsNUZmVEl6ZXRITWtSRWFIeHNtclJ5a2hmTVJWcG5rTmpLQ280a0FJNFJOcXd1Ql9RMGlmVmxwNm1EOUdyTjdjTEVsLTM5eTdfQmUxVjVaaGxSaFF2SWMwS1FTaTRyb0ZvSjlONTdqdVJnam9fQnItaGhPYTd5d2hxanUtZ0FSLTRyQ05VMmtXc0E2OUE?oc=5",
-     "src": "Benzinga",
-     "d": "2026-11-24"
-    },
-    {
-     "t": "Form 4 Teamshares Inc: Evan Charles Moore (Director) For: 23 November - Investing.com Canada",
-     "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObkduRFFoNlpscU1fVkR0Ny1ENUNLWXFWZWd5VHRRQmNTZjJwQnllTTFBc2stN3hUMnBfU2pPWC02T2Z1QU5hcTUtMWNkNGEzbVVhVDMyMVVsVVhFdVdRRGx1Y193eGU5d0o5S0RHQnN2SGw2YVkxTW9uNklrMzEwYUt1OFRWRnRkd3F5U2JVNmpmZFlSNTJnVHFTb0ZmOUpUWlphTlR1SGhpcndpT0FTTHJpcGJ3VDhPci1TbU9oSm1nYUh2?oc=5",
-     "src": "Investing.com Canada",
-     "d": "2026-11-26"
     }
    ],
-   "composite": 12,
+   "composite": 17,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 12
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 17
     }
    ]
   },
@@ -921,8 +983,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 2,
-   "news_en_7d": 10,
+   "stocktwits_24h": 3,
+   "news_en_7d": 9,
    "news_de_7d": 1,
    "headlines": [
     {
@@ -932,10 +994,10 @@
      "d": "2026-11-21"
     },
     {
-     "t": "Form 4 Forge Nano Holdings, Inc: Shane Smith (Pres. of Forge Battery, Inc.) For: 23 November - Investing.com Canada",
-     "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVTFTU01Bc2pkZzNDN3hLR2tqRnQxV0Q4cHZtVzJNaFY0aG5QNHlMbEtmS3d5MGFrUVlxLVlWV24tUXhTSlRXbXFpaDh6UEJHaGpNanYyVF9RNU9HNHlZaHpSUk9ySC0zczlITTl6ZERJTE5tMUJpamt1UmNjNEtZSVVDaW1jMkM4UlZjS0ROMHFyX2NYcjgtb3c1a09BVW90TGFuY3gtTGxkVWJtY1dzdm1GRklfZmNrSUxwcWtMYlFGaXY4VXJqVUZNSmZVMThGWGdiRUNJdzZXcm9iRGc?oc=5",
-     "src": "Investing.com Canada",
-     "d": "2026-11-26"
+     "t": "Nanobiotix (ENXTPA:NANO) Stock Stays Hard To Value On Weak Book Support - Yahoo Finance",
+     "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTkhnNW9MOG5OVzJQOTJFc1AxQmlnWFJJWmhtdEVaR1J3UVF1NElkWXVxbHZoTTFuaVJVOUwyVm1xdXBhV0Q4bGtwcVR6WS0wbzdYdWc0SUYtYkhnWEE3bDBZdW5JUVFZU0VBblFfNmtqcGc0aDFodnhfSDVndVRNSkJ3VTd1bkFsSFVKVzNMUzRHbHh3Q0Y1dUtQWndaUVZ0?oc=5",
+     "src": "Yahoo Finance",
+     "d": "2026-11-27"
     },
     {
      "t": "Forge Nano (NANO) stock price, news and earnings - Quantisnow",
@@ -944,10 +1006,10 @@
      "d": "2026-11-23"
     },
     {
-     "t": "Forge Nano Holdings (NANO) Stock Analysis Report | Financials &amp; Insights - Benzinga",
-     "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9lZnF1bzZOWGZUSUhESEhtRTlBZUR1TXIwcE41b1VYdmRZUXJzcVdkS2o1T2YwdU9salM3VDQxZGJxc09UeEtsQlc0LUFGYVEwa2JhcQ?oc=5",
-     "src": "Benzinga",
-     "d": "2026-11-22"
+     "t": "Forge Nano CEO Paul Lichty purchases $24,012 in nano stock - Investing.com",
+     "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLVZhUDFXdE52MldBdHE1T0FnWHk1WlRwaklDT1RZQ1p2Q2U4YUJtUzh1ckxXTDNBSzJSc3BoUHIwTkdsY1hFeU5yeWlNTTBJZnM0ZkUxZzZuMXEzMVRlYU12N3hIU1dGUExrRzBxYXZ3UzhkdWdSaGxaUlczd1hJc1RfdzZhRDk1Y1puVExwRGtNbERVVHZHRTNOczNPWk9Nb2VpQVZrdTR0SV9DZEF5Z3BaT1NGNEpPMEMxb2RR?oc=5",
+     "src": "Investing.com",
+     "d": "2026-11-24"
     }
    ],
    "composite": 13,
@@ -955,6 +1017,10 @@
    "history": [
     {
      "date": "2026-11-26",
+     "composite": 13
+    },
+    {
+     "date": "2026-11-27",
      "composite": 13
     }
    ]
@@ -967,7 +1033,7 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 2,
+   "stocktwits_24h": 0,
    "news_en_7d": 18,
    "news_de_7d": 1,
    "headlines": [
@@ -978,30 +1044,34 @@
      "d": "2026-11-23"
     },
     {
-     "t": "Bunge Limited (BG) Stock Forecasts - Yahoo Finance",
-     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQX295Ump1MFNzVHBpd3MxS2JBdmpyajhpUWJ4dzVOUmFPRUN1Yjh3ZmJVZkFSTVdEWFo1TGxqSExOb0QyVFBwa2NwRWp6Q25Valo0QUw3NHYwcXI1bUg5LVBDTVk3Q3VUTkx0dXZlZTRUWnYzSnl6V052TmFIYlMtdzc1SGdnZWNnU1o5NnpIMA?oc=5",
-     "src": "Yahoo Finance",
-     "d": "2026-11-25"
-    },
-    {
      "t": "Bunge Global S.A. stock underperforms Tuesday when compared to competitors - MarketWatch",
      "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWnpWaFRqRm5rc1V6WS1DdWRqSjdFS1kwLWx5NzNrM1JuMF82ZWpIelNQY2pnbnV6WEhkX3ZBWnFMRGxqUEQ4Znk3TlhyUTc4LTUxRzFRclJSTGN4b3BSdmhwMGJ1OXowS08zQ0dkRlRDSlI1X0hCNjhxejJaZ1BLcWpCZk45WGNZblVGLWV0alZBUjNmMW5QZjZrM2trek5renlNTkZOX0lPdXNuUWV3VHd0dzN2NE8yRDdaODlBbmZBcks3emRoMXhEYXVyZw?oc=5",
      "src": "MarketWatch",
      "d": "2026-11-24"
     },
     {
-     "t": "Form 4 Bunge Global SA: Mark N. Zenuk (Director) For: 24 November - Investing.com Canada",
-     "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcW52cWYxOEpNdWM3VUtIVEJxU1B4cVh2d2JUMmVzOWV3c1ZtZ1lDUmV2MFhkUzdpMWNJeUkyM2plRzd0cVd4c3lDNFZ4TnM4M00xMWZxU3ZOMmdMMU0ybkVDcldmZkRBTDEzSDhyWmZTY3FPNVBSMmM3VndvYmJLYy0xQ3RFQ2NhSEdQaEoxc0tDN1doa0dQSlJ0SDZnZHlfY2lhUEN0S2M0Y3ZXS2JkNkhvNEpFT044dV9qaDR3?oc=5",
-     "src": "Investing.com Canada",
-     "d": "2026-11-25"
+     "t": "Bunge Limited (BG) Stock forecasts - Yahoo Finance UK",
+     "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeE53ZUtRMk1ZMlFmSVpRTDJGR0JXc01vcTB0aTAycnVCSEdZSzhRZVducFc4ZzVIeTNlUUNJZk95aDgwVXFiYk9UNTFZYXhDd0l6MEloUHE0UDVXVmd6RmNaX21yOF9zcXRISUl3TF9hWHk4LUFTXzc4RDVoUXExTUlwVmZhbzhiZVJXX01vR1haYTA?oc=5",
+     "src": "Yahoo Finance UK",
+     "d": "2026-11-26"
+    },
+    {
+     "t": "Bunge Global SA director Christopher Mahoney buys over $1.16M in stock - Investing.com",
+     "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSUk4dXJsNFlHa0Y4aGpjREh3Tmlid05vVjZYdW1mN0EzWHNYWXJTZ3B2R0VxRlNsa25WS1NCVDZuejIwQjRsNVgxZDRlc1pmQng1bUd0cUFUUGZNSlpJTkdCRDRXX2tSNl9VNUlZQWVmMS1iY0w0bEowbklpNmhMblRLbFBfLUg1NmRUWG90MFBnT0xFQ0pQMENCZ0JrdjRULS1VLXFBbHlDVy1pWWVyajRMWHBkRWNBOHl1WEYzWGx2b04wZWpMeUUyVGJUUQ?oc=5",
+     "src": "Investing.com",
+     "d": "2026-11-23"
     }
    ],
-   "composite": 21,
+   "composite": 19,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 21
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 19
     }
    ]
   },
@@ -1013,8 +1083,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 2,
-   "news_en_7d": 6,
+   "stocktwits_24h": 1,
+   "news_en_7d": 8,
    "news_de_7d": 1,
    "headlines": [
     {
@@ -1024,15 +1094,15 @@
      "d": "2026-11-26"
     },
     {
-     "t": "Tronox Holdings plc (TROX) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
-     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BTmxaTWFnMjhEdm0wSlhtUnhvLV9UZmltUW41LTZUZHJ4ejJBZGpvZlhvQnMyb3QyMHFwOTNaa1Zjc1Y0a2NuNENkNjJLWXZ4V2c?oc=5",
-     "src": "Yahoo! Finance Canada",
-     "d": "2026-11-25"
+     "t": "Tronox Holdings (TROX) Stock Fair Value Moves Lower After Analyst Target Cuts - Yahoo Finance",
+     "u": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSWdFaE1BMnFNclY4UnkzZzZSd1AteEJXN2RRVmZCX3Vzb0dqdWlfOUdoUThtN3dwUVhrWlJwaHc3bk5jX0duU3E0ZHlfWVB6VzNmZ0pQOVJpMTZwZ25feW9wMGlTSGM5enBkbUI1dFhZSFlORS1faUs1bGhXNWhFdnpoR1NHSW44R0FiVFQ3a21YeV9FeDd5WGw3clE?oc=5",
+     "src": "Yahoo Finance",
+     "d": "2026-11-24"
     },
     {
-     "t": "Tronox Holdings plc (TROX) latest stock news and headlines - Yahoo Finance Australia",
-     "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB5QnBCYVNycWRUV3o5WXZBTmhVNEQ5UHBRWmgyeWZDQ0ZLYUdmbGVYaG9qYkFYa090T295MXBfd0NRTUJlR0dpM1BfR3Rxc2dYTzBoNjVPZzM?oc=5",
-     "src": "Yahoo Finance Australia",
+     "t": "Form 4 Tronox Holdings PLC: John D. Romano (Director, CEO and Director) For: 24 November - Investing.com Nigeria",
+     "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOek1SWkMyV1dBOGdyNDREX1VVSjVaazdKZHlhV3hIRTRrSHluNV9GdWFnTXVfdWVRNEI3TlQ2Q2JWdGdIZG9uT1VYdEpHUnZxYllSRU0tdFVUZmhBczc3TVVQdkgxRFNXQU9OZHEwZ3kzYUVQdjZWQzRuRUUyWHE2c0tYUDMtQ0I1VktLczE4VTREMkhSSXNUZ2x1LV8zZEJ0a2NQZXB4YjQwWXE3ZjlqYVgyYzkwWjBsc3pFdGI3NTJHMVd3WHNwWnV4dWI0T2t1YmttaWdPOVlNZms?oc=5",
+     "src": "Investing.com Nigeria",
      "d": "2026-11-26"
     },
     {
@@ -1042,12 +1112,16 @@
      "d": "2026-11-25"
     }
    ],
-   "composite": 9,
+   "composite": 10,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 9
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 10
     }
    ]
   },
@@ -1060,40 +1134,26 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 5,
-   "news_de_7d": 2,
+   "news_en_7d": 0,
+   "news_de_7d": 1,
    "headlines": [
     {
      "t": "Stellus Capital Investment Corp Aktienkursprognose: Heute, Morgen, Nächste Woche (SCM) - Traders Union",
      "u": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0TjlJSEZKVEkzV3ZDdUJVMzNvUm5UckpVbWFXR1VRNVc5OG1XZDhfV2V1ZTBaUFBYZnlORGZvNFFzbk1mdW5lNUdIWUZRS2dGYnlWLURHUXVpeTJnSE5NN2FhMkEyY3NfdWRyOUdxSlJTN01kbmxPQ2k3eHFXUQ?oc=5",
      "src": "Traders Union",
      "d": "2026-11-21"
-    },
-    {
-     "t": "Stellus Capital: Director Bruce R. Bilger kauft Aktien für rund 200.000 US-Dollar - Investing.com Deutsch",
-     "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSk91TFNPd0xSOTkzb3BfdFdZcXpibXNjbWxUQWs2N3lTcnI4Vk4tLTBxTGd4a0UtM1pSdHltRV9uNTdtQ3JyTmxxYlYzNmVBZF9kRjdINHpQWE9pRUhyVm16ZDgwTm13UlhGcEw1dVVWSHlMZVF1a0NMNkh3cXo0MUJNTE9XTGlMc2JxLXRyMGhjd1N5UlpnV3BzTlVoSzA1RW1BNlpEMGNteU1CY2ttc0JOR091bDZ5TnZKMEljOUF1dmt4Y2hjcjVZSzFnRVRJUC1OUUNVdUc?oc=5",
-     "src": "Investing.com Deutsch",
-     "d": "2026-11-26"
-    },
-    {
-     "t": "Stellus Capital CEO Ladd buys $197,100 in SCM stock - Investing.com",
-     "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWUxYRnpNVWF1VmZxOGdHbFMwcWxVWTRsT2daMGFPSUVwdWJMZmtIV1g2enJMNml2WmxDMTliNDEtczdmTFNrUGVFUjhjdm9TWUJRdlNrMHM4a2V1T2xSUlI0RFR1OTlkdUxRWmFqdW12Q3RtQVpkSnlaUV9hU2FXdUtlZC11QkI2cm5ERWp5MElpVDBOUVpBZGI3QUxQWExHNVlnRXczRmQ4RVd4dnJIWlJBbDU?oc=5",
-     "src": "Investing.com",
-     "d": "2026-11-20"
-    },
-    {
-     "t": "Stellus Capital Investment (SCM) Stock Price, News &amp; Analysis $SCM - MarketBeat",
-     "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XSzl6bFplaHJ2dmROeGMzc25zN3lLY2JHbGhKU01SSzBhVVJ1N2V4UVFJeUwyV0ZfRjhsZ2lwYTBOSDFRaWlxZDFvZzItSE1RZGpiYzVn?oc=5",
-     "src": "MarketBeat",
-     "d": "2026-11-20"
     }
    ],
-   "composite": 7,
+   "composite": 1,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 7
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 1
     }
    ]
   },
@@ -1105,35 +1165,33 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 5,
-   "news_en_7d": 3,
+   "stocktwits_24h": 1,
+   "news_en_7d": 2,
    "news_de_7d": 0,
    "headlines": [
     {
      "t": "Big Digital Energy, Inc. (BGDE) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1LZFZnci1zeklEN1F3cmFKU0Q1aVR5V1JMNkI2cTJjNndfOHFUbFh2U2xRU0JkSmZxOFVDek1zcWpfYzZ3bGdQUnRxQ182SVYtb3c?oc=5",
      "src": "Yahoo! Finance Canada",
-     "d": "2026-11-25"
-    },
-    {
-     "t": "Form 4 Big Digital Energy Inc: Endeavor Blockchain, LLC (10% Owner) For: 23 November - Investing.com Canada",
-     "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHZLZE9KUl9LVm9kTXI1Z2RlanlEalBvTi1YcDh2YkcyVGZ6VFBuT3cyenJta2dXN2h5ekNsMlhMOXEyQW5JaHFMZUxqNXdFSExXaERPdEhKbk02dzJPSF91SVhOdklFSEJ5aDVqVnVjdko5cEt6TXdnam5yTmhzM1ZOc0hJVXhfM0ptbl9NbU9CMUVBZGdxLUJTUU1MZk1Zb08tbTZtelBVckVoOTNtanloYXdlSUd0aHlnc2lwWk1URVhqWUVkZHdOVG9teV9qLWJYbEJ3?oc=5",
-     "src": "Investing.com Canada",
      "d": "2026-11-26"
     },
     {
-     "t": "Big Digital Energy (BGDE) Stock Price, News &amp; Analysis - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HcWFWbU1GWWIweXZMaENOQ0pMWWNGUWVsS2xVU1pULUI2SVg1N3MyVGUxN1ZjODMtMnYyREMwYXB5NE9yQ0RvM3AyN0o4ZWpSVUNJ?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-20"
+     "t": "Form 4 Big Digital Energy Inc: Endeavor Blockchain, LLC (10% Owner) For: 12 November - Investing.com Canada",
+     "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOcXJIMGU1dEhvM2Q1Ui1EUVR0QkJhSFpHZDBnYUFSWEF2cGV3WHZ4SlhuT3lMcU1PWkEyVklSdFdINi1Ea0tNbkhDbWo3LW1hSVVoUnZiRWIxTWNKWENPWmZKUzBld3NFTFd5WFZuOXowUjVMMklzbWdQZzBiS1U2NlJEby1YOGpTdUQzMUN2dDJtOFBhQ3FmNkswSXM5eVhmMHJuRTZzRnBwOFFidUxRcFByV1FyQUJGbGd5SE84T2dHZ2VGSmFXN240eExjUUoyYjZnVExR?oc=5",
+     "src": "Investing.com Canada",
+     "d": "2026-11-27"
     }
    ],
-   "composite": 8,
+   "composite": 3,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 8
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 3
     }
    ]
   },
@@ -1145,10 +1203,16 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 1,
-   "news_en_7d": 6,
+   "stocktwits_24h": 0,
+   "news_en_7d": 4,
    "news_de_7d": 0,
    "headlines": [
+    {
+     "t": "Sanmina Corporation (SANM) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1LUFQxOFFXeURrbXVDdFZJRHJtdVRrdEhRLVBQSEdSTkt3U0dLLVdPVUMtQnBjMkdJdm13VGdMZVpTWTJja2E2bFY1QUEtRnRPVlE?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-11-27"
+    },
     {
      "t": "Sanmina (SANM) Stock Still Looks Like A Bargain On Earnings - Yahoo Finance",
      "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX3ZxZW41UE45YUJCQldrMFlDMGp5NzduVXByUkpRaTBhYUV1TlBRdFRhU2E1LUlwbnpmeEc2cHFRNG9pU013X2RtOWRLcnUxa1lhZHFHbmpydGVvRy0xazVjRy1lNlZTX3ZWcUlNcW5RMjgxVmpCel9UTlI1N0hVVWFPNXdEU1lpck9GLVVlc2FqcUREUGdmcVM0UQ?oc=5",
@@ -1160,20 +1224,18 @@
      "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWHZlOWptRS15QlhlaXdzM2JIcTM5QUVjUFoxTmpMU3Z2UW1nLTFjZzRQZm54UXh1VnRHalRucGtaeXMyT1pzXzd4Y0VSVkc4bGRGNk1YUHBQS1Q5R25aN2l3RVpiRFBIOUVHcDZXUHVrVlVGTlZuQjJLMU9CNy04WjcyS09ZbDlkMnVnSlA5NzdEVDMzRy05b2kyM243cmx3a096ODlBYjkyU1VJMGplcllEVHdZZVJJ?oc=5",
      "src": "MarketBeat",
      "d": "2026-11-26"
-    },
-    {
-     "t": "Sanmina Corp (SAYN.SG) stock price, news, quote and history - Yahoo Finance Singapore",
-     "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95NXZ4OGQtRTVGekdqS2s4R1huZmdNTFhUSHlXRTUzT2NhNlVfVFYxYzVUcmNSWDl3Sy1aX29qYXp0N080WHRUaENYbHBhMFd5M0JRWnhR?oc=5",
-     "src": "Yahoo Finance Singapore",
-     "d": "2026-11-22"
     }
    ],
-   "composite": 7,
+   "composite": 4,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 7
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 4
     }
    ]
   },
@@ -1185,35 +1247,33 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 0,
-   "news_en_7d": 4,
+   "stocktwits_24h": 1,
+   "news_en_7d": 2,
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Form 4 Clearwater Paper Corp: Alexander Toeldte (Director) For: 24 November - Investing.com UK",
-     "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT1pmcFl6MjhsbXI2RTU4MkxiQlpUNldIbHBuSlZ6R3RJRWp0NXZRU0hYLTg3RFhLa2drMTBoVnhoMnkxRVNaQmR1alNUakkxbmRVY2REUTVvRWJnaXI4OHF0UFFuNm9WamMwX3R4V3B0TzR5RHhPN0pyOFlManc1NEFrMmZleTMzcUxmckZMMFNsZGNxMVN4RllpMWV5U0NvQUtwMzFyY0ZEdXNTSTcyckV3REJqMEdGRzhBVy1xMWc2RmRJcEswM1RpVEs?oc=5",
-     "src": "Investing.com UK",
-     "d": "2026-11-26"
+     "t": "Clearwater Paper Corp (5WC.MU) Seasonal returns chart - Yahoo Finance - Yahoo Finance Singapore",
+     "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1nbDZLWDZzb1VHS2lhZ0lKN2RIX1JDVjJITmdGRHJDTjZtaWpOOVVQbnBQMklrVUR0THNVcXQ1RzJ6S2ZoZzRINUtWZ2RtOGd3R0FtaHNBbUVScVFuMGVab09Ld04?oc=5",
+     "src": "Yahoo Finance Singapore",
+     "d": "2026-11-23"
     },
     {
      "t": "Clearwater Paper Corp. (US18538R1032.SG) Seasonal returns chart - Yahoo Finance - Yahoo Finance Singapore",
      "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZNi1WUlBQMURickJybFFTUUVzR0NsZ3BzM0c3RGh2a0phRVdxcE9NWkJ6YnJJcW91ZkhMQ3BOYnlTdE9jbWRSNTYxVzRnVWhQYVh1LXhZQ0FFWnJBNm1nUHpWcHUyVmF3QUVmMG1sdmY?oc=5",
      "src": "Yahoo Finance Singapore",
      "d": "2026-11-23"
-    },
-    {
-     "t": "Clearwater Paper Corp (5WC.MU) Seasonal returns chart - Yahoo Finance - Yahoo Finance Singapore",
-     "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1nbDZLWDZzb1VHS2lhZ0lKN2RIX1JDVjJITmdGRHJDTjZtaWpOOVVQbnBQMklrVUR0THNVcXQ1RzJ6S2ZoZzRINUtWZ2RtOGd3R0FtaHNBbUVScVFuMGVab09Ld04?oc=5",
-     "src": "Yahoo Finance Singapore",
-     "d": "2026-11-23"
     }
    ],
-   "composite": 4,
+   "composite": 3,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 4
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 3
     }
    ]
   },
@@ -1237,15 +1297,15 @@
     },
     {
      "t": "Bluerock Private Real Estate Fund (BPRE) director MacDonald bought 9,600 shares for $109K at $11.36 - Quantisnow",
-     "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOVhZamlOS2NqM2ZROUxSQmZka19fYVNua0ZfMVFXYk5HczhEd3dSY1U5M3pDMk8ySzYzenF2SGtXSkxJQ2tqMkJocF9LTlhBakxRdGZ0Q3loSHdnTV92UlFTc1JuLURucXNwVnBHcktoM0MySG9OcnVOX0QzZUNNZE1GWC1CMFhYMlY0VDBPYjhfQWYtSlltUXZlWDBRUkhRVmc1S181ODg?oc=5",
+     "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMzduQ0NxLXphTkFlTEpYSGY4cFA5MWF0aGVHR2g3OGVmZ1lkeV9VUjlDcGV5YVBPUG5zVWJULS10ZnFCX1dpWFdYNlQteHlDS194eWhaV29meWpZSG1YWkxadUVlS29Ib2FTendoWjFycHJuaWNkc3hneHFZSjhabzUyUnZoc196TDF2TmV2UDZ5THgtRWY1Um9hUTFNZWNEVjd3?oc=5",
      "src": "Quantisnow",
      "d": "2026-11-25"
     },
     {
-     "t": "Form 4 Bluerock Private Real Estate Fund: Ryan S. MacDonald (Director) For: 24 November By Investing.com - Investing.com India",
-     "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZXRFSnI4dXczeFJlN2R6WjZwVllRWkl6MTYxU3ppVjN6STdjRmdCRF84S2daTFhidVFleEJDRzVpSzVqVEhDdjZRZG53bkZHNDI2dHpGNGhYM0ZpY2RfZ1YxcldEaVY0aUx1a2VkcWpDNW5NVGp2cVk1VkZkNjJwTEROTUxoSTNBeWF3Zk1FcEZpcjRfM1ltSENWSVQxeTFNVHczY1V5bDk2bFpfOWlmOEpMY1k0cURqd0E0OGFyU0R1VG5VbTBoamtkV3NoUjZIaTk5bEJvazJzLXc?oc=5",
-     "src": "Investing.com India",
-     "d": "2026-11-26"
+     "t": "Form 4 Bluerock Private Real Estate Fund: Ramin Kamfar (Director) For: 19 November By Investing.com - Investing.com South Africa",
+     "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdWF0MGNzSWZRalVDT3dsNmxNaUp3NmdfYkhESjR0cTYxSDM2Q1FnNFg5RlJWTlVCTDRyOE94RnlSYXRBVDZLeS16TF80ek5FYUIwdXZkUkZxTno4M1cyYWdpWlIwVWhZY0ZaZV92VEI3WGwtSENLMmlUNUN1RG8wdkdRTnk0TUxEVi04S1VVOWZOeHNUb0NFZzJEMHNFXzlkbzc0cExjU1pXQ3pNc2dYNE9fODQyVVB5MzBCdm1sUUw5NjhQNlk5OUFuQnh1S1pVSlo2dmln?oc=5",
+     "src": "Investing.com South Africa",
+     "d": "2026-11-24"
     }
    ],
    "composite": 4,
@@ -1253,6 +1313,10 @@
    "history": [
     {
      "date": "2026-11-26",
+     "composite": 4
+    },
+    {
+     "date": "2026-11-27",
      "composite": 4
     }
    ]
@@ -1265,23 +1329,39 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 10,
-   "news_en_7d": 1,
+   "stocktwits_24h": 7,
+   "news_en_7d": 7,
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Hecla Mining Company (HL) Stock Forecasts - Yahoo Finance",
-     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaHV4MjF3QnBNeXJCMWF4Q2pyVTFWNjA2TE5kekRjeXNxTExPbFQxVUY3bzJhSTBsODJyUzVvVWtsM2lvNDdpQ28zZXdFekJDZl9iSXJ2V1lhZzRUY2tHVjJ2MWxiMXUxV2tNNFYydHFmcWlUYXN6YjUtNGp0dFpvNzVITTR6Y1hoMEFVRUJDYw?oc=5",
-     "src": "Yahoo Finance",
-     "d": "2026-11-26"
+     "t": "Hecla Mining Company (HL) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAyTTdwTlBVQThndUcxOWNtODhmc0dkbWpqOGtQV2c1N2pENm9aM05HUERHbnZlRkczZGdvTHpNVlF0WTR4MUtWTWdFQ1hTa28?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-11-25"
+    },
+    {
+     "t": "Hecla Mining (HL) Stock May Be 30% Undervalued On Gold Price Rebound - Simply Wall St",
+     "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNamtLZUpuMHRVdnhXWTZSN3pJV3N5WnhSQ3B0aXZHVFlCSDNJaV9ZZWdSeUVudjdQTkRLUk5Vd1pyNWs5OVl6OHE5dmNlQ0xmTXlOd08ybFNvc3JRRHNkT0ZIZlJtWDJXR3FlUHdPRnRMY2NETGRoTU8wN1F4R0NubHZ0S1A3UDROZVZMOFJtbG85X0cwSnRJWjJNZHpiY0M3ZlNSc0FjWkJrd3VFMmN1U0V1ZmN6Y1IzOTR1U21XTWpJdVJfVlFFdHdRNVDSAcwBQVVfeXFMTWprS2VKbjB0VXZ4V1k2Ujd6SVdzeVp4UkNwdGl2R1RZQkgzSWlfWWVnUnlFbnY3UE5ES1JOVXdacjVrOTlZejhxOXZjZUNMZk15TndPMmxTb3NyUURzZE9GSGZSbVgyV0dxZVB3T0Z0TGNjRExkaE1PMDdReEdDbmx2dEtQN1A0TmVWTDhSbWxvOV9HMEp0SVoyTWR6YmNDN2ZTUnNBY1pCa3d1RTJjdVNFdWZjemNSMzk0dVNtV01qSXVSX1ZRRXR3UTVQ?oc=5",
+     "src": "Simply Wall St",
+     "d": "2026-11-27"
+    },
+    {
+     "t": "Hecla Mining Company (NYSE:HL) Stock Has Consensus Price Target of $23.22 - MarketBeat",
+     "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOEI4VFZqOXJiOVo1Xzd2QTBkd1NrcnZDMWdEX3hkcC0zN3ZVa3RNUkVqREhkaDRlOHdfeFBqZ0xteVRYNkFaeHFNX2E3UFdoVEJfNWhidGJiR002MG5ORWVqT2QyU0JoWUpqaE91ZzYxMWNXWHJjR2tIbl9nd0JMb2ptRlVmN0xMQndTU0c1WVFMOEx5S01TMHBJd3dxSU84aGliaGhyX1p0T1lDX0htSEJKcHJ2QjBPbXNCWEh1bElFTzMwODh2bHlCVklrQQ?oc=5",
+     "src": "MarketBeat",
+     "d": "2026-11-27"
     }
    ],
-   "composite": 11,
+   "composite": 14,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 11
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 14
     }
    ]
   },
@@ -1294,40 +1374,32 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 17,
+   "news_en_7d": 0,
    "news_de_7d": 2,
    "headlines": [
+    {
+     "t": "Construction Partners, Inc.: precio objetivo a 12 meses baja a $105.14; potencial subida del 46% - TradingView",
+     "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10TGxZUjRacjFfQ1hYR3BoQmY3YTJHZkRXRjluWUpEZk9ZWHBHc3pJUE5FYUVjVVZVc3hYOFQ0dFBzWS10dkJXbHhOWmlWRG41dlRvLWUwaGxGTGFCSjZEbWFubXVEVm9TWk5ULQ?oc=5",
+     "src": "TradingView",
+     "d": "2026-11-20"
+    },
     {
      "t": "Construction Partners, Inc.: 12-Monats-Kursziel auf $105,14 gesenkt, Aufwärtspotenzial von 46% - TradingView",
      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1X1lZMHI2bU45LVpHWmw4Y0NhVWJpemNINHJMaXd6MXdBVE9BMlVjZnFKT0hfRjM1dHFiMGhQQjV3MlMtTy1hRkxxQkI5dU00VEVoemFfTUt1Q3p5ODc4SDdUZjJXNmxlMVRGNnZB?oc=5",
      "src": "TradingView",
      "d": "2026-11-20"
-    },
-    {
-     "t": "Construction Partners, Inc. : BofA Securities behält seine Kaufempfehlung bei - MarketScreener Deutschland",
-     "u": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONWg2TU1kM2NydUw4cXhnMmxPN1gwdkNncEVwYmphMWs4T2gxa0FQa28tMWJBaVMxN3VfcS1yeG4zZG9PSGVOOHgzOVlLUm1JT24taFpSM2Zpb0thb0xJb0ZCcUx1RG5MeExHR0JHMmJXLXBWT1pzVFFOT3ZXdDhQRVdBMWE4WGVmVVE0N2VnWVR0dDNuQzhHVHdnVEdsRk5PSUhXajFiUHA1czFXQzM5MzBUVjlQaW52alJTT3RVZ0tIWk1meUpZNFVDd3VrRVlucFFfMmFnTQ?oc=5",
-     "src": "MarketScreener Deutschland",
-     "d": "2026-11-20"
-    },
-    {
-     "t": "Construction Partners, Inc. (ROAD) Stock Forecasts - Yahoo Finance",
-     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNmYwcC1GWnhleUhMOWl5b3pfNEtqTWJRZm1ZMWtTVmhVczFUTmI1LVREeUtESF9CQi1iUHM3Zzg5TDNjYS1NMDNRUW82UjhkQTF3Q05TREZmTTZSMmJMOURhWndwMmxyVnFRMld5ZFdxZXc5a1JtMkhVSlQwR2lZWktXOUdpanFrZzVoSzhtQQ?oc=5",
-     "src": "Yahoo Finance",
-     "d": "2026-11-25"
-    },
-    {
-     "t": "ROAD: SEC Form 10-K filed by Construction Partners Inc. - Quantisnow",
-     "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaHc5emZPd0JvWVZjUzY1NE5fLU1PbHVhVHhIYWRseldNak83WnJ0WmtZV05lRDJuUmRTQW9YQW5QTmNVMWx2TmV4RUFDaS1uUVQyOExtVW9XSzBHX0RnckhWR2NXdGZZcE02cEJNZ0J3eVRpWWtCd1Z4UE53eTYzOXoxMkVFV3Q0dEluR2JoQlFhVTlsOVE?oc=5",
-     "src": "Quantisnow",
-     "d": "2026-11-24"
     }
    ],
-   "composite": 19,
+   "composite": 2,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 19
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 2
     }
    ]
   },
@@ -1341,14 +1413,8 @@
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
    "news_en_7d": 7,
-   "news_de_7d": 1,
+   "news_de_7d": 0,
    "headlines": [
-    {
-     "t": "American Vanguard: Director Patrick Gottschalk kauft Aktien für rund 98.000 US-Dollar - Investing.com Deutsch",
-     "u": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdUdLTl9TQTlLSjlqWDlxalZ3ZjVOV3M0RlZEWlRfQUx5M3NtaGFKandNdTRYMF9JdmRnMFpKeHRiREIwNEMtenBpOGJORVRjbmp4eHd3RDBkRjI4MEVIZjhfN2tBNDBLTG4tdENFRXFDTy1UazktUGJpUS1VY0FFZjEyc3dMUkt1WF9rWGtjcnp4c1U0bzdRWVFoSldTZlpadUlxWGdrYWVoUnhMNXRBSE1zQ3FNbkFWa1BZTlpBWDBZM0k2N3dHX3c4X0pIOEFCN2Q3ODQtdGExRi11cHJn?oc=5",
-     "src": "Investing.com Deutsch",
-     "d": "2026-11-26"
-    },
     {
      "t": "AVD - American Vanguard Corp Short Interest - Finviz",
      "u": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5RLUNnQWh1b1M5cGxLZFhIdF9sdHJreHlTUjFpTmI2Z0ZXTjBBMGI2NERwR1FkNEJjcjJpM1Y0WEp2MDFfdVFIZktLanA3Vl80MHVvSmtOVQ?oc=5",
@@ -1356,19 +1422,19 @@
      "d": "2026-11-25"
     },
     {
-     "t": "Form 4 American Vanguard Corp: Patrick E. Gottschalk (Director) For: 24 November - Investing.com Canada",
-     "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZTYxVDB6azNpUG90aDZ4c3dVOTZhRW5NaC1hODNzR0VHVEpaUlN1ZkJZZWpTUG1vWktrRHFPT1lqdy1jMWFSTmkzOF9wOUhzcHpRMGt0Z1hpdjdUNzFURHZXYmthaVpvVjJNZnA0T3JxTFo1NXlJVVFXX2Q0UGRFSVBwclhoZzNUc1ZXM0hnWWhQcGlWWERqWk1fdGhMS2FGV0pleV9XQ3o2blAwY1VtRFVoN2tvcjA5WFNydG1TZHQ2SkpIbG1CLTBuR09uc25ldHc?oc=5",
-     "src": "Investing.com Canada",
-     "d": "2026-11-26"
-    },
-    {
      "t": "American Vanguard (NYSE:AVD) - Stock Analysis - Simply Wall St",
      "u": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5tSzkyNm5URDBWcUR0TzMzemROdE1qVGR3cmppX0pia3RaYW9zeWRoMmVzTUZLc2lvWnFCOEZ5X3VMTWQtbzQtWTZaMldIUXBqcDNmTGRQQ2JLU2tGMkRiR3dEenpzWVFnRjlKa2lQbEM4d0RCZko0?oc=5",
      "src": "Simply Wall St",
      "d": "2026-11-24"
+    },
+    {
+     "t": "Form 4 American Vanguard Corp: Patrick E. Gottschalk (Director) For: 24 November - Investing.com Canada",
+     "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZTYxVDB6azNpUG90aDZ4c3dVOTZhRW5NaC1hODNzR0VHVEpaUlN1ZkJZZWpTUG1vWktrRHFPT1lqdy1jMWFSTmkzOF9wOUhzcHpRMGt0Z1hpdjdUNzFURHZXYmthaVpvVjJNZnA0T3JxTFo1NXlJVVFXX2Q0UGRFSVBwclhoZzNUc1ZXM0hnWWhQcGlWWERqWk1fdGhMS2FGV0pleV9XQ3o2blAwY1VtRFVoN2tvcjA5WFNydG1TZHQ2SkpIbG1CLTBuR09uc25ldHc?oc=5",
+     "src": "Investing.com Canada",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 8,
+   "composite": 7,
    "spike": null,
    "history": [
     {
@@ -1378,6 +1444,10 @@
     {
      "date": "2026-11-26",
      "composite": 8
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 7
     }
    ]
   },
@@ -1390,14 +1460,26 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 1,
+   "news_en_7d": 4,
    "news_de_7d": 1,
    "headlines": [
     {
-     "t": "HLIT Aktienkurs und Chart — NASDAQ:HLIT - TradingView",
-     "u": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBqM0RIaWgxZlZPNENOSW1WdENEbGVDRnhkNXliRTlhS2VfSHRqVWtSODllN1E5clNnMnRENk9tcDdXSVVEYm4xeVNtRE42RTdvbWVDeTFhblU0d3M?oc=5",
+     "t": "Calix Aktienkurs — CALX Chart - TradingView",
+     "u": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sZzRpNU1OR2RRSkdSV1RaOWFYY1V6cnZ0Vnc2b1dncnl6MzgyeWc3aVRvbm9MOW84Q20ycXFGeXA0QVA0VlFTeU1EQnRNT0lzQUNVWlpIQVo?oc=5",
      "src": "TradingView",
-     "d": "2026-11-19"
+     "d": "2026-11-20"
+    },
+    {
+     "t": "Vistance Networks, Inc. (CM9.F) Seasonal Returns Chart - Yahoo Finance - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KVVh1LUxaSUdLajRHRlQ3dFRPMUlyTEdoOWVGeE5mS29IMHAwOS1PdjEycGtWYUthMWlhWkxYNmNTNzVPVTNhQkNRMm1BNV92c0ZnTl9uZGlveldqbmRrb1hBWQ?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-11-24"
+    },
+    {
+     "t": "Form 4 Vistance Networks, Inc.: Krista R. Bowen (SVP, GC &amp; Chief Admin Officer) For: 24 November - Investing.com Australia",
+     "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRXdBMkZTbnFCWEQzdWhxUVhwb2gwalRScW54Xzd6UFRxUGZURk85SGpsQkNYV3Y3WXR1Yjc2ZXRlMjhhbFE3MlRyUXVYUUFiaV9na1Y2bHN2Ylp0eHRNWkh2bURPdmQ4WFdTZ1ZsN1Q5N0dNMm4wQkwyR0txbUhJbTFsNUxLN2ZMU0FNeTlKZ09lU2lCSXNTLVgyQU9SMVI3NlRYaGdJenAweUpib19fUnBkRXpwZVF2SFJNdTNIendnYVJXTWxNV0xtM0VJTTZrdFc3aGY2REd3aHFMZ2xkaFNR?oc=5",
+     "src": "Investing.com Australia",
+     "d": "2026-11-26"
     },
     {
      "t": "Vistance Networks, Inc. $VISN Shares Bought by First Trust Advisors LP - MarketBeat",
@@ -1406,12 +1488,16 @@
      "d": "2026-11-26"
     }
    ],
-   "composite": 2,
+   "composite": 5,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 2
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 5
     }
    ]
   },
@@ -1423,16 +1509,10 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 2,
-   "news_en_7d": 10,
-   "news_de_7d": 1,
+   "stocktwits_24h": 1,
+   "news_en_7d": 7,
+   "news_de_7d": 0,
    "headlines": [
-    {
-     "t": "Live technische Analyse der Vivani Medical, Inc.-Aktie (VANI) - Traders Union",
-     "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VdHZzQTVTekU5RmZzZHhFdkh3OEl0WmUxQ01WR0Z5cmdyQmR2Z1ljU296Wko3QlBXcFBXUVhwMXJuYlhlYTR0ZThhLU0wQk5BTS1XVnM4Vk4xd000OTBaU0k4Ql9FOVJQOXhCbnN4V1BIUW8?oc=5",
-     "src": "Traders Union",
-     "d": "2026-11-21"
-    },
     {
      "t": "Vivani Medical, Inc. (VANI) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Fd1JKVVZrc2otcFdkdGhTV0trbTF5OGFsSDBDRW1kWjIxb3N6YW9NQVFMdUpFdGFMWGl1eFVRdnhOV19ELWhQYXdWSjV6TGwxR1E?oc=5",
@@ -1446,13 +1526,13 @@
      "d": "2026-11-22"
     },
     {
-     "t": "Vivani Medical, Inc. (VANI) stock price, news, quote and history - Yahoo Finance UK",
-     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5telpTcG14M2VvWHFLSE5xUG9kd3Y3UndqMzFHOWtuLTd4UVYwV2toRVRhUVVkT1RBVjZoenYxNE44X0EwaVc0bHVGbFM3eXI1aGc?oc=5",
-     "src": "Yahoo Finance UK",
-     "d": "2026-11-23"
+     "t": "Vivani Medical, Inc. (VANI) stock price, news, quote and history - Yahoo Finance Singapore",
+     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1yR0xaYWJJbDQ3dnk2dy04YVVpcFVmaUJJc3BTRlU4LUYzaXBiekwxNXlLQ3V6emF3d2xTeU1WaS1NYnByaWZ6N2kyRlZZM0pmNUE?oc=5",
+     "src": "Yahoo Finance Singapore",
+     "d": "2026-11-25"
     }
    ],
-   "composite": 13,
+   "composite": 8,
    "spike": null,
    "history": [
     {
@@ -1462,6 +1542,10 @@
     {
      "date": "2026-11-26",
      "composite": 13
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 8
     }
    ]
   },
@@ -1474,34 +1558,19 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 9,
+   "news_en_7d": 0,
    "news_de_7d": 0,
-   "headlines": [
-    {
-     "t": "META_TITLE_QUOTE - Yahoo! Finance Canada",
-     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FTlVzOE5rOU1IRDRuWDRpWDVMeC1lN2ZOUFQtbkl6cFdLMm1oSk1DZE9lbzFCM3FUdW10WUl6bzQwV1B2Y29EQzhLU1VCeFM5SGc?oc=5",
-     "src": "Yahoo! Finance Canada",
-     "d": "2026-11-23"
-    },
-    {
-     "t": "Sunrise Realty Trust: Foundation buys 24,017 shares - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbDBNRGkwc1FjRldYZ3gyTUpIWm9jT2NGcHMtMWNfZTJRX0Y3MFZuMjBDX0ZxV3kwcjd2WU5mVkF5NTAyTVlWY011Mm9iUnh4NEoyNjlnMThPSzFJVlFQc3Q4Q055LW1nMVg3N0tQRXVCRjhXSHhlNEViTV96RTdUSjlPQzB3akpxSG9ENDRibkN3b3NTcUhLa0xQSERaX01RX3lZaEg5MjlVc2lmYTR1ajJvN0V6alZLbEE?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-25"
-    },
-    {
-     "t": "Sunrise Realty Trust, Inc. (SUNS) Seasonal Returns Chart - Yahoo Finance - Yahoo! Finance Canada",
-     "u": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3YWVOVzFuZXhCd28xRmZQU1Vud3dlM01nM2JNRmdxamlRbElOTzhwTzByV05odjNfZWhuNklPYUNZczkxVUI0SUlldWNXMmNDMzVuOGl0endLZDE2WVN6bHRB?oc=5",
-     "src": "Yahoo! Finance Canada",
-     "d": "2026-11-23"
-    }
-   ],
-   "composite": 9,
+   "headlines": [],
+   "composite": 0,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 9
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 0
     }
    ]
   },
@@ -1514,13 +1583,13 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 8,
+   "news_en_7d": 7,
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Form 4 MEXICO FUND INC: Saba Capital Management, L.P. (10% Owner) For: 24 November - Investing.com Australia",
-     "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNV0ZhZVFNVVZSWTlDUGE2aUQ0RVV6SmgtSy00T0FBelZFVUxzVUpmWExTUnhvSEdxUHJGVUtLdTV2ZlZTQ1FEYmhweUdWRFlpZjBrVC1OeXZIcjBEczAtMXhEdU1PQllRbXJRNkNfQi1QTFVhVHAxX2R4OWFVVFlKOFhBOGZOOGxfX3lUUHo4aE0xQjJ4VTEzZzhyRklFdjBFN2g4RWpQUU5VWlM5QXRSTzhvZkFteFFnSEgwZU41S3MxMG5UVURsaFNFVXI0S3R0?oc=5",
-     "src": "Investing.com Australia",
+     "t": "Form 4 MEXICO FUND INC: Saba Capital Management, L.P. (10% Owner) For: 24 November - Investing.com UK",
+     "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYy1ESGFRQnZyTDVMZlliSno2RjVlMmZWUUtTei1rV3VONXdsSURZSXlQTER0MUw1M2JLV1F3SEtabE9TYk8yZDNpUjF4SW9hMTJoYl9PV0FDcVFGMzkxekpqelZVd3JxY1NvS0FhOE9EYWFSZU9GSUs2S1hUOGFhNnNIUW9OSmk4a2hKZE91eERHd3dlTkk4REp5eDg5ZmF4RV9wVzVXZFVsMWR3UFYtQXdCSzlLVmFXWVpabjRhSTFONWo2S1MtRTJldmtpOVl1?oc=5",
+     "src": "Investing.com UK",
      "d": "2026-11-26"
     },
     {
@@ -1536,8 +1605,8 @@
      "d": "2026-11-26"
     }
    ],
-   "composite": 8,
-   "spike": 1.33,
+   "composite": 7,
+   "spike": 1.17,
    "history": [
     {
      "date": "2026-11-17",
@@ -1570,6 +1639,10 @@
     {
      "date": "2026-11-26",
      "composite": 8
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 7
     }
    ]
   },
@@ -1581,8 +1654,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 10,
-   "news_en_7d": 18,
+   "stocktwits_24h": 0,
+   "news_en_7d": 9,
    "news_de_7d": 1,
    "headlines": [
     {
@@ -1592,30 +1665,34 @@
      "d": "2026-11-25"
     },
     {
-     "t": "Expand Energy Corporation (EXE) Stock Forecasts - Yahoo Finance",
-     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcXdaX29TMDdEQlBzYlllZW5Ma1QxS3hwRm95dGNmQ3hkc2FUYVhLN05pbkhGQm9GMTBxT2p1Y25WaXMtYTVqNE96TDA4eUZBN2xRRjdzT18yQUgtMXBzWHMydmpPUk5xd3FidmtyNkJmNGhEUktWYUh3TV9md1QwQkVzb0xQUFozWkZmT3ZYZw?oc=5",
-     "src": "Yahoo Finance",
+     "t": "Expand Energy Corporation (EXE) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBiRjBwMXBaaUhqRUFUak1KaHowd2gyTjFlLUJYRm9TRHVSOUZROWVxWnJucGtiUFpZUzhHVzExbXlzeHpIR2Z5WnNBYUhxbVhO?oc=5",
+     "src": "Yahoo! Finance Canada",
      "d": "2026-11-26"
     },
     {
-     "t": "Expand Energy (Nasdaq:EXE) - Stock Analysis - Simply Wall St",
-     "u": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xTjJjS21wRHRqN2pEWUNRNkVIbVJQcVh0bkh0bEdZMW1zYnNmT1B6YzRGU0x6Ri1LY3RHdTdBdXVGUGxMalJXUmVzZjc1RGJUMUVLTk4yMHlTa1dPTUw4NG9BdnYtal9lZkNIRFRlenI?oc=5",
+     "t": "Expand Energy (EXE) Stock May Be Undervalued Despite Royalty Deal Activity - Simply Wall St",
+     "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY1hZdUlkMi1EdW1ySGpwcXR3clhydFlJeUxSSzZfZS1oT1V3MHU0M0RxLXRuMXQ1VzRxbHgxZXFKelEzVTd4V1Jnd1k2WmJ0V0I3Sy1yWE1yREVBZllrOFBVaXAxZnM4QndHeFU3YXBpZjd4bXBOSjdwVHRmNnV5UEhXNngxc0ZwZE13X0NPSVBhRmVDbndnZmJESjFzUGpFVEZRR1hrSVpXX2NEbnk4ZUdhZlFHT0piX1ZXT19DWFdDX05LYUs5a9IBzgFBVV95cUxPLWZZTU04dC1sVDFFR1JhQ09CQ2VpQkhZMWtLQ0twWTVVUEdfbHp6REEyY3Q4RkZZRmY4NTlUeVBSWlk0NUg4YTZkZlljWXVpN1B2Qkt2dVFEekJSQkwzMlhtYURmTnd3NjVzNVMySW03T2NBMDZ1V0lhRVRlc1FRb2RiZVpBOHNZd3hkX2dQdms0RE8wcmFFVlFGWHI0MVpOcU9ORjVaaGgtNERERlotM2QyS1FWdlI5emdwenNGSG1PZnp5OWRPYlVzVTBuUQ?oc=5",
      "src": "Simply Wall St",
-     "d": "2026-11-24"
+     "d": "2026-11-22"
     },
     {
-     "t": "Expand Energy Corp Establishes US Commercial Paper Program On November 20, 2026 - TradingView",
-     "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYzBzbTJZMmJsYzNSYndVd2RpUVA0bmZTTm5Ma3ZoMjhHd3lTclNqVXgtYWJjLVd4VzM2eENlaDkxUFQ2Y2c1ZzdDR0VGRFJubTc5a0NtT0Y1MlNPR0d0NGNpUnBkN0ZfaXUzalZrV2J6UFVQUExXYmp0T0k4cDgtc0JkNTVRMmxTUEVGNlljOC1BTXB5STQ0bmMxTVVGSG5HN2hBX29SNUF5TTJINHM2VlFKb2I0YWVFRl9STURRUjg2dFFCT1ZKQ0dKWmxXTWIzMmlKbi1UaUxCU25JSHZtQW1R?oc=5",
-     "src": "TradingView",
-     "d": "2026-11-20"
+     "t": "(EXE) Stock Trading Blueprint (EXE:CA) - Stock Traders Daily",
+     "u": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOEdsd2lEUHU3MnIyWFJ0Q3pEUjY4WHlwdUxzQ3F3OTlycGJQMWxXVUM1UXVpUzNHWXhkRk5VY2d1ZGEwc0xQYjdPSnVKNWtFZjloV2FlcFpWTmY0cDdGc0pZdjlFSU9BZHFKS2JxX3IyZmRHcXNTcXhHLTZFWDl1TW5jcm9RVmktSDVnUllR?oc=5",
+     "src": "Stock Traders Daily",
+     "d": "2026-11-25"
     }
    ],
-   "composite": 29,
+   "composite": 10,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 29
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 10
     }
    ]
   },
@@ -1627,8 +1704,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 21,
-   "news_en_7d": 3,
+   "stocktwits_24h": 15,
+   "news_en_7d": 4,
    "news_de_7d": 1,
    "headlines": [
     {
@@ -1638,30 +1715,34 @@
      "d": "2026-11-20"
     },
     {
+     "t": "Bradbury Capital Inc. Company &amp; People | BBCI - Barron's",
+     "u": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RQV9mTDJNOVFVUWh5bzNMWDdfNk9sb2pyM3BzMXpWTkYxRFN4cGQxZm1WeUJHOUtZQnhwdlRILVlOVTNyQjZSeHM1cmhNWXlCSURUTDNnUnFER0tJMjllUmJTVkxZMm9vdHA3ajkzOA?oc=5",
+     "src": "Barron's",
+     "d": "2026-11-25"
+    },
+    {
      "t": "Bradbury Capital Inc. (BBCIW) Seasonal returns chart - Yahoo Finance UK",
      "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvRHhnQTVoWTBRWUx0Rk4tLXZETWhOU3IxcTg0R0dueTVFRDdKNVVIdU4tX1NvMVAzOWJ4UEhDVGN6U2s5RGpoZXUyRE1MS1NoR0h0N0oxTG9zV3lvSFdKQ3ltWQ?oc=5",
      "src": "Yahoo Finance UK",
-     "d": "2026-11-20"
+     "d": "2026-11-24"
     },
     {
-     "t": "Bradbury Capital (BBCI) Stock Analysis Report | Financials &amp; Insights - Benzinga",
-     "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5zWUxfWExDU3RuczFPOUlQeFlGUHh5NVlXSmQxSkloWGhMT0VGWThCNjlaS2xaMmJSWko5VDRYbEVFcGVEd0UyR1BSVFd5NnZyclBEQg?oc=5",
-     "src": "Benzinga",
-     "d": "2026-11-22"
-    },
-    {
-     "t": "Bradbury Capital (Nasdaq:BBCI) - Stock Analysis - Simply Wall St",
-     "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVmRTdlRGWFE0NU1VaGpZaHlITFIwNFVPUWVld05oSEUxQ0Zqa29Na2hPcDRpVjdyQzhqNzdCZTF2NmhQSXdsRWNYOW83UFpaMW4yUEJROEJ5NVRabFBaWUxITHU5Z0JfV1ZGSXYxOGNVemtoUGJrcmJsWVE2S2pmcVZKMFVUbGJwUUtj?oc=5",
-     "src": "Simply Wall St",
-     "d": "2026-11-23"
+     "t": "Bradbury Capital Inc. Ordinary Shares (US: BBCI) Stock Price, News &amp; Analysis - Kalkine",
+     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE84UVVZS25NdkxhLWxCTWwyS2lIMHBmUGlvc0MwSEtDck5yY3RBMXB2NGJ2aGZkZ3lRTWJyUDAycTB3U2NScjlEUEM2bXpRT2M5?oc=5",
+     "src": "Kalkine",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 25,
+   "composite": 20,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 25
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 20
     }
    ]
   },
@@ -1673,41 +1754,39 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 4,
-   "news_en_7d": 4,
-   "news_de_7d": 2,
+   "stocktwits_24h": 0,
+   "news_en_7d": 11,
+   "news_de_7d": 0,
    "headlines": [
-    {
-     "t": "AEVEX Corp. Aktienkursprognose: Heute, Morgen, Nächste Woche (AVEX) - Traders Union",
-     "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UZXRrMElyb3pzbDhZYWlvOW50ZTdZWFlXWHluR2VZejQyN3Z4OWwxMkc1ZjZkUnJyTTg2bjVJWklJTElYY0V1V1FFbElsYW5SU2JjbzVabDU4dTFrVHJoRmRFMmdjWUh0b1piRGVPb1RkemVrZHIxZGlpWHNlMTQ?oc=5",
-     "src": "Traders Union",
-     "d": "2026-11-24"
-    },
-    {
-     "t": "Live technische Analyse der AEVEX Corp.-Aktie (AVEX) - Traders Union",
-     "u": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UTFFBb0E4Z05DVGZlTXlCVmpHOG1oUjdDX0ZBTUY0Zl9odThuRndhTW1CRE1ESmd3LXhuNWdJMmd2dDZIcWMwa2pVdE4wdXN6dFVFeDRCMS1ITmtHUXRfWlVSMkRmQnpUdVBlZ19pcVVyakE?oc=5",
-     "src": "Traders Union",
-     "d": "2026-11-24"
-    },
     {
      "t": "symbol__ Stock Quote Price and Forecast - CNN",
      "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pUEp6eVdSaFh1eUhfWnVEaFNHSE4zYmNHQ0NTVWRCUkM2b3ljQlUzblpWRkxNTjlUN3c2YnVqdWswYS03MldudldydXMwcmpL?oc=5",
      "src": "CNN",
-     "d": "2026-11-26"
+     "d": "2026-11-25"
     },
     {
      "t": "AEVEX (NYSE:AVEX) - Stock Analysis - Simply Wall St",
      "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kQ3NVbExSdUt5eDJhVzU5LXYzVDd6djF6WFBGNWpNT0RVNHREMEpGYUFqMkc3eEF0LU5hMnJYTi0tNWxkVlJIVmN6WTlSV1hEelRpb2RiMFdTbTVHQlZ4bTFYdDh0NjlUYjlKaS1B?oc=5",
      "src": "Simply Wall St",
-     "d": "2026-11-24"
+     "d": "2026-11-27"
+    },
+    {
+     "t": "First Trust Advisors LP Acquires 3,546,031 Shares of AEVEX Corp. $AVEX - MarketBeat",
+     "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQY1pqS1FZZ1prdVpvcFhpeGdCenI3Yzh1Z0h3SEdGZ0ZZWDdTWTMyVnlxbGJaSlBWbnZJMmVpR2VWV3F5YWJKZXV3M1JkdVdVd3NDOWtjNWZDUElVdHhRQTltZlZLWXBVNEhsam1KZklfaUNCQndfMG04cFdZTmxtZ1N3b2psVDlxdWlPdFJPR05mTE4wb25HTGl0VmJuLVBhTFZDUVFSWTFrYV82WXhudGduQW5QNkJzeE1xSTVPUHRYSHdCeHc?oc=5",
+     "src": "MarketBeat",
+     "d": "2026-11-27"
     }
    ],
-   "composite": 10,
+   "composite": 11,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 10
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 11
     }
    ]
   },
@@ -1719,21 +1798,15 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 2,
-   "news_en_7d": 3,
+   "stocktwits_24h": 0,
+   "news_en_7d": 2,
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "DarioHealth (DRIO) Stock Sees Fair Value Cut As Analysts Reset Execution Expectations - Yahoo Finance",
-     "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV1VpcllvVEdEM25iaGlBM0wyX0dSdmxwYTVlMXAybm1XNy1aZFU0TzJZMG0xQWh3QnNONUhuMDQzbDR6RmstS21kNjZIVGZwU2pSbExLdm1QbXBiNGlCdGFwaVJjMWVfMjg4VDU2bGNneDVuakVnNUFWdGwzRjZqdmpGWUo4M00tRmpZUktkWlNSY1BvV1FTb2g0UmNVUQ?oc=5",
-     "src": "Yahoo Finance",
-     "d": "2026-11-26"
-    },
-    {
-     "t": "Dario CEO Erez Raphael to Lead Panel Discussion at U.S. Bancorp | BTIG Tech-Enabled Healthcare Forum - PR Newswire",
-     "u": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQVJyV0JnM3VPZlNKMk1SR280YW9JS0hBT1ZOOElVNmNVeWZPMmFqeERtNzIwMmV4ZXJwWjBnNWVKR1JEal9Ec0ZnT3QxSXB2NHhqaHBmZ0FkaWhVeVF4N1h3bW9vb0ZRU3FBRl9GbXJoWm1aWDFZXzl5RkpPRjR0ZDE5SkU1a19zNjdBbThlSmpLXzZNR1BNSTdYVzltc2Z6OEJGREFxQWRTWjFFMzB1TVVkQW85ZllBSFQwa3RJbFRYZkYwZFFYcm5hQ0JkX21pUmNnQlc3R25uUGNwN3c5M1ZIMWd6cGRhQzRiVA?oc=5",
-     "src": "PR Newswire",
-     "d": "2026-11-20"
+     "t": "After buying 3,071 shares, John R. Palumbo holds 69,571 DarioHealth (DRIO) shares directly. - Stock Titan",
+     "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORFRuMmRqN19GVzJBOE4wT1ltU0MxS2FQVXB4RE9RcXIyU1lzUHJsZVdRRVZHYlpvWWpPMmtYUTB1YnQzLUpTNTg4a3pfMXVZVU5xTEZRaXEya0ZXbklndGlJVkc2bEtGbnJQemtQbUNrMjRuQWtZUWNFcHNSU3hUOENhdmtSN1VkODJzQmRnOUkwLV9mU3A3RHpYcFlNT3J2WldWNFVKeTJ0UlM2cGJQVg?oc=5",
+     "src": "Stock Titan",
+     "d": "2026-11-25"
     },
     {
      "t": "DarioHealth Corp (DRIO) CEO Erez Raphael Buys 26,000 Shares - GuruFocus",
@@ -1742,12 +1815,16 @@
      "d": "2026-11-26"
     }
    ],
-   "composite": 5,
+   "composite": 2,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 5
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 2
     }
    ]
   },
@@ -1760,34 +1837,19 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 3,
+   "news_en_7d": 0,
    "news_de_7d": 0,
-   "headlines": [
-    {
-     "t": "Global Partners LP (GLP) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
-     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5zbGx1b3J4OV83UnJQZEx0ZlJnZGFJREg3WFZtQTlXQnNaUWl5TG1rVlJJRklaRFcxRDJ0aUV4NkplRHlBXzM4SVhtTC00REZD?oc=5",
-     "src": "Yahoo! Finance Canada",
-     "d": "2026-11-24"
-    },
-    {
-     "t": "Global Partners (GLP) insider Global GP bought 2,455 shares for $101K at $41.08 - Quantisnow",
-     "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZGpIcGU1bDFRaEh5RDNvLTQ3VDZOd202U3N4VTVXMGpidGtSMDlybDJRMUFxNUNFUUZNTzd2YzZFQS1Qb2VQWFRwMnJHSDdSbi1QS0xkZjlxX0ZSNlNUeDFfcFJyZE5NbTgyVV8tNlZsczYxN3FTMGpGMG1YOGs0NkdlcUM4aDdITnVMUV9iQlZFR2VpS0N0eEJYZmRpTjRTMHI4aw?oc=5",
-     "src": "Quantisnow",
-     "d": "2026-11-25"
-    },
-    {
-     "t": "Form 4 Global Partners LP Unit: Global GP LLC (General Partner) For: 19 November - Investing.com Canada",
-     "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVURsSGxrSnNlM3REV1ZRcjBuVDQybU1qb0ZGY2xhdTFWWF9TRWY3b3hzYmV1R2hFVXNaclQxRFE2VHZ0eGs0UlAzZDNBTENrdjMtNHYxMHpyai1FMmdtd0FWOFZ5aDNhbmQ5d3liN0ZtYXl3VmJGZHBPMWRwY2lQN1RoQ0x0elNBelJlRmc0UW96ZXgwekVHZGp3Zi1xZ3VjU2hicWktQ3M2OW9TODg1azBCaDl6WnVQRTE3LVA3WVRwRF9IMGtxSEhQQnJveC1WWUY0?oc=5",
-     "src": "Investing.com Canada",
-     "d": "2026-11-24"
-    }
-   ],
-   "composite": 3,
+   "headlines": [],
+   "composite": 0,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 3
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 0
     }
    ]
   },
@@ -1799,35 +1861,39 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 2,
-   "news_en_7d": 4,
-   "news_de_7d": 0,
+   "stocktwits_24h": 0,
+   "news_en_7d": 2,
+   "news_de_7d": 1,
    "headlines": [
     {
-     "t": "Form 4 GrowGeneration Corp: Darren Lampert (Director, CEO) For: 25 November - Investing.com UK",
-     "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU0RFVTQzczdOMkNndE9qWTAtSVFQazl6RmpINXB0RmY4azlhWXlKTUR5eEZyMlJENVdUYmppUE5GeFlFSGtpX1dSV3dGQm1pZzY4MjVlNTNPajVZQzJQT2FXX3NQYzQ0WUw2d1VOd25ILVd0dUw2eksxaFVSd3AwRHhjVlhZRkRmWHFxRzNzYktXTHZSaUE3LVpFS1BfRi1uYTVlNm95QXhKNTVPVVM4TWQtempTTWRvQ243RkNZVy1jOGxtNkZHZFZfUQ?oc=5",
-     "src": "Investing.com UK",
+     "t": "Price to earnings forward von GrowGeneration Corp. – NASDAQ:GRWG - TradingView",
+     "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSWdCM1NiWnVhVDV5MThEUXM1T1ZmdFVTR0M1MDdQbE9VejBuUHdjV1JMWml6NVVLY1pYeF9acmNRTjNOTFBxVXFmczdiRmwtczdPZmszLXQ5U1RsdWtyYkM4RjF1RHk2QU55dHFoSlhna01YS0VOLUpNSGJiV3p1NG9HdU1pT0xRLWJlMmpqblQxekxPRjVBVS1fMG1nM0N2?oc=5",
+     "src": "TradingView",
      "d": "2026-11-26"
     },
     {
-     "t": "A GrowGeneration (GRWG) director sold 66,334 shares at a weighted average of $1.02 per share. - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUGFBQzVOTHpUOEZJUlBGVkxJLUFtbjFKNUJ6VDdnSVR4UjZLRG16Z3JLRlRHdWU0RWNMUk1zSUNKQUdiTHdoUmtfalQ1dVVBTmp3Z29Selh6aDJpOG1iODliT0ZKRy1rWUdjSmFLYVJDZS1lNUlfRlowZlI0NVI4RkpTb0tCMzU0TnI0Q2NNN004cnhiNS0wVGF4TXdpNWtwQnllMEh2Z0JTMHpXT3NkaEk1YmE?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-23"
+     "t": "Growgeneration Stock Price Forecast. Should You Buy GRWG? - StockInvest.us",
+     "u": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9IVHlkNXQ0cUh0Q0xKb3E4R0pwSjVlS1M1aTRzdmlFNkQxelNqLVE1c0NEdnJmb29hUGZxaDk5OFNWRUt4a2lyTQ?oc=5",
+     "src": "StockInvest.us",
+     "d": "2026-11-24"
     },
     {
-     "t": "Form 4 GrowGeneration Corp: Stephen Aiello (Director) For: 23 November By Investing.com - Investing.com Canada",
-     "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONEJPQThUdkowdjdlRVB1WXZUV1A5VzZGbnJoVUZicTd6dHVQOVJzdDIxbVZPWkc0bGZwMkhBS3FfeHU1UFZHZWVGNHkyck9pamZvRWdIeTF3SU1xakJ3ZFVJM0xGOExGa2hjUm9nTG54bDJyS3hoZVB5RmVfZjhwVFVjSUI2Y3JtdEN3bHlkVDFqUEdDSWw5TUJtQVEtTGRENEFCVzhENFBPbktGSUtIZU9OUUEyUkdwUzRuSVQ0cUFPVE9qWlE?oc=5",
-     "src": "Investing.com Canada",
-     "d": "2026-11-24"
+     "t": "Form 4 GrowGeneration Corp: Darren Lampert (Director, CEO) For: 25 November - Investing.com India",
+     "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNW4tZnF5eEdidU9yQmt5cjM1ZmFib05vaUN4S3BDTEQwUGQ5VVJ4V1hINDRPREF3SnRQUllMTUQ4Z05HakgzY3RoVnZ6aVBZbXFWU285aTJwakJabjdRc1dKQW56MVJmbEdoemZNbXUtdDRXTWI1SmR1ZExQTnotSE5yVUZkazUxVmdwVlVhWko1azRuNVh2U3AzdHUwUS1wN203aWp5bFhRQjMtc09vWGIxTzRNSG9hUmRSQ253TVFsWE1fVlY5WWJVaw?oc=5",
+     "src": "Investing.com India",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 6,
+   "composite": 3,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 6
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 3
     }
    ]
   },
@@ -1840,22 +1906,32 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 1,
+   "news_en_7d": 2,
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "How Saul Centers Inc. (BFS) Affects Rotational Strategy Timing - Stock Traders Daily",
-     "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcVZTeEFUbE1ENVA4T2MwcFd6TnhDbGRQems3YWcyM0w3MlMwQ2tWY0MtYlJ3d1FVTXNUWnRIRy1LelpXYkFWOEdYaGNUMTlJLXZaQ3hkU2xMd2dCdzNaaDg5Tk02MlhqLXZFaUY2dzZOSWVwOHNZd24xRWt2OEJ3YjRiSmpYTnowN2RTMUZCemdzVWpyZEZsMVRKRzNiS0E3Vk1mNjZ3TnhYNGJDYVVSQmlwMk43b0VwSWtIaElpSlZnem9XZzc0R0NWT20zMFNpWFRkYUhR?oc=5",
-     "src": "Stock Traders Daily",
-     "d": "2026-11-20"
+     "t": "Saul Centers, Inc. (BFS) Stock Forecasts - Yahoo Finance",
+     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdDJTMGFpb2k2NUFzci1zcXdJMlJZS1pqSUdYbkRKN0l5M0JTYkY3bHpZOWJvWHhMR25rQWtwTWVtLXlhYzNhZGxtX2I2REdWbHpEQXlmSm13RFh4aWlCczRWR2pDMEp3S0hNeUFlYmNXaDBtbjRHd2h3YWJ5UlBrNzVtcERBdVRyR0IzNElCRQ?oc=5",
+     "src": "Yahoo Finance",
+     "d": "2026-11-26"
+    },
+    {
+     "t": "Form 4 Saul Centers Inc: David Todd Pearson (Director, President &amp; COO) For: 23 November - Investing.com Nigeria",
+     "u": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdkFySjFKVFlMdWRSc01JSXVVVXQtcllXRTJham9zak9oTHktQlAzT0tWWXRqRElTRW1xODhSeE9FNHoxbXNQTF9IQzFudTZETlA3VF9UdEVnUVpQNmV0UE93WW15Z2tiYmtHNTZXc3VmTlZwNTUyQU1QY0hSdVc0WFBRelNLRldwWFlfU00zMDM1d1NmMGpqVDU4WGdMQkt1NW9iUlRRbFpBUGhFUHlNYnotSDVIT3EzSE5MTG1wdENKSFhJMkZWM3JTM0dHVWtUc05DSDM2d0pTbzQ?oc=5",
+     "src": "Investing.com Nigeria",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 1,
+   "composite": 2,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 1
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 2
     }
    ]
   },
@@ -1868,29 +1944,10 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 9,
+   "news_en_7d": 0,
    "news_de_7d": 0,
-   "headlines": [
-    {
-     "t": "Form 4 Comscore Inc: Matthew F. McLaughlin (Director, CEO) For: 20 November - Investing.com Nigeria",
-     "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTVZpTzAzSVFzb1JCRUlLZzJzdl92THc4WmVMekludWtiTGtTem1KMlpLM2N3NGxLUS12WEVQRzdBUXNqUmtDYllvaUUxNV9ESU9xOHNDYVk0aEpJcFFwRkpUU3FDTjZVTXJVZER1Y0N5aldLdnI1d0tFZ3o4b3FXZE9PbkhIY0lyQXNXbl9FeDBpX2F0dGJpY3dqLU1zeFI4VkJvNEFudm44SzlZeFBfcS04R09GWVE1VmdhUXFSQTVOa1BJaV9OeUdR?oc=5",
-     "src": "Investing.com Nigeria",
-     "d": "2026-11-25"
-    },
-    {
-     "t": "comScore Inc (STU:CSE) Stock PDF (Updated: 2026/11/25) - GuruFocus",
-     "u": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XekVZa1NZRHBmRll4VFEtX1c0NzJCN1EwZ1c1WjNUbGJhRnlISVhtOV9wWUNHSFV0VnVaQnRaSG0tU3h4UEN4dU8xcWlrNWNNRGFrOXZiUXpFQQ?oc=5",
-     "src": "GuruFocus",
-     "d": "2026-11-25"
-    },
-    {
-     "t": "comScore Inc (STU:CSE) Stock Earnings Transcripts - GuruFocus",
-     "u": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wRDF2eFl4SjVIQVlkdFNFR3phVlJOcmxGMGVQRnppcjV0ME4wRkQ1cW5fZ2lmZ29IQUV3cWxsakZUV2tzM0M3Y3lfLTVYN0kwS3o1LWtQdFBTZnRfZkE0Qg?oc=5",
-     "src": "GuruFocus",
-     "d": "2026-11-25"
-    }
-   ],
-   "composite": 9,
+   "headlines": [],
+   "composite": 0,
    "spike": null,
    "history": [
     {
@@ -1904,6 +1961,10 @@
     {
      "date": "2026-11-26",
      "composite": 9
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 0
     }
    ]
   },
@@ -1916,7 +1977,7 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 9,
+   "news_en_7d": 11,
    "news_de_7d": 1,
    "headlines": [
     {
@@ -1926,10 +1987,10 @@
      "d": "2026-11-20"
     },
     {
-     "t": "Novanta Inc. (NOVT) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
-     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE80b1EwY2s4Z2hyamI2NzVWQWxwT0RwNkphaFVwdDRfSTVBcDZ2cUpEWUVIY2kwQ25ZOVZyRzZXblo3bDh0VjJ1LXVpZ2czQkdDbnc?oc=5",
-     "src": "Yahoo! Finance Canada",
-     "d": "2026-11-25"
+     "t": "Novanta Inc. (NOVT) stock price, news, quote and history - Yahoo Finance UK",
+     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HWWpMcFQycU94TjNaSW9zRS1FSGpLYlVKUnpLRHpwRk9TR1V6UkJ1aFlXY3hvb0dFeGp3S2M5ZUhEajRpTFdrcDhKcXIxcThUY3c?oc=5",
+     "src": "Yahoo Finance UK",
+     "d": "2026-11-27"
     },
     {
      "t": "NOVT: Novanta Inc Latest Stock Price, Analysis, News and Trading Ideas - Stocktwits",
@@ -1938,18 +1999,22 @@
      "d": "2026-11-25"
     },
     {
-     "t": "Novanta Inc. (NOVT) Stock Forecasts - Yahoo Finance",
-     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOazhBejl3YS16UWhURk1nWGJ0MEFIVkFhOUxWTzFnVDdhMmluUXlQcFhKTE00ZGpHZlBqak5JY2pweGo2aVFFZkJGQ0wyRmNmWUtXU1RlQU1MMTRDZ0lhZ003Rm8xdXJTU0FvR2lUS3pIbVBpcUtoY2xTZ0FudnlBMHF5OGRZcDRiZ2VTMEdhZw?oc=5",
-     "src": "Yahoo Finance",
-     "d": "2026-11-25"
+     "t": "Novanta Inc. (NOVT) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE80b1EwY2s4Z2hyamI2NzVWQWxwT0RwNkphaFVwdDRfSTVBcDZ2cUpEWUVIY2kwQ25ZOVZyRzZXblo3bDh0VjJ1LXVpZ2czQkdDbnc?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 10,
+   "composite": 12,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 10
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 12
     }
    ]
   },
@@ -1961,16 +2026,27 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 3,
-   "news_en_7d": 0,
+   "stocktwits_24h": 0,
+   "news_en_7d": 1,
    "news_de_7d": 0,
-   "headlines": [],
-   "composite": 3,
+   "headlines": [
+    {
+     "t": "Magnachip Semiconductor (NYSE:MX) Stock: Insider Chae Lee Purchases 40,000 Shares - MarketBeat",
+     "u": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOGV3X1pfdzJWYXhlX1pvZkt2MVpiTUNHTDBNMlIwY3hSbjNBUUMxRXRaY243SS1fTTM5b1ZLQlVTd2Q0LWNoQnlzQTljTEpqc0VuZGR1b1VoYzhoUmRGeGtXbWhqVU9hNEhoaEFYZUNyblEwVlkyOFRlRkVlZGFRX2IyOFFiQThCZE9SdG1uT0tQZll2NjJ3ME8yMmJJNVBxLXNkT01ka1FLRzR1WkFlUGdmSE13cHp2WmNNY3lTdGhHYW9sT1A0SWJFVmJtTzdDNDVHNVB3?oc=5",
+     "src": "MarketBeat",
+     "d": "2026-11-25"
+    }
+   ],
+   "composite": 1,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 3
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 1
     }
    ]
   },
@@ -1982,8 +2058,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 0,
-   "news_en_7d": 10,
+   "stocktwits_24h": 1,
+   "news_en_7d": 9,
    "news_de_7d": 1,
    "headlines": [
     {
@@ -1999,16 +2075,16 @@
      "d": "2026-11-26"
     },
     {
-     "t": "Form 4 Beacon Financial Corp: Sumant S. Pustake (COO) For: 23 November By Investing.com - Investing.com India",
-     "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQW1EREwtaGkxd3pPbEVJRW1CQ1otOW1nVGRrazg4dDdGVVV5MmtIRXltUF9Wc3A2VGZ2RTRHTnJkS3dGR0pOVU9aQy02ZU9obUR1cnNlMTdDQ09iWkVuRE9Fa1NMT3pQNlNzNmtmenM3aVJuRVhCN3V1MnpuTS0wSlIzS2VUQS1SS0xOaTR5UW5DOXlFampsSU40Qk95QlRxQVpLRU5zN2FjNWo3Umtndjh5cnBjTEZWZk15eVZQX3VTMWVF?oc=5",
-     "src": "Investing.com India",
-     "d": "2026-11-26"
+     "t": "Form 144 Beacon Financial Corp For: 22 November By Investing.com - Investing.com Nigeria",
+     "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM3J0aGdXeTlkclVhSmlfUUo2SV9ObEhhN09HbHVhM3hOU054dHVQXzdyeEtVUzdyVW5YaGxndUs2UDYzaS00VlJ1SjNzcG8xT1JpSVVPMF9JY09JSG05aDdGQllfMVFnRXRCRVhRcWwwUEx0TERzcUdZSDVEcGp1SVJhMUV0SjE2SnNrdXVQQWU3dFBrYlQtZzJfcWlFQW00SlVzWEd4TjFiQjg?oc=5",
+     "src": "Investing.com Nigeria",
+     "d": "2026-11-22"
     },
     {
-     "t": "Beacon Financial (NYSE:BBT) Stock: Insider Sumant Pustake Buys 1,679 Shares - MarketBeat",
-     "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMFhEaWtuOFZlN09QS2wydWpySU9rMU5PaTExbExVTlNJZzh5cVhGaW9PcUczOHc2NTVadldHcE1CMEhFZG9ybDZJd1VTaU4wcTRSVmxaVVkyUDhKMjZDaUZOVGxrRl9EUXNYdktpZU1XUGdNT0pobkgxeGowSFlmWktBSm9odUIzY3N2ZXFxMmFUVGFUMWo3dXF4OGxRY0FRMDk5T29RTWdsY05DR29UamVDUDVEbVlzMTNuS1lGam50ME5tMC14MEJ6MGVydw?oc=5",
-     "src": "MarketBeat",
-     "d": "2026-11-25"
+     "t": "Ashlee Picard Flores reports directly holding 14,826 shares of Beacon Financial (BBT). - Stock Titan",
+     "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdXVJNHQyWWI5Ul9zLTJORUdfcEVPZUhEdFd6S2xJMF9DbEVWYjlQdDZUUDUxeFoxemdyN2FlNDdtLU9SZ1Z2dVlBOFN5R0tIRlVsNHNFU2xCN29XMEpmUEpaOEd3cHI5OE5pOVJpdU9YZE04UUFqeVZsMXNPSEJJYTZkVnVQSDZxZ0ZqR3ZzWTlrMlV0WmpIM1ZaTGhlLXZuMWZfWUdMUlEwc3BaV1ZpVW1rRXlwYU1jSUZjdVJndVYwaEhQQzVnRV9B?oc=5",
+     "src": "Stock Titan",
+     "d": "2026-11-24"
     }
    ],
    "composite": 11,
@@ -2016,6 +2092,10 @@
    "history": [
     {
      "date": "2026-11-26",
+     "composite": 11
+    },
+    {
+     "date": "2026-11-27",
      "composite": 11
     }
    ]
@@ -2028,15 +2108,15 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 1,
-   "news_en_7d": 6,
-   "news_de_7d": 4,
+   "stocktwits_24h": 0,
+   "news_en_7d": 5,
+   "news_de_7d": 3,
    "headlines": [
     {
-     "t": "YPF AKTIE Dividende | Hauptversammlung | Dividendenrendite | 886738 - Finanzen.net",
-     "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBCQXByY1FfTHRrbUJHcDlFVm9tbVpBZlZQenliLVN5b3J4U1NsUndlRTRoeVViYTB5ZUhxUkZXRXI3YktsMG9meGZ6TU1WeTA?oc=5",
-     "src": "Finanzen.net",
-     "d": "2026-11-20"
+     "t": "YPF Aktie: Argentina LNG hat jetzt den RIGI-Stempel - Börse Express",
+     "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYjBlOThUaUE5RDVkUkV3UC1JQXRpZXBlNk5INmxnRy1uWXNXbTJqVnhFTC1yVWdlTTdoTHYtRG9TalJab0l5VngwTEdfRFhzNWpHeEt3bllORWNmX1RYVkdIbXM5ZGh4c3lIWVdsbTBlWi00dXA1ZllOMGpXcl9ORXhEQ2x2YjZYTlBFNTJWQ19qZ2IyWmJpWklFaE9hRHFadnZXTA?oc=5",
+     "src": "Börse Express",
+     "d": "2026-11-27"
     },
     {
      "t": "YPF Sociedad Anonima (YPF) Aktienkurs, Chart &amp; Analyse - www.debelegger.nl",
@@ -2051,18 +2131,22 @@
      "d": "2026-11-20"
     },
     {
-     "t": "Is YPF Sociedad Anonima (YPF) a Great Value Stock Right Now? - Yahoo Finance",
-     "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRXRobHI2T3BSQWt4QXdYQ1V5Sm9XTFo5bUozQ2pnUjBxbl9JOGR3TzFEUy1XMGVaVmFSeENhZnBQMUgyOFV4V1F3eEtCc0k4OHIyRHlNZmcwZl9wWGREeFl0bURERGg2Mm5Yc2NsckFQc281VGIxQ2RtcGxTRy1vTkdjb3lKQWxHOHhiZ3NwZkVpU3N6bDJlVFByNA?oc=5",
-     "src": "Yahoo Finance",
-     "d": "2026-11-23"
+     "t": "YPF Sociedad Anónima (YPF) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oMUNmcjk1THRGSVdSZDNYODd0US1Rd1VfaFJITnl3MV9TNU9YNnNTNzZPRXItNjhUVU5iVmZJMnJaYk1oRkh1bm9MN3p0UC02?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 11,
+   "composite": 8,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 11
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 8
     }
    ]
   },
@@ -2085,16 +2169,16 @@
      "d": "2026-11-24"
     },
     {
-     "t": "Saba Capital’s reported indirect stake in Ellsworth (ECF) reached 1,866,550 shares after a buy at $11.05 each. - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZzVUby1DTVpfNzJ5akM1NVhsbWtaSnhaR2hkMVdUaHJRUGYzLXhyOVJVYldxUWl5SnhaSm0xMHRTbVZLd2lkUlBUOTFTVTh4S1lRUVNwdGRGYWNwSXNQLVZoUGprM2xPa2YzMUdHeVM1T0ZsQWotS1luekFodkJmY2Y2Qk1SaVFXNmJYQjRicFBSSDNhWnVfX1U5azcxZFAtdnFZNV9tdndWWTRVeUVBeUs0czdCa2Q0T3dQTngwRmNhbjA?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-20"
-    },
-    {
      "t": "Ellsworth Growth and Income Fund (NYSEAMERICAN:ECF) Stock: Insider Saba Capital Management, L.P. Purchases 14,751 Shares - MarketBeat",
      "u": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPOXdESGhmb1U2bnBTeFkzbkw0c0pJM2cwLWZ5RkczNG1UblhMUEtXdjR6eGdTSXJFajVkQVFMYXgyTlhRQ3R6WC13ak1nYmdaZmo5OFhQT1BmUG9xTnRkcm8tY1Fid2x5c1FsbzQ5VC10czhiU0duR0JxR21EN29KNUpXWjktY3BEdmJVY3lsNGJsZ1BzOHkyakRMbVpIXzNuNlBDd0RVLTlVR3ExUVBqWThGRVNBMWdEcVl6R3VDS3RaV296N0phX3ZWNnlxNlRHS0ZqZDVETUJmSkd2dTZvZy1nRUY0YVdOdEI1Q3FCSUJSbV9LYVNjYU9QTU9pUDlzVXZReU93?oc=5",
      "src": "MarketBeat",
      "d": "2026-11-21"
+    },
+    {
+     "t": "A purchase at $10.84 a share brought Saba-managed holdings in Ellsworth (ECF) to 1,916,586 shares. - Stock Titan",
+     "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ3g2aDZLb1dWUV9XdTZ2Z2JhbldUNGVFYl9qY2dDTndOMUNyRk8zUU8tbzVhQVEySmtMTWxiQlJFTi1vUTRSWmY3ekdLOHlEQm1WZDZ0Q25BZlZ1WDNmS0Y4VGRxY2NxdHQ4TXI3dWtWU2NTRTVDTnhMLXNndUlNNU1OUjZFODFMRVhOcDh2ZFRDVlZMcWlwdkxxQVFHZHZWSF96c2k4WE5iRzBsLVJnS0xJcGZha1pQQmJ2Ml9ZQWdQREU?oc=5",
+     "src": "Stock Titan",
+     "d": "2026-11-23"
     }
    ],
    "composite": 4,
@@ -2102,6 +2186,10 @@
    "history": [
     {
      "date": "2026-11-26",
+     "composite": 4
+    },
+    {
+     "date": "2026-11-27",
      "composite": 4
     }
    ]
@@ -2114,8 +2202,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 1,
-   "news_en_7d": 3,
+   "stocktwits_24h": 0,
+   "news_en_7d": 4,
    "news_de_7d": 0,
    "headlines": [
     {
@@ -2125,16 +2213,16 @@
      "d": "2026-11-25"
     },
     {
-     "t": "Form 4 Stark Novus Financial Inc: Alexandre Zyngier (Director) For: 23 November By Investing.com - Investing.com India",
-     "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSWVtRG00djR5Q0lYay1ZTmc4dDljdFRjREJzUHYySENLbW9ycmU4LU8xcUo3YXd4NzVEX3pCQURnX1FTRi1qcW56cUlmLUVxQWNZZXVuVXpCWGtsMUwyOFRvcjNlSVB1VzlwdnR3cjU4elhFaHJ1eXZXcmVucGNVcHVrcjFZTHNmMEVjSWcyT2N0M1FReGFlRHRZNF9Uc3ZhZDlVd1FkTXpDYkV2b2J0Q3hCQVFBUWpwM3dJSHRQRHR0R1FzMzczS0p6czd6UWsxc1E?oc=5",
-     "src": "Investing.com India",
+     "t": "SNFI | STARK NOVUS FINANCIAL INC Stock Data, Price &amp; News - Quiver Quantitative",
+     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qTjJWTzU5RnNDdmhVTVBVbkJKUEZackJTQlQ3YVlJbS1NTGFTWWdQMXcxU0Qwb3NjdlBfTG9hdzA1R0dJQ004S0dyeE9XNnpm?oc=5",
+     "src": "Quiver Quantitative",
      "d": "2026-11-26"
     },
     {
-     "t": "SEAPORT GLOBAL ASSET MANAGEMENT LLC's Stark Novus Financial Inc(SNFI) Holding History - GuruFocus",
-     "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaUdQSGZsdkU5cXl4OG9heEZfcGE3dGVOUnJsU3hvWVp1M19kM0pfajVSM0NyMUNBd3dTaHFwQW1ZWWFReEk2Zm54dEQya29pUzdSOWk4OUhtcDB1NUNsdTBmci03TXk0cHJLZnZYejRkbUdlQWNqSkRQblAtczJhTkxfeVdKdnZweDhjLVFwaHBuclk?oc=5",
-     "src": "GuruFocus",
-     "d": "2026-11-24"
+     "t": "Form 4 Stark Novus Financial Inc: Alexandre Zyngier (Director) For: 23 November - Investing.com Canada",
+     "u": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUDkweXFTYjZ6M3hPMFpoOE9vbkFwTkxLSVFSZkVWVVNuX2ZuRjE0TjBPTEFEVHh0Nkcxa3ZkVnYyb056czRwRVU1alptdl84dGw3MXExcU9xcW9PdDJ3UGlGa2h4RnMxR2VnUVk1VXpsMFVvMS1HZTlCb0QtTHktYWxXbkNQeEs5RTdLd2JKOHp1VHA1QUR0WnEwcV9iY1FESGNCUUtBbFRDNnhFaXRYVEhvbnZ1VWtYSFg0a1FJRGFMZEZQTU1YRDFUSGxBSm5UY2c?oc=5",
+     "src": "Investing.com Canada",
+     "d": "2026-11-26"
     }
    ],
    "composite": 4,
@@ -2142,6 +2230,10 @@
    "history": [
     {
      "date": "2026-11-26",
+     "composite": 4
+    },
+    {
+     "date": "2026-11-27",
      "composite": 4
     }
    ]
@@ -2154,8 +2246,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 9,
-   "news_en_7d": 10,
+   "stocktwits_24h": 1,
+   "news_en_7d": 5,
    "news_de_7d": 1,
    "headlines": [
     {
@@ -2171,19 +2263,19 @@
      "d": "2026-11-24"
     },
     {
-     "t": "Energy Vault Holdings (NRGV) Stock Price, Chart &amp; Analysis - www.debelegger.nl",
-     "u": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZT1YyV2lBYjR1WDExc1NXaVlfUTVobjRCUEZmX1o3SENnblBjd0N1VTU5dEtMNG5DUjZ4ODYwZjdGbFJsQlRfMEg4eGhXcTY0aGxyTw?oc=5",
-     "src": "www.debelegger.nl",
-     "d": "2026-11-26"
+     "t": "Form 4 Energy Vault Holdings Inc: Robert Piconi (Director, 10% Owner, CEO) For: 23 November - Investing.com Australia",
+     "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSzFaSXJoSjc3SDdvdDZGbFY1R1p3b3dscERpSGFyMzBsOXppN2hsSnp5RnBjbnd0NGRKV21ScDBmejRtcnRHTElGbUMtMWxqTGpmejNxMGE0QmhPOGwzSUpIVVZzcmtQRFN0SWtEOHVOUXBQYVc2M1d1Z1lGbldWVWVDcS1tQW1sOXdrUFc1UHUyYXUyOGw1b3JvX0RCUkMzamtidGxwU0pHa0tLaU9nd05JNVFuTVFwZmRUd3ZvbzU4bWVHQmpJNnB6bXpOSGtBQzQ1Wk4yOV83OVI2VFE?oc=5",
+     "src": "Investing.com Australia",
+     "d": "2026-11-27"
     },
     {
-     "t": "Energy Vault Holdings Inc (NRGV) Profile, Company FAQs &amp; Facts, Industry, Sector, Employee Strength - Stocktwits",
-     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5zMTZ6QUwyUnF5YmdzNDduTDFzZUNxU1YwR0s4RFlPeVlRbkc1V3k3dXBMMWkxb3Y3RkF5UDNLTnhwbjh3T1JKcE9TMXVsT1dMR0E?oc=5",
-     "src": "Stocktwits",
-     "d": "2026-11-25"
+     "t": "Energy Vault Holdings, Inc. (NRGV) stock price, news, quote and history - Yahoo Finance Singapore",
+     "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TSTJPVHVra2tXeGtfci1jbllzWklRNjBTUkZKbXhYZWJ1c1lBQWF4OE4yZHExV2FKam9EZ2lZSFhUZ3c5OWVnbXpWUldzUXI0TGc?oc=5",
+     "src": "Yahoo Finance Singapore",
+     "d": "2026-11-24"
     }
    ],
-   "composite": 20,
+   "composite": 7,
    "spike": null,
    "history": [
     {
@@ -2193,6 +2285,10 @@
     {
      "date": "2026-11-26",
      "composite": 20
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 7
     }
    ]
   },
@@ -2205,9 +2301,21 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 11,
-   "news_de_7d": 0,
+   "news_en_7d": 12,
+   "news_de_7d": 1,
    "headlines": [
+    {
+     "t": "UMH Properties Inc (WXE.MU) Saisonalitätsdiagramm - Yahoo Finanzen Deutschland",
+     "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBBcGZxUUJYc3dYd05fdEZKeGNkNzVZNkNKWVNhWGJJNjBWdUlEQ2REUWgwOEIyZ2tIU0U3dWJEV01lVkJpc0FzWS1aQlB5YVBQdVJzZjg2djhibnllUEg5WThhMFg?oc=5",
+     "src": "Yahoo Finanzen Deutschland",
+     "d": "2026-11-26"
+    },
+    {
+     "t": "UMH Properties, Inc. (UMH) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9NRzl5ZS10LTU1U2M3ZWszSG5ibjN6VDFWYmRTTWp3YzVVZXh2RHJBaFNzYTQ4VFZaSFFTYWRGTjhHSHpaVTNSM1c5N1h2QW5Y?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-11-25"
+    },
     {
      "t": "UMH Properties (UMH) director Quigley bought 2,500 UMH Properties, Inc. for $35.7K at $14.28 - Quantisnow",
      "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ2xlTmEwN3BlNTJGb3lvYkMzSjZaaFEzMEtVZUI3N19hMUZGUkdkcHptV2xIOG80MzJQRmt0RzhtQURtekQ1Y3ZRSWFWTnFfTjB6M0JRb2pBOTZpdGZ1NHR1REhIMEZlMER2aVJ2aHdQaFlzelR1aEdHSXVvQmZjQW5WT2F6MmNLbjZFQk1CMXhqSXRYMUI3emxsQlJDNTQ?oc=5",
@@ -2215,24 +2323,22 @@
      "d": "2026-11-25"
     },
     {
-     "t": "UMH Properties, Inc. (UMH) options chain - Yahoo Finance Australia",
-     "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdDJqQkx0SVYzbzVsVFBUcnlHNnN5UGVTeXNiMlpWQXRlZnI0MTlPcndlQTdaZHFMek5iSUJMTmN5TEtWcU5RSDlDVWJzZi1ZN3VLcU9iOHR0RXZiUjZyenNXZ25acTdJNlY4Z092REIyX2tRVXZiLUZyYlZpUzg0V0w1azEtUGI5UmpMQ3NrWUY?oc=5",
-     "src": "Yahoo Finance Australia",
-     "d": "2026-11-24"
-    },
-    {
-     "t": "UMH - UMH Properties Inc Dilution - Finviz",
-     "u": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBjZ2Y0S1Q5NHBIU1FrWGJNNE5QTFY1VU1RYWJUSERfdWZHTHUtTE9sMFE5UXNGa2x1VzRNM3RZYTVna0VYMWMteUNQWGNoVTdVU3pRSDdJOA?oc=5",
-     "src": "Finviz",
-     "d": "2026-11-25"
+     "t": "Form 4 UMH Properties Inc: Kenneth K. Quigley Jr (Director) For: 24 November - Investing.com UK",
+     "u": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMHFHcVBGX1BXWVBHWk9JeXpMZlU0THN5ZHhRSkRaaW9sMFJGWjVBNkNheE5LQ3dMQmRtTFVzM3NJTXd2cnk2d1o3LThmOVhJZjlCUHN1SlNQWWJMRi16RGF2azBKM2lxRjdhYk1PTHhMZVZlRmJOUGV1cExGYUpobXRzWWxSb2ZtalhCODdjbEYtMEdJdi1UeGZobl94YUdhYnl5aThTTUxTek5YSFRQNmVoWlFzVFhEODNpOS1yYmJfaExSaHZsQkFmbzc?oc=5",
+     "src": "Investing.com UK",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 11,
+   "composite": 13,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 11
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 13
     }
    ]
   },
@@ -2249,9 +2355,9 @@
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Burke &amp; Herbert director Diane Poillon buys $106,131 in BHRB stock - Investing.com Australia",
-     "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdHJpbGdiQ1NOXzdXSXNfZGV4MVgwTmdDRzY1SkRQcVo2V3V1RFBsVWxCLWlhaVd0UUpQeFpfVGdfd0FGSlZadFZQTlRIeEtpYzZtYWxEY19XTnB0X1Q2bXpfaWRXT0YyNUJtYWo3Qm9MSkdSUVZydXdQVVBLcVFETVNrM1BjQV80angtdFhJeTdWeE9sVEpZeHJCbTUyTlJBanJEOUVpNFA0SHRuUTRNX3FmRnEtSnZyLTlrQlFpUmdHZw?oc=5",
-     "src": "Investing.com Australia",
+     "t": "Burke &amp; Herbert director Diane Poillon buys $106,131 in BHRB stock - Investing.com",
+     "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaTZtMzBfS3FOVnBFNUxPdDBkSjJxbGJCV3FjX0UxcThRVTRoUmlzSmFzdWZad3VVLWdwUkhncTlfMHRTOWlSZlN0OEFlYUp5MW54Y3JlZ0c5Z0J1aGZValhvRklTZ0RVbDlGZGZLcXVLSkpQS2ZGUnZpZnBBNFBjY0hBaUpXRVZKNVdmWVVudlUxendCNWVuaE1lUDRjd2VNWW00bTRJUDNEQ2ZyUFBwbDJYQWRFYzROODhkb1BsQ21DdlZVZFVN?oc=5",
+     "src": "Investing.com",
      "d": "2026-11-21"
     },
     {
@@ -2272,6 +2378,10 @@
    "history": [
     {
      "date": "2026-11-26",
+     "composite": 3
+    },
+    {
+     "date": "2026-11-27",
      "composite": 3
     }
    ]
@@ -2323,6 +2433,10 @@
     {
      "date": "2026-11-26",
      "composite": 4
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 4
     }
    ]
   },
@@ -2334,35 +2448,39 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 0,
+   "stocktwits_24h": 1,
    "news_en_7d": 39,
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "NTES Stock Quote Price and Forecast - CNN",
+     "t": "symbol__ Stock Quote Price and Forecast - CNN",
      "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83Y1NDUEdvUV9TU2dJamNZZUZDc1R6UDhZSVN5dGxSbU5JX2phV2tYZlJ6YUlrZFdZc3hCclIzc0FXeHdLQ0hyY21JNmljeXRH?oc=5",
      "src": "CNN",
      "d": "2026-11-26"
     },
     {
-     "t": "NetEase Inc (NEH.HA) options chain - Yahoo Finance UK",
-     "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPNE1vVFZRZFAxYTJZdlJJVnVMOTlmZW9SSXZfUlphelFVWUFfb2kzWEJJN2ZCVUkxNkVWaGRjQXRkSWI1RFh6MHFxODFRVDlORGFraXZQSl9ZcTVjWkJV?oc=5",
-     "src": "Yahoo Finance UK",
-     "d": "2026-11-26"
+     "t": "NTES: NetEase grants 129,395 ADS awards to employees, vesting 2027-2029 - Quantisnow",
+     "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZ0NRVzR1Z18zMFR2Rno2eS1SOWRrb1pLb21tLXIxVnhlRW5ZcHBxQm1JeUdwaERicmQ3UDBxeW10aDVZTDRSTjhRdWdrVFhlMkFGUExVbkV3NV9OWkExRTFNYktBY3dDVGVsaEhrcW1IVDEzc2l0Zmo4UUdNdHc1bzJ3?oc=5",
+     "src": "Quantisnow",
+     "d": "2026-11-27"
     },
     {
-     "t": "Working capital per share of Netease Inc – VIE:4Y01 - TradingView",
-     "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdTB5RXd4YVg0WGsxdnBZQlJNT01kaE1zaktweHVnbERnam9lT0N2M2VaT0ROTkZpQTd2ZXNkWXNBcVlPbUNOem44UE9Rb1RhclhYOThmeDVEUkstWmNTNXd3bWl6Ymc2cXg3a3BtcEdtZTFkNW9XUkxBQjV6WGtqeHFMVXNJRE5aU1JiQXJfODBXOHk2U0UtN05CZnNnZzZfS09uUmZLcw?oc=5",
-     "src": "TradingView",
-     "d": "2026-11-24"
+     "t": "NetEase Inc (NEH.HA) interactive stock chart - Yahoo Finance UK",
+     "u": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5IQ2pLUGlkS0NzRUliQWdCTldwUVBnd3lLZHE4SHRla3hNM29KbmM1Z1V3amswcW1GWUthNmxTazRXYUEyZ0x2Z0FvM054Y1ZsZFVmMWNHRXFnel82?oc=5",
+     "src": "Yahoo Finance UK",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 39,
+   "composite": 40,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 39
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 40
     }
    ]
   },
@@ -2374,10 +2492,16 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 7,
-   "news_en_7d": 6,
-   "news_de_7d": 1,
+   "stocktwits_24h": 1,
+   "news_en_7d": 25,
+   "news_de_7d": 2,
    "headlines": [
+    {
+     "t": "OPAL Fuels Inc. (X3G.F) Ratings, Schätzungen und Prognosen von Analysten - Yahoo Finanzen Deutschland",
+     "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE43YlVRQXExbzZFT1Roc3dtbm9RRWUwT3lEdFNSNFVtSm96WHR1N1VNRkZ1WDI2aEtjY1V2cGZvdE1lSEdVcjVDTDQ0YTJESEJnOTEwU2Vrb3lzS1Eyb0tn?oc=5",
+     "src": "Yahoo Finanzen Deutschland",
+     "d": "2026-11-26"
+    },
     {
      "t": "OPAL Fuels Inc. Aktienkurs heute | OPAL Live-Chart &amp; Nachrichten - Traders Union",
      "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE01MS14NmRxMEs4TFE1Z05zb05JY2RBWmlDRU16R2FuNFFsTjN0UTVUQ2VERFd6QmNiWUVqTlRlUWJaRG11VklPay1fRUN4UG5BMTJsZ0hJNWI1cS1RcUIzMXBDS0M?oc=5",
@@ -2388,27 +2512,25 @@
      "t": "OPAL Fuels Inc. (OPAL) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
      "u": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQNEdrMzk1V2JUYUY1dGlDQ3ZkZE1rUFFCY1hjVlo1Tzl6ejRLVjJ5d2lDbWN0SW9DYWdlVC0zaHJLZWJLcVhleUNuMXZ5UFYwTVE?oc=5",
      "src": "Yahoo! Finance Canada",
-     "d": "2026-11-25"
+     "d": "2026-11-27"
     },
     {
-     "t": "$OPAL stock is down 34% today. Here's what we see in our data. - Quiver Quantitative",
-     "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRnhsaXlQZ2JLVnEtSDI5RDRWNjRDZ09TS3JNUTgxNkVfZDRSdGRfVjFOVW8wTEFBclplcTJqbFZXMXVfVmh1am54aFY4eFBDY19xT05ZdnJjWjJQMjJxdGVUUjhHM2xDQVp6MXdhUEFsWktCOTBobVBxbW1odHYyTm05cFlKdExXMURpNnVCbko3S2xSRmpvTzVrc1BrVnpIbGcw?oc=5",
-     "src": "Quiver Quantitative",
-     "d": "2026-11-24"
-    },
-    {
-     "t": "OPAL Fuels Inc. (X3G.F) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
-     "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Ecjlfb3lkZDN2U2hVVlF3V1BYejJsMnRxOV8xaG91bE01SDJHWV9nN0xtMXFaWUloSFVyWDlRbjBMX1U0TTRMdC1YRDBKb2QxaVFr?oc=5",
+     "t": "OPAL Fuels Inc. (X3G.F) Analyst Ratings, Estimates &amp; Forecasts - Yahoo Finance - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1pNnhoN09nb19FSFAxVkhsM1pyTWdvTzUyaVNXMHFzTndNUmN6Q1RKMFRVNWFtR3pNRE1LOVVqbDJXYm5mNXNYSnhnSTkzVW1qd21mRGFqTUVoQkRPNEcw?oc=5",
      "src": "Yahoo! Finance Canada",
-     "d": "2026-11-24"
+     "d": "2026-11-26"
     }
    ],
-   "composite": 14,
+   "composite": 28,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 14
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 28
     }
    ]
   },
@@ -2425,16 +2547,16 @@
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "El Paso (NYSEAMERICAN:EP) Stock Price Breaks Above 200-Day Moving Average - Here's Why - MarketBeat",
-     "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdDJPdThTbWZ5MkhPUjFOQlBiY3JsbFBFM3ZqLWc2TzdfS3lucDg3ZWplX1QwMFlpaWpzRjJQOTFyWE9DaVBwZ1hQRmRNU2RTeS1kSUlENmIyWVdDdlpFR0RxU0hJX0RUYkh6UlhTMGY3NFY5TVlQeFgzdEQ0UkV0YUNnMWVqaUpybTlidmRER0ZtcXZyQ3ZORl9Zdm50RVh4eEI2QXFpbnVRT3FLOVQzbDdOVVM3dmRqcEtCUUpvVEFKTkNWcEhvVllCN3FxdGVxWjNfY2o3RWo?oc=5",
-     "src": "MarketBeat",
-     "d": "2026-11-26"
-    },
-    {
      "t": "Form 4 Empire Petroleum Corp: Energy Evolution Master Fund, Ltd. (10% Owner) For: 18 November - Investing.com Canada",
      "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPU3ZUd2FQOHZNZmxURk9nWGhsTHFScXVYWXA0U0R6anB3cThWZXVWbkIwVElzbEZWNWc2eWpZSkp1MjN5TDJqUmlxM0hqeEdNbWlVN3JtNXlmWjZnZnRjUnluVkRqYlhKRkpyS0c0VkM1cjRtbnF2UzVRMUxscWhoYndpazFUYkNLakJjTkR5WGwyaG9HNXZpc3VQY0tGYXRYRFVTZHhSb3dvSTd1R0NZZ0hCTEJxbGJ6STBYS1hRVzVZMHFDa0hQV3VYV2l4c1RQbFgwQmVfY0hPUEwyTTFLTQ?oc=5",
      "src": "Investing.com Canada",
      "d": "2026-11-20"
+    },
+    {
+     "t": "El Paso (NYSEAMERICAN:EP) Stock Price Breaks Above 200-Day Moving Average - Here's Why - MarketBeat",
+     "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdDJPdThTbWZ5MkhPUjFOQlBiY3JsbFBFM3ZqLWc2TzdfS3lucDg3ZWplX1QwMFlpaWpzRjJQOTFyWE9DaVBwZ1hQRmRNU2RTeS1kSUlENmIyWVdDdlpFR0RxU0hJX0RUYkh6UlhTMGY3NFY5TVlQeFgzdEQ0UkV0YUNnMWVqaUpybTlidmRER0ZtcXZyQ3ZORl9Zdm50RVh4eEI2QXFpbnVRT3FLOVQzbDdOVVM3dmRqcEtCUUpvVEFKTkNWcEhvVllCN3FxdGVxWjNfY2o3RWo?oc=5",
+     "src": "MarketBeat",
+     "d": "2026-11-26"
     }
    ],
    "composite": 2,
@@ -2442,6 +2564,10 @@
    "history": [
     {
      "date": "2026-11-26",
+     "composite": 2
+    },
+    {
+     "date": "2026-11-27",
      "composite": 2
     }
    ]
@@ -2454,8 +2580,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 0,
-   "news_en_7d": 4,
+   "stocktwits_24h": 1,
+   "news_en_7d": 5,
    "news_de_7d": 0,
    "headlines": [
     {
@@ -2477,12 +2603,16 @@
      "d": "2026-11-21"
     }
    ],
-   "composite": 4,
+   "composite": 6,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 4
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 6
     }
    ]
   },
@@ -2495,28 +2625,19 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 2,
+   "news_en_7d": 0,
    "news_de_7d": 0,
-   "headlines": [
-    {
-     "t": "Advantage Solutions Inc. (ADV) stock price, news, quote and history - Yahoo Finance Singapore",
-     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CVkM1Q3FWeklXTUR5YUJ1NDFWMEJ2b2oyYXM5MDUxOE5qajhXRWd2QnhJeVZ5LTlkQUFaam55NTY4YlFPTm0xQk9nMmRIWEFB?oc=5",
-     "src": "Yahoo Finance Singapore",
-     "d": "2026-11-20"
-    },
-    {
-     "t": "A limited partner received 925,172 Advantage Solutions (ADV) shares from Karman Topco. - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ0lVaVJZckpES3VtVkEzVEM5MWNYU212cWVrejBLejkzZllqQ21uc3p4OU1OcU9Ka2llUVBpaUJRZzAxR3VBWUhiTzNMc3FOZURoRWVBQnFRYnBBOG5ySnMtamdMYkVINTNZT0JwMGZQUXhJVTlObTZyZ1owOFljSzN0VkMyaWRvY0wzdWthaElnTG4wLTlFTDlNTW43WDZ5VXRNaHFlSV9BTkE0Szh3eXl4Wk5IM1k?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-23"
-    }
-   ],
-   "composite": 2,
+   "headlines": [],
+   "composite": 0,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 2
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 0
     }
    ]
   },
@@ -2528,8 +2649,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 4,
-   "news_en_7d": 5,
+   "stocktwits_24h": 2,
+   "news_en_7d": 10,
    "news_de_7d": 2,
    "headlines": [
     {
@@ -2545,24 +2666,28 @@
      "d": "2026-11-23"
     },
     {
-     "t": "Dynex Capital (DX) CEO Popenoe bought 5,167 shares for $50.3K at $9.74 - Quantisnow",
-     "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaFJSV3BzbjJibVMwYXpMQlQ1QXF6cXZQcGlKTFA1TVh3cmQ2c3NNbG4waVdfYXJrTlBuSzJjTzRfbl9wMEZhMG1DS2FaMHdOUVA3Z1pwRW5VMnZqWUl0SkpkVkx5NGZhVnAyVkM2SEViY0d0WXZTTC0xSGNrTDk1Uzg4TGZrVWJQM0RoeVlTWG51ajY5ZG5UaERyWjY3enJ2UjFfMjMzVGIyWGM?oc=5",
-     "src": "Quantisnow",
-     "d": "2026-11-25"
+     "t": "Dynex Capital Stock Price Forecast. Should You Buy DX? - StockInvest.us",
+     "u": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5KbzFoaHYxalRST1ltb0RqU1RobkNSTXJhME9iazNaR2dveGUtSjAzbktxWTFqakk0SWRzMmU3MEN5NWxBWXc?oc=5",
+     "src": "StockInvest.us",
+     "d": "2026-11-24"
     },
     {
-     "t": "Dynex Capital, Inc. (NYSE:DX) Stock Has Consensus Target Price of $13.38 - MarketBeat",
-     "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQa2diNDlBVFZ6YnBLaGZwUlZzSnlCLWJjbjZBd25oMHVVSWNEbFc5ejN1a2xETURsQkRsMXpLMmM4WUlDaEh0QnMwYmU2aE1ua0o2cEhsNVdyTG8tamZFenNCbnBYcjRvVmY2RE9PQ2VyVk81OU03d01JMEZjek9sWThpVHVRTmExSjIwTHRvcmhhV25OUFZZYUZMOGpaSG43SW5rV1lIN0pESUpzOHpKeS1rcDR0VjJvNmVqMjJ1bkFLQk1IWEt0Zjl3?oc=5",
-     "src": "MarketBeat",
-     "d": "2026-11-26"
+     "t": "Dynex Capital Inc (DYT1.HA) Analyst Insights, Price Targets &amp; Recommendations - Yahoo Finance - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBua3hiYkd5bHlacl9IWHY4R3RaalI2Ynh5dlJWUzBOQlFYUVB3WFVPdmIxeXMtQ3FCNGdCeHB2T2JPcnBYNlpHaEhETmVKTlJiQktnUTNTV0Q4UTFNOEdQa0hDNWdad01QRWNEcA?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-11-23"
     }
    ],
-   "composite": 11,
+   "composite": 14,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 11
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 14
     }
    ]
   },
@@ -2575,21 +2700,9 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 12,
-   "news_de_7d": 1,
+   "news_en_7d": 2,
+   "news_de_7d": 0,
    "headlines": [
-    {
-     "t": "Transcript : Star Bulk Carriers Corp., Q3 2026 Earnings Call, Nov 19, 2026 - MarketScreener Deutschland",
-     "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxONHZoeFlEVlA0SWlyYlRDU2ltcEstOFZlQlhoY2FYenpxM0hnYmxjejJVYnpRRkhCX1pwVmd6dVdlLWRiWnFpOUNlR0hfbVJzUlJDUHQwU3VMZDluZ1BRYmRLWjdjallLQ0dJZ3ozYTE5aDBPb0VNc2ZWVUcxWGIwTnpDZ3NQQU9wTnpaX04tZE82bkZGWmh2NEJXU09NQm4tTWE1dE8wanJ4bEJmeF9uRHh0TXM3ZlN5Z3dmc2kxaFpIdG1xTHJFbkd6Q0RvMFpiLUtnZTZ3R2tlQkZLTnpxTno2RDZDaDY2S3BnSHJ3?oc=5",
-     "src": "MarketScreener Deutschland",
-     "d": "2026-11-19"
-    },
-    {
-     "t": "Star Bulk Carriers (Nasdaq:SBLK) - Stock Analysis - Simply Wall St",
-     "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTlJlWHNsMy1fczNUSS04UGFrcGZtUlBqajlyQVdLeHdWTHR3X2o5OXRnQzJSYVJ6NkVQc3lOVzk3ZlZIaU5ZYzFuOUNmNlZmVlBBUGdURmZOTTV6UGx3dE1EMFlUSUNGV3ZnaDlwYjliSElGVnNPdi1vVkxRRXRJNmpZYw?oc=5",
-     "src": "Simply Wall St",
-     "d": "2026-11-23"
-    },
     {
      "t": "Euronext Athens S A : Listing new shares of Star Bulk Carriers Corp. - www.marketscreener.com",
      "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVG1ZUS1abGZ5YWpmeGJfYmdKZ2hwRjNnclpXMUV3eEV1bFhmRmczWmdRY2xnem1GUU9GSVc3QlBzTWo4TnJVLTYybTlzVUd3RXhEWjhWUGhYXzlSQ2NwTkxQclBucFZNQW5kc2tHRXNSSUFUMklVeU96eWpHSTc0SElFMGNkVHhQMGhsbXBsRWd5ZUZPWjZEM1pOQTRkRzVFWmlxdVdWRGk2djlSVU80NGFaUm0xNGh3d0E?oc=5",
@@ -2597,18 +2710,22 @@
      "d": "2026-11-25"
     },
     {
-     "t": "Star Bulk Carriers Corp. 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:SBLK) 2026-11-19 - Seeking Alpha",
-     "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcDJjMlVlbVhxOXRJOFZ1cW1lTmNpZjFWbVhaeVNwNW8yd1BNbkY1RVBNLVNQSFV6VGtmMFlmc1NLYjd2dDdRdThDREdHYWtMMll2Nnpya2RCR0VsczZjTUtvXzEta0ZNN20wbk1LXzVCU0NEZi1pdFk5bFM0ZF9heFk5ZFc1eWlSeGdWRG1UWHhVUFY4Mnl1UXpydVFtMXN6QXQtM2IxamdLTkk?oc=5",
-     "src": "Seeking Alpha",
-     "d": "2026-11-19"
+     "t": "Form 4 Star Bulk Carriers Corp.: Spyridon Capralos (Director) For: 20 November - Investing.com India",
+     "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUHMtN3RYazVQZ3M4NUVaMklPWEk4bEFDQjNCSWoxd0hDMTBGRVVPcW1aT3E3RGdYZDVyTFF1dFlyYkhjQWRoamdnMlJwVm95UWZvazljWTZ1RTlJVy1VLTZoRllfekhvWkF3eVdmR3dJbE1keGN4S3dLdVM4N0NwYURNTmEwS2YwZkFWZGNTZnplZnBRMEFtZTd3MGt5SW5TTWlOOXRCajdQRmxNbExydTVINkNGMXJJZWQ2enhnWjJPN1gtZWhEVjZQQUt6azQ?oc=5",
+     "src": "Investing.com India",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 13,
+   "composite": 2,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 13
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 2
     }
    ]
   },
@@ -2620,8 +2737,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 1,
-   "news_en_7d": 4,
+   "stocktwits_24h": 0,
+   "news_en_7d": 7,
    "news_de_7d": 0,
    "headlines": [
     {
@@ -2631,19 +2748,19 @@
      "d": "2026-11-24"
     },
     {
+     "t": "Jushi Holdings Inc. Amends Loan Agreement to Enable Potential Acquisitions and Virginia Cannabis Operations Funding - kalkine.ca",
+     "u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYnYwWHdOU2t3N2hraUR3YWlhaHVsSDJxMzNzUERDejBwa1lQTDltMkQtQVllOHBYSFltcnl2VVJaZ3JqY3ZRWkRlN2d4ZVA3ckdQd2NxZTNCZzFadWRUbW5TSDl3RkZFZWpfTHFDOEpIMk50T19pbzlXSTBQWjNUOU55S2YxaXNEZDlnOFZINHpEam9wUmlXQzBIb0xYX0lsSUMyUEJaY3FNbzBrdDJlendOZld4TkJqeklzdm1uR3JVZW03Y0pWY2FQV1JqUl9sNmFPU2NPQWU2UjBCWV9TUzBJSUlIYk0?oc=5",
+     "src": "kalkine.ca",
+     "d": "2026-11-23"
+    },
+    {
      "t": "Form 4 Jushi Holdings Inc: Denis J. Arsenault (10% Owner) For: 20 November - Investing.com UK",
      "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQjVCTlVnaHR4TVBGZjZ1ak1XSENHdzllODl4aUlYNGRVSnlISVNUeHRIelNVdVd6Zlpaa18tXzJQRDMzbnVHakhDbFZoVXJwc3JHeDRiZVQtYzU5NEpOY2tQQkJFRUVKcnFOVm1IVGk3blN6bnZ4TnQ2N1hqTzM1bzdvcVR1U2JjMUtwVXVMV3FJdjVlQ21FMjY0cDNOS3ZCenNBeDE4S3RpLXk4M0l6UUw5N2QxSkdweU9PNDZ1bEtHMkwzQWRQeA?oc=5",
      "src": "Investing.com UK",
      "d": "2026-11-25"
-    },
-    {
-     "t": "Denis J. Arsenault bought 267,500 Jushi Holdings (JUSH) shares at US$0.35 and US$0.38 apiece. - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNampMTlZ6OTFabUN6MVlLMFRwQWNHYVJYX3lUVDdjc3FQS2tlbUUxWmI4UWlOWkhwd0Vta1hnSDIzQi05T0NaZ2h0Q0ZzTEVDcHQ5dG16Zi1HVUR3bzVrRl9KY2dYSVluMVRWdm93dEJILU1oMW9XRkk2RjNmRkRSOVRPaG4wR1JVQmN2dVcxTmZNRlVIMDAtMVBwUmM0TFVlOUp4UzBQXzQ0WE1qNUU4RXRR?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-24"
     }
    ],
-   "composite": 5,
+   "composite": 7,
    "spike": null,
    "history": [
     {
@@ -2653,6 +2770,10 @@
     {
      "date": "2026-11-26",
      "composite": 5
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 7
     }
    ]
   },
@@ -2665,19 +2786,13 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 6,
-   "news_de_7d": 7,
+   "news_en_7d": 7,
+   "news_de_7d": 3,
    "headlines": [
     {
      "t": "EnerSys-Aktie mit neuem 12-Monats-Tief - boerse.de",
      "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ0toRk8xMlNaRFEwNXh0eFFWNDJLaExXUS1xN00yZ1FqNGx3LWxiQm1QR0g1cTcwcmlNeFB6dFJxcmpJY1ZtNlpONEt4RXpmQUk4ZkNSd0hfVmsxZ0JQQ2kyNHF0RVJpUUFfMDJyQkxIa0ZDS3FzdXV1VXowTnpPUmo4eVB4LTN4?oc=5",
      "src": "boerse.de",
-     "d": "2026-11-26"
-    },
-    {
-     "t": "EnerSys-Finanzchefin kauft eigene Aktien für rund 25.000 US-Dollar - Investing.com Deutsch",
-     "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZXRYZDZYNXp3aUlYOTJ2SHJ1OGN6MDFjbkRzaXFoVmpMVUNDV19GaVlyUXl2N2RzLTlCN09DdU9ENHpnMEdocVJrSTIwX1VDSEpvRjFHX29fejJoTTkxYmozOWNYN0x2V0lkbllqR1p0Z2t0eEI3dFlsY3lwbTN2OXdLMlhkOUVydGpYZEM4V3ZIbW8tejlaYnhiNnBUbWxhUEZadWZKd1Z0STNDRkJfZy0waWRzVHB2ZWJrZWpscWRpajJUMXc?oc=5",
-     "src": "Investing.com Deutsch",
      "d": "2026-11-26"
     },
     {
@@ -2687,18 +2802,28 @@
      "d": "2026-11-24"
     },
     {
+     "t": "EnerSys-Finanzchefin kauft eigene Aktien für rund 25.000 US-Dollar - Investing.com Deutsch",
+     "u": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZXRYZDZYNXp3aUlYOTJ2SHJ1OGN6MDFjbkRzaXFoVmpMVUNDV19GaVlyUXl2N2RzLTlCN09DdU9ENHpnMEdocVJrSTIwX1VDSEpvRjFHX29fejJoTTkxYmozOWNYN0x2V0lkbllqR1p0Z2t0eEI3dFlsY3lwbTN2OXdLMlhkOUVydGpYZEM4V3ZIbW8tejlaYnhiNnBUbWxhUEZadWZKd1Z0STNDRkJfZy0waWRzVHB2ZWJrZWpscWRpajJUMXc?oc=5",
+     "src": "Investing.com Deutsch",
+     "d": "2026-11-26"
+    },
+    {
      "t": "EnerSys (ENS) Stock Forecasts - Yahoo Finance",
      "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdmxrRzQ0T0p5d1JNY21Mb2xJNWpjdWVKNTl1ZnA3TVl2cmhWYWhBeHNRYXZvVTYyRUhCam9wSmJxcFVQS2padUdMcW0wY3B4a0JEN29IWk02ZWR2NlNHMnRUMUxZQkdOWWtTSEdHMDU3LU5ITUxpamtIOFY1MEppMkZfUHFyT2ZDdzFBZHNUbw?oc=5",
      "src": "Yahoo Finance",
      "d": "2026-11-26"
     }
    ],
-   "composite": 13,
+   "composite": 10,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 13
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 10
     }
    ]
   },
@@ -2710,7 +2835,7 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 30,
+   "stocktwits_24h": 15,
    "news_en_7d": 1,
    "news_de_7d": 0,
    "headlines": [
@@ -2721,12 +2846,16 @@
      "d": "2026-11-25"
     }
    ],
-   "composite": 31,
+   "composite": 16,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 31
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 16
     }
    ]
   },
@@ -2743,16 +2872,16 @@
    "news_de_7d": 0,
    "headlines": [
     {
+     "t": "Form 4 CBL &amp; Associates Properties Inc: David J. Contis (Director) For: 25 November - Investing.com Nigeria",
+     "u": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWWp2dzN2R241cDBORVFILTZpdTdVSGM0VW04cFlTWll0WTRuX2hUUk9vWnplZnhVanBXRWdYWGNlaWJ5bGVCVG1kQkVqdzhxT1VIT1lTWkpDNUNVa3JkSG5jMS0yZmVLNTlYV0pWal90SG1oX205dkZ4elBYU0hBUURYNFZkODNHTk9ScGhwTUhmcjNhdUo2ZUZQOFREbHpRR21LcjNaR0JLVm5iQlNEdDZjRDZ6c00yWTg4aFgwSmhuYnRJMlA0RG16YzJLbGNtSGlFTw?oc=5",
+     "src": "Investing.com Nigeria",
+     "d": "2026-11-26"
+    },
+    {
      "t": "Cbl &amp; Associates Properties Stock Price Forecast. Should You Buy CBL? - StockInvest.us",
      "u": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE51WHRZMnNwdDVyUUk1T2syd2xPZ2ExUVIwMl9KbC1Iekp0ODROaW9FRF9xbGpacGI0Qm1Oa3dId0xBYUdUY3U0?oc=5",
      "src": "StockInvest.us",
      "d": "2026-11-23"
-    },
-    {
-     "t": "CBL &amp; Associates Properties (CBL) director Contis bought 325 shares for $16.2K at $49.97 - Quantisnow",
-     "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT0h0WkZGaFAycjdNR0Q2TlRKQTJjNmt4OGFpUjV4TFVHeXAxVU5oWjJwTE5fM3BuNDJ2S01xOEZEb05QaUlSX1dWa1Z0T2dpcE5UR0xydU9vazltckdfMUlRYVJIRFBJYktjTldqbElXMTVzS2pZYi1YR1A5ekFJZ1N0S1JHVDNnMHhXelhLbTUzbTJzOXBaSHI4Wk01NDNk?oc=5",
-     "src": "Quantisnow",
-     "d": "2026-11-25"
     }
    ],
    "composite": 2,
@@ -2760,6 +2889,10 @@
    "history": [
     {
      "date": "2026-11-26",
+     "composite": 2
+    },
+    {
+     "date": "2026-11-27",
      "composite": 2
     }
    ]
@@ -2773,13 +2906,13 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 3,
+   "news_en_7d": 2,
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Form 4 STUDIO CITY INTERNATIONAL HOLDINGS Ltd: Lawrence Yau Lung HO (Director) For: 19 November - Investing.com South Africa",
-     "u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQajBhdWJheDRGZHZkWGxBMUFxcHpEeFFLaERhWlFOVmpWbFN4UnNNOWxTSFZQdlN5REpxa1RFYm82bFd4eFJPcUU2N3kzRmZrYlFXRk9lakt1VW5hNFY4Y0NGZWZ6VjRiRXdMaDBWcXFUU2xPaDhpU3J3a3o4dExTUFA3WnphbjJWSGt1TG9DcFFDSnpHdkxpWmNrZDZSX2xEWkdsRWdrUkhSR3RHTFNmampObE1iQWhSNUpRei1lQXRZby1zQTNhLVIyWDIydzlvSTFWVmJ1cU1QS0lsRTNLdnpMSHk3TXM?oc=5",
-     "src": "Investing.com South Africa",
+     "t": "Form 4 STUDIO CITY INTERNATIONAL HOLDINGS Ltd: Lawrence Yau Lung HO (Director) For: 19 November - Investing.com Canada",
+     "u": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPaVpMMTZPYWE5OFR4Skk3TkxCbHpia0NvNVB5NENmclI4UFp4SWZZYTFONTBvUjFySE56eHpGcG5LYnBIQVBvQkc2VVQ4allraXVXYzV1QnhkYVQwdlQ0WGVkMHI5YWphZnd5dkRVRVQ3d2lUWkhlQ3AtT2xQUVZrTThocnhGV2Q0QUhGODVRdzF3ek1URll3bEdaQkNUUXlQUENVVEpIZF9ySnBObnpwald0emVfM3g0dzljR3FnOUlidmpoMDJiRUxOTWpISXI5Q3FkekpESkh2RlBsRDV2X1I1UDMxR28?oc=5",
+     "src": "Investing.com Canada",
      "d": "2026-11-23"
     },
     {
@@ -2787,20 +2920,18 @@
      "u": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMktHay1GRm5TTXcyR0VDTnhzN2xHRVVtTlJGb1VHcjV5aDBNRjNKTHdZOG9FVEFTY2d2UDlKQlNMbUtiM0FmSkpaQmF1emhlaUhyY1BpdUFNSUlEN1c5aklUZXZ3b0ZnLUxxQW9MZGprNER2cjh6aEphbDdFUjlvTnFRVkkwdVdzM1hGSTM2ZmlJRGRTS0t0VlJrWVdlcDEtaHlTejdXb0lDRnc5NG9SZk9VQVhBS3VlZ2pVb1R1RUxpUGtSUEhxZG81OENRT1VYTlo0TTUtaFhIUQ?oc=5",
      "src": "MarketBeat",
      "d": "2026-11-23"
-    },
-    {
-     "t": "Studio City Ih (NYSE:MSC) Stock: Insider Lawrence Yau Lung Ho Buys 76,120 Shares - MarketBeat",
-     "u": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYkVES2RJUUVQOGhoUzZ6NERPVWhrTGFZSVp0b3BTWWhmQlRpWF96OEVGWW01OTI2MU00WlMzZG1ucTRFZUVzczdaU2hYVkhRdUpEZlJxTjY2ZmRFQ1BYcy1UMXQ3QktKQUg3OUREcjFzaVdxdTBfakszenhHQ3hNLWJEWWg2NkE3UHlMaEgtRFhrY3NaelVaMjYtQV9GTFh0R0Y3Q2lFcnpMeGZMWUNIX3pBYlhhMjk3VV9DYWd1Q19HazFtX2xpaUlQa2p3REl5TFF3eA?oc=5",
-     "src": "MarketBeat",
-     "d": "2026-11-19"
     }
    ],
-   "composite": 3,
+   "composite": 2,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 3
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 2
     }
    ]
   },
@@ -2812,23 +2943,20 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 30,
+   "stocktwits_24h": 19,
    "news_en_7d": 0,
-   "news_de_7d": 1,
-   "headlines": [
-    {
-     "t": "Altimmune, Inc. Aktie (A2N5Z6) - Kurs Nasdaq - MarketScreener Deutschland",
-     "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE90dEl4MEVTMll0MjExRE90a3E4SnRxQlJQMkI2VmdaWjJmYVV3Zkw5bkpjV253NXkwWUZuT2VQdnl5Rzl4cGdNNUt6c05nT3dZdzBUS1VxcWRtS3FpVzRVZTFackpmUXRGbHRsUnhtalRYQQ?oc=5",
-     "src": "MarketScreener Deutschland",
-     "d": "2026-11-20"
-    }
-   ],
-   "composite": 31,
+   "news_de_7d": 0,
+   "headlines": [],
+   "composite": 19,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 31
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 19
     }
    ]
   },
@@ -2840,29 +2968,33 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 4,
+   "stocktwits_24h": 1,
    "news_en_7d": 2,
    "news_de_7d": 0,
    "headlines": [
-    {
-     "t": "Trinity Capital (NASDAQ:TRIN) Stock Price Crosses Above 50-Day Moving Average - Time to Sell? - MarketBeat",
-     "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObzdiTmNvOEpaeGVVS3ozTTdfeVZpZXV6U3A5U09wRHhONnN5OGlPOTl3SnduVFRMakRWUnFicEwyVnVZbXd3YW5HZUsyald6aEQ2QVJGV1REak9yaHhpaDF3ZW9FUmhlVWx5VjRPdWltek9QYTgtMWtJN09YcFVEN1VOMVRReC1sR2RXVlBCZnQtWVRaSDV5MHNxcWhJdjdFUGNyYVZHUVZFU0pkWHo0a3g4QXFRYV85VlREeHpkS1dzZVhReXhOeTZSZjluOFczN2tPb2lIQnZ6SmJQMmhpTzVR?oc=5",
-     "src": "MarketBeat",
-     "d": "2026-11-26"
-    },
     {
      "t": "The Brown family trust bought 675 shares of Trinity Capital (TRIN) the same day its executive chairman bought 720. - Stock Titan",
      "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR3dxc1dCM3ZqYUlHV25qMV9OLTVsWkZqQmpxQzI4TkxoUHpnbjVGQ040SExVTUtkZUVqU0ZCem5uckpmWTFSRGRudmJTUlBzSUZxY0lnNlZFMU5rWkRPRkh1LXZHeXVQOVAtbl9icGlMTXduazFRcjRTejRHMGx3MnhIMmVmM1h2Q00yX0ZKUHpOd3ExSU9RSm9kVERFSFo0cTlxUVd3WG5zdU5HcVJfZWtKUQ?oc=5",
      "src": "Stock Titan",
      "d": "2026-11-25"
+    },
+    {
+     "t": "Trinity Capital (NASDAQ:TRIN) Stock Price Crosses Above 50-Day Moving Average - Time to Sell? - MarketBeat",
+     "u": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObzdiTmNvOEpaeGVVS3ozTTdfeVZpZXV6U3A5U09wRHhONnN5OGlPOTl3SnduVFRMakRWUnFicEwyVnVZbXd3YW5HZUsyald6aEQ2QVJGV1REak9yaHhpaDF3ZW9FUmhlVWx5VjRPdWltek9QYTgtMWtJN09YcFVEN1VOMVRReC1sR2RXVlBCZnQtWVRaSDV5MHNxcWhJdjdFUGNyYVZHUVZFU0pkWHo0a3g4QXFRYV85VlREeHpkS1dzZVhReXhOeTZSZjluOFczN2tPb2lIQnZ6SmJQMmhpTzVR?oc=5",
+     "src": "MarketBeat",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 6,
+   "composite": 3,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 6
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 3
     }
    ]
   },
@@ -2875,9 +3007,15 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 1,
+   "news_en_7d": 2,
    "news_de_7d": 0,
    "headlines": [
+    {
+     "t": "At an average of $0.75 a share, a Newton Golf (NWTG) director bought 30,000 shares. - Stock Titan",
+     "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWjhfYWQxNDdLczZCSTBibWxscnEzdUNTVWNCSGszRDFkVG1HQTMwUTl4YnoteXFyc1piTGNmWnRieF9JcVAwa1REd3BtUWtHaG9iM01sVnRJcDlYQkUwbUxVOTliRFk5Tms2Y1dzZk40NGlNVmo3M1VTM1FXM3hONXBwaXVpSllOczdwZmh4bHh0SW1EVFgzMW84VXcxZllxSDZ5aUtha1RCQjJjeG1meXBzUkkzODJF?oc=5",
+     "src": "Stock Titan",
+     "d": "2026-11-24"
+    },
     {
      "t": "Newton Golf Company (NWTG) Stock Price, News &amp; Analysis - Stock Titan",
      "u": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KaXZkXzlxSGlCVjFhSVJ4aTFIb1JjUXA1bzVfWTNrZ01zTk1sZkd3ekdBdGNNZ2ZRRUx3cW1tUjBmZlc0cjZjYU5kTUZaZUR6QXlF?oc=5",
@@ -2885,7 +3023,7 @@
      "d": "2026-11-20"
     }
    ],
-   "composite": 1,
+   "composite": 2,
    "spike": null,
    "history": [
     {
@@ -2895,6 +3033,10 @@
     {
      "date": "2026-11-26",
      "composite": 1
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 2
     }
    ]
   },
@@ -2907,9 +3049,15 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 2,
+   "news_en_7d": 3,
    "news_de_7d": 0,
    "headlines": [
+    {
+     "t": "Serina Therapeutics (NYSEAM:SER) - Stock Analysis - Simply Wall St",
+     "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaTdGSUJ2WWcwLURPOU0tMU5vNlFkOVVlbVg1RHg5YXV5NHhDMlBDOEp1ZkJzSEQxRkhoNEJPeFE0TjcwN2VjVmpzWnhJem1EaFA2S3NZWG5qVGVYSVA3VkFZZkc3Q3JWVTdtUUJtUV9LWkVBRGlqVEhmZm5ZXzJoYUlBbHpUR1ZjNlhKX1FoZnY?oc=5",
+     "src": "Simply Wall St",
+     "d": "2026-11-23"
+    },
     {
      "t": "Form 4 Serina Therapeutics Inc: Gregory Bailey (Director) For: 23 November By Investing.com - Investing.com India",
      "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSkplMEktdUhmVm1nUnM1ME5YN1hDcThwQkFFd1hlU3hPTEJuSGU5ZVdJc0dnOWpKcTljdGFtVzRVYkpUaEpWS3FpR2N3d2c3Zzg0VnlMbEpxcGp2anl2YlZTT2VrYTc2a1RXLXR5bHhyNEhqYTBXVXRleWM4d3dmZ1l0R0tOVUFROGNXM1B6MkFPWWZ4enFTbkszVXJwWWRhcl9LX1AxWW85bjJPSHBGNnpSZjdxY3VuMEJXSkRCY3pqSWdOVHEtQVFHRQ?oc=5",
@@ -2917,18 +3065,22 @@
      "d": "2026-11-26"
     },
     {
-     "t": "Serina Therapeutics (NYSEAM:SER) - Stock Analysis - Simply Wall St",
-     "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaTdGSUJ2WWcwLURPOU0tMU5vNlFkOVVlbVg1RHg5YXV5NHhDMlBDOEp1ZkJzSEQxRkhoNEJPeFE0TjcwN2VjVmpzWnhJem1EaFA2S3NZWG5qVGVYSVA3VkFZZkc3Q3JWVTdtUUJtUV9LWkVBRGlqVEhmZm5ZXzJoYUlBbHpUR1ZjNlhKX1FoZnY?oc=5",
-     "src": "Simply Wall St",
-     "d": "2026-11-23"
+     "t": "In two November trades, Gregory Bailey buys 10,105 common shares of Serina Therapeutics (SER). - Stock Titan",
+     "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeXpqcFVzQUFvSS1aR3FjQWNDbG50eHhQMnl2UUFvTUUtV1RaTEY0WVkzRGE2U29MYVFWX3U1S0xjVVJFNEFGV3hWZGNqMGY1UkNLdk5xcEVzSzhkaURZbkYxTVlKZzJEUXZzTmFhT3FoVmpjWkloekZVM0ljUjdQMDdyQm1PSVdSdkVrRnE2NHVZa29SOVpXM1N1NGtNOWhOWkdiOGIwV2tUVDd0N2p3SWF4cGU0RUE?oc=5",
+     "src": "Stock Titan",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 2,
+   "composite": 3,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 2
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 3
     }
    ]
   },
@@ -2941,7 +3093,7 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 3,
+   "news_en_7d": 4,
    "news_de_7d": 0,
    "headlines": [
     {
@@ -2951,24 +3103,28 @@
      "d": "2026-11-25"
     },
     {
-     "t": "Form 4 American Strategic Investment Co: Nicholas S. Schorsch (10% Owner) For: 23 November By Investing.com - Investing.com Canada",
-     "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcHJ0dkZMY19ZQ1ZHeFEyVGluNHZzTHZJS1Jxci1MNzllZ1Fqa2x3S1hOVW9XNFVSN3VUczdpNHNYdG5EdzlGWGxqb2NDUkhyV2hXWWYwSnc4bHRsTW5RcEdWeVl6b1VrZUw5bVRYMUpjcEZ4NGFiVi1IaTN2eFk3Zlo2S0tsYkgtNGZkbzJQNHFGOWVnbWh1SWRqVW5LNkdwQlRlemU3cGZsQ3ZmX0VTcmwwUC1CSzlBQ0tZcGpmTEN3Z3VsQUVzbDI5U0prb0NTZjFnb1dsWG9WbF9rR0E?oc=5",
-     "src": "Investing.com Canada",
+     "t": "Form 4 American Strategic Investment Co: Nicholas S. Schorsch (10% Owner) For: 23 November By Investing.com - Investing.com Australia",
+     "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcEdqcHIteVVTYjJoUWFSMWNCamtmZC05YzJ4dEZkZUJVSVRGM1BKZ3JoamFpRDFUZDhzcFgxdTZReUY3YXpURVRzTkhvSU5XR0hqcEhWSnJ2WEE1b1hHeUtXb25qcnBCYVpSS0Q2Z3RRMHJodXFCQzM1eEVHeXVQNUJiV21Ib1hKOWh2OGVJNDJKVjN0bDNGbDUyUTEzNXd5dm5nNUpXeTB5SXVMNnRuUnhVdUVfYVBNa204a3E4Xzk4clNrOF9KOHNEOFhjeDZPN3JpTkV5NWdZRlo1bGc?oc=5",
+     "src": "Investing.com Australia",
      "d": "2026-11-26"
     },
     {
-     "t": "Form 144 American Strategic Investment Co. For: 23 November By Investing.com - Investing.com South Africa",
-     "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaHdMY3Q1Ri1lcGpyV1VwVVZtNmcxUW1MN1E5TEZPeGQyT2pqZm1TSXdONFFVYXpmRC1wWDJIVld0MlIyZFg3dnpLVEhkenVSeTVodWlRck5wZkhFTDZpZHd4MWhscHpiQWNjRUZIV2pXODFkc3JVU2xNYXpKa2ZpYUlhS1Q1bTNxU2FYU05Jejhqc29GbVZFVi1ZbndWZmlaMWtWQTJEdnVmR3JVUVoxaV82N3RvZHk2Znc?oc=5",
-     "src": "Investing.com South Africa",
-     "d": "2026-11-24"
+     "t": "For fees earned, the external advisor to American Strategic Investment (NYC) received fully vested shares. - Stock Titan",
+     "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNlhHQkp0aW43WkNmVFhydEctaWlVSWdVbjE1emFhN1dEb0xLbzhhdUtmSDNRdzIyZ2FUbEd6ZVBhYnFqMHFqZTBDc0xaSTRkaTFqQ3owanlEeFJNaEJDVWxkNWVqQ0NFNkhBRENsOGtSeFNFeTRrN0tQcGdPbVhjVHQ0Wno1YzVvZnltWjNtaVgxLXFBdjJGbmh5aC1iNXZlVDdHR21nWnJpd2N0Tmo1N2RwVjZrX1ZDM1hLRHd3R2RZeHc?oc=5",
+     "src": "Stock Titan",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 3,
+   "composite": 4,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 3
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 4
     }
    ]
   },
@@ -2985,16 +3141,16 @@
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Form 4 Hawthorn Bancshares Inc: Brent M. Giles (Director, CEO) For: 24 November - Investing.com UK",
-     "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYVBRWk9vOXg1OHptTmUzRHVGZXAyb3o1ZjJ0aG9CWUcxemYzbjF4XzFZdEVQQ3JmWWVQNTd4U0J6ODdpZDJPbWxxZURWbzcyc1MxOHJ6Z1pPenFKSXVzZDJrZjVHUkFFWVo5eGpmVElmS1ZSSXozVENmdUVLVW94ZkVoYVpaUk5sQWh5d0N0TFVyQkhIclZDWVlKQS1XNnBxWWdZMzRUN3M2dEZFSE9MTjREbFBfSDhaZjh5aDdtTXhXNkNBVl9udldUeTh1Z1U?oc=5",
-     "src": "Investing.com UK",
-     "d": "2026-11-26"
-    },
-    {
      "t": "Hawthorn Bancshares (HWBK) CEO Giles bought 500 shares for $19.6K at $39.25 - Quantisnow",
      "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbWc4cW9JZnFOVTZ5ZkdXemE2cUFWd3dTYmloancxVGx4aGxFVkJPUWFlY1VSUkFXQ0l2WEtpUnFWN2RMNGJvQnE5VHVWcEgzV2ZLZ0cxY3NueXU4OXZxTEUyX1hFWmNkaGh1eVZET1hmMWZsZEtIX0szelUwN3ZkTjZqTzcwaTRHZ24xTWtXZmZaNXl1ZER6X2JqNTRmMDUteW5pVA?oc=5",
      "src": "Quantisnow",
      "d": "2026-11-25"
+    },
+    {
+     "t": "Form 4 Hawthorn Bancshares Inc: Brent M. Giles (Director, CEO) For: 24 November - Investing.com Canada",
+     "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdTZkSk9HSlgyNERyVFZnTmVDZnNrX1JOb0JEcVdtb1RSRkZXYXVtWFlxNmpmVXo3RHI5am9zbTQ0MWFJbllnMEtTaUl6bmVyTm9COFJZWVRjSUNfamFwLS1IRllqSV9SVWc0YldwQm5BUlFCTGlJQzlGTmJRSGpGS2hPMVZZZ0RzMW1lOFhNbDZQcmwwOFRoNngtQTQ3cmNaZDdWLVZUbVJJc1R1TnJRcGhUMHpET1M4OWdUTGQ4NkhFdVVrSHdEV0xDSGRyWDg?oc=5",
+     "src": "Investing.com Canada",
+     "d": "2026-11-26"
     },
     {
      "t": "CEO Brent M. Giles bought 500 Hawthorn Bancshares (HWBK) shares through a trust at $39.25 each. - Stock Titan",
@@ -3009,6 +3165,10 @@
     {
      "date": "2026-11-26",
      "composite": 4
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 4
     }
    ]
   },
@@ -3020,15 +3180,26 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 1,
-   "news_en_7d": 0,
+   "stocktwits_24h": 0,
+   "news_en_7d": 1,
    "news_de_7d": 0,
-   "headlines": [],
+   "headlines": [
+    {
+     "t": "Creative Medical Tech (CELZ) Stock Price, Quote, News &amp; History - Benzinga",
+     "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAxUkV5VVpva1RveUxNMFcyU01FYU1odlJacklNelktc3E3d09ERmZBQlVVUGxyV2p2a3pwdUZwRWl3eWpQRjhtUW1zMA?oc=5",
+     "src": "Benzinga",
+     "d": "2026-11-20"
+    }
+   ],
    "composite": 1,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
+     "composite": 1
+    },
+    {
+     "date": "2026-11-27",
      "composite": 1
     }
    ]
@@ -3064,6 +3235,10 @@
     {
      "date": "2026-11-26",
      "composite": 2
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 2
     }
    ]
   },
@@ -3076,22 +3251,19 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 1,
+   "news_en_7d": 0,
    "news_de_7d": 0,
-   "headlines": [
-    {
-     "t": "Certain Options of BranchOut Food Inc. are subject to a Lock-Up Agreement Ending on 25-NOV-2026. - marketscreener.com",
-     "u": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaDN5bU5pc21uZ2NCSDBpTGNMUmd4UktQU3p6RkRwTDJ2cFVFUElqNGE4X2duOFRweEFzR2IyYUpKd2JTckJqMXVDOXNTNFRhYm11NUJIQ3VzRWhramlES1NVZ2JDd1YzLVJPNHBtZWY5amszbmlXZTJKb2NVS05uTzYxVm9YTFhLZ0NaRkhWQmRFNXE5aFF3VTZYVy02YllCTzdLUTZUSDNaR21DLTloSmtCUzhmaGdfV3h1dnYweV96bHczd05fLTRxM2RYXzNIUm80MkRKcEZocDdVakZ6bQ?oc=5",
-     "src": "marketscreener.com",
-     "d": "2026-11-25"
-    }
-   ],
-   "composite": 1,
+   "headlines": [],
+   "composite": 0,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 1
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 0
     }
    ]
   },
@@ -3104,8 +3276,8 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 4,
-   "news_de_7d": 3,
+   "news_en_7d": 9,
+   "news_de_7d": 2,
    "headlines": [
     {
      "t": "Tecogen: Director John Hatsopoulos kauft Aktien im Wert von 7.976 US-Dollar - Investing.com Deutsch",
@@ -3120,24 +3292,28 @@
      "d": "2026-11-25"
     },
     {
-     "t": "Tecogen: Director John Hatsopoulos erwirbt Unternehmensaktien - Investing.com Deutsch",
-     "u": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdmlVUDJaYXo4ZkJLaTE5T0p2cmptRXB5Yzh2NFUwdHdIb0RrdW5qczFUcXBFQVhnVEFKWWM4LUN6dFlmTmlsMldIU0JrZkxRTkhIQnlpSkJVbVFLN0J4LU9OVzdvM29ONzYyNkFWZzY4dmJaSzhkcU9OaTlIUEdvNmF4a3pDMF9SY0RsdWl1WHY0YnBmR3h2OVM1MHVsY0ZJS1dPNjJNUGUxT0FfQmdRaWw1QWN6ZTNILTFUd1lWNGdCZw?oc=5",
-     "src": "Investing.com Deutsch",
-     "d": "2026-11-25"
+     "t": "Tecogen Inc(TGEN) Stock Price Today | Quotes &amp; News - Moomoo",
+     "u": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPeWp4VzNTdFJkTlJjelpfV0JWRlk3aVNLQjNYZEstR0RiQnBhRzVUUGR6Tzh5OVJfWFFKTk1OVjlUQWhIdU1LNDk2NU02V2xWUm16ck1weXJWY0c0dG1BSnZmeld6R3lfbTBBTDhnVW9UMFB6MkVpRzFGY3JTbnpRTzFOX2lfakYtYmpUMzM1dHFRVHdZWjJXa0VNLUdFcWRUUmhJNmNTbGRFbWpDNndVQlcyQVg5ZVl2TF82eWJuMWtpa3JqWWNwM2VkZ2JjZ0VtUFV3aThfQzZGT1lHRGFfMnF1a3kxMDNZU3NQamZCa2R4aC0xTDMwdUU1R3E3cnM4bVZ6U1czVjFCbXNhbFZjUmUtNmJ2a29Ydnlkd0FWUlh3TV9UaTFLcUM4aGpfT1FKVW15clNyNDhyREpFWkFtd05QUEJOTmFTM1E1dlJEdGg0NkoxUUFGWk9uTGVVazdvazhFWC1Sbw?oc=5",
+     "src": "Moomoo",
+     "d": "2026-11-27"
     },
     {
-     "t": "Tecogen Inc(TGEN) Stock Price Today | Quotes &amp; News - Moomoo",
-     "u": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOTW5xa2QwTVkxcVdadktDWFBpelZCOGEyNl9QZ0RJaFBRdWQ1dmV3RGZMaWJHaDlUdHg2dUx1aDU1YVNDU3I0UG1fM08tUlZsZ2xqTVRHY1FJZGJ0dU5OcHJ5VVFsa3BTRVJaN0hPSC0wQVVEa1o5RXZkTmlpQzBTUk11NGdnc3dEV0RKLXRVZW5EVXRTT1ZlWUFLRXNnc05PV3hLdk5ZeUVpd1pGLVA5UnFmbl9FdmJJRUFXMWxFNlBNX05wWDN6QmFCemJTcmN6RDBrMHBkeTdsUmNaenFVTnJIMVY0NHN1QjREdlYxSTA3OE1OWkdqLWdibEZxNWw0V1RGc1pXa0ZONVlKYmpMWU5laEp3SWJ1VnRFOU5oVURmMHlOVzBIbU1xOWRXcG5lZlhqV2RaaExJcTlNQlBB?oc=5",
-     "src": "Moomoo",
+     "t": "Tecogen (NYSEAM:TGEN) - Stock Analysis - Simply Wall St",
+     "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9aazU2bXFfcGRYX0hnWUtuX09RaV83emFWdkdyN3dLZGRrZnR6R2JEYUpDbkg3aVJKQ0swTzdSSzBxOFpkRlE5TThyNWV5UmZWZFNiZVZGN2ZiaFNOcUdHWjM0SEF0cVp1US16VXZaVnd0OF81?oc=5",
+     "src": "Simply Wall St",
      "d": "2026-11-24"
     }
    ],
-   "composite": 7,
+   "composite": 11,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 7
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 11
     }
    ]
   },
@@ -3151,14 +3327,8 @@
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
    "news_en_7d": 2,
-   "news_de_7d": 1,
+   "news_de_7d": 0,
    "headlines": [
-    {
-     "t": "Equinox Partners stockt Beteiligung an Silvercrest Asset Management auf - Investing.com Deutsch",
-     "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPV2FneDlKbk9teFBNdlhvLW5zeWkxQ1JCUnVyYjcyN284TzBDSVM0anRZM2xwQ2dzdG9vWndYeDk2UXlNQzNwSHBOd2dMTXlqOGZ4UzNVOElLTzRYQld0ZGxLTnNBMnpIeGJ1dVVFZGtteGxEdy1RTkdjWU9rbE1DRmpiRUY3dkRQcGdDU19PNTFxT0d3RGludloxZmdLUjdsbk5nNHdaWkVORDVKQ2lhYUQ4MkUxcEwzMUhEZGkwYWRZUVo4dWN5UHB2S2RMcTBf?oc=5",
-     "src": "Investing.com Deutsch",
-     "d": "2026-11-25"
-    },
     {
      "t": "Form 4 Silvercrest Asset Management Group Inc: Equinox Partners Investment Management LLC (10% Owner) For: 23 November By Investing.com - Investing.com Canada",
      "u": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQY2x0dTRwb2ZCbDBDVUdfVkJTV2R0YkJON2V4WjIydjNsRUNxRDUyQ1V0X3ZReEc3V0QtMVJ2ZkJfZWRsVkl0UGtuNXZrYUhaMW5YZDhyZlpLVHpMWXdpV196eVlYS1F6bTl2RTN2REpjcUlBQXNtV3lGdi1RMzVkbEdhQ2RMcVZvbG5ya0dIUjNKUVNJeGI2S2NsOUxMSVA0emhNTlNKa1BFcXlPMm5Cd1ZUVm5yQVh4cWVScDJRWFYxMHFnSHgzQ19JMHlzQm82VlhtLTFuV3NjSFZjN0d6WTU3ZHN3MU5WYmwtYmx4WURyTnp3ODhJR3ZrbGtEb3RXS2dKbw?oc=5",
@@ -3172,12 +3342,16 @@
      "d": "2026-11-22"
     }
    ],
-   "composite": 3,
+   "composite": 2,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 3
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 2
     }
    ]
   },
@@ -3189,8 +3363,8 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 25,
-   "news_en_7d": 1,
+   "stocktwits_24h": 13,
+   "news_en_7d": 11,
    "news_de_7d": 2,
    "headlines": [
     {
@@ -3206,18 +3380,28 @@
      "d": "2026-11-21"
     },
     {
-     "t": "Comstock Inc. CEO Corrado De Gasperis Acquires 10,000 Shares at $1.22 Each - Kalkine Media",
-     "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUlc0S2xxZnhEV3c1dXVPQ1JRNHY0SWZhVVotX0JWa0wwcXBHWkF2bGRMWDlyU1hfZy1OclRJRlhzMk43cUdDRU1ocVJJRldHN3paNlBnU2FlYVE1a3ZEd2xZXzdTX0RDSUR1VTBiNDFpc2J2ZmJNNjBCNnlMc3dMYm04Y0RPdFNhVGxXdXNYRjdKazVRZUJwbE5HWS1fTk5FV1VCNlpORHJrZEs1Z0ZNT2RUWWJrS2hk?oc=5",
-     "src": "Kalkine Media",
-     "d": "2026-11-25"
+     "t": "Comstock Inc. CEO Corrado De Gasperis buys $14,962 in stock By Investing.com - Investing.com South Africa",
+     "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSHUtMWV1MVlfRkp5aTRoLVk5Rjhlb0p6d044NWNfMzN4U1k4MW1mUW1oTHNaY0J2OG45RDNYRHBSSFZpREhnb19mb3dQMzhIaDdsZGREa29JaGFzVURtY2pEVnd0b2JPS0loZ3FZMG03d1ZZd1NVdTI1MTBWTnJ3ZVlLYW9NZUNOdlpRSEFEU0diajllTHNSX3lTVW5qODZwR0d3dFFoMmYzTkNuWTFXNHhfanZZdkZG?oc=5",
+     "src": "Investing.com South Africa",
+     "d": "2026-11-21"
+    },
+    {
+     "t": "Comstock Inc. CEO Corrado De Gasperis buys $14,962 in stock - Investing.com",
+     "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR2x3X3NkdHpNeGNSLUY2TnBCWDVRU29QeGdXNl90OC1ZVS1nN01SdWN1V3dLUmlJd29QdTBwRkFCczFQcmtFNWNaWHllbkVoUFNSREhFV1M2eTVDWFB4aUNqVFhpS0l3SXRHUTZWUmpPVHVYeWtHUlFlZlVEa3M3MGJfeHJaX2VmNS15dk5veGQtTFZReTRCeE9yeHlfdDQ0bUpzRVZrVkJmVU5DS0lzeXNPdXNyamJNTWtCaTZn?oc=5",
+     "src": "Investing.com",
+     "d": "2026-11-21"
     }
    ],
-   "composite": 28,
+   "composite": 26,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 28
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 26
     }
    ]
   },
@@ -3229,7 +3413,7 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 1,
+   "stocktwits_24h": 0,
    "news_en_7d": 2,
    "news_de_7d": 0,
    "headlines": [
@@ -3243,15 +3427,19 @@
      "t": "DATA Communications Management (TSX:DCM) - Stock Analysis - Simply Wall St",
      "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeWpzcUlFb2sxandQaHRrZ055NW1zcGoxbGZnYlllQjdfSG1KN0pacWxQek5KeHI5SFA5RENGSHV3eEJjeldiVlZDZ1BQRm55NmlOcHdhelhqLUpUaGlZaVluc1RjRVZrVWtsOWxLMGY2dWplSkVzMEstM2lTMm12ZDNBbGdJb0lzVnN6WVFpYzBhMWVILUtmLV9Zd0Z3UQ?oc=5",
      "src": "Simply Wall St",
-     "d": "2026-11-23"
+     "d": "2026-11-24"
     }
    ],
-   "composite": 3,
+   "composite": 2,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 3
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 2
     }
    ]
   },
@@ -3264,7 +3452,7 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 1,
-   "news_en_7d": 3,
+   "news_en_7d": 6,
    "news_de_7d": 0,
    "headlines": [
     {
@@ -3274,24 +3462,28 @@
      "d": "2026-11-26"
     },
     {
-     "t": "VeriSign (NASDAQ:VRSN) Stock: Insider D James Bidzos Sells 3,300 Shares - MarketBeat",
-     "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcjVmUUV5bXNaLU9QcXN4ZUhCa19iY1YxUS1uclFteEJTZklJSGMydDdHQUs2N3FwbjdlVUl0dmdkekYtSG11X3pVcWRIZ3dzT0lXVHVScHU2VlRnbmhTZ1pXTDJlVWxXV0owRmhUOUcydm9xLWdzUVBkaVRzTzFNQUxjMjhfUm9aR3lDZmpod0pQYlJNYmpteUk4MzVKdGlKa0I1dXZ1cGNLZ2J3MXZWeHNrLWMxZkVRbWhGRHUwSGRLOTdIdVdhRA?oc=5",
-     "src": "MarketBeat",
+     "t": "A VeriSign (VRSN) director bought 13.529 shares through a family trust and 4.626 directly. - Stock Titan",
+     "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY2VNZlN6RlZ1RExBaUM2RmoteFUzYzh3SHRrWkczSzZpVUFzcGIyQmJWeEZqM08zQW93SnZsc0tPWjNjQ3dTcmNYXzVCNVhzeWs2ZHlaQjB4dE9QcDY1aXptMGM2YjlBeFJNdFd1eHlFaVhya21pYndlQlp0N2pDUEZvSW80Ny1JalBpbGUzTkNyOU44eW92Rm5GMTdqX1RSZ2NXeEFCdlY1WUlKQ0E?oc=5",
+     "src": "Stock Titan",
      "d": "2026-11-25"
     },
     {
-     "t": "VeriSign, Inc. $VRSN Stock Holdings Lessened by First Trust Advisors LP - MarketBeat",
-     "u": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTGFRN1BoWTN1OUlUbHJQSHFpTVFKblJhd2c1eGdiX09TazlvUjhUVEswTTVLVHhsaDVPSkZHWU1nVl96NUJZRDVWbS1Td1YxRlNsTi1KbzZCa2VsaURLNTU0YTFhc2htelJ4T3J5M2c1Slp3WUdnakNIbzUxZmlHcV9YVTh1R1ZHUmFFWXNFd2FGSGcxWmhIaHgwLUE4OUFENHhkWmtfZWplUHZxZUF4S2M1WW96cnFlOHVndVVMcEJ1Mm9ncmdjTA?oc=5",
-     "src": "MarketBeat",
-     "d": "2026-11-23"
+     "t": "VeriSign, Inc. (VRSN) Stock Forecasts - Yahoo! Finance Canada",
+     "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQzNOS1A5TmZnYnNET1FEaVFuVGs4TGtfZmdyVGtkOUNjU0F2a1kxTnR4MG1fZl9wLTZkTmVlMlllQ3l3MFVaQ21ySkpNVm5kb0FkdFFFRDlqdDJVWTBDelZaS0Z3TVctaVdtdGZFM205RmROUE1HV0d0Mmx3U2VfZ1RWQlViREszSGZubW9DR1A0bm8?oc=5",
+     "src": "Yahoo! Finance Canada",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 4,
+   "composite": 7,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 4
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 7
     }
    ]
   },
@@ -3303,35 +3495,27 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 6,
-   "news_en_7d": 3,
+   "stocktwits_24h": 0,
+   "news_en_7d": 1,
    "news_de_7d": 0,
    "headlines": [
-    {
-     "t": "XBP Global Holdings, Inc. (XBP) Stock Price, News, Quote &amp; History - Yahoo! Finance Canada",
-     "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE00SFFZazE4dW5JYUNsMmxrQnNyOGVoR3huT2RkQWY0TVVRc0RsRWlHT09QdnNCaUVLV1NGNXluZ3NpaTFSN3BZelMtVDlHamlz?oc=5",
-     "src": "Yahoo! Finance Canada",
-     "d": "2026-11-24"
-    },
     {
      "t": "Form 4 XBP Global Holdings Inc: Andrej Jonovic (Director, CEO) For: 23 November By Investing.com - Investing.com India",
      "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSS1TSVE5YXltRVYyRTFkWEEwVVk0WHZKNWJmZmZseHNnSjlyRVR0MmVJcUJzdVRQcTRmWElHNTl6V2w1MnlRMGNTUDJ2RkJSNkFYMU9MV2xJT0JrNEE0TlZyal9mNVVlY1ZIcFYwcThZQ2VyOHNMSUdMSXpmYklvMjV0b0txak14LXpHY1UxWHlLWjBVT21vckpQVnZLNWRBQ1YtY1BYMFZhRWhSakRkbGkwWVR5eHk0UjB2TVF2Q1ctWHI3a0FZN19ldzFqNW5t?oc=5",
      "src": "Investing.com India",
      "d": "2026-11-26"
-    },
-    {
-     "t": "XBP Global Holdings (XBP) CEO buys 3,595 shares, then adds 405 the next day. - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUlQ2a1Z2YXc3NVdFVGMtYjk5ZFRJSnhRZVRnM2ZsdVBJZHFSWEVrQnVJSGl3R0NXODQ5d09vTXZQUFB4VEgwNXdGRkM3dmNwZ1NQMzI4RlB1Y3duX0RCbzUyNkZldGU4XzM4MW1LU0pNOHRHSWlwS1hJVnRRTGxpUFliSHlxZmtPWWdfX2JBQUVjOUl6V0pYbkpqLTRsWUJLMHRCYWs1QnFNam5TUVZaT0d6bkpiRVk?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-25"
     }
    ],
-   "composite": 9,
+   "composite": 1,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 9
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 1
     }
    ]
   },
@@ -3344,7 +3528,7 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 6,
+   "news_en_7d": 8,
    "news_de_7d": 0,
    "headlines": [
     {
@@ -3366,8 +3550,8 @@
      "d": "2026-11-24"
     }
    ],
-   "composite": 6,
-   "spike": null,
+   "composite": 8,
+   "spike": 1.14,
    "history": [
     {
      "date": "2026-11-20",
@@ -3388,6 +3572,10 @@
     {
      "date": "2026-11-26",
      "composite": 6
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 8
     }
    ]
   },
@@ -3399,16 +3587,10 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 4,
-   "news_en_7d": 4,
+   "stocktwits_24h": 0,
+   "news_en_7d": 3,
    "news_de_7d": 0,
    "headlines": [
-    {
-     "t": "Powerus Corp CEO Fox Buys 5,000 Shares at $1.24 - kalkine.com",
-     "u": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS2VydC1RQ1NaWTd1M254OXhBME15dlhlWHZkQVZjRXZuYnd5NHdMeW81RFA4MzFCMGlGcWtUY1RWSXJEQWhUSHlTLXV2TDdlazctRG5fR0h2QWp4cjh5cFRXeC1SUTFhd2p3WElGeER6bHlabUNsbU5MUDFBN2VHRFFQTnpFaWl0U3Jn?oc=5",
-     "src": "kalkine.com",
-     "d": "2026-11-25"
-    },
     {
      "t": "At $1.24 per share, CEO Andrew Scott Fox bought 5,000 shares of Powerus Corp (PUSA). - Stock Titan",
      "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc3FtSUl6MURrYWtjUTgtbmNvRnBONjB1TTcyandrOE5oWjl5SmV0N05JeDFXVEV4Z21FcktkdW5KLTJVLVdwei1WUHdlejNBdFY2NlZZczh0VndnQUdrem9jalJ6Q2ZaOGtZa3drNXpqcWV2bGo1Q051dlBZbjNXbjR1cHZCMTF0cmxHZ0Y4VHc5dk40M2Z2Z1o0WFdGQ3YtT0p1T1NUZ21VZw?oc=5",
@@ -3420,14 +3602,24 @@
      "u": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IWW56c0xHbHI2VlBURlNIM2Z6dW1KOExUWV9SVjVoSkEyS2FWdEdkODR4ZmR1ckFYazhPUy1hemxzNVFrYlZPSmx6dnRkanZLcDByY1NqX09TbWcwcVRaZ1R6bGVCcTBPWTdZU0tibURreXNuWDRSQmVLTQ?oc=5",
      "src": "Traders Union",
      "d": "2026-11-20"
+    },
+    {
+     "t": "Powerus Corp (PUSA) CEO and 10% Owner Andrew Fox Buys 5,000 Shar - GuruFocus",
+     "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWGh1QmdjVjByQjlYdlpzU3M3cHhySEtGUU40bnprai1kMTM5VGVlV0tZb1daeEoxblhDelk2SkxpN1lPZGpfRjNaVEI2N2FOZTBwOFZ3SEpZcHVnME1JTWJDZ3BIRDBES1NHVTEyQ0JCN1lWZ2FSWFkxYVF6aHYtem1vMXh4cUJLbEoxeEtkNnRUWnIxaENFckQxUU9YQS03YjFr?oc=5",
+     "src": "GuruFocus",
+     "d": "2026-11-26"
     }
    ],
-   "composite": 8,
+   "composite": 3,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 8
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 3
     }
    ]
   },
@@ -3440,28 +3632,26 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 2,
+   "news_en_7d": 1,
    "news_de_7d": 0,
    "headlines": [
     {
-     "t": "Form 4 ELTEK LTD: Yitzhak Nissan (Director) For: 19 November By Investing.com - Investing.com South Africa",
-     "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSU5yZGhhT3VPYVBmWUh0UXZxelkySm1EbGxZUE1JVkRRU19FS1FYdE1YdzA0VEVPa2p6WjZrQk9rQ2s0RGRGbW9QbzZxak1qMUljRlRSdTNja19WUXY5TW9KbHRycWRPak5GdW8tQmRpb0JZVXgwdXFaZWRvS0RHSmI4YlF4MnRQWnZjMHVkRXlFd29EazRNd3FzeTRYR25PRUdhRlc4eGg0QXRmUlMtZXl0OUJKUml0?oc=5",
-     "src": "Investing.com South Africa",
-     "d": "2026-11-23"
-    },
-    {
-     "t": "Form 4 ELTEK LTD: Yitzhak Nissan (Director) For: 23 November By Investing.com - Investing.com India",
-     "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLXk2R2FUbFY0QWtHbVJSSDFrWjF6UDVsN1FDSF9wV1psZThESllvTGx3dG1LanQ3bklpbVRIdXBCRjJ2UUhNZXJnMGpfZVQtRnQyMm5pTF9xSkxJUGZ0YmtTai0xQzc5eFBmVjNxdDZNQWx1aGx2dG9mNW5VcDFLcktaRDZTeC1xeGhQUFFvRVV2ZjhtckZZT1dQcC11RnRXdE8yTEE0akk5ZjJlTGtqZlhfdFBINWdn?oc=5",
-     "src": "Investing.com India",
-     "d": "2026-11-25"
+     "t": "Form 4 ELTEK LTD: Yitzhak Nissan (Director) For: 25 November By Investing.com - Investing.com Canada",
+     "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ0ljYTVBLUl4N2ZkYUxvQktmVGZJV05PWHFzaUQwckxjV2JjX2ozRUVCQjlmYWtibllqLTljUEc4OU5CS2pDT2Ixd09kY3JBM0tKV1c5b1lvUVFVcE5KdkJZb0RUNlZKaW5FNVBIa3ZiMURBMWVDZF9faVlBWmt2d0JjdThwX25RTS1aS0Jjb2VTdl9xNDd1a2oyZ2dZeWNISU5UdzNudEY1NTh1RW9jQUVCUEk3d05o?oc=5",
+     "src": "Investing.com Canada",
+     "d": "2026-11-27"
     }
    ],
-   "composite": 2,
+   "composite": 1,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 2
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 1
     }
    ]
   },
@@ -3474,34 +3664,26 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 1,
-   "news_en_7d": 4,
+   "news_en_7d": 1,
    "news_de_7d": 0,
    "headlines": [
-    {
-     "t": "Uxin (Nasdaq:UXIN) - Stock Analysis - Simply Wall St",
-     "u": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE84QmU2NlVzaTZjbEhiS2t3Q3JPY2poUVpHaWJhX1hSUlFiTUM5OV9wYnVwU1ByZGRIWTYxRDQ0UEh0SHNNcFZPRW9XM0ZrMWpFV2ZoZWtKdVZEc1VGeDVtQUtUVERJZw?oc=5",
-     "src": "Simply Wall St",
-     "d": "2026-11-22"
-    },
     {
      "t": "Form 4 Uxin Ltd: Kun Dai (Director, CEO) For: 24 November - Investing.com UK",
      "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd3pUemJYTUlnMXV2QmdwV0VrRkxTMXY0TEJwTlNTOTNNY1B1NFV4ZVEtY09uS1JpMjAxV2Z6RHp6alVXaXdxT2FrMnM4WlhNejRiYjViX1hHUUt1VTFuS2xsMzFITzRfdVJkN1UwMWwtbDU4Tkh4SmNibVlURmtUT1JHZV8weTNob3ZqNWxwQzRJWG1yclg1eEFNS1NLLWpZeDJXcUJ0RFFSeHQ5SG1yYVBRVQ?oc=5",
      "src": "Investing.com UK",
      "d": "2026-11-25"
-    },
-    {
-     "t": "Xin Gao Group bought 3,900 Uxin (UXIN) depositary shares at $0.7962 each. - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMUl4TzhkcnlhbXFNN1A2Z3FKbHZIamRHM2NtY0hUcy1ZaFBUalZrOVFvbl8zZ1VGRDF0TjROd0lMcUVERlkzd3VXVEFzN1E0MzlHNDhJLUFyamdOR2hwNkR3UVNwbjlqMmtlSjNWQXZFSUgxUy1MOHJsUmdpOFlZV0Z4aGl2dDVrV0pjeU1POG9Fd0FyQTNFd2lGNmNOalJVZll6VQ?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-20"
     }
    ],
-   "composite": 5,
+   "composite": 2,
    "spike": null,
    "history": [
     {
      "date": "2026-11-26",
      "composite": 5
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 2
     }
    ]
   },
@@ -3514,7 +3696,7 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 7,
+   "news_en_7d": 17,
    "news_de_7d": 4,
    "headlines": [
     {
@@ -3536,13 +3718,13 @@
      "d": "2026-11-25"
     },
     {
-     "t": "Form 4 Paycom Software, Inc: Terrell Shane Hadlock (President/Chief Client Officer) For: 25 November - Investing.com Canada",
-     "u": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZk5MM21RcE9COUR3c0IzcnBkRlNSSHN6MHZaTGJwZUl0eVFIZ1IxclB5LXBpV2tnN05xalJFRjhiRG5kbXBfbUhkZUF5X2YyNHlELTExdkF4bmRHckJqcjF5SDNGVGdTUGNKZkc4aDVqTEM2LWg2ekRZbkVQelhROXRRWkZSY3psLTF6Q2lfZE5ackZxR1Z0UG1XZTNfdmZFS3BJZlFUQkFpRTVhMVBYdFhEZXczZ256WHFIMHB1ME9EZk1WZWhBeTE0VmpRVmN2N0pWUjg5OWM5dzd2cUVSTnQ3NmZ0MHVmbEVz?oc=5",
-     "src": "Investing.com Canada",
-     "d": "2026-11-26"
+     "t": "Paycom Software Inc. stock outperforms competitors on strong trading day - MarketWatch",
+     "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMEpTTzN2QU4yY1l5YXNmaWhZbzBoWF9KZkVEclZWY1dLeDVIXzF0QU5JYV9JaVh4MktXZWpnYVc4cVVDNmR1V1V6R1pzVFhSVDdZX0piblgxemZ4ckpicmF6U1NTOWJWMlVDYmtjUy1yXzBZQlMwQURVZHQ4NXZHNWJvTnRpMVRzVE5aRWxfcXBBTTJOSjZmaTF5ZTdQQ2NSSnJzTVdsQm50Vjlkd2tjamZuY1Vqb2JTQmV2ZkdLZzRrcTJ5WkpaXzJSbw?oc=5",
+     "src": "MarketWatch",
+     "d": "2026-11-25"
     }
    ],
-   "composite": 11,
+   "composite": 21,
    "spike": null,
    "history": [
     {
@@ -3552,6 +3734,10 @@
     {
      "date": "2026-11-26",
      "composite": 11
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 21
     }
    ]
   },
@@ -3564,7 +3750,7 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 10,
+   "news_en_7d": 12,
    "news_de_7d": 3,
    "headlines": [
     {
@@ -3592,7 +3778,7 @@
      "d": "2026-11-24"
     }
    ],
-   "composite": 13,
+   "composite": 15,
    "spike": null,
    "history": [
     {
@@ -3602,6 +3788,10 @@
     {
      "date": "2026-11-26",
      "composite": 13
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 15
     }
    ]
   },
@@ -3613,13 +3803,13 @@
    "reddit": 0,
    "reddit_rank": null,
    "reddit_prev24": 0,
-   "stocktwits_24h": 2,
-   "news_en_7d": 42,
-   "news_de_7d": 9,
+   "stocktwits_24h": 1,
+   "news_en_7d": 37,
+   "news_de_7d": 6,
    "headlines": [
     {
-     "t": "SharkNinja Black Friday 2026: Starke Deals für Beauty-Produkte, Küchenhelfer und mehr! - HIFI.DE",
-     "u": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLUVmTE95V2k2Z19NbDc2c1B0cDh0ZWxPLU1vNDE3M2VxRngtQnBJaTRLdUhLNUZYZWFVOGs5eVdwSmloU2FuQnVZcGRpRW4tbmZGdEhpQTEwWFhtbGZWSGtjVWxJekp0NXppOWJ2UjBhbWRYQWVPRk5VZ0pDaTh2SUlJNWZja2d1VndsUWV6QWh6QWVmaGpaU19tSDdNdUtwNW5SMGtFWUkyZFBaVnotSWg4cGpDODQtX1I4R0tIbzYtMllr?oc=5",
+     "t": "Stylischer Mixer unter 90 Euro – SharkNinja hat den Traum-Deal - HIFI.DE",
+     "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTGxJUXNVUWhqdGFQOGJQeFJra3BLeUFyRkxpcDdTQUxVYnF0Y0twcmYzeWNYaGtSSzFORVd4a1lxN2tzamVwc1pZYmowQ18zUnVzaEozcktTb25GS0xZa1VEV0xLdEFrYjVmdGpwV0JXZTQyR3NkRTNhWmo2T1FHUGh1VHpxSlhNTWtzZGNzV2EyNXlwTlE?oc=5",
      "src": "HIFI.DE",
      "d": "2026-11-26"
     },
@@ -3630,19 +3820,19 @@
      "d": "2026-11-24"
     },
     {
-     "t": "SharkNinja-Aktie markiert neues Allzeithoch bei 232,76 USD - Investing.com Deutsch",
-     "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPclJKdG1iOTBzdE9QVi0wLTJTVmdxZ2daQzdtVzdCNkViMEtzSklacV8tZUNMbF9EWlg1SU92OEVVVEM1SmJmOWRLMUM5bk0zS2tCYWwwb2N3SmR4UHNFMWVST3AtOUR0LTk5WUx1bExkcTE5ZHExaThPX0wtTWFoS2hXOHFFRnY1M091VjV2QUZ5bVc0ZUR5UFdiMFlUdWl2ZHhvdjBOU2RKVGhDWmpMeUln?oc=5",
-     "src": "Investing.com Deutsch",
+     "t": "SharkNinja steigt in den S&amp;P 500 auf und verdrängt AES - aktien.news",
+     "u": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPX0dkRFVacy1zTDFtczhCZVlnV1RBc0xCTklfTDVOYUJLYUc2S0dFcE9MaWl4UmJGTk1kTnVveHdIUFJnNHJHajEteFZ5eDZlZVY1MUtVUzQ2UlBHS0dfdWEwcWc1dEZOUHo5SDlyZ09uYkl5LWxITUtEekwtYnRISExhYw?oc=5",
+     "src": "aktien.news",
      "d": "2026-11-24"
     },
     {
-     "t": "Why Is SharkNinja Stock Going Up? - Trefis",
-     "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVTBObFJUUHgyajJOODhwWXhCZjlyVTcxeTk0VndYb3hsU1NiQ0U0NDgxTnlWaWdyLU5MZHlFZlRoajRvcFAweTItVVBRRlpEMEZqTU9KeV9tdE5wdE5qbFNJZi1EQXpIa1kxTXozRk95aE5iLXZxMXJQMFUyQmo1RlRiNENKU2VmOGN4aTZlNkdxM1JwVnc?oc=5",
-     "src": "Trefis",
+     "t": "Why Is SharkNinja Stock Going Up? - Yahoo Finance",
+     "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTzliSEhqemhoOVZSV2ZmZkFlQnJCRW5Qc0hGVFFuc0duc2xLazdzeVdCOUpRUDkyS3ZVQXU2bGlldHFlNTE3X3FoTU9pbFAzblJlUmZMU3lqRDViSGhLVVhNdjV6M0trNUpxdUxLS19VVWJNRUp3VUxBejluUnNvR0E3QXVsS1VXS1ZFSkpyalRmTWdqZ1E?oc=5",
+     "src": "Yahoo Finance",
      "d": "2026-11-25"
     }
    ],
-   "composite": 53,
+   "composite": 44,
    "spike": null,
    "history": [
     {
@@ -3652,6 +3842,10 @@
     {
      "date": "2026-11-26",
      "composite": 53
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 44
     }
    ]
   },
@@ -3664,9 +3858,15 @@
    "reddit_rank": null,
    "reddit_prev24": 0,
    "stocktwits_24h": 0,
-   "news_en_7d": 38,
+   "news_en_7d": 29,
    "news_de_7d": 2,
    "headlines": [
+    {
+     "t": "Frederic Quaranta übernimmt Führung bei AES - amz.de",
+     "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11UXc4UFNNdjJjRVdaSUFPWk10Q2o1allCLUY5MjhyaFJUdVhwNEx5b0ZWZWNBOTVyVG4tQ25KNU1MaVBRTndWTGFhREFJM212d25idm40RmU1UUpqamJzS3FreE9PaXRYbGk2SQ?oc=5",
+     "src": "amz.de",
+     "d": "2026-11-26"
+    },
     {
      "t": "AES-Aktie mit neuem 6-Monats-Hoch - boerse.de",
      "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaUh6a2xyeXFqaFRCMjhEWlZDODREckNpaG8zVWs1V1dHcjZFZWh2c09mQUFHSDl1VG42UEFsU1VMalEtSjNkNlR0WUJQSHdTUDYzZVhsdVhvQXZuejR3UUotTjBHaktvOUFWdVJmbmVJd1FVS0R0RUhzQVBic1VwbE13?oc=5",
@@ -3674,25 +3874,19 @@
      "d": "2026-11-25"
     },
     {
-     "t": "S&amp;P 500-Papier AES-Aktie: So viel hätten Anleger mit einem Investment in AES von vor 10 Jahren verdient - finanzen.ch",
-     "u": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOS3lyd0I2RW1mTmhLaVZ1QjRyUHFjX1hoUWdGVXEyMjJ4NlItUlFnNzZUS1BUWUM5WTk1cm45ZlZrd0szRm1IRF9hNXhJYkpKNEdZQ3JCYllqMkJ2Z2dZdTFzQ3pnTThiWElHSFZrRG5LSWlBYXI4WXlmTEdYa1VkRWV2dDhJZTJOZTlLSVU4ekI1UjBYZnpYdlFIN2F5Z1M0dkxKdjlCYUEyZjRxYnBITkNna09sMUEzR0kzWi1UeGtIUnNteU1Ud0VxckN0N0ZkRXlTSUhZM2hKOFhPRW93Y3lkR213UThZOGg5YXln?oc=5",
-     "src": "finanzen.ch",
-     "d": "2026-11-23"
+     "t": "AES Expands Loudness Website to Encourage Dialogue Intelligibility in Media - audioXpress",
+     "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNXBXeTBOS0tibUs4eGRnSllOS3lWRk9tSGpFclRNckFvcDZLRDBZTGR5VkFWLUQ2T1V2S2dPR3pXdWJHeW9mY01wbWxhX0dmQ1JZazFqUk03WmV0QlluT29TRUF0bm5hYXRvWUVMSjZRbGZ1UmVwLWYtb3pUWW9GV19VampHcTFBc3RHYUxtOEdnQndXaDcxQ0VBRzZ0TzhYSDZlb0dLRQ?oc=5",
+     "src": "audioXpress",
+     "d": "2026-11-27"
     },
     {
-     "t": "Auren says AES Brasil deal added R$1B despite renewable cuts - Dealroom",
-     "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUFzQm9aTnNrYXZURVdtYVZEYlNpdlN2YUItOENUQkg4U0poak5rTDExTTNXMWZfSE9CeWdEVk9yODJqemF5MjUzMjhQVTFUaEt2WW1YWVg0OEkzdTNFZ0E1b3RYblllamZsc1dtMmxfNmlkQVFwQ1JZWkRMU0RobzVEOTVDUm5JbFlWV0tRS0pHR09NM251QUF3?oc=5",
-     "src": "Dealroom",
-     "d": "2026-11-26"
-    },
-    {
-     "t": "AES Receives Final Regulatory Approval for Acquisition - TD World",
-     "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ21KYk1YTUN2ZmRER2FHS1pteF85RWk1ZE54TUloTjd1NThHbURPVlRFMC03dm5GNVpnSXlSWDBMbWQ4NjdCLWdQcnhmZVpuN055RFZWYlZ5VHY1ZU5XeUdQUVpRUjM5RXk3cnpqa2NSN3NhR0loNmRjSE5sUTZqVE9IXzR3RV80Y0Q5ak91SWlvTDg5R3J2OHU2MjAyckNRMVZIczEzUjBCSXgtY0E?oc=5",
-     "src": "TD World",
-     "d": "2026-11-23"
+     "t": "AES Building in downtown Akron sees post-pandemic resurgence - Akron Beacon Journal",
+     "u": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQdzBMcl9JeFpxcFMyM0lwdzhRWG03cUxaSVFyVHk2R1FNdVl1SDUySVpnTWN5QkRDa0tnb2gtQzRFNC0wMU56cDFQWWI1OXVFazNlWjVSRGVPcHNvMUxkT1BKYk5ELVl6NmkxWFd5ck9hVk9XNERLWHVSMkplX2RZYktWTHNaWXpGN0dEUVQ0YUs5Y04yQXV4Q3N0NzhzZWt4V3FGMlBXQzYwdkN4TzJKMzUteENYSm1uR0dvMHVXMkZWc1VUTUpvR1FBVDRYc2R0M3JhTW5ZaDFZeklNSHRrdm0wcjZYNnZHbHc0U0VXa0VQQQ?oc=5",
+     "src": "Akron Beacon Journal",
+     "d": "2026-11-27"
     }
    ],
-   "composite": 40,
+   "composite": 31,
    "spike": null,
    "history": [
     {
@@ -3702,6 +3896,10 @@
     {
      "date": "2026-11-26",
      "composite": 40
+    },
+    {
+     "date": "2026-11-27",
+     "composite": 31
     }
    ]
   },
@@ -3721,7 +3919,7 @@
      "t": "MarineMax, Inc. (HZO) stock price, news, quote and history - Yahoo Finance Singapore",
      "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBwNlpxTjNzSWxwalJqdm82dENUc3kybkVGdEJMRzVQaEJ3V2dnenU3eWljcURNRURfNFptY3BKZHpXelpVbi02TVdqUF90RWpP?oc=5",
      "src": "Yahoo Finance Singapore",
-     "d": "2026-11-19"
+     "d": "2026-11-24"
     }
    ],
    "composite": 1,
@@ -3733,6 +3931,10 @@
     },
     {
      "date": "2026-11-26",
+     "composite": 1
+    },
+    {
+     "date": "2026-11-27",
      "composite": 1
     }
    ]
@@ -3750,6 +3952,12 @@
    "news_de_7d": 0,
    "headlines": [
     {
+     "t": "DoubleVerify Holdings, Inc. (DV) Stock Forecasts - Yahoo Finance",
+     "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVEcyMHdnZS1vUXlnbDhxVmxvVkxNN1h4dS1mbXppQ0pOenpzZ2s0a01PVzZUOXJxRHBEQy03UjhvczRRckFvTE5NakdudXIzbGhGa24xNldrS2hXZm9yWWdVRkxheGdxSDNwb0EzYkhNQlBwWm9nTFYzcnVDcktVaVBKZUM2bGtzWmhtaXFSRQ?oc=5",
+     "src": "Yahoo Finance",
+     "d": "2026-11-27"
+    },
+    {
      "t": "DoubleVerify Holdings, Inc. (DV) stock price, news, quote and history - Yahoo Finance Australia",
      "u": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqbUdDbWYxYW9UMkdEZk5wZmlCd3RhcF9DMUJ3QUpEeXhlMkdyMW53bTdZeU52SzhxbTAybGFtbzBSbU9xdndRNmQyRWU3clk?oc=5",
      "src": "Yahoo Finance Australia",
@@ -3760,12 +3968,6 @@
      "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVFd4TF9IWkhVczRwOFFVejlyWFljdzE0MzJaUGtxTjBUcV85VFlIWlRCTklZMl9fYVNtY0djVkFmSVNpUUt3NmtkaHB1STZfVk54eWU2OWs3ZVNtSWs1aFRxQWlORTNTdm1aNXozSDA5ZjVYelMybm5ESlNuV1Z2b1Q0b3JYSmRDaWpnd0NvVzVFNU1RaFJVdm51VQ?oc=5",
      "src": "Stock Titan",
      "d": "2026-11-24"
-    },
-    {
-     "t": "LG is first to offer independent checks for home-screen ads - Stock Titan",
-     "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWVF5SS1Fa2tkc21FRmVPblptY2t4S1p6OEhXRS1zR2FUUDdHWndvMXE0SkxVR2djaXZLanRGd3Aza1h2aU9kOHFxcGZHZHN1bTNvQ2FTT19LenZSV1JGd3ZRZ1hjNmJTTGIyRV9BTHYyOUdfMDBpTGN3a3RFOGZDb21VQmVKYzVxQWdsQms5SUE0dW1laFN0ZTJJOGJ2bWhlWmFUUVRFZWFFZ2w5OTFkMGhxRFpBUUQ0Nzc4?oc=5",
-     "src": "Stock Titan",
-     "d": "2026-11-24"
     }
    ],
    "composite": 7,
@@ -3773,6 +3975,10 @@
    "history": [
     {
      "date": "2026-11-26",
+     "composite": 7
+    },
+    {
+     "date": "2026-11-27",
      "composite": 7
     }
    ]
